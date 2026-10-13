@@ -154,6 +154,8 @@ requieren_local:
   - dinero.historial-crediticio
   - dinero.costo-real-de-un-credito
   - dinero.trabajo-independiente
+  - dinero.donde-guardar-el-dinero   # bancos, seguro de depósitos y billeteras del país
+  - dinero.inflacion                 # banco central, meta e índice de precios del país
 
 # Primeros nodos de referencia, escritos a mano por el equipo (Fase 1)
 referencia: [dinero.presupuesto, dinero.interes-compuesto, dinero.estafas-y-piramides]
