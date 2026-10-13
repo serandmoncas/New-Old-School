@@ -8,7 +8,7 @@
 
 Los nodos del módulo Dinero ponen a prueba el formato con temas prácticos y cifras. *El lobo estepario* (Hermann Hesse, 1927) lo pone a prueba con lo contrario: ideas filosóficas, símbolos y una trama compleja. Si el formato sirve para convertir una novela densa en una historia de 5 minutos que deje algo útil, sirve para casi cualquier tema de Saberes de vida.
 
-Esta guía usa la misma hoja del observador y las mismas preguntas al público de [la guía de la Ruta Base](curioso-ruta-base.md).
+Esta guía usa la misma hoja del observador y las mismas preguntas al público de [la guía de la Ruta Base](curioso-ruta-base.md). Para ensayar y presentar, el [Reloj de Curioso](herramientas/reloj-curioso.md) ya trae cargados los guiones de las pruebas 1 y 3.
 
 ## Las cinco pruebas posibles
 

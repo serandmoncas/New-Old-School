@@ -44,7 +44,7 @@ Como la agenda de Curioso se aprueba por votación, cada nodo entra como **candi
 ## Antes de la sesión
 
 1. **Elige quién presenta.** Lo ideal es alguien que **no** haya escrito el nodo, porque así probamos si funciona en manos de un docente ancla. Si nadie más puede, presenta Sergio.
-2. **Ensaya en voz alta con cronómetro**, al menos dos veces. No se lee: se cuenta. Las cifras y la pregunta final sí van exactas.
+2. **Ensaya en voz alta con cronómetro**, al menos dos veces. No se lee: se cuenta. Las cifras y la pregunta final sí van exactas. Puedes usar el [Reloj de Curioso](herramientas/reloj-curioso.md): cuenta cada bloque por separado y al final te da los tiempos reales.
 3. **Apoyo visual opcional:** una sola imagen o cifra por sección (cinco en total, como máximo). Por ejemplo, para Ingresos y gastos: "Luis 2 M, Rosa 1 M, ¿quién está mejor?"
 4. **Nombra a un observador** distinto del presentador. Llena la hoja de observación de abajo.
 5. **Revisa los datos marcados.** Si el nodo tiene puntos pendientes en el [Issue #10](https://github.com/serandmoncas/New-Old-School/issues/10), menciónalos con cuidado o sáltalos.
