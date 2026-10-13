@@ -57,7 +57,7 @@ contenido(dinero/interes-compuesto): primera versión de explicación y 8 ejerci
 ## Cómo evitar conflictos de Git
 
 - Haz `git pull --rebase` antes de empezar y antes de abrir el PR.
-- No edites `_modulo.yaml` en el mismo PR que un nodo; los cambios al grafo van en su propio PR revisado por el curador del módulo.
+- Los cambios a `_modulo.yaml` van en su propio PR, revisado por el curador del módulo. Ese PR puede crear los archivos vacíos de nodos nuevos y ajustar los encabezados afectados (prerrequisitos, nivel), pero nunca trae contenido.
 - No reformatees archivos que no son parte de tu Issue.
 - Si dos PRs chocan, gana el que se abrió primero; el otro hace rebase.
 

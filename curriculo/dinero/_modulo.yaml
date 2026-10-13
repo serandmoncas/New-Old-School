@@ -1,4 +1,4 @@
-# Grafo del módulo Dinero · versión 0 (borrador para revisión del curador)
+# Grafo del módulo Dinero · versión 1 (20 nodos, 5 rutas)
 # Mantiene: curador del módulo. Cambios en un PR propio, nunca junto con un nodo.
 
 modulo: dinero
@@ -16,10 +16,16 @@ nodos:
     prerrequisitos: []
     conecta_con: [matematicas.operaciones-con-decimales]
 
+  - id: dinero.necesidad-o-deseo
+    titulo: ¿Necesidad o deseo?
+    nivel: 1
+    prerrequisitos: [dinero.ingresos-y-gastos]
+    conecta_con: [pensar.decidir-con-riesgo, pensar.sesgos-cognitivos]
+
   - id: dinero.presupuesto
     titulo: Presupuesto
     nivel: 1
-    prerrequisitos: [dinero.ingresos-y-gastos]
+    prerrequisitos: [dinero.ingresos-y-gastos, dinero.necesidad-o-deseo]
     conecta_con: [matematicas.porcentajes, matematicas.tablas-y-graficas]
 
   - id: dinero.porcentajes-en-la-vida-real
@@ -33,6 +39,12 @@ nodos:
     nivel: 1
     prerrequisitos: [dinero.presupuesto]
     conecta_con: [matematicas.ecuaciones-lineales]
+
+  - id: dinero.donde-guardar-el-dinero
+    titulo: Dónde guardar el dinero
+    nivel: 1
+    prerrequisitos: [dinero.ahorro-y-metas]
+    conecta_con: [sociales.instituciones, digital.seguridad-basica]
 
   - id: dinero.interes-simple
     titulo: Interés simple
@@ -49,8 +61,14 @@ nodos:
   - id: dinero.inflacion
     titulo: Inflación
     nivel: 2
-    prerrequisitos: [dinero.interes-compuesto]
+    prerrequisitos: [dinero.porcentajes-en-la-vida-real]
     conecta_con: [matematicas.porcentajes, sociales.economia-basica]
+
+  - id: dinero.invertir-lo-basico
+    titulo: Invertir, lo básico
+    nivel: 3
+    prerrequisitos: [dinero.interes-compuesto, dinero.inflacion, dinero.donde-guardar-el-dinero]
+    conecta_con: [matematicas.probabilidad, pensar.decidir-con-riesgo]
 
   - id: dinero.deuda-buena-y-mala
     titulo: Deuda buena y deuda mala
@@ -111,6 +129,23 @@ nodos:
     nivel: 3
     prerrequisitos: [dinero.trabajo-independiente, dinero.costo-real-de-un-credito]
     conecta_con: [matematicas.funciones-lineales, matematicas.estadistica-descriptiva]
+
+# Rutas temáticas: orden sugerido para armar hilos. No reemplazan los prerrequisitos.
+rutas:
+  - nombre: Base
+    nodos: [dinero.ingresos-y-gastos, dinero.necesidad-o-deseo, dinero.presupuesto,
+            dinero.ahorro-y-metas, dinero.donde-guardar-el-dinero]
+  - nombre: Crecer
+    nodos: [dinero.porcentajes-en-la-vida-real, dinero.interes-simple, dinero.interes-compuesto,
+            dinero.inflacion, dinero.invertir-lo-basico]
+  - nombre: Deber
+    nodos: [dinero.deuda-buena-y-mala, dinero.tarjetas-de-credito, dinero.costo-real-de-un-credito,
+            dinero.historial-crediticio]
+  - nombre: Protegerse
+    nodos: [dinero.estafas-y-piramides, dinero.seguros]
+  - nombre: Trabajar
+    nodos: [dinero.impuestos-basicos, dinero.primer-salario-y-seguridad-social,
+            dinero.trabajo-independiente, dinero.emprender-con-numeros]
 
 # Nodos que necesitan versión local y revisión experta en cada país
 requieren_local:

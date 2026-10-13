@@ -86,6 +86,18 @@ def validar_grafo(carpeta: Path, grafo: dict[str, Any], inf: Informe) -> dict[st
         for nid in grafo.get(lista, []):
             if nid not in por_id:
                 inf.error(donde, f"'{lista}' menciona un nodo que no existe: '{nid}'")
+    en_rutas: set[str] = set()
+    for ruta in grafo.get("rutas", []):
+        for nid in ruta.get("nodos", []):
+            if nid not in por_id:
+                inf.error(donde, f"la ruta '{ruta.get('nombre')}' menciona un nodo que no existe: '{nid}'")
+            if nid in en_rutas:
+                inf.error(donde, f"'{nid}' aparece en más de una ruta")
+            en_rutas.add(nid)
+    if grafo.get("rutas"):
+        for nid in por_id:
+            if nid not in en_rutas:
+                inf.aviso(donde, f"'{nid}' no pertenece a ninguna ruta")
     return por_id
 
 

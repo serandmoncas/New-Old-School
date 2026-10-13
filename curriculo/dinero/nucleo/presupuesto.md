@@ -6,7 +6,7 @@ alcance: nucleo
 pais: null
 nodo_base: null
 nivel: 1
-prerrequisitos: [dinero.ingresos-y-gastos]
+prerrequisitos: [dinero.ingresos-y-gastos, dinero.necesidad-o-deseo]
 conecta_con: [matematicas.porcentajes, matematicas.tablas-y-graficas]
 estado: pendiente
 responsable: null
