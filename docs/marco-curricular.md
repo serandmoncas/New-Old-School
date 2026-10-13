@@ -2,7 +2,7 @@
 
 Este marco es la **versión 0**: una referencia para orientar el trabajo, no un dogma. Se mejora con propuestas en Discussions y se registra en `docs/decisiones/`.
 
-## 1. Lo que no se enseña: los diez frentes (prioridad del proyecto)
+## 1. Saberes de vida: lo que no se enseña (prioridad del proyecto)
 
 | # | Frente | Contenido | Puente académico | Revisión experta |
 | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ Este marco es la **versión 0**: una referencia para orientar el trabajo, no un 
 | 8 | Vida digital | Seguridad, contraseñas, privacidad, estafas en línea, huella digital | Redes, criptografía básica | No |
 | 9 | Ciudadanía práctica | Gobierno local, votar informado, participar | Historia, ciencias sociales | No |
 | 10 | Emergencias | Seguridad vial, planes ante desastres, qué hacer en una crisis | Ciencias de la Tierra, física | Sí |
+| 11 | Convivencia | Normas de convivencia, cortesía, respeto en lo público, cuidado de lo común, diversidad (en el espíritu de la *Urbanidad de Carreño*, actualizado) | Ética, historia, ciencias sociales | No |
 
 Implicaciones: lo local pesa más que en lo académico; la evaluación se hace con **evidencia práctica** (un presupuesto real, una reparación hecha, un caso resuelto), no con preguntas de memoria.
 

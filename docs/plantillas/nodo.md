@@ -26,21 +26,38 @@ actualizado: AAAA-MM-DD
 
 # Título del nodo
 
-## Pregunta que responde
+<!--
+Parte 1 · La historia (formato Curioso): se puede contar en máximo 5 minutos.
+Una sola idea. Concreto antes que completo. Entra directo al gancho.
+Parte 2 · La práctica: puente académico, ejercicios, caso y guía para el docente.
+-->
 
-Una sola pregunta, en palabras de un estudiante. Ej.: "¿Por qué una deuda pequeña puede volverse enorme?"
+## El gancho (≈ 30 s)
 
-## Explicación
+La pregunta que responde este nodo, en palabras de un estudiante, y qué tiene de sorprendente. Empieza sin contexto: una situación, un dato inesperado, una persona real.
+Ej.: "¿Por qué una deuda de 100.000 pesos puede terminar costando el triple?"
 
-Explicación breve (menos de 10 minutos de lectura), clara para un estudiante de 12 años.
+## La idea (≈ 90 s)
 
-## Ejemplo cotidiano
+La explicación para alguien que no sabe nada del tema: una sola idea, frases cortas, un ejemplo que se pueda imaginar o tocar.
 
-Una situación real y creíble, que funcione también fuera de una gran ciudad.
+## La evidencia (≈ 60 s)
+
+¿Cómo lo sabemos? ¿Quién lo dice y qué tan seguro es? Separa lo comprobado de lo que solo "se dice". Obligatorio en temas polémicos.
+
+## ¿Y a mí qué? (≈ 60 s)
+
+Por qué importa en la vida del estudiante: un ejemplo cotidiano y creíble, que funcione también fuera de una gran ciudad, y qué decisión cambia con esto.
+
+## La puerta abierta (≈ 30 s)
+
+La pregunta que queda para conversar en grupo, dónde profundizar y qué nodo sigue.
+
+---
 
 ## Puente académico
 
-Qué concepto académico hay detrás y cómo se conecta (ver `conecta_con`).
+Qué concepto académico hay detrás y cómo se conecta (ver `conecta_con`). Si se puede, su historia: quién lo descubrió, cuándo y qué problema resolvía.
 
 ## Ejercicios
 

@@ -2,15 +2,19 @@
 
 Cada criterio se califica **0 (no cumple), 1 (cumple a medias), 2 (cumple)**. Un artefacto se aprueba con **todos los criterios en 1 o más y al menos 80 % del puntaje máximo**. Un 0 en un criterio marcado con ⚠ bloquea la aprobación.
 
-## Explicación de un concepto
+## Explicación de un concepto (historia en formato Curioso)
 
 | Criterio | Qué se revisa |
 | --- | --- |
 | ⚠ Exactitud | No hay errores conceptuales ni datos inventados; lo dudoso está marcado `VERIFICAR` |
+| Una sola idea | No intenta cubrir todo el tema; no necesita tres términos previos para llegar a lo curioso |
+| Gancho | Engancha en los primeros 30 segundos, sin introducción |
 | Claridad | Un estudiante de 12 años lo entiende; frases cortas; jerga explicada |
-| Ejemplo cotidiano | Al menos un ejemplo de la vida real, que funcione fuera de una gran ciudad |
+| Concreto | Al menos un ejemplo que se pueda imaginar o tocar, que funcione fuera de una gran ciudad |
+| Evidencia | Dice cómo lo sabemos y separa lo comprobado de lo que se dice |
+| Puerta abierta | Deja una pregunta para conversar y conecta con el nodo siguiente |
 | Puente académico | Conecta explícitamente con el concepto académico de `conecta_con` |
-| Brevedad | Se lee en menos de 10 minutos |
+| Brevedad | La historia se cuenta en voz alta en máximo 5 minutos |
 | Núcleo vs. local | No mete leyes, montos o entidades de un país en el núcleo |
 
 ## Ejercicios

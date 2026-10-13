@@ -13,6 +13,9 @@ Vocabulario común del proyecto. Si una palabra se usa distinto en un PR o una d
 | **Local / fork local** | Adaptación de un nodo a un país (`locales/<pais>/`), con leyes, entidades, montos y ejemplos propios. |
 | **Artefacto** | Una pieza de contenido dentro de un nodo: explicación, ejercicio, caso, evaluación. |
 | **Hilo** | Recorrido curado a través de varios nodos, alrededor de una gran pregunta, con un proyecto integrador. |
+| **Formato Curioso** | Estructura de la historia de cada nodo: gancho (30 s), idea (90 s), evidencia (60 s), ¿y a mí qué? (60 s), puerta abierta (30 s). Máximo 5 minutos, una sola idea. Viene del espacio Curioso. |
+| **Saberes de vida** | La línea práctica del currículo: lo que la vida exige y casi ningún colegio enseña (los frentes de `docs/marco-curricular.md`). |
+| **Motor de clases** | Flujo de producción de narraciones con IA (investigación, validación, curaduría, guion, narración, ensamble) para convertir nodos en audio o video. |
 | **Kit de tarea** | Paquete para aportar con IA: contexto, prompt, rúbrica y formato de entrega (`docs/kits-de-tarea/`). |
 | **Tarea / microtarea** | Unidad de trabajo pequeña sobre un nodo. Se gestiona como Issue. |
 | **Responsable** | La única persona a cargo de un nodo o Issue en un momento dado. |
