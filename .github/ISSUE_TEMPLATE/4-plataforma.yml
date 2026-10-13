@@ -1,0 +1,26 @@
+name: Tarea de plataforma
+description: Trabajo de código en la plataforma o los scripts.
+title: "[plataforma] <resumen>"
+labels: ["plataforma", "disponible"]
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qué debe poder hacer alguien cuando esto esté listo.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      placeholder: |
+        - [ ] …
+        - [ ] …
+    validations:
+      required: true
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas técnicas
+      description: Archivos afectados, decisiones (ADR) relacionadas, dependencias.

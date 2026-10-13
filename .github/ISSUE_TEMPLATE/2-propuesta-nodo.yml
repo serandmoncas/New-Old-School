@@ -1,0 +1,43 @@
+name: Propuesta de nodo o cambio al grafo
+description: Agregar, quitar o reconectar nodos de un módulo. Lo decide el curador del módulo.
+title: "[grafo] <modulo>: <propuesta>"
+labels: ["grafo", "propuesta"]
+body:
+  - type: input
+    id: modulo
+    attributes:
+      label: Módulo
+      placeholder: dinero
+    validations:
+      required: true
+  - type: dropdown
+    id: cambio
+    attributes:
+      label: Tipo de cambio
+      options:
+        - Nodo nuevo
+        - Cambiar prerrequisitos
+        - Dividir o fusionar nodos
+        - Retirar nodo
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: id sugerido, título, nivel, prerrequisitos y puentes académicos.
+      placeholder: |
+        id: dinero.presupuesto-familiar
+        titulo: Presupuesto familiar
+        nivel: 2
+        prerrequisitos: [dinero.presupuesto]
+        conecta_con: [matematicas.porcentajes]
+    validations:
+      required: true
+  - type: textarea
+    id: por-que
+    attributes:
+      label: Por qué
+      description: Qué problema real resuelve para el estudiante.
+    validations:
+      required: true

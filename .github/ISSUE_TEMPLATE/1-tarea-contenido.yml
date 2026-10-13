@@ -1,0 +1,45 @@
+name: Tarea de contenido
+description: Trabajo sobre un nodo existente (explicar, ejercicios, adaptar, revisar). Una tarea = un nodo.
+title: "[contenido] <modulo>.<slug> — <tipo de tarea>"
+labels: ["contenido", "disponible"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de tomarla, comenta **/tomo** y espera la asignación. Si en 7 días no hay avance, la tarea se libera.
+  - type: input
+    id: nodo
+    attributes:
+      label: Nodo
+      description: id del nodo, igual que en el encabezado del archivo.
+      placeholder: dinero.interes-compuesto
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de tarea
+      options:
+        - Explicar concepto (kit explicar-concepto)
+        - Generar ejercicios (kit generar-ejercicios)
+        - Adaptar a un país (kit adaptar-local)
+        - Revisar nodo (kit revisar-nodo)
+        - Traducir
+    validations:
+      required: true
+  - type: input
+    id: pais
+    attributes:
+      label: País (solo para adaptación)
+      placeholder: co
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas para quien la tome
+      description: Contexto, enfoque sugerido, cosas a evitar.
+  - type: checkboxes
+    id: experto
+    attributes:
+      label: Riesgo
+      options:
+        - label: Requiere revisión experta (salud, electricidad, legal o tributario)

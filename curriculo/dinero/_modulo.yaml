@@ -1,0 +1,124 @@
+# Grafo del módulo Dinero · versión 0 (borrador para revisión del curador)
+# Mantiene: curador del módulo. Cambios en un PR propio, nunca junto con un nodo.
+
+modulo: dinero
+titulo: Dinero
+descripcion: >
+  Cómo funciona el dinero en la vida real: ganarlo, planearlo, ahorrarlo,
+  pedirlo prestado sin hundirse, protegerse de estafas y emprender con números.
+gran_pregunta: ¿Cómo hago para que el dinero trabaje para mí y no contra mí?
+locales: [co]
+
+nodos:
+  - id: dinero.ingresos-y-gastos
+    titulo: Ingresos y gastos
+    nivel: 1
+    prerrequisitos: []
+    conecta_con: [matematicas.operaciones-con-decimales]
+
+  - id: dinero.presupuesto
+    titulo: Presupuesto
+    nivel: 1
+    prerrequisitos: [dinero.ingresos-y-gastos]
+    conecta_con: [matematicas.porcentajes, matematicas.tablas-y-graficas]
+
+  - id: dinero.porcentajes-en-la-vida-real
+    titulo: Porcentajes en la vida real
+    nivel: 1
+    prerrequisitos: [dinero.ingresos-y-gastos]
+    conecta_con: [matematicas.porcentajes, matematicas.proporciones]
+
+  - id: dinero.ahorro-y-metas
+    titulo: Ahorro y metas
+    nivel: 1
+    prerrequisitos: [dinero.presupuesto]
+    conecta_con: [matematicas.ecuaciones-lineales]
+
+  - id: dinero.interes-simple
+    titulo: Interés simple
+    nivel: 2
+    prerrequisitos: [dinero.porcentajes-en-la-vida-real]
+    conecta_con: [matematicas.funciones-lineales]
+
+  - id: dinero.interes-compuesto
+    titulo: Interés compuesto
+    nivel: 2
+    prerrequisitos: [dinero.interes-simple]
+    conecta_con: [matematicas.funciones-exponenciales, matematicas.potencias]
+
+  - id: dinero.inflacion
+    titulo: Inflación
+    nivel: 2
+    prerrequisitos: [dinero.interes-compuesto]
+    conecta_con: [matematicas.porcentajes, sociales.economia-basica]
+
+  - id: dinero.deuda-buena-y-mala
+    titulo: Deuda buena y deuda mala
+    nivel: 2
+    prerrequisitos: [dinero.interes-compuesto, dinero.ahorro-y-metas]
+    conecta_con: [pensar.decidir-con-riesgo]
+
+  - id: dinero.tarjetas-de-credito
+    titulo: Tarjetas de crédito
+    nivel: 2
+    prerrequisitos: [dinero.deuda-buena-y-mala]
+    conecta_con: [matematicas.funciones-exponenciales]
+
+  - id: dinero.costo-real-de-un-credito
+    titulo: El costo real de un crédito
+    nivel: 3
+    prerrequisitos: [dinero.tarjetas-de-credito]
+    conecta_con: [matematicas.sucesiones, matematicas.funciones-exponenciales]
+
+  - id: dinero.historial-crediticio
+    titulo: Historial crediticio
+    nivel: 2
+    prerrequisitos: [dinero.deuda-buena-y-mala]
+    conecta_con: [sociales.instituciones]
+
+  - id: dinero.estafas-y-piramides
+    titulo: Estafas y pirámides
+    nivel: 2
+    prerrequisitos: [dinero.interes-compuesto]
+    conecta_con: [matematicas.crecimiento-exponencial, pensar.sesgos-cognitivos]
+
+  - id: dinero.seguros
+    titulo: Seguros
+    nivel: 2
+    prerrequisitos: [dinero.presupuesto]
+    conecta_con: [matematicas.probabilidad, pensar.decidir-con-riesgo]
+
+  - id: dinero.impuestos-basicos
+    titulo: Impuestos básicos
+    nivel: 2
+    prerrequisitos: [dinero.porcentajes-en-la-vida-real]
+    conecta_con: [sociales.estado-y-ciudadania]
+
+  - id: dinero.primer-salario-y-seguridad-social
+    titulo: Primer salario y seguridad social
+    nivel: 2
+    prerrequisitos: [dinero.impuestos-basicos, dinero.presupuesto]
+    conecta_con: [sociales.derechos-laborales]
+
+  - id: dinero.trabajo-independiente
+    titulo: Trabajo independiente
+    nivel: 3
+    prerrequisitos: [dinero.primer-salario-y-seguridad-social]
+    conecta_con: [trabajo.trabajo-independiente]
+
+  - id: dinero.emprender-con-numeros
+    titulo: Emprender con números
+    nivel: 3
+    prerrequisitos: [dinero.trabajo-independiente, dinero.costo-real-de-un-credito]
+    conecta_con: [matematicas.funciones-lineales, matematicas.estadistica-descriptiva]
+
+# Nodos que necesitan versión local y revisión experta en cada país
+requieren_local:
+  - dinero.impuestos-basicos
+  - dinero.primer-salario-y-seguridad-social
+  - dinero.historial-crediticio
+  - dinero.costo-real-de-un-credito
+  - dinero.trabajo-independiente
+
+# Primeros nodos de referencia, escritos a mano por el equipo (Fase 1)
+referencia: [dinero.presupuesto, dinero.interes-compuesto, dinero.estafas-y-piramides]

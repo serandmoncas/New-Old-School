@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Entorno y secretos (nunca subir claves)
+.env
+.env.*
+!.env.example
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notas personales de cada colaborador
+notas-personales/
+*.local.md

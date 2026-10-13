@@ -1,0 +1,18 @@
+# Etiquetas del proyecto. Créalas una vez en GitHub (Issues → Labels)
+# o con: gh label create <nombre> --color <color> --description "<descripción>"
+
+- { name: disponible,        color: "0e8a16", description: "Nadie la ha tomado; se puede pedir con /tomo" }
+- { name: en-curso,          color: "fbca04", description: "Asignada y en trabajo" }
+- { name: bloqueada,         color: "b60205", description: "Espera una decisión o a otra tarea" }
+- { name: contenido,         color: "1d76db", description: "Trabajo sobre un nodo" }
+- { name: grafo,             color: "5319e7", description: "Cambios a _modulo.yaml" }
+- { name: propuesta,         color: "c5def5", description: "Idea pendiente de decisión" }
+- { name: error,             color: "d93f0b", description: "Error en contenido o código" }
+- { name: plataforma,        color: "006b75", description: "Código de la plataforma" }
+- { name: necesita-experto,  color: "e99695", description: "Requiere revisión de un profesional" }
+- { name: varios-nodos,      color: "bfdadc", description: "Excepción autorizada a la regla de un nodo por PR" }
+- { name: buena-primera-tarea, color: "7057ff", description: "Ideal para quien recién llega" }
+- { name: fase-0,            color: "ededed", description: "Fase 0 · Definición" }
+- { name: fase-1,            color: "ededed", description: "Fase 1 · Contenido semilla" }
+- { name: fase-2,            color: "ededed", description: "Fase 2 · Plataforma MVP" }
+- { name: fase-3,            color: "ededed", description: "Fase 3 · Comunidad y piloto" }

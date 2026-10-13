@@ -1,0 +1,27 @@
+# Quién revisa qué. GitHub pide su aprobación automáticamente en cada PR.
+# Reemplaza @SERGIO por el usuario real y crea los equipos en la organización
+# (Settings → Teams). Mantén esto sincronizado con docs/equipo.md.
+# La última regla que coincide gana.
+
+# Por defecto: coordinación
+*                                   @SERGIO
+
+# Reglas del proyecto: solo coordinación
+/GOVERNANCE.md                      @SERGIO
+/CONTRIBUTING.md                    @SERGIO
+/AGENTS.md                          @SERGIO
+/docs/decisiones/                   @SERGIO
+/.github/                           @SERGIO
+
+# Currículo
+/curriculo/dinero/                  @new-old-school/curadores-dinero @new-old-school/revisores
+/curriculo/dinero/_modulo.yaml      @new-old-school/curadores-dinero
+/curriculo/*/locales/co/            @new-old-school/curadores-co
+
+# Kits y rúbricas
+/docs/kits-de-tarea/                @new-old-school/curadores-dinero
+/docs/rubricas.md                   @new-old-school/curadores-dinero
+
+# Plataforma y scripts
+/plataforma/                        @new-old-school/desarrollo
+/scripts/                           @new-old-school/desarrollo

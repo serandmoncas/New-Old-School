@@ -1,0 +1,33 @@
+name: Error en el contenido
+description: Un dato equivocado, un cálculo mal hecho, algo confuso o desactualizado.
+title: "[error] <modulo>.<slug>: <resumen>"
+labels: ["error", "contenido"]
+body:
+  - type: input
+    id: nodo
+    attributes:
+      label: Nodo
+      placeholder: dinero.inflacion
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué está mal
+      description: Cita el texto y explica el problema.
+    validations:
+      required: true
+  - type: textarea
+    id: correccion
+    attributes:
+      label: Corrección sugerida y fuente
+  - type: dropdown
+    id: gravedad
+    attributes:
+      label: Gravedad
+      options:
+        - Puede causar daño o una mala decisión
+        - Error factual o de cálculo
+        - Confuso o mejorable
+    validations:
+      required: true
