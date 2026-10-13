@@ -70,8 +70,8 @@ contenido(dinero/interes-compuesto): primera versión de explicación y 8 ejerci
 ## Primeros pasos técnicos
 
 ```bash
-git clone https://github.com/<organizacion>/new-old-school.git
-cd new-old-school
+git clone https://github.com/serandmoncas/New-Old-School.git
+cd New-Old-School
 pip install pyyaml
 python scripts/validar_curriculo.py
 ```

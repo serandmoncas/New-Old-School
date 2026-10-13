@@ -1,27 +1,30 @@
 # Quién revisa qué. GitHub pide su aprobación automáticamente en cada PR.
-# Reemplaza @SERGIO por el usuario real y crea los equipos en la organización
-# (Settings → Teams). Mantén esto sincronizado con docs/equipo.md.
-# La última regla que coincide gana.
+# Mantén esto sincronizado con docs/equipo.md. La última regla que coincide gana.
+#
+# Hoy el repo vive en una cuenta personal, que no tiene equipos: por eso todo
+# apunta a @serandmoncas. Al sumar curadores, agrega sus usuarios en la línea
+# de su carpeta (ej. "/curriculo/dinero/  @serandmoncas @usuario-curador").
+# Si el repo pasa a una organización, reemplaza por equipos (@org/curadores-dinero).
 
 # Por defecto: coordinación
-*                                   @SERGIO
+*                                   @serandmoncas
 
 # Reglas del proyecto: solo coordinación
-/GOVERNANCE.md                      @SERGIO
-/CONTRIBUTING.md                    @SERGIO
-/AGENTS.md                          @SERGIO
-/docs/decisiones/                   @SERGIO
-/.github/                           @SERGIO
+/GOVERNANCE.md                      @serandmoncas
+/CONTRIBUTING.md                    @serandmoncas
+/AGENTS.md                          @serandmoncas
+/docs/decisiones/                   @serandmoncas
+/.github/                           @serandmoncas
 
-# Currículo
-/curriculo/dinero/                  @new-old-school/curadores-dinero @new-old-school/revisores
-/curriculo/dinero/_modulo.yaml      @new-old-school/curadores-dinero
-/curriculo/*/locales/co/            @new-old-school/curadores-co
+# Currículo (agregar curadores y revisores de cada área)
+/curriculo/dinero/                  @serandmoncas
+/curriculo/dinero/_modulo.yaml      @serandmoncas
+/curriculo/*/locales/co/            @serandmoncas
 
 # Kits y rúbricas
-/docs/kits-de-tarea/                @new-old-school/curadores-dinero
-/docs/rubricas.md                   @new-old-school/curadores-dinero
+/docs/kits-de-tarea/                @serandmoncas
+/docs/rubricas.md                   @serandmoncas
 
 # Plataforma y scripts
-/plataforma/                        @new-old-school/desarrollo
-/scripts/                           @new-old-school/desarrollo
+/plataforma/                        @serandmoncas
+/scripts/                           @serandmoncas

@@ -6,7 +6,7 @@ Quién es dueño de qué. **Mantener esta tabla al día es la forma más simple 
 
 | Persona | Usuario GitHub | Roles | Áreas que cuida | Contacto preferido |
 | --- | --- | --- | --- | --- |
-| Sergio Monsalve | `@<usuario>` | Coordinación, curador de Dinero, plataforma | Todo el repo (temporal) | Discussions |
+| Sergio Monsalve | `@serandmoncas` | Coordinación, curador de Dinero, plataforma | Todo el repo (temporal) | Discussions |
 | _(por asignar)_ | | Curador local Colombia | `curriculo/*/locales/co/` | |
 | _(por asignar)_ | | Revisor | `curriculo/dinero/` | |
 | _(por asignar)_ | | Revisor experto legal/tributario | Nodos con `revision_experta: true` | |
