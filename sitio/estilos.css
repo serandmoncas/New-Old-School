@@ -105,7 +105,7 @@ main { padding: 0 clamp(1rem, 4vw, 3rem) 4rem; }
 .inicio h1 {
   font-size: clamp(2.2rem, 6.5vw, 4.4rem);
   letter-spacing: -0.02em;
-  max-width: 16ch;
+  max-width: 24ch;
   margin: 0 0 1.5rem;
 }
 .lead { max-width: var(--medida); font-size: 1.2rem; margin: 0 0 1rem; }
