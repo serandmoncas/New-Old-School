@@ -32,7 +32,7 @@ Un currículo abierto, construido por voluntarios que donan su tiempo y su IA, r
 
 ## Modelo pedagógico
 
-Cada unidad es un **hilo** alrededor de una gran pregunta. Varios expertos aportan piezas cortas; un **docente ancla** da continuidad; un **curador** diseña el hilo y sus puentes. Se aprende con práctica de recuperación, repaso espaciado, ejemplos resueltos, dominio antes de avanzar, proyectos con problemas reales del entorno y estudiantes que tutorean a otros. Un tutor con IA socrático (guía, no da respuestas) se integrará más adelante.
+Cada nodo se cuenta como una historia en **formato Curioso** (gancho, idea, evidencia, ¿y a mí qué?, puerta abierta; máximo 5 minutos): el objetivo es despertar la curiosidad, no dictar clase. Cada unidad es un **hilo** alrededor de una gran pregunta. Varios expertos aportan piezas cortas; un **docente ancla** da continuidad; un **curador** diseña el hilo y sus puentes. Se aprende con práctica de recuperación, repaso espaciado, ejemplos resueltos, dominio antes de avanzar, proyectos con problemas reales del entorno y estudiantes que tutorean a otros. Un tutor con IA socrático (guía, no da respuestas) se integrará más adelante.
 
 **Reglas para que un hilo no se fragmente:** un hilo conductor (no una colección de charlas), puentes explícitos al inicio y cierre de cada pieza, glosario común, y un proyecto integrador que exige todas las piezas.
 
@@ -55,4 +55,4 @@ Todos lo necesitan, casi nadie lo enseña, es fácil de evaluar con casos, tiene
 
 ## Documentos relacionados
 
-- [Marco curricular](marco-curricular.md) · [Glosario](glosario.md) · [Hoja de ruta](roadmap.md) · [Equipo](equipo.md)
+- [Origen del proyecto](origen.md) · [Marco curricular](marco-curricular.md) · [Glosario](glosario.md) · [Hoja de ruta](roadmap.md) · [Equipo](equipo.md)

@@ -12,7 +12,7 @@ Lo viejo —los saberes que antes se aprendían en casa o en el oficio— traíd
 
 | Si eres… | Lee esto primero |
 | --- | --- |
-| Nuevo en el proyecto | [`docs/vision.md`](docs/vision.md) → [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| Nuevo en el proyecto | [`docs/origen.md`](docs/origen.md) → [`docs/vision.md`](docs/vision.md) → [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | Quien va a crear o revisar contenido | [`curriculo/README.md`](curriculo/README.md) → [`docs/rubricas.md`](docs/rubricas.md) |
 | Quien va a usar su IA para aportar | [`docs/kits-de-tarea/`](docs/kits-de-tarea/) → [`AGENTS.md`](AGENTS.md) |
 | Quien va a programar la plataforma | [`plataforma/README.md`](plataforma/README.md) |
@@ -41,8 +41,9 @@ new-old-school/
 ├── LICENSE-CONTENT.md        ← contenido: CC BY-SA 4.0
 ├── docs/
 │   ├── puesta-en-marcha.md   ← pasos de una vez para configurar GitHub
+│   ├── origen.md             ← de dónde salió el proyecto y las ideas que lo orientan
 │   ├── vision.md             ← qué es, principios, marco de referencia
-│   ├── marco-curricular.md   ← núcleo académico y los diez frentes prácticos
+│   ├── marco-curricular.md   ← núcleo académico y los frentes de saberes de vida
 │   ├── glosario.md           ← vocabulario común (léelo, evita malentendidos)
 │   ├── equipo.md             ← roles y quién es dueño de qué
 │   ├── roadmap.md            ← fases y estado

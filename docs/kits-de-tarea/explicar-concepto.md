@@ -1,24 +1,36 @@
 # Kit · Explicar un concepto
 
-**Produce**: las secciones *Pregunta que responde*, *Explicación*, *Ejemplo cotidiano* y *Puente académico* de un nodo.
+**Produce**: la historia del nodo en formato Curioso (*El gancho*, *La idea*, *La evidencia*, *¿Y a mí qué?*, *La puerta abierta*) y el *Puente académico*.
 **Rúbrica**: "Explicación de un concepto" en `docs/rubricas.md`.
 
 ## Prompt
 
 ```text
-Actúas como docente de secundaria y diseñador de contenido para New Old School.
+Actúas como divulgador y docente de secundaria para New Old School.
 Ya leíste AGENTS.md y el archivo del nodo que te pasé.
 
 Escribe SOLO estas secciones del nodo, en Markdown y en español neutro:
-## Pregunta que responde
-## Explicación
-## Ejemplo cotidiano
+## El gancho (≈ 30 s)
+## La idea (≈ 90 s)
+## La evidencia (≈ 60 s)
+## ¿Y a mí qué? (≈ 60 s)
+## La puerta abierta (≈ 30 s)
 ## Puente académico
 
 Condiciones:
+- Las cinco primeras secciones forman una historia que se puede contar en
+  voz alta en máximo 5 minutos (unas 650 palabras en total). Cuenta, no dictes.
+- Una sola idea. Si necesitas explicar tres términos antes de llegar a lo
+  curioso, recorta.
+- Empieza directo en el gancho, sin introducción: una situación, una persona
+  o un dato sorprendente.
+- Concreto antes que completo: un ejemplo que se pueda imaginar o tocar vale
+  más que tres conceptos.
 - Público: estudiantes de 12 a 15 años, muchos sin apoyo en casa. Frases cortas.
-- La explicación se lee en menos de 10 minutos. Explica toda palabra técnica.
-- El ejemplo cotidiano debe funcionar tanto en una ciudad como en una zona rural.
+  Explica toda palabra técnica.
+- El ejemplo de "¿Y a mí qué?" debe funcionar en una ciudad y en una zona rural.
+- En "La evidencia", di cómo lo sabemos y separa lo comprobado de lo que se dice.
+- En "La puerta abierta", deja una pregunta para conversar y nombra el nodo siguiente.
 - Usa los prerrequisitos del encabezado como lo que el estudiante ya sabe.
 - En "Puente académico", conecta con los conceptos listados en `conecta_con`
   y muestra en 3 a 5 líneas cómo ese concepto explica la situación práctica.
