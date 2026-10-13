@@ -78,8 +78,60 @@ Les dejo un reto: léanlo esta semana. Y después me cuentan si no sintieron, au
 - **Qué medir además de la hoja del observador:** si al día siguiente alguien recuerda la pregunta "¿cuál de mis piezas cayó?", el bloque práctico funcionó.
 - **No se citan frases textuales de la novela.** El guion la cuenta con palabras propias.
 
+## Guion completo · Prueba 3: "Del lobo estepario a *Born to Be Wild*"
+
+Calculado a ≈135 palabras por minuto: ≈650 palabras, cerca de 4 min 50 s con pausas. Es el que más depende de datos, así que las cifras y fechas van exactas.
+
+### Gancho (30 s · ≈70 palabras)
+
+Casi todos han oído esta canción: una guitarra rugiendo, una moto en la carretera y alguien gritando que nació para ser salvaje. Es *Born to Be Wild*, de 1968.
+
+Lo curioso es el nombre de la banda: Steppenwolf. Se llama así por una novela alemana de 1927, escrita por un señor tímido que odiaba el ruido de la vida moderna. ¿Cómo pasó eso?
+
+### Idea (90 s · ≈200 palabras)
+
+La novela es *El lobo estepario*, de Hermann Hesse. Su protagonista, Harry Haller, es un intelectual solitario de cincuenta años. Ama a Mozart y a Goethe, y le irritan el jazz, la radio, los autos y las multitudes. Es, por decirlo así, lo contrario de una banda de rock.
+
+Hesse murió en 1962 sin ver lo que vino después. En esa década, miles de jóvenes en Estados Unidos descubrieron sus libros. ¿Qué encontraron en ellos? Un hombre que no encaja en la sociedad de su tiempo. Un viaje hacia adentro. Drogas, misticismo oriental, un teatro mágico donde la realidad se deshace. Justo lo que buscaba la contracultura.
+
+En 1967, en Los Ángeles, una banda nueva buscaba nombre. Su productor, Gabriel Mekler, estaba leyendo la novela y propuso: Steppenwolf. Al cantante, John Kay, le gustó: sonaba misterioso y poderoso. Y Kay, por cierto, había nacido en Alemania.
+
+Así, un libro sobre la soledad de un intelectual terminó dándole nombre a uno de los himnos de las motos y la libertad.
+
+### Evidencia (60 s · ≈130 palabras)
+
+No fue un caso aislado. Timothy Leary, el gran promotor de la psicodelia, llamó a Hesse el poeta del viaje interior. En Berkeley, en 1967, nació una compañía de teatro llamada Magic Theatre, por el teatro mágico de la novela.
+
+Pero hay un giro. El propio Hesse, en una nota para una nueva edición, se quejó de que este era el libro suyo más malinterpretado. Los lectores veían solo la desesperación de Harry y no veían lo que para él era lo central: que la historia trata de una posible curación.
+
+O sea: la novela se volvió famosa, en parte, por lo que su autor no quiso decir.
+
+### ¿Y a mí qué? (60 s · ≈130 palabras)
+
+Esto nos deja dos lecciones útiles.
+
+La primera: las obras tienen segundas vidas. Un libro, una canción o una película no significan una sola cosa para siempre. Cada época los lee con sus propias preguntas. Si releen un libro que les gustó a los quince, a los treinta y a los cincuenta, van a leer tres libros distintos.
+
+La segunda tiene que ver con pensar con cuidado. Cuando alguien cita una obra para defender una idea, vale la pena preguntarse: ¿esto lo dijo el autor, o es lo que nosotros queremos que diga? Y lo mismo aplica a lo que ustedes hacen: lo que creen hoy puede terminar usado de formas que nunca imaginaron.
+
+### Puerta abierta (30 s · ≈60 palabras)
+
+Les dejo una pregunta para conversar: ¿qué libro, canción o película de hoy creen que va a tener una segunda vida dentro de cincuenta años? ¿Y con qué sentido, quizá muy distinto al original?
+
+Y si les da curiosidad, lean la novela con *Born to Be Wild* de fondo. A ver si encuentran el lobo.
+
+### Notas para quien presenta
+
+- **Apoyo visual opcional:** la portada de la novela junto a la carátula del primer disco de Steppenwolf (1968), una al lado de la otra.
+- **No se reproduce la letra de la canción.** Basta nombrarla; si hay música, unos segundos de fondo en el gancho, sin cantar ni leer la letra.
+- **Si se pasa de tiempo,** recorta la lista de lo que encontraron los jóvenes en la Idea. No recortes el giro de la Evidencia: es el corazón de la historia.
+- **Datos para revisar antes de presentar:** el año de la nota de Hesse no está claro en las fuentes (unas dicen 1941 y otras 1960); por eso el guion no lo menciona. <!-- VERIFICAR: año de la nota del autor sobre la mala interpretación -->
+
 ## Fuentes
 
 - Hesse, H. (1927). *Der Steppenwolf*. Traducción recomendada al español: Manuel Manzanares (Alianza Editorial).
 - Linville, P. W. (1987). Self-complexity as a cognitive buffer against stress-related illness and depression. *Journal of Personality and Social Psychology*, 52(4), 663–676.
 - Rafaeli-Mor, E. y Steinberg, J. (2002). Self-complexity and well-being: A review and research synthesis. *Personality and Social Psychology Review*, 6(1), 31–58. (Metaanálisis que encontró efectos débiles e inconsistentes.)
+- American Songwriter, "Behind the Band Name: Steppenwolf" (origen del nombre por Gabriel Mekler): https://americansongwriter.com/behind-the-band-name-steppenwolf/
+- Swissinfo, "Hesse: from counterculture to computer games" (Hesse en la contracultura, Timothy Leary): https://www.swissinfo.ch/eng/culture/hesse-from-counterculture-to-computer-games/33252700
+- Wikipedia, "Steppenwolf (novel)" (nota del autor, Magic Theatre de Berkeley): https://en.wikipedia.org/wiki/Steppenwolf_(novel)
