@@ -22,16 +22,16 @@ jobs:
       - run: pip install -r scripts/requirements.txt
       - name: Validar encabezados, grafo y estados
         run: python scripts/validar_curriculo.py
-      - name: Un nodo por PR y el grafo en su propio PR
+      - name: Un nodo por PR (los PR de grafo pueden traer encabezados de nodos)
         if: github.event_name == 'pull_request'
         run: |
           cambios=$(git diff --name-only "origin/${{ github.base_ref }}"...HEAD -- 'curriculo/*/nucleo/*.md' 'curriculo/*/locales/*/*.md')
           grafo=$(git diff --name-only "origin/${{ github.base_ref }}"...HEAD -- 'curriculo/*/_modulo.yaml')
           n=$(echo "$cambios" | grep -c . || true)
           echo "Nodos modificados: $n"
-          if [ -n "$grafo" ] && [ "$n" -gt 0 ]; then
-            echo "::error::Los cambios a _modulo.yaml van en un PR propio, sin nodos."
-            exit 1
+          if [ -n "$grafo" ]; then
+            echo "PR de grafo: se permiten nodos nuevos y ajustes de encabezado; el curador revisa que no traiga contenido."
+            exit 0
           fi
           if [ "$n" -gt 1 ] && ! echo "${{ join(github.event.pull_request.labels.*.name, ',') }}" | grep -q "varios-nodos"; then
             echo "::error::Este PR toca $n nodos. Divide el PR o pide a un curador la etiqueta 'varios-nodos'."

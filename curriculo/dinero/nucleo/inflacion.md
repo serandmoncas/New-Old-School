@@ -6,7 +6,7 @@ alcance: nucleo
 pais: null
 nodo_base: null
 nivel: 2
-prerrequisitos: [dinero.interes-compuesto]
+prerrequisitos: [dinero.porcentajes-en-la-vida-real]
 conecta_con: [matematicas.porcentajes, sociales.economia-basica]
 estado: pendiente
 responsable: null

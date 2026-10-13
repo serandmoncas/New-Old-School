@@ -9,7 +9,7 @@ Cierra #<!-- número del Issue -->
 - [ ] Contenido de un nodo (núcleo)
 - [ ] Adaptación local
 - [ ] Revisión de un nodo
-- [ ] Cambio al grafo (`_modulo.yaml`) — va solo, sin nodos en el mismo PR
+- [ ] Cambio al grafo (`_modulo.yaml`) — puede traer nodos vacíos y encabezados, nunca contenido
 - [ ] Documentación / reglas
 - [ ] Plataforma / scripts
 
