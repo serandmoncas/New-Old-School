@@ -28,7 +28,7 @@ Sugerencia: empezar por la 1 y la 3, que son las más distintas entre sí.
 
 ## Guion completo · Prueba 1: "No tienes dos almas, tienes mil"
 
-Calculado a ≈135 palabras por minuto: ≈640 palabras, cerca de 4 min 45 s con pausas.
+Calculado a ≈135 palabras por minuto: ≈560 palabras, cerca de 4 min 10 s; con pausas queda cerca de 4 min 30 s.
 
 ### Gancho (30 s · ≈70 palabras)
 
@@ -68,7 +68,7 @@ La segunda: cultivar a propósito más de una identidad. No como escape, sino co
 
 Dentro de la novela, ese folleto ocupa unas treinta páginas. Se llama el *Tratado del lobo estepario*, y se puede leer solo, sin el resto del libro.
 
-Les dejo un reto: léanlo esta semana. Y después me cuentan si no sintieron, aunque fuera un poquito, que les estaba hablando a ustedes.
+Les dejo un reto: léanlo esta semana. Y para conversar ahora: ¿cuál de sus piezas los ha sostenido cuando otra se cayó?
 
 ## Notas para quien presenta
 
@@ -80,13 +80,15 @@ Les dejo un reto: léanlo esta semana. Y después me cuentan si no sintieron, au
 
 ## Guion completo · Prueba 3: "Del lobo estepario a *Born to Be Wild*"
 
-Calculado a ≈135 palabras por minuto: ≈550 palabras, cerca de 4 min 10 s; queda margen para pausas y unos segundos de música. Es el que más depende de datos, así que las cifras y fechas van exactas.
+Calculado a ≈135 palabras por minuto: ≈520 palabras, cerca de 3 min 50 s, más 5 s de música en el gancho; queda margen para pausas. Es el que más depende de datos, así que las cifras y fechas van exactas.
 
 ### Gancho (30 s · ≈70 palabras)
 
-Casi todos han oído esta canción: una guitarra rugiendo, una moto en la carretera y alguien gritando que nació para ser salvaje. Es *Born to Be Wild*, de 1968.
+*(Suenan 5 segundos de la canción y se corta.)*
 
-Lo curioso es el nombre de la banda: Steppenwolf. Se llama así por una novela alemana de 1927, escrita por un señor tímido que odiaba el ruido de la vida moderna. ¿Cómo pasó eso?
+Esa es *Born to Be Wild*, de 1968: la canción de las motos y la carretera.
+
+Lo curioso es el nombre de la banda: Steppenwolf. Se llama así por una novela alemana de 1927, escrita por un hombre que desconfiaba del ruido de la vida moderna. ¿Cómo pasó eso?
 
 ### Idea (90 s · ≈200 palabras)
 
@@ -108,22 +110,22 @@ O sea: la novela se volvió famosa, en parte, por lo que su autor no quiso decir
 
 ### ¿Y a mí qué? (60 s · ≈130 palabras)
 
-Esto nos deja dos lecciones útiles.
+Esto nos deja una lección útil: las obras tienen segundas vidas.
 
-La primera: las obras tienen segundas vidas. Un libro, una canción o una película no significan una sola cosa para siempre. Cada época los lee con sus propias preguntas. Si releen un libro que les gustó a los quince, a los treinta y a los cincuenta, van a leer tres libros distintos.
+Un libro, una canción o una película no significan una sola cosa para siempre. Cada época los lee con sus propias preguntas, y a veces les hace decir lo contrario de lo que querían decir.
 
-La segunda tiene que ver con pensar con cuidado. Cuando alguien cita una obra para defender una idea, vale la pena preguntarse: ¿esto lo dijo el autor, o es lo que nosotros queremos que diga? Y lo mismo aplica a lo que ustedes hacen: lo que creen hoy puede terminar usado de formas que nunca imaginaron.
+Y no solo cambia la época: cambia uno. Si releen un libro que les gustó a los quince, a los treinta y a los cincuenta, van a leer tres libros distintos. Por eso vale la pena volver a lo que nos marcó: no para confirmar lo que pensábamos, sino para ver qué encontramos ahora.
 
 ### Puerta abierta (30 s · ≈60 palabras)
 
-Les dejo una pregunta para conversar: ¿qué libro, canción o película de hoy creen que va a tener una segunda vida dentro de cincuenta años? ¿Y con qué sentido, quizá muy distinto al original?
+Les dejo una pregunta para conversar: ¿qué obra que ustedes aman creen que su autor no reconocería en lo que la gente hoy dice de ella?
 
 Y si les da curiosidad, lean la novela con *Born to Be Wild* de fondo. A ver si encuentran el lobo.
 
 ### Notas para quien presenta
 
 - **Apoyo visual opcional:** la portada de la novela junto a la carátula del primer disco de Steppenwolf (1968), una al lado de la otra.
-- **No se reproduce la letra de la canción.** Basta nombrarla; si hay música, unos segundos de fondo en el gancho, sin cantar ni leer la letra.
+- **Música en el gancho:** 5 segundos del arranque de la canción, sin cantar ni leer la letra. Si no hay forma de ponerla, se describe en una frase y se sigue.
 - **Si se pasa de tiempo,** recorta la lista de lo que encontraron los jóvenes en la Idea. No recortes el giro de la Evidencia: es el corazón de la historia.
 - **Datos para revisar antes de presentar:** el año de la nota de Hesse no está claro en las fuentes (unas dicen 1941 y otras 1960); por eso el guion no lo menciona. <!-- VERIFICAR: año de la nota del autor sobre la mala interpretación -->
 
