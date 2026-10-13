@@ -14,9 +14,12 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión; cuotas verificadas con script}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Historial crediticio, url: 'https://en.wikipedia.org/wiki/Credit_history', licencia: CC BY-SA 4.0}
 - {titulo: Grameen Bank y el microcrédito, url: 'https://es.wikipedia.org/wiki/Grameen_Bank', licencia: CC BY-SA 4.0}
+- {titulo: 'FTC: estudio sobre errores en reportes de crédito (2013)', url: 'https://www.ftc.gov/news-events/news/press-releases/2013/02/ftc-study-five-percent-consumers-had-errors-their-credit-reports-could-result-less-favorable-terms', licencia: referencia}
+- {titulo: 'Private Credit in 129 Countries (Djankov, McLiesh y Shleifer, 2007)', url: 'https://shleifer.scholars.harvard.edu/publications/private-credit-129-countries', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -68,7 +71,7 @@ Y un derecho importante: en muchos países puedes **consultar tu propio reporte 
 
 En la ciudad, Mariana se atrasó dos veces con su tarjeta. Cuando quiso un crédito para una moto, se lo aprobaron, pero a una tasa más alta. Ahora paga siempre puntual y usa poco de su cupo: en uno o dos años su historial va a mejorar. Kevin, en cambio, nunca ha tenido crédito. Para empezar su historial puede usar un producto pequeño, como un crédito de bajo monto, y pagarlo puntual.
 
-En el campo, muchas personas no tienen historial formal, aunque llevan años cumpliendo sus compromisos. Por eso existen formas distintas de prestar. En Bangladés, el **Grameen Bank** prestaba a grupos de vecinos que se respaldaban entre sí: la confianza del grupo reemplazaba el historial. Su fundador, Muhammad Yunus, recibió el Premio Nobel de la Paz en 2006. Las cooperativas de muchas veredas funcionan con una lógica parecida: te conocen.
+En el campo, muchas personas no tienen historial formal, aunque llevan años cumpliendo sus compromisos. Por eso existen formas distintas de prestar. En Bangladés, el **Grameen Bank** prestaba a grupos de vecinos que se respaldaban entre sí: la confianza del grupo reemplazaba el historial. Su fundador, Muhammad Yunus, y el propio banco recibieron el Premio Nobel de la Paz en 2006. Las cooperativas de muchas veredas funcionan con una lógica parecida: te conocen.
 
 Tu historial es tu reputación con el dinero. Se construye despacio y se daña rápido.
 

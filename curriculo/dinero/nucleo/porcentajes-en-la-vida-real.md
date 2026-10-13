@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Porcentaje, url: 'https://es.wikipedia.org/wiki/Porcentaje', licencia: CC BY-SA 4.0}
 - {titulo: Encuesta mundial de educación financiera (S&P Global FinLit, 2014), url: 'https://gflec.org/initiatives/sp-global-finlit-survey/', licencia: Consulta}
+- {titulo: 'When More Is Less: bonus packs vs. descuentos (Chen y otros, 2012)', url: 'https://doi.org/10.1509/jm.10.0443', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -49,9 +51,9 @@ Y una regla que te salva de muchas trampas: **los porcentajes no se suman si se 
 
 ## La evidencia (≈ 60 s)
 
-**Está comprobado** que esto le cuesta a casi todo el mundo. En una encuesta mundial de 2014 con más de 150.000 adultos de más de 140 países, solo alrededor de uno de cada tres respondió bien preguntas básicas sobre interés, inflación y riesgo. Casi todas esas preguntas dependen de entender porcentajes.
+**Está comprobado** que esto le cuesta a casi todo el mundo. En una encuesta mundial de 2014 con más de 150.000 adultos de más de 140 países, solo uno de cada tres respondió bien al menos tres de cuatro preguntas básicas sobre interés, inflación y riesgo. Tres de esas cuatro preguntas usan porcentajes.
 
-**También está comprobado** que la forma de presentar un porcentaje cambia lo que decidimos. Estudios de mercadeo encontraron que "lleva 50 % más" suele atraer más que "paga 33 % menos", aunque en la práctica sean casi lo mismo. <!-- VERIFICAR: citar el estudio de presentación de promociones (bonus pack vs. descuento) antes de aprobar. -->
+**También está comprobado** que la forma de presentar un porcentaje cambia lo que decidimos. Un estudio de mercadeo de 2012 encontró que "lleva 50 % más" vende más que "paga 33 % menos", aunque en la práctica sean casi lo mismo. La razón: la gente mira el número grande y olvida preguntarse "¿50 % de qué?".
 
 **Lo que se dice, pero no es cierto**: "un descuento siempre es un ahorro". Si no ibas a comprar, un 40 % de descuento no te ahorra nada: te hace gastar el 60 %.
 
@@ -75,7 +77,7 @@ El siguiente nodo es **Interés simple**: el porcentaje que te cobran por presta
 
 Un porcentaje es una **proporción** con base 100. Por eso los problemas de porcentajes se pueden resolver con regla de tres: si 60.000 es el 100 %, ¿qué porcentaje es 12.000? Y la idea de "multiplicar por 1,20" o "por 0,70" es la puerta a las **funciones**: un aumento repetido año tras año (multiplicar por 1,10, otra vez por 1,10…) ya no crece en línea recta, sino cada vez más rápido. Eso lo verás en Interés compuesto.
 
-Un poco de historia: "por ciento" viene del latín *per centum*. En la antigua Roma, el emperador Augusto cobró un impuesto de una centésima parte (el 1 %) sobre ciertas ventas. Y el símbolo **%** nació de cómo los comerciantes italianos abreviaban *per cento* en sus libros de cuentas, hace unos 500 años.
+Un poco de historia: "por ciento" viene del latín *per centum*. En la antigua Roma, el emperador Augusto cobró un impuesto de una centésima parte (el 1 %) sobre ciertas ventas. Y el símbolo **%** nació de cómo los comerciantes italianos abreviaban *per cento* en sus libros de cuentas, hace unos 600 años.
 
 ## Ejercicios
 

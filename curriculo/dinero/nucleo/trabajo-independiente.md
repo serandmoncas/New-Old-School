@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión; cálculos de tarifa e ingresos verificados con script}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Trabajador por cuenta propia, url: 'https://es.wikipedia.org/wiki/Trabajador_aut%C3%B3nomo', licencia: CC BY-SA 4.0}
 - {titulo: Origen de la palabra freelance, url: 'https://en.wikipedia.org/wiki/Freelancer', licencia: CC BY-SA 4.0}
+- {titulo: 'Paychecks, Paydays, and the Online Platform Economy (JPMorgan Chase Institute, 2016)', url: 'https://www.jpmorganchase.com/institute/all-topics/labor-markets-and-workforce/report-paychecks-paydays-and-the-online-platform-economy', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -51,7 +53,7 @@ Tiene ventajas reales: decides tus horarios, eliges clientes y, bien manejado, p
 
 **Es un dato**: en América Latina, una gran parte de las personas que trabajan lo hacen por cuenta propia, en muchos países alrededor de una de cada cuatro o más, y muchas de ellas sin seguridad social.
 
-**Está comprobado** que el ingreso de los independientes varía mucho. Estudios con datos de cuentas bancarias de trabajadores de plataformas digitales encontraron que sus ingresos suben y bajan bastante de un mes a otro. La dificultad no es solo cuánto ganan, sino que no saben cuánto van a ganar.
+**Está comprobado** que el ingreso de muchas personas sube y baja de un mes a otro. Un estudio con datos bancarios de un millón de personas en Estados Unidos encontró que más de la mitad tuvo cambios de más del 30 % en su ingreso de un mes a otro. Quienes trabajaban en plataformas digitales no recibían pago de ellas todos los meses: las usaban para tapar los meses flojos. Para un independiente, la dificultad no es solo cuánto gana, sino que no sabe cuánto va a ganar.
 
 **Lo que se dice, pero no es tan simple**: "ser independiente es ganar más y trabajar menos". A veces sí, pero muchas veces se trabaja más, sin pago por vacaciones ni enfermedad. Y lo contrario: "ser independiente siempre es inestable". Con varios clientes, buenos acuerdos y un colchón, puede ser más estable que depender de un solo empleador.
 

@@ -14,10 +14,13 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión; tramos de ejemplo verificados con script}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Impuesto sobre las ventanas, url: 'https://en.wikipedia.org/wiki/Window_tax', licencia: CC BY-SA 4.0}
 - {titulo: Insurrección de los Comuneros (1781), url: 'https://es.wikipedia.org/wiki/Insurrecci%C3%B3n_de_los_comuneros', licencia: CC BY-SA 4.0}
 - {titulo: Recaudo tributario como porcentaje del PIB por país, url: 'https://en.wikipedia.org/wiki/List_of_countries_by_tax_revenue_to_GDP_ratio', licencia: CC BY-SA 4.0}
+- {titulo: 'The Window Tax (Oates y Schwab, Lincoln Institute)', url: 'https://www.lincolninst.edu/publications/articles/window-tax', licencia: referencia}
+- {titulo: 'Revenue Statistics in Latin America and the Caribbean 2025 (OCDE)', url: 'https://www.oecd.org/en/publications/revenue-statistics-in-latin-america-and-the-caribbean-2025_7594fbdd-en.html', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 

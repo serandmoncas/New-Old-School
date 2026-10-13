@@ -14,9 +14,13 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Experimento del malvavisco de Stanford, url: 'https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment', licencia: CC BY-SA 4.0}
 - {titulo: Historia de las alcancías, url: 'https://en.wikipedia.org/wiki/Piggy_bank', licencia: CC BY-SA 4.0}
+- {titulo: 'Revisiting the Marshmallow Test (Watts, Duncan y Quan, 2018)', url: 'https://doi.org/10.1177/0956797618761661', licencia: referencia}
+- {titulo: 'Rational snacking (Kidd, Palmeri y Aslin, 2013)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3730121/', licencia: referencia}
+- {titulo: 'Tying Odysseus to the Mast: cuentas de compromiso en Filipinas (Ashraf, Karlan y Yin, 2006)', url: 'https://doi.org/10.1162/qjec.2006.121.2.635', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -31,7 +35,7 @@ El bloque de evidencia desmonta la lectura "esperar es cuestión de fuerza de vo
 
 Imagina que tienes cinco años. Un adulto te pone un malvavisco enfrente y te dice: "Puedes comértelo ya. Pero si esperas a que yo vuelva, te doy dos". Y se va.
 
-Eso hicieron investigadores de la Universidad de Stanford con cientos de niños, a finales de los años sesenta. Algunos se lo comieron en segundos. Otros se tapaban los ojos, cantaban o se sentaban encima de las manos para aguantar.
+Eso hicieron investigadores de la Universidad de Stanford con cientos de niños, a finales de los años sesenta. Algunos se lo comieron en segundos. Otros se tapaban los ojos, cantaban o jugaban con las manos y los pies para aguantar.
 
 Ahorrar es exactamente eso: no comerte el malvavisco hoy para tener más mañana. Pero la historia tiene un giro que casi nadie cuenta.
 
@@ -55,7 +59,7 @@ Durante años se dijo que los niños que esperaban el segundo malvavisco tenían
 
 **El giro**: en 2018, un estudio con muchos más niños y de familias más diversas encontró que el efecto era mucho menor. Buena parte se explicaba por algo más: la **situación de cada familia**. Otro experimento mostró que los niños esperan mucho menos cuando el adulto antes les ha incumplido una promesa. Tiene sentido: si no confías en que el segundo malvavisco va a llegar, lo racional es comerte el primero.
 
-**Lo que sí está comprobado**: las metas concretas y escritas funcionan mejor que las vagas. Y ponerse barreras ayuda. En un estudio en Filipinas, las personas que eligieron guardar su dinero en una cuenta que no podían tocar hasta cumplir su meta ahorraron bastante más que las demás.
+**Lo que sí está comprobado**: las metas concretas funcionan mejor que las vagas. Y ponerse barreras ayuda. En un estudio en Filipinas, a unas personas les ofrecieron una cuenta que no podían tocar hasta una fecha o hasta reunir una cantidad que ellas mismas escogían. Un año después, el grupo al que le ofrecieron esa cuenta había ahorrado bastante más que el grupo al que no.
 
 La lección: ahorrar no depende solo de aguantarse. Depende de tener una meta clara y de **hacerse las cosas fáciles**.
 
@@ -83,7 +87,7 @@ Una meta de ahorro es una **ecuación lineal**. Si empiezas con un ahorro inicia
 
 Si quieres saber cuántos meses te faltan para llegar a una meta *M*, despejas: **m = (M − I) ÷ a**. Y si dibujas el ahorro mes a mes, obtienes una **línea recta**: la pendiente es lo que ahorras cada mes. Cuanto más empinada, más rápido llegas.
 
-Un poco de historia: guardar monedas en un recipiente cerrado es muy antiguo. Se han encontrado alcancías de barro de la Antigua Grecia, de hace más de 2.000 años, algunas con forma de templo. <!-- VERIFICAR: alcancía de Priene (siglo II a. C.); confirmar fecha y fuente antes de aprobar. -->
+Un poco de historia: guardar monedas en un recipiente cerrado es muy antiguo. La alcancía más vieja que se conoce en Occidente es de barro, tiene forma de templo pequeño y una ranura para las monedas. Se encontró en Priene, una ciudad griega en lo que hoy es Turquía, y tiene unos 2.200 años.
 
 ## Ejercicios
 

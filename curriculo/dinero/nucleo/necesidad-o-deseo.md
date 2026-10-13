@@ -14,10 +14,13 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-12', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Adaptación hedónica, url: 'https://en.wikipedia.org/wiki/Hedonic_treadmill', licencia: CC BY-SA 4.0}
 - {titulo: Pirámide de Maslow, url: 'https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow', licencia: CC BY-SA 4.0}
-actualizado: '2026-10-12'
+- {titulo: 'Long-run Effects of Lottery Wealth on Psychological Well-being (Lindqvist, Östling y Cesarini, 2020)', url: 'https://www.nber.org/papers/w24667', licencia: referencia}
+- {titulo: 'The Food (Promotion and Placement) (England) Regulations 2021', url: 'https://www.legislation.gov.uk/ukdsi/2021/9780348226195', licencia: referencia}
+actualizado: '2026-10-13'
 ---
 
 # ¿Necesidad o deseo?
@@ -53,7 +56,7 @@ Antes de comprar, hazte tres preguntas:
 
 **También está comprobado** que las tiendas diseñan sus espacios para comprar por impulso. Tanto que en Inglaterra, desde 2022, la ley limita poner comida chatarra junto a las cajas.
 
-**Lo que se dice, pero no es tan simple**: "el dinero no da la felicidad". Un estudio famoso de 1978 con ganadores de lotería sugería que a la larga no eran más felices, pero fueron pocos casos. Estudios más grandes, como uno en Suecia publicado en 2020, encontraron que ganar mucho dinero sí mejora la satisfacción con la vida por años. El dinero ayuda; lo que se apaga rápido es la emoción de cada compra.
+**Lo que se dice, pero no es tan simple**: "el dinero no da la felicidad". Un estudio famoso de 1978 comparó a 22 ganadores de lotería con personas que no habían ganado: meses después del premio, los ganadores no se decían más felices. Pero fueron muy pocos casos. Estudios más grandes, como uno en Suecia publicado en 2020, encontraron que ganar mucho dinero sí mejora la satisfacción con la vida por años, aunque casi no cambia qué tan alegres se sienten las personas día a día. El dinero ayuda; lo que se apaga rápido es la emoción de cada compra.
 
 ## ¿Y a mí qué? (≈ 60 s)
 

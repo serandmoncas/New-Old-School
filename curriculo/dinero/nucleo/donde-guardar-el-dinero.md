@@ -14,8 +14,9 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
-- {titulo: Dinero móvil y pobreza en Kenia (M-Pesa), url: 'https://en.wikipedia.org/wiki/M-Pesa', licencia: CC BY-SA 4.0}
+- {titulo: 'The long-run poverty and gender impacts of mobile money (Suri y Jack, Science, 2016)', url: 'https://doi.org/10.1126/science.aah5309', licencia: referencia}
 - {titulo: Seguro de depósitos, url: 'https://en.wikipedia.org/wiki/Deposit_insurance', licencia: CC BY-SA 4.0}
 actualizado: '2026-10-13'
 ---
@@ -49,9 +50,9 @@ Para elegir, hazte cuatro preguntas: **¿qué tan seguro está?**, **¿qué tan 
 
 ## La evidencia (≈ 60 s)
 
-**Está comprobado** que tener dónde guardar el dinero cambia vidas. En Kenia, un estudio publicado en 2016 siguió durante años la llegada del dinero en el celular. Encontró que ayudó a salir de la pobreza a cerca del 2 % de los hogares del país, sobre todo hogares encabezados por mujeres, porque podían ahorrar y recibir plata de forma segura.
+**Está comprobado** que tener dónde guardar el dinero cambia vidas. En Kenia, un estudio publicado en 2016 siguió a unos 1.600 hogares durante seis años, mientras llegaba el dinero en el celular. Calculó que ayudó a salir de la pobreza extrema a cerca del 2 % de los hogares del país. El efecto fue mayor en hogares encabezados por mujeres: ahorraron más y muchas pasaron del campo a tener un negocio.
 
-**También está comprobado** que muchos países tienen un **seguro de depósitos**: si un banco autorizado quiebra, el Estado devuelve el dinero de los ahorradores hasta cierto monto. El efectivo en casa no tiene nada parecido.
+**También está comprobado** que muchos países tienen un **seguro de depósitos**: si un banco o una cooperativa autorizada quiebra, un fondo de garantía, casi siempre público y pagado con aportes de las mismas entidades, devuelve el dinero de los ahorradores hasta cierto monto. El efectivo en casa no tiene nada parecido.
 
 **Lo que se dice, pero no es tan simple**: "el banco es siempre seguro" o "la plata en la mano es la más segura". Los dos lugares tienen riesgos. La seguridad real depende de que la entidad esté vigilada por el Estado y de que tú cuides tus claves.
 

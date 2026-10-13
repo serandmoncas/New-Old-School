@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Ley de los grandes números, url: 'https://es.wikipedia.org/wiki/Ley_de_los_grandes_n%C3%BAmeros', licencia: CC BY-SA 4.0}
 - {titulo: Lloyd's de Londres, url: 'https://en.wikipedia.org/wiki/Lloyd%27s_of_London', licencia: CC BY-SA 4.0}
+- {titulo: 'Agricultural Decisions after Relaxing Credit and Risk Constraints (Karlan y otros, 2014)', url: 'https://www.nber.org/papers/w18463', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 

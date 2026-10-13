@@ -14,6 +14,7 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: David Copperfield, de Charles Dickens (dominio público), url: 'https://www.gutenberg.org/ebooks/766', licencia: Dominio público}
 - {titulo: Historia de la escritura cuneiforme, url: 'https://es.wikipedia.org/wiki/Escritura_cuneiforme', licencia: CC BY-SA 4.0}
@@ -54,7 +55,7 @@ Para mejorar el saldo solo hay dos caminos: que entre más o que salga menos. No
 
 Esta idea es tan vieja que aparece en las novelas. En *David Copperfield*, de 1850, Charles Dickens hace decir a uno de sus personajes algo así: si ganas 20 y gastas un poquito menos de 20, eres feliz; si gastas un poquito más, eres desgraciado. La diferencia es mínima, el resultado es opuesto.
 
-**Lo que está comprobado**: cuando a las personas les sube el ingreso, casi siempre les sube también el gasto. El economista John Maynard Keynes lo describió en 1936, y los estudios lo han confirmado muchas veces.
+**Lo que está comprobado**: cuando a las personas les sube el ingreso, casi siempre les sube también el gasto, aunque por lo general un poco menos que el ingreso. El economista John Maynard Keynes lo describió en 1936, y los estudios lo han confirmado muchas veces.
 
 **Lo que se dice, pero no es tan simple**: "si ganara más, no tendría problemas de plata". Ganar más ayuda, claro. Pero si el gasto crece al mismo ritmo, el saldo queda igual, y hay personas que ganan muy bien y viven endeudadas.
 

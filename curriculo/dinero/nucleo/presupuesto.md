@@ -14,10 +14,13 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-12', nota: primera versión, nodo de referencia}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Contabilidad mental (Richard Thaler), url: 'https://en.wikipedia.org/wiki/Mental_accounting', licencia: CC BY-SA 4.0}
 - {titulo: Luca Pacioli y la contabilidad por partida doble, url: 'https://es.wikipedia.org/wiki/Luca_Pacioli', licencia: CC BY-SA 4.0}
-actualizado: '2026-10-12'
+- {titulo: 'Richard H. Thaler, Premio Nobel de Economía 2017', url: 'https://www.nobelprize.org/prizes/economic-sciences/2017/thaler/facts/', licencia: referencia}
+- {titulo: 'The Denomination Effect (Raghubir y Srivastava, 2009)', url: 'https://doi.org/10.1086/600019', licencia: referencia}
+actualizado: '2026-10-13'
 ---
 
 # Presupuesto
