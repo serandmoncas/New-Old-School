@@ -80,7 +80,7 @@ Les dejo un reto: léanlo esta semana. Y después me cuentan si no sintieron, au
 
 ## Guion completo · Prueba 3: "Del lobo estepario a *Born to Be Wild*"
 
-Calculado a ≈135 palabras por minuto: ≈650 palabras, cerca de 4 min 50 s con pausas. Es el que más depende de datos, así que las cifras y fechas van exactas.
+Calculado a ≈135 palabras por minuto: ≈550 palabras, cerca de 4 min 10 s; queda margen para pausas y unos segundos de música. Es el que más depende de datos, así que las cifras y fechas van exactas.
 
 ### Gancho (30 s · ≈70 palabras)
 
