@@ -57,7 +57,7 @@ Su herramienta principal es la **tasa de interés de política monetaria**: la t
 
 La familia de Camila paga $1.000.000 de arriendo desde marzo de 2025. En marzo de 2026, el dueño les dice que el arriendo sube a $1.100.000. Camila revisa: el IPC de 2025 fue **5,1 %**, así que el máximo legal era **$1.051.000**. Se lo muestran al dueño con la ley en la mano y acuerdan el valor correcto.
 
-Don Jairo tiene $2.000.000 guardados en efectivo desde octubre de 2025. Con una inflación anual de 6,29 %, esa plata hoy compra lo que antes compraban unos **$1.881.650**. Sin hacer nada, perdió cerca de **$118.000** de poder de compra.
+Don Jairo tiene $2.000.000 guardados en efectivo desde octubre de 2025. Con una inflación anual de 6,29 %, esa plata hoy compra lo que antes compraban unos **$1.881.645**. Sin hacer nada, perdió cerca de **$118.000** de poder de compra.
 
 ## Entidades y recursos oficiales
 
