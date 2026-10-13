@@ -2,6 +2,18 @@
 
 Código de la plataforma de New Old School. **Aún no hay código**: se empieza en la Fase 2 (ver `docs/roadmap.md`). Antes de escribirlo, abre Issues con la plantilla "Tarea de plataforma".
 
+## Mientras tanto: el sitio de lectura
+
+Antes de la plataforma completa ya hay un **sitio estático** para leer el currículo. Lo construye `scripts/construir_sitio.py` (Python, sin servidor) con los estilos de `sitio/estilos.css`, y el flujo `.github/workflows/sitio.yml` lo publica en GitHub Pages cada vez que cambia `main`.
+
+Para verlo en tu computador:
+
+```bash
+pip install -r scripts/requirements.txt
+python scripts/construir_sitio.py   # genera _sitio/
+# abre _sitio/index.html en el navegador
+```
+
 ## Qué hace
 
 1. **Grafo de conocimiento**: lee `curriculo/` (Git es la fuente de verdad) y lo indexa.

@@ -26,3 +26,4 @@ Thumbs.db
 # Notas personales de cada colaborador
 notas-personales/
 *.local.md
+_sitio/
