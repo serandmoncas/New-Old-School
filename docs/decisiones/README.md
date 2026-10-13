@@ -8,3 +8,4 @@ Cada decisión que afecta a más de una carpeta o a todo el equipo queda aquí, 
 | [0002](0002-curriculo-como-archivos.md) | El currículo vive como archivos Markdown + YAML en Git | aceptada |
 | [0003](0003-modulo-inicial-dinero.md) | El primer módulo es Dinero, en español con fork Colombia | propuesta |
 | [0004](0004-ia-de-cada-voluntario.md) | Se aporta con la IA de cada voluntario, no agrupando suscripciones | aceptada |
+| [0005](0005-motor-de-narraciones.md) | Clases narradas con un motor de tres voces; sin publicar audio hasta resolver su licencia | propuesta |

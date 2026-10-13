@@ -27,3 +27,7 @@ Thumbs.db
 notas-personales/
 *.local.md
 _sitio/
+
+# Motor de narraciones: audio y caché locales (licencia del audio sin resolver, ver docs/decisiones/0005)
+plataforma/narraciones/_cache/
+plataforma/narraciones/_audio/
