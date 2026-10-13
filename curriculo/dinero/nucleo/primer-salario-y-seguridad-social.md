@@ -14,9 +14,12 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Seguridad social, url: 'https://es.wikipedia.org/wiki/Seguridad_social', licencia: CC BY-SA 4.0}
 - {titulo: Día Internacional de los Trabajadores, url: 'https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_los_Trabajadores', licencia: CC BY-SA 4.0}
+- {titulo: 'OIT: Panorama Laboral 2025 de América Latina y el Caribe', url: 'https://www.ilo.org/resource/news/employment-holds-steady-latin-america-and-caribbean-informality-and', licencia: referencia}
+- {titulo: 'The Power of Suggestion (Madrian y Shea, 2001)', url: 'https://www.nber.org/papers/w7682', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 

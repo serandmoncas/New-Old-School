@@ -14,9 +14,13 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión; punto de equilibrio y escenarios verificados con script}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Punto de equilibrio, url: 'https://es.wikipedia.org/wiki/Punto_de_equilibrio_(econom%C3%ADa)', licencia: CC BY-SA 4.0}
 - {titulo: Richard Cantillon y el concepto de emprendedor, url: 'https://en.wikipedia.org/wiki/Richard_Cantillon', licencia: CC BY-SA 4.0}
+- {titulo: 'BLS: supervivencia de establecimientos nacidos en 2013', url: 'https://www.bls.gov/opub/ted/2024/34-7-percent-of-business-establishments-born-in-2013-were-still-operating-in-2023.htm', licencia: referencia}
+- {titulo: 'The top reasons startups fail (CB Insights, 2026)', url: 'https://www.cbinsights.com/research/report/startup-failure-reasons-top/', licencia: referencia}
+- {titulo: 'Cantillon, Essai sur la nature du commerce en général (Econlib)', url: 'https://www.econlib.org/library/NPDBooks/Cantillon/cntNT8.html', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -57,7 +61,7 @@ Dos consejos más. Cuida el **flujo de caja**: puedes tener un negocio rentable 
 
 **Es un dato**: muchos negocios nuevos cierran pronto. En Estados Unidos, por ejemplo, alrededor de uno de cada cinco cierra en su primer año y cerca de la mitad no llega a los cinco años. En muchos países de América Latina la proporción es parecida o mayor.
 
-**Se ha estudiado por qué**. En análisis de empresas nuevas que cerraron, las razones más comunes fueron que nadie necesitaba realmente lo que vendían y que se quedaron sin efectivo. No fallaron por falta de esfuerzo, sino por no conocer sus números ni a sus clientes a tiempo.
+**Se ha estudiado por qué**. En análisis de cientos de *startups* (empresas nuevas con inversionistas) que cerraron, las razones más comunes fueron quedarse sin dinero y vender algo que el mercado no necesitaba lo suficiente. Quedarse sin dinero suele ser el final de la historia: muchas veces el problema empezó antes, al no conocer bien a sus clientes ni sus números.
 
 **Lo que se dice, pero no es tan simple**: "si vendes mucho, ganas mucho". Si el margen es pequeño o los costos fijos son altos, puedes vender mucho y perder. Y otro mito: "emprender es solo para quien tiene plata". Muchos negocios empiezan en pequeño, probando con poco, y crecen con lo que van ganando.
 
@@ -85,7 +89,7 @@ La ganancia de un negocio es una **función lineal** de las unidades vendidas:
 
 Su gráfica es una recta que empieza en negativo (si no vendes nada, pierdes los costos fijos) y cruza el cero justo en el **punto de equilibrio**. Y para entender las ventas de cada día, que suben y bajan, se usa la **estadística descriptiva**: promedio, mínimo, máximo, y qué tanto varían.
 
-Un poco de historia: la palabra **emprendedor** se popularizó en la economía gracias a **Richard Cantillon**, un banquero que escribió hacia 1730 un ensayo sobre el comercio. Para él, el emprendedor era quien compra a un precio cierto para vender a un precio incierto: alguien que asume el riesgo. Casi tres siglos después, la definición sigue siendo buena.
+Un poco de historia: uno de los primeros en usar la palabra **emprendedor** en economía fue **Richard Cantillon**, un banquero que escribió hacia 1730 un ensayo sobre el comercio, publicado en 1755. Para él, el emprendedor era quien compra a un precio cierto para vender a un precio incierto: alguien que asume el riesgo. Casi tres siglos después, la definición sigue siendo buena.
 
 ## Ejercicios
 

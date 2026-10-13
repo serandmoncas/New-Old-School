@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión; simulación de pago mínimo verificada con script}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Tarjeta de crédito, url: 'https://es.wikipedia.org/wiki/Tarjeta_de_cr%C3%A9dito', licencia: CC BY-SA 4.0}
 - {titulo: Historia de Diners Club, url: 'https://en.wikipedia.org/wiki/Diners_Club_International', licencia: CC BY-SA 4.0}
+- {titulo: 'The cost of anchoring on credit-card minimum repayments (Stewart, 2009)', url: 'https://wrap.warwick.ac.uk/id/eprint/2552', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -56,9 +58,9 @@ La regla de oro: **usa la tarjeta solo para comprar lo que podrías pagar de con
 
 **Está comprobado** que el pago mínimo funciona como un ancla. En un experimento publicado en 2009, las personas a las que se les mostró el pago mínimo en el extracto decidieron pagar menos que las que no lo vieron. Ese número pequeño hace que la deuda parezca más manejable de lo que es.
 
-Por eso algunos países obligan a los bancos a mostrar en el extracto **cuánto tardarías y cuánto pagarías** si solo abonas el mínimo. En Estados Unidos es obligatorio desde 2009.
+Por eso algunos países obligan a los bancos a mostrar en el extracto **cuánto tardarías y cuánto pagarías** si solo abonas el mínimo. En Estados Unidos, una ley de 2009 lo exige desde 2010.
 
-**Se ha encontrado también** que pagar con tarjeta hace que gastemos más que pagando en efectivo, porque no sentimos que el dinero sale. Un estudio famoso encontró diferencias muy grandes; otros estudios encontraron efectos más pequeños. Lo seguro es que el dolor de pagar existe y la tarjeta lo suaviza.
+**Se ha encontrado también** que pagar con tarjeta hace que gastemos más que pagando en efectivo, porque no sentimos que el dinero sale. Un estudio famoso encontró diferencias muy grandes; otros estudios encontraron efectos más pequeños. Lo más probable es que pagar con tarjeta "duela" menos que pagar en efectivo; cuánto más gastamos por eso depende de la persona y de la situación.
 
 **Lo que se dice, pero no es cierto**: "tener cupo es tener plata". El cupo es plata prestada.
 

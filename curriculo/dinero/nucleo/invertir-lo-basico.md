@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Teoría moderna de carteras (Markowitz), url: 'https://en.wikipedia.org/wiki/Modern_portfolio_theory', licencia: CC BY-SA 4.0}
 - {titulo: Compañía Neerlandesa de las Indias Orientales, url: 'https://en.wikipedia.org/wiki/Dutch_East_India_Company', licencia: CC BY-SA 4.0}
+- {titulo: 'Premio de Economía 1990: Markowitz, Miller y Sharpe (Nobel Prize)', url: 'https://www.nobelprize.org/prizes/economic-sciences/1990/summary/', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -56,7 +58,7 @@ Y antes de invertir, dos condiciones: tener un **fondo de emergencias** y **no t
 
 **Está comprobado** que repartir el dinero en varias inversiones distintas (**diversificar**) reduce el riesgo. En 1952, el economista Harry Markowitz lo demostró con matemáticas, y en 1990 recibió el Premio Nobel por ese trabajo.
 
-**También está comprobado** que, a largo plazo, las inversiones con más riesgo han tendido a rendir más, pero con caídas muy fuertes en el camino. En la crisis de 1929, la bolsa de Estados Unidos llegó a perder cerca del 90 % de su valor; en la crisis de 2008, más de la mitad. Quien tuvo que vender en el peor momento perdió; quien pudo esperar años, se recuperó.
+**También está comprobado** que, a largo plazo, las inversiones con más riesgo han tendido a rendir más, pero con caídas muy fuertes en el camino. Entre 1929 y 1932, el principal índice de la bolsa de Estados Unidos (el Dow Jones) perdió cerca del 89 % de su valor. Entre 2007 y 2009, el índice S&P 500 cayó más de la mitad. Quien tuvo que vender en el peor momento perdió. Quien pudo esperar se recuperó, pero a veces tomó muchos años: después de 1929, el Dow Jones tardó unos 25 años en volver a su máximo.
 
 **Lo que se dice, pero no es cierto**: "invertir es solo para ricos". Se puede empezar con poco, y la inversión más rentable para muchos jóvenes es aprender algo útil. Y otra frase peligrosa: "si ganó mucho el año pasado, va a ganar este año". Lo que pasó no garantiza lo que viene.
 

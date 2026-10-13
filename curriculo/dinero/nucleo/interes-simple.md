@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Código de Hammurabi, url: 'https://es.wikipedia.org/wiki/C%C3%B3digo_de_Hammurabi', licencia: CC BY-SA 4.0}
 - {titulo: Usura, url: 'https://es.wikipedia.org/wiki/Usura', licencia: CC BY-SA 4.0}
+- {titulo: 'Information Disclosure, Cognitive Biases, and Payday Borrowing (Bertrand y Morse, 2011)', url: 'https://www.povertyactionlab.org/evaluation/information-disclosure-cognitive-biases-and-payday-borrowing-united-states', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -58,7 +60,7 @@ La regla de oro: **compara tasas en el mismo periodo**. Un 2 % mensual parece me
 
 **Es muy antiguo**: el Código de Hammurabi, escrito en Babilonia hace unos 3.700 años, ya ponía un límite a los intereses que se podían cobrar por préstamos de grano y de plata. Desde entonces, muchos países tienen una **tasa máxima legal**, y cobrar por encima de ella se llama **usura**.
 
-**Está comprobado** que la forma de mostrar el costo cambia la decisión. En un estudio en Estados Unidos con préstamos de corto plazo, a algunos clientes les mostraron cuánto pagarían en dinero si renovaban el préstamo varias veces, en lugar de mostrarles solo la tasa. Esos clientes pidieron menos préstamos caros.
+**Está comprobado** que la forma de mostrar el costo cambia la decisión. En un estudio en Estados Unidos con préstamos de corto plazo, a algunos clientes les mostraron cuánto pagarían en dinero si mantenían el préstamo semanas o meses, en lugar de mostrarles solo la tasa. Esos clientes volvieron a pedir prestado cerca de un 11 % menos de veces, y pidieron casi una cuarta parte menos de dinero.
 
 **Lo que se dice, pero no es tan simple**: "si la cuota es baja, el préstamo es barato". Una cuota baja durante mucho tiempo puede costar más que una alta durante poco. Y hay costos que no aparecen en la tasa: seguros, comisiones, papeleo.
 

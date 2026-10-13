@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión; cuotas, tasas efectivas y tasa implícita verificadas con script}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Tasa anual equivalente, url: 'https://es.wikipedia.org/wiki/Tasa_anual_equivalente', licencia: CC BY-SA 4.0}
 - {titulo: Liber Abaci de Fibonacci, url: 'https://es.wikipedia.org/wiki/Liber_abaci', licencia: CC BY-SA 4.0}
+- {titulo: 'Exponential Growth Bias and Household Finance (Stango y Zinman, 2009)', url: 'https://doi.org/10.1111/j.1540-6261.2009.01518.x', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 
@@ -55,7 +57,7 @@ La pregunta definitiva siempre es la misma: **¿cuánto voy a pagar en total, y 
 
 **Está comprobado** que las personas subestimamos cómo crece algo con interés compuesto. Los economistas lo llaman **sesgo del crecimiento exponencial**: imaginamos que las cosas crecen en línea recta. Un estudio publicado en 2009 encontró que quienes más tienen este sesgo tienden a pedir más prestado y a ahorrar menos.
 
-**También está comprobado** que la información estandarizada ayuda. Desde los años sesenta, varios países exigen que todo crédito informe una tasa que incluya los costos obligatorios, justamente para que la gente pueda comparar. Pero la herramienta solo sirve si se usa.
+**También hay evidencia** de que la información clara ayuda, aunque el efecto es moderado. En 1968, Estados Unidos empezó a exigir que todo crédito informe una tasa anual que incluya los costos obligatorios, justamente para que la gente pueda comparar. Después, muchos países copiaron la idea. Pero la herramienta solo sirve si se usa.
 
 **Lo que se dice, pero no es cierto**: "sin intereses" significa gratis. Muchas ofertas de "0 % de interés" esconden el costo en un precio más alto que el de contado. Y otra: "la tasa más baja es la mejor oferta". Como vio Juan, depende de los costos extra.
 

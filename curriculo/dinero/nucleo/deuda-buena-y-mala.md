@@ -14,9 +14,11 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Sesgo del presente, url: 'https://en.wikipedia.org/wiki/Present_bias', licencia: CC BY-SA 4.0}
 - {titulo: Cancelación de deudas en la antigua Mesopotamia, url: 'https://en.wikipedia.org/wiki/Debt_jubilee', licencia: CC BY-SA 4.0}
+- {titulo: 'Deuda y salud mental: revisión sistemática y metaanálisis (Richardson, Elliott y Roberts, 2013)', url: 'https://pubmed.ncbi.nlm.nih.gov/24121465/', licencia: referencia}
 actualizado: '2026-10-13'
 ---
 

@@ -14,6 +14,7 @@ revisores: []
 revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
 recursos:
 - {titulo: Hiperinflación en Zimbabue, url: 'https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe', licencia: CC BY-SA 4.0}
 - {titulo: Revolución de los precios del siglo XVI, url: 'https://en.wikipedia.org/wiki/Price_revolution', licencia: CC BY-SA 4.0}
@@ -74,7 +75,7 @@ La inflación es un **porcentaje encadenado**: si los precios suben 10 % un año
 
 En **economía**, la inflación conecta con el papel del banco central, las tasas de interés y el empleo: es una de las palabras que más vas a oír en las noticias.
 
-Un poco de historia: en el siglo XVI, la enorme cantidad de plata que salió de las minas de América, como la de Potosí, llegó a Europa. Con tanta plata en circulación, los precios en España y en buena parte de Europa subieron durante décadas. Los historiadores la llaman la **revolución de los precios**: una de las primeras inflaciones largas bien estudiadas, y nació en nuestro continente.
+Un poco de historia: en el siglo XVI, la enorme cantidad de plata que salió de las minas de América, como la de Potosí, llegó a Europa. Los precios en España y en buena parte de Europa subieron durante décadas. Muchos historiadores lo relacionan con tanta plata en circulación; otros señalan también que la población estaba creciendo. Los historiadores la llaman la **revolución de los precios**: una de las primeras inflaciones largas bien estudiadas, y nació en nuestro continente.
 
 ## Ejercicios
 
