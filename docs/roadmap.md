@@ -34,6 +34,7 @@ Estado actual: **Fase 0 · Definición**. Cada tarea se convierte en un Issue co
 - [ ] Conseguir un grupo piloto de estudiantes
 - [ ] Diseñar medición antes y después
 - [ ] Ejecutar el piloto y recoger retroalimentación
+- [ ] Prueba oral de la Ruta Base de Dinero en Curioso (octubre 2026): [`docs/pilotos/curioso-ruta-base.md`](pilotos/curioso-ruta-base.md)
 - [ ] Retrospectiva y elección del segundo módulo
 
 ## Después
