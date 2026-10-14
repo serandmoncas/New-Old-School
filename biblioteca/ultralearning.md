@@ -10,6 +10,7 @@ texto_libre: null
 temas: [aprender-a-aprender, autocontrol]
 cruza_con:
 - {libro: limitless, por: 'Dos promesas de aprender más rápido; compararlas es un buen ejercicio para separar lo que tiene evidencia de lo que solo se dice.'}
+- {libro: el-arte-de-pensar, por: 'Ultralearning se apoya en historias de gente que lo logró; Dobelli explica por qué eso puede ser sesgo de supervivencia.'}
 - {libro: robinson-crusoe, por: 'Aprender solo y haciendo: Robinson aprende a hornear pan y a hacer vasijas a punta de intentos fallidos.'}
 nodos: []
 estado: propuesta
@@ -23,6 +24,19 @@ actualizado: 2026-10-14
 ## De qué trata
 
 Scott Young cuenta cómo aprender por cuenta propia, de forma intensa y organizada, algo difícil: un idioma, una materia, un oficio. Su ejemplo más conocido es el "Desafío MIT": entre octubre de 2011 y septiembre de 2012 estudió el plan de cuatro años de Ciencias de la Computación del MIT con los materiales que la universidad publica gratis, sin asistir a clases. En español lo publicó Conecta (Penguin Random House) en 2020, con el título *Ultralearning. Aprende más y más rápido, alcanza tus objetivos*.
+
+## Resumen
+
+El libro tiene tres partes:
+
+1. **Qué es el ultraaprendizaje.** Young lo define como una forma de aprender por cuenta propia, intensa y planeada, para dominar una habilidad difícil. Lo muestra con su propio caso y con otros autodidactas:
+   - **El Desafío MIT** (2011-2012): el plan de Computación del MIT en un año, con los materiales gratuitos de la universidad.
+   - **"El año sin inglés"** (2013-2014): con su amigo Vat Jaiswal pasó un año entre España, Brasil, China y Corea del Sur, aprendiendo cada idioma e intentando no hablar inglés. Los dos llegaron a un nivel intermedio en los cuatro.
+   - **Otros casos:** Roger Craig, que estudió con datos de programas anteriores y en 2010 batió el récord de ganancias en un día del concurso *Jeopardy!*; Eric Barone, que aprendió solo programación, dibujo y música para crear el videojuego *Stardew Valley*; y figuras históricas como Benjamin Franklin y Richard Feynman.
+2. **Los nueve principios,** uno por capítulo (ver la tabla más abajo).
+3. **Cómo armar tu propio proyecto:** elegir qué aprender, investigar antes de empezar, reservar el tiempo, y un capítulo sobre la educación de las hermanas Polgár, a quienes su padre educó en casa para ser campeonas de ajedrez.
+
+La tesis es que en un mundo donde las habilidades cambian rápido, saber aprender solo y a fondo es una ventaja enorme, y que eso se puede entrenar.
 
 ## Por qué está en la biblioteca
 
@@ -43,6 +57,23 @@ Este colegio se basa en que cualquiera puede aprender con materiales abiertos, a
 La misma revisión de Dunlosky califica con "utilidad baja" justo lo que más hacen los estudiantes: **releer y subrayar**. Ese contraste es la lección más útil del libro.
 
 Encaja en el frente *Pensar y decidir* del marco curricular ("aprender a aprender"), que todavía no tiene nodos.
+
+## Análisis
+
+**Lo que hace bien.**
+
+- **Se apoya en la investigación donde importa.** Sus dos consejos centrales, recuperar de memoria y repasar espaciado, son las técnicas con más evidencia (ver la tabla).
+- **Es práctico.** Cada principio termina en algo que se puede hacer mañana.
+- **El autor es honesto con sus propios límites,** y eso lo vuelve un buen ejemplo para clase. En su blog revisó el Desafío MIT con reglas más estrictas: sin puntos parciales en los ejercicios largos, habría aprobado 27 de los 33 exámenes finales, no 33. Reconoce que reemplazó las materias de laboratorio por otras teóricas, que no hizo proyecto de grado y que tuvo acceso solo a una parte del material de un estudiante real. Dice que nunca pretendió igualar un título del MIT.
+
+**Sus límites.**
+
+- **Casos de éxito, sin los fracasos.** El libro cuenta las historias de quienes lo lograron, no las de quienes intentaron un proyecto así y lo abandonaron. Es el sesgo de supervivencia que explica *El arte de pensar*: no sabemos cuántos lo intentaron para que estos casos existan.
+- **Intensidad frente a espaciado.** Hacer en un año lo que toma cuatro va en contra de su propio principio de retener con repaso espaciado. A Young se lo criticaron, y él responde que el espaciado importa menos en habilidades complejas que en memorizar datos. Es un punto discutible: la evidencia fuerte del espaciado viene sobre todo de recordar información ([Cepeda y otros, 2006](https://doi.org/10.1037/0033-2909.132.3.354)).
+- **Condiciones que pocos tienen.** Young tenía tiempo libre e internet. El libro casi no habla de cómo aprender así trabajando, cuidando a otros o sin conexión.
+- **Lo que no mide.** Aprobar exámenes no es lo mismo que poder usar lo aprendido. El principio de "ir directo" apunta a eso, pero el Desafío MIT se evaluó sobre todo con exámenes.
+
+**Para el colegio.** Es el libro que mejor describe lo que se le pide a un estudiante de New Old School: aprender con materiales abiertos, a veces sin profesor al lado. Pero hay que adaptarlo: no un año de intensidad, sino **un proyecto pequeño**, por ejemplo 30 días y media hora al día, con los principios que tienen más evidencia (recuperar, repasar espaciado y recibir retroalimentación de un compañero). Y hay que enseñarlo junto con la pregunta de *El arte de pensar*: ¿de quién no oímos hablar?
 
 ## Para leer en clase
 
