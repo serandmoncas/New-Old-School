@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "curriculo/**"
+      - "biblioteca/**"
       - "scripts/**"
       - "docs/plantillas/**"
   push:
@@ -22,6 +23,8 @@ jobs:
       - run: pip install -r scripts/requirements.txt
       - name: Validar encabezados, grafo y estados
         run: python scripts/validar_curriculo.py
+      - name: Validar la biblioteca y su índice
+        run: python scripts/biblioteca.py --comprobar
       - name: Un nodo por PR (los PR de grafo pueden traer encabezados de nodos)
         if: github.event_name == 'pull_request'
         run: |
