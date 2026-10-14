@@ -15,13 +15,14 @@ revision_experta: false
 procedencia:
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: primera versión}
 - {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-13', nota: 'verificación de evidencias con fuentes primarias (Issue #10); correcciones de precisión'}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-14', nota: 'Doña Marta ahorra 5.000 de los 11.000 que gana por semana, no 10.000; decisión y revisión humana de serandmoncas'}
 recursos:
 - {titulo: Experimento del malvavisco de Stanford, url: 'https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment', licencia: CC BY-SA 4.0}
 - {titulo: Historia de las alcancías, url: 'https://en.wikipedia.org/wiki/Piggy_bank', licencia: CC BY-SA 4.0}
 - {titulo: 'Revisiting the Marshmallow Test (Watts, Duncan y Quan, 2018)', url: 'https://doi.org/10.1177/0956797618761661', licencia: referencia}
 - {titulo: 'Rational snacking (Kidd, Palmeri y Aslin, 2013)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3730121/', licencia: referencia}
 - {titulo: 'Tying Odysseus to the Mast: cuentas de compromiso en Filipinas (Ashraf, Karlan y Yin, 2006)', url: 'https://doi.org/10.1162/qjec.2006.121.2.635', licencia: referencia}
-actualizado: '2026-10-13'
+actualizado: '2026-10-14'
 ---
 
 # Ahorro y metas
@@ -67,7 +68,7 @@ La lección: ahorrar no depende solo de aguantarse. Depende de tener una meta cl
 
 En la ciudad, Kevin quiere una bicicleta de 360.000 pesos para ir al colegio. Antes decía "algún día". Ahora tiene meta, cifra y fecha: 30.000 pesos al mes durante un año. Separa esa plata apenas la recibe, en un frasco que no abre, y marca en una hoja cuánto lleva. Ver la línea subir lo ayuda a no rendirse.
 
-En el campo, Doña Marta gana unos 11.000 pesos a la semana con sus huevos. Quiere comprar diez gallinas más, a 25.000 cada una: 250.000 pesos. Si guarda 10.000 a la semana, en 25 semanas las tiene, y con ellas su negocio crece. Su meta no es un gusto: es una inversión.
+En el campo, Doña Marta gana unos 11.000 pesos a la semana con sus huevos. Quiere comprar diez gallinas más, a 25.000 cada una: 250.000 pesos. Si guarda 5.000 a la semana, en 50 semanas (casi un año) las tiene, y con ellas su negocio crece. Su meta no es un gusto: es una inversión.
 
 Una meta convierte "no gastar" en "estar construyendo algo".
 
@@ -101,7 +102,7 @@ Un poco de historia: guardar monedas en un recipiente cerrado es muy antiguo. La
 5. Martín empieza con 20.000 pesos y ahorra 15.000 al mes. Haz una tabla de su ahorro del mes 0 al mes 6 y dibuja la gráfica. ¿Qué forma tiene?
 6. Sara tiene dos metas para dentro de 6 meses: un celular de 300.000 y un paseo de 120.000. Puede ahorrar 50.000 al mes. ¿Le alcanza para las dos? Si no, propón dos soluciones distintas.
 7. Convierte esta meta vaga en una meta concreta con para qué, cuánto y para cuándo: *"Quiero ahorrar más este año"*.
-8. Doña Marta quiere comprar 10 gallinas a 25.000 pesos cada una. ¿Cuánto necesita? ¿Cuántas semanas tarda si ahorra 6.000 a la semana? ¿Y si ahorra 10.000?
+8. Doña Marta quiere comprar 10 gallinas a 25.000 pesos cada una. ¿Cuánto necesita? ¿Cuántas semanas tarda si ahorra 2.500 a la semana? ¿Y si ahorra 4.000?
 
 <details>
 <summary>Soluciones</summary>
@@ -111,7 +112,7 @@ Un poco de historia: guardar monedas en un recipiente cerrado es muy antiguo. La
 5. Ahorro = 20.000 + 15.000 × m. Mes 0: 20.000; mes 1: 35.000; mes 2: 50.000; mes 3: 65.000; mes 4: 80.000; mes 5: 95.000; mes 6: **110.000**. La gráfica es una **línea recta** que sube 15.000 cada mes y empieza en 20.000.
 6. Necesita 300.000 + 120.000 = 420.000, es decir, 420.000 ÷ 6 = 70.000 al mes. Con 50.000 al mes reúne 50.000 × 6 = **300.000**: **no alcanza** para las dos. Soluciones posibles: priorizar una meta y aplazar la otra; extender el plazo (420.000 ÷ 50.000 = 8,4 → 9 meses); aumentar el ahorro mensual reduciendo gustos o con un ingreso extra; buscar una versión más barata de alguna de las dos. Cualquier propuesta es válida si cuadra.
 7. Ejemplo: *"Voy a ahorrar 240.000 pesos para un curso de inglés, guardando 20.000 al mes desde enero hasta diciembre."* Se evalúa que tenga para qué, cuánto y para cuándo, y que la cuenta cuadre.
-8. Necesita 10 × 25.000 = **250.000 pesos**. Con 6.000 a la semana: 250.000 ÷ 6.000 = 41,7 → **42 semanas**. Con 10.000 a la semana: 250.000 ÷ 10.000 = **25 semanas**.
+8. Necesita 10 × 25.000 = **250.000 pesos**. Con 2.500 a la semana: 250.000 ÷ 2.500 = **100 semanas**. Con 4.000 a la semana: 250.000 ÷ 4.000 = 62,5 → **63 semanas**.
 
 </details>
 
