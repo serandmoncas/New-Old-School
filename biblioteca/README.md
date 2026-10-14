@@ -37,6 +37,8 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*La Odisea*](odisea.md) 📖 | Homero | s. VIII a. C. (según la tradición) | viaje, autocontrol | `dinero.ahorro-y-metas` | propuesta |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | Leonardo de Pisa (Fibonacci) | 1202 | matematicas, comercio | `dinero.costo-real-de-un-credito` | propuesta |
 | [*Robinson Crusoe*](robinson-crusoe.md) 📖 | Daniel Defoe | 1719 | necesidad-y-deseo, presupuesto, soledad, viaje | `dinero.necesidad-o-deseo`, `dinero.presupuesto` | propuesta |
+| [*Sin límites*](limitless.md) | Jim Kwik | 2020 | aprender-a-aprender, sesgos | — | propuesta |
+| [*Ultralearning*](ultralearning.md) | Scott H. Young | 2019 | aprender-a-aprender, autocontrol | — | propuesta |
 
 📖 = texto completo libre y legal (dominio público).
 
@@ -55,13 +57,17 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | [*El mercader de Venecia*](mercader-de-venecia.md) | Comerciantes italianos y préstamos: Fibonacci les enseñó a hacer las cuentas; Shakespeare mostró qué pasa cuando un préstamo sale mal. |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md) | Dos libros escritos para comerciantes, con cinco siglos de distancia. |
 | [*Robinson Crusoe*](robinson-crusoe.md) | [*El lobo estepario*](el-lobo-estepario.md) | Dos hombres solos: a Robinson la soledad se la impone un naufragio; Harry Haller la elige. |
+| [*Sin límites*](limitless.md) | [*El arte de pensar*](el-arte-de-pensar.md) | Dobelli enseña a desconfiar de las buenas historias y de la autoridad; sirve para leer con cabeza fría cualquier libro que prometa cambiarte la vida, incluido este. |
+| [*Ultralearning*](ultralearning.md) | [*Robinson Crusoe*](robinson-crusoe.md) | Aprender solo y haciendo: Robinson aprende a hornear pan y a hacer vasijas a punta de intentos fallidos. |
+| [*Ultralearning*](ultralearning.md) | [*Sin límites*](limitless.md) | Dos promesas de aprender más rápido; compararlas es un buen ejercicio para separar lo que tiene evidencia de lo que solo se dice. |
 
 ### Por tema
 
 Dos libros que comparten tema son un cruce posible aunque nadie lo haya escrito aún.
 
 - **ahorro** (guardar hoy para mañana): [*Fábulas de Esopo*](fabulas-de-esopo.md)
-- **autocontrol** (resistir una tentación con un plan): [*El arte de pensar*](el-arte-de-pensar.md), [*La Odisea*](odisea.md)
+- **aprender-a-aprender** (cómo se aprende mejor y qué promesas no tienen evidencia): [*Sin límites*](limitless.md), [*Ultralearning*](ultralearning.md)
+- **autocontrol** (resistir una tentación con un plan): [*El arte de pensar*](el-arte-de-pensar.md), [*La Odisea*](odisea.md), [*Ultralearning*](ultralearning.md)
 - **codicia** (querer más de lo que hace falta, y lo que eso cuesta): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*Fábulas de Esopo*](fabulas-de-esopo.md)
 - **comercio** (comprar, vender e intercambiar): [*El mercader de Venecia*](mercader-de-venecia.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*Liber Abaci (El libro del cálculo)*](liber-abaci.md)
 - **deuda** (deber dinero y lo que pasa si no se paga): [*David Copperfield*](david-copperfield.md), [*El mercader de Venecia*](mercader-de-venecia.md)
@@ -73,7 +79,7 @@ Dos libros que comparten tema son un cruce posible aunque nadie lo haya escrito 
 - **matematicas** (cuentas que cambiaron la historia): [*Liber Abaci (El libro del cálculo)*](liber-abaci.md)
 - **necesidad-y-deseo** (lo que necesito frente a lo que quiero): [*Robinson Crusoe*](robinson-crusoe.md)
 - **presupuesto** (lo que entra frente a lo que sale): [*David Copperfield*](david-copperfield.md), [*Robinson Crusoe*](robinson-crusoe.md)
-- **sesgos** (errores de pensamiento que todos cometemos sin darnos cuenta): [*El arte de pensar*](el-arte-de-pensar.md)
+- **sesgos** (errores de pensamiento que todos cometemos sin darnos cuenta): [*El arte de pensar*](el-arte-de-pensar.md), [*Sin límites*](limitless.md)
 - **soledad** (estar solo, por elección o por fuerza): [*El lobo estepario*](el-lobo-estepario.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **viaje** (salir de casa y volver distinto): [*La Odisea*](odisea.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **vejez-y-proteccion** (de qué vivir cuando ya no se puede trabajar): [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md)
@@ -93,6 +99,8 @@ flowchart LR
   odisea["La Odisea"]
   liber_abaci["Liber Abaci (El libro del cálculo)"]
   robinson_crusoe["Robinson Crusoe"]
+  limitless["Sin límites"]
+  ultralearning["Ultralearning"]
   david_copperfield --- robinson_crusoe
   el_arte_de_pensar --- delirios_multitudinarios
   el_arte_de_pensar --- odisea
@@ -101,9 +109,12 @@ flowchart LR
   fabulas_de_esopo --- delirios_multitudinarios
   liber_abaci --- mercader_de_venecia
   liber_abaci --- ensayo_sobre_el_comercio
+  limitless --- el_arte_de_pensar
   mercader_de_venecia --- david_copperfield
   odisea --- robinson_crusoe
   robinson_crusoe --- el_lobo_estepario
+  ultralearning --- limitless
+  ultralearning --- robinson_crusoe
 ```
 
 <!-- indice:fin -->
