@@ -1,11 +1,11 @@
-# Ahorro y metas · guion para el oído (borrador v1)
+# Ahorro y metas · guion para el oído (borrador v2)
 
 <!--
-Fuente única: New-Old-School, curriculo/dinero/nucleo/ahorro-y-metas.md en b801956 (estado en-revision, responsable serandmoncas).
+Fuente única: New-Old-School, curriculo/dinero/nucleo/ahorro-y-metas.md en cffb410, rama contenido/dinero/ahorro-y-metas-dona-marta (estado en-revision, responsable serandmoncas).
 Escrito con REGLA-NODO-GUION.md v1. No agrega datos. Cifras en palabras.
 Tono del nodo: ahorrar no es solo fuerza de voluntad; nunca sugerir que quien no ahorra es «débil» (nota al docente).
 Fuera a propósito: puente académico (ecuación lineal, alcancía de Priene), ejercicios, caso práctico, errores comunes, nota al docente.
-Borrador de Claude (claude-opus-5-5, 2026-10-14). Revisión humana: aprobado por Sergio Monsalve (@serandmoncas), 2026-10-14.
+Borrador de Claude (claude-opus-5-5, 2026-10-14). Revisión humana: v1 aprobada por Sergio Monsalve (@serandmoncas), 2026-10-14. v2 cambia el ahorro de Doña Marta (5.000, 50 semanas): aprobada por Sergio Monsalve (@serandmoncas), 2026-10-14.
 -->
 
 ANCLA: Una prueba rápida, antes de empezar. Imagina que tienes cinco años. Un adulto te pone un malvavisco enfrente y te dice: «Puedes comértelo ya. Pero si esperas a que yo vuelva, te doy dos». Y se va.
@@ -98,14 +98,13 @@ ANCLA: Ver la línea subir lo ayuda a no rendirse. Ahora vamos al campo. Doña M
 
 PREGUNTA: Diez por veinticinco mil... doscientos cincuenta mil.
 
-ANCLA: Eso. Si guarda diez mil a la semana, en veinticinco semanas las tiene. Y con ellas, su negocio crece.
+ANCLA: Eso. Si guarda cinco mil a la semana, en cincuenta semanas, casi un año, las tiene. Y con ellas, su negocio crece.
 
 PREGUNTA: Entonces su meta no es un gusto.
 
 ANCLA: No. Es una inversión. Una meta convierte «no gastar» en «estar construyendo algo».
 
-<!-- ¿Y a mí qué?: Kevin 360.000, 30.000 al mes, un año, frasco y hoja; Doña Marta 11.000 a la semana, 10 gallinas × 25.000 = 250.000, 10.000 a la semana, 25 semanas.
-OJO revisión: el nodo dice que gana ~11.000/semana y ahorra 10.000 (91 %). Se copia tal cual (fuente única), pero conviene corregir el nodo (Issue #11) antes de narrar. -->
+<!-- ¿Y a mí qué?: Kevin 360.000, 30.000 al mes, un año, frasco y hoja; Doña Marta 11.000 a la semana, 10 gallinas × 25.000 = 250.000, 5.000 a la semana, 50 semanas (casi un año). -->
 
 ---
 
