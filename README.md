@@ -50,13 +50,14 @@ new-old-school/
 │   ├── rubricas.md           ← criterios de calidad por tipo de contenido
 │   ├── kits-de-tarea/        ← prompts + rúbrica + formato para aportar con IA
 │   ├── decisiones/           ← registro de decisiones (ADR)
-│   └── plantillas/           ← plantillas de nodo y de decisión
+│   └── plantillas/           ← plantillas de nodo, de libro y de decisión
 ├── curriculo/
 │   ├── README.md             ← cómo está organizado el currículo
 │   └── dinero/               ← primer módulo
 │       ├── _modulo.yaml      ← el grafo del módulo (nodos y prerrequisitos)
 │       ├── nucleo/           ← contenido universal
 │       └── locales/co/       ← adaptación a Colombia
+├── biblioteca/               ← libros, sus temas y cómo se cruzan entre sí y con los nodos
 ├── plataforma/               ← código de la plataforma (Fase 2)
 ├── scripts/                  ← validador del grafo y generador de nodos
 └── .github/                  ← plantillas de Issues/PR, CODEOWNERS, CI
@@ -69,6 +70,7 @@ pip install pyyaml
 python scripts/validar_curriculo.py          # revisa encabezados, ids, prerrequisitos y ciclos
 python scripts/validar_curriculo.py --grafo  # imprime el grafo en Mermaid
 python scripts/nuevo_nodo.py dinero <slug> "Título del nodo"   # crea un nodo desde la plantilla
+python scripts/biblioteca.py --indice        # valida la biblioteca y actualiza su índice
 ```
 
 ## Licencias
