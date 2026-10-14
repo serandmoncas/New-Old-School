@@ -22,24 +22,34 @@ actualizado: 2026-10-14
 
 ## De qué trata
 
-Scott Young cuenta cómo aprender por cuenta propia, de forma intensa y organizada, algo difícil: un idioma, una materia, un oficio. Su ejemplo más conocido es el "Desafío MIT": entre octubre de 2011 y septiembre de 2012 estudió el plan de cuatro años de Ciencias de la Computación del MIT con los materiales que la universidad publica gratis, sin asistir a clases. El libro reúne lo que aprendió en nueve principios. En español lo publicó Conecta (Penguin Random House) en 2020, con el título *Ultralearning. Aprende más y más rápido, alcanza tus objetivos*.
-
-<!-- VERIFICAR: la lista exacta de los nueve principios (en inglés se citan como metalearning, focus, directness, drill, retrieval, feedback, retention, intuition, experimentation); confirmar con el índice del libro antes de enumerarlos en clase. -->
+Scott Young cuenta cómo aprender por cuenta propia, de forma intensa y organizada, algo difícil: un idioma, una materia, un oficio. Su ejemplo más conocido es el "Desafío MIT": entre octubre de 2011 y septiembre de 2012 estudió el plan de cuatro años de Ciencias de la Computación del MIT con los materiales que la universidad publica gratis, sin asistir a clases. En español lo publicó Conecta (Penguin Random House) en 2020, con el título *Ultralearning. Aprende más y más rápido, alcanza tus objetivos*.
 
 ## Por qué está en la biblioteca
 
-Este colegio se basa en que cualquiera puede aprender con materiales abiertos, aunque no tenga un profesor al lado. Young muestra cómo hacerlo con dos ideas que tienen buen respaldo:
+Este colegio se basa en que cualquiera puede aprender con materiales abiertos, aunque no tenga un profesor al lado. *Ultralearning* es un manual para eso. Lo resume en nueve principios; algunos tienen mucha evidencia detrás y otros son buen sentido común. Vale la pena saber cuál es cuál:
 
-- **Practicar sacando de la memoria, no releyendo.** Cerrar el cuaderno e intentar explicar o resolver sin mirar. Es el "efecto de la prueba", medido por Roediger y Karpicke ([2006](https://doi.org/10.1111/j.1467-9280.2006.01693.x)): quienes practicaron recordando retuvieron más, una semana después, que quienes releyeron.
-- **Aprender haciendo lo que uno quiere saber hacer.** Si quieres hablar un idioma, habla; si quieres arreglar motos, arregla una.
+| Principio | Qué significa | Qué dice la evidencia |
+| --- | --- | --- |
+| Metaaprendizaje | Antes de empezar, hacer el mapa: qué hay que aprender, con qué materiales y cómo lo aprendió otra gente. | Sentido común; no citamos un estudio. |
+| Concentración | Reservar bloques de tiempo protegidos para estudiar. | Sentido común; no citamos un estudio. |
+| Ir directo | Practicar la habilidad real, no un sustituto cómodo: si quieres hablar un idioma, habla. | Sentido común; no citamos un estudio. |
+| Ejercitar lo débil | Separar la parte que más cuesta, practicarla sola y luego volver al conjunto. | Sentido común; no citamos un estudio. |
+| Recuperar | Cerrar el cuaderno e intentar recordar o resolver sin mirar. Ponerse a prueba es una forma de aprender, no solo de medir. | **Fuerte.** Quienes practicaron recordando retuvieron más, una semana después, que quienes releyeron ([Roediger y Karpicke, 2006](https://doi.org/10.1111/j.1467-9280.2006.01693.x)). Una revisión de diez técnicas de estudio le dio "utilidad alta" ([Dunlosky y otros, 2013](https://doi.org/10.1177/1529100612453266)). |
+| Retroalimentación | Buscar que alguien (o algo) te diga en qué fallaste. | **Con matices.** En promedio ayuda, pero en más de un tercio de los casos estudiados empeoró el desempeño, sobre todo cuando se centra en la persona y no en la tarea ([Kluger y DeNisi, 1996](https://doi.org/10.1037/0033-2909.119.2.254)). El propio Young advierte que no toda retroalimentación sirve. |
+| Retener | Repasar espaciado en el tiempo, no todo de una vez la noche antes. | **Fuerte.** El repaso espaciado supera al estudio concentrado ([Cepeda y otros, 2006](https://doi.org/10.1037/0033-2909.132.3.354)); también recibió "utilidad alta" en Dunlosky y otros (2013). |
+| Intuición | Entender a fondo, poder explicarlo con palabras sencillas, en vez de memorizar trucos. | Sentido común; no citamos un estudio. |
+| Experimentar | Probar métodos propios cuando los conocidos ya no alcanzan. | Sentido común; no citamos un estudio. |
+
+La misma revisión de Dunlosky califica con "utilidad baja" justo lo que más hacen los estudiantes: **releer y subrayar**. Ese contraste es la lección más útil del libro.
 
 Encaja en el frente *Pensar y decidir* del marco curricular ("aprender a aprender"), que todavía no tiene nodos.
 
 ## Para leer en clase
 
-El capítulo sobre la práctica de recuperación, y luego un experimento: la mitad del grupo relee un texto y la otra mitad lo lee una vez y escribe todo lo que recuerda. Al día siguiente se comparan. Pregunta: ¿cómo estudias tú, y cómo sabes que funciona?
+El capítulo sobre recuperar, y luego un experimento: la mitad del grupo relee un texto dos veces; la otra mitad lo lee una vez y escribe todo lo que recuerda. Al día siguiente, todos responden las mismas preguntas y se comparan los resultados. Pregunta: ¿cómo estudias tú, y cómo sabes que funciona?
 
 ## Con cuidado
 
-- Young estudió con internet, tiempo libre y sin tener que trabajar para vivir. Hay que decir que no todos tienen esas condiciones, y que el método también sirve a menor escala: media hora al día.
+- Young estudió con internet y con tiempo libre, sin tener que trabajar para vivir. Hay que decir que no todos tienen esas condiciones. El método también sirve a menor escala: media hora al día, con un cuaderno y sin conexión.
+- La lista de los nueve principios se cotejó con varios resúmenes publicados del libro, que coinciden entre sí. Los nombres en español son nuestra traducción.
 - Tiene derechos de autor: en clase se cuenta la idea con palabras propias.
