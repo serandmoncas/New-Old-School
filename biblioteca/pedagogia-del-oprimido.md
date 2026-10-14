@@ -7,7 +7,7 @@ publicado: '1970'
 tipo: ensayo
 acceso: con-derechos
 texto_libre: null
-temas: [educacion, justicia]
+temas: [educacion, justicia, aprender-a-aprender]
 cruza_con:
 - {libro: el-maestro-ignorante, por: 'Dos críticas al maestro que solo "deposita" o "explica": Freire propone el diálogo; Rancière, la igualdad de las inteligencias.'}
 nodos: []

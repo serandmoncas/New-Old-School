@@ -7,7 +7,7 @@ publicado: '2018'
 tipo: divulgacion
 acceso: con-derechos
 texto_libre: null
-temas: [habitos, autocontrol, ahorro]
+temas: [habitos, autocontrol, ahorro, aprender-a-aprender]
 cruza_con:
 - {libro: odisea, por: 'Diseñar el entorno para no caer en la tentación es la versión moderna de atarse al mástil.'}
 nodos: [dinero.ahorro-y-metas, dinero.interes-compuesto]

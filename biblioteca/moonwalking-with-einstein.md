@@ -7,7 +7,7 @@ publicado: '2011'
 tipo: divulgacion
 acceso: con-derechos
 texto_libre: null
-temas: [memoria, talento-y-practica]
+temas: [memoria, talento-y-practica, aprender-a-aprender]
 cruza_con:
 - {libro: limitless, por: 'El palacio de la memoria: Kwik lo enseña como técnica; Foer cuenta cómo lo aprendió y hasta dónde llega.'}
 nodos: []

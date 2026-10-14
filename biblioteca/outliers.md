@@ -7,7 +7,7 @@ publicado: '2008'
 tipo: divulgacion
 acceso: con-derechos
 texto_libre: null
-temas: [talento-y-practica]
+temas: [talento-y-practica, aprender-a-aprender]
 cruza_con: []
 nodos: []
 estado: propuesta

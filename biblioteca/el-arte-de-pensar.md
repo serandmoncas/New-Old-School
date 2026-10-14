@@ -7,7 +7,7 @@ publicado: '2011'
 tipo: divulgacion
 acceso: con-derechos
 texto_libre: null
-temas: [sesgos, especulacion, autocontrol]
+temas: [sesgos, especulacion, autocontrol, aprender-a-aprender]
 cruza_con:
 - {libro: delirios-multitudinarios, por: 'Dobelli explica en un capítulo la prueba social; Mackay muestra a países enteros cayendo en ella.'}
 - {libro: odisea, por: 'El descuento hiperbólico (preferir el premio de hoy) es el problema; atarse al mástil, una solución.'}
