@@ -8,12 +8,12 @@ nodo_base: null
 nivel: 2
 prerrequisitos: [dinero.interes-compuesto]
 conecta_con: [matematicas.crecimiento-exponencial, pensar.sesgos-cognitivos]
-estado: pendiente
-responsable: null
+estado: en-revision
+responsable: serandmoncas
 revisores: []
 revision_experta: false
 procedencia:
-- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-14', nota: 'primera versión, nodo de referencia; hechos históricos verificados en las fuentes; falta revisión humana'}
+- {autor: claude, modelo: claude-opus-5-5, fecha: '2026-10-14', nota: 'primera versión, nodo de referencia; hechos históricos verificados en las fuentes; aprobada por serandmoncas para revisión'}
 recursos:
 - {titulo: Esquema Ponzi, url: 'https://es.wikipedia.org/wiki/Esquema_Ponzi', licencia: CC BY-SA 4.0}
 - {titulo: Charles Ponzi, url: 'https://en.wikipedia.org/wiki/Charles_Ponzi', licencia: CC BY-SA 4.0}
