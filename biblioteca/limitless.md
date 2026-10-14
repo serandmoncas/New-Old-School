@@ -28,7 +28,17 @@ Jim Kwik es un "entrenador del cerebro" estadounidense. Cuenta que de niño sufr
 3. **Motivación:** propósito, energía, pasos pequeños y "flujo".
 4. **Métodos:** concentración, estudio, memoria, **lectura rápida** (capítulo 14) y pensamiento.
 
-Lo publicó Hay House en 2020; en español, Urano lo publicó en 2022 con el título *Sin límites*. Una edición ampliada posterior agrega capítulos sobre inteligencia artificial, nutrición y "nootrópicos" (suplementos para el cerebro).
+Lo publicó Hay House en 2020; en español, Urano lo publicó en 2022 con el título *Sin límites*. La edición ampliada (Hay House, 2023) agrega cuatro capítulos: inteligencia artificial, nutrición y "nootrópicos" (suplementos para el cerebro), trabajo remoto y un test para descubrir tu "animal cerebral".
+
+## Resumen
+
+El libro avanza en el mismo orden que su modelo, que Kwik llama "sin límites": primero se cambia la **mentalidad**, después se encuentra la **motivación** y al final se aprenden los **métodos**.
+
+- **Mentalidad.** Kwik dice que nos limitan "siete mentiras del aprendizaje": que la inteligencia es fija, que solo usamos el 10 % del cerebro, que equivocarse es fracasar, que el conocimiento es poder (para él, solo lo es si se aplica), que aprender cosas nuevas es muy difícil, que la crítica de los demás importa y que el genio se nace.
+- **Motivación.** Tener un propósito, cuidar la energía (sueño, comida, ejercicio), avanzar con pasos pequeños y buscar el estado de "flujo", cuando uno está tan concentrado que pierde la noción del tiempo.
+- **Métodos.** Técnicas de concentración, de estudio, de memoria (como el palacio de la memoria), de lectura rápida y de pensamiento. La más citada es su método **FASTER** (en inglés, "más rápido"): *olvidar* lo que crees saber y las distracciones, *actuar* (tomar notas, ponerse a prueba), cuidar el *estado* de ánimo, estudiar como si fueras a *enseñarlo*, *agendar* el tiempo de estudio y *repasar*.
+
+La tesis es que el cerebro no tiene un límite fijo y que cualquiera puede aprender mucho más rápido con las creencias y las técnicas correctas.
 
 ## Por qué está en la biblioteca
 
@@ -46,6 +56,23 @@ Por dos razones:
 
 Leerlo junto con *Ultralearning* y *El arte de pensar* enseña algo que el colegio quiere que todo estudiante sepa hacer: **separar lo comprobado de lo que solo "se dice"**, como en la sección de evidencia de cada nodo.
 
+## Análisis
+
+**Lo que hace bien.**
+
+- **Derriba un mito.** Lo de que "solo usamos el 10 % del cerebro" es falso, y Kwik lo dice. También insiste en que equivocarse es parte de aprender.
+- **Parte de su método FASTER coincide con la evidencia.** *Actuar* (ponerse a prueba) y *repasar* son las dos técnicas con más respaldo ([Dunlosky y otros, 2013](https://doi.org/10.1177/1529100612453266)). Y *estudiar como si fueras a enseñarlo* también tiene apoyo: en dos experimentos, quienes estudiaron un texto creyendo que luego lo iban a enseñar lo recordaron mejor y más organizado que quienes esperaban un examen, aunque al final nadie enseñó ([Nestojko y otros, 2014](https://doi.org/10.3758/s13421-014-0416-z)).
+- **Su historia motiva.** Un niño con una lesión cerebral que aprendió a leer con cómics es una buena puerta para estudiantes que creen que "no sirven para estudiar".
+
+**Sus límites.**
+
+- **Mezcla lo comprobado con lo que no lo está, con la misma seguridad.** El libro no le da al lector forma de distinguir *repasar*, que tiene décadas de investigación, de la lectura rápida, que no resiste la evidencia ([Rayner y otros, 2016](https://doi.org/10.1177/1529100615623267)), o de los suplementos de la edición ampliada.
+- **La autoridad viene de la historia personal, no de la investigación.** Kwik es entrenador y empresario, no investigador. Las evaluaciones independientes de su curso de lectura rápida, escritas por lectores que lo probaron, reportan mejoras mucho menores que las prometidas.
+- **El libro también vende.** Kwik dirige una empresa de cursos pagados sobre los mismos temas. No invalida lo que dice, pero es una razón para pedir más pruebas. Algo parecido pasó con la investigación sobre mentalidad de crecimiento: los estudios de autores con interés económico encontraron efectos mayores ([Macnamara y Burgoyne, 2023](https://doi.org/10.1037/bul0000352); ver *Mindset*).
+- **"Sin límites" es una promesa, no un hallazgo.** El cerebro cambia con la práctica, pero eso no significa que cualquiera pueda aprender cualquier cosa a cualquier velocidad. La promesa puede hacer sentir culpable a quien no lo logra.
+
+**Para el colegio.** Es el mejor libro de la biblioteca para un ejercicio de evidencia, justamente porque mezcla lo bueno con lo dudoso. Se puede hacer una tabla con los estudiantes: cada consejo del libro en una fila y, al lado, qué dice la investigación (sólido, con matices, sin estudio, en contra). Al final del ejercicio, el estudiante se queda con lo que sirve (ponerse a prueba, repasar, estudiar para enseñar) y con algo más valioso: la costumbre de preguntar "¿cómo lo sabemos?".
+
 ## Para leer en clase
 
 Dos actividades:
@@ -58,5 +85,5 @@ Pregunta: ¿qué te haría creerle a un libro que promete que vas a aprender el 
 ## Con cuidado
 
 - No se trata de burlarse del autor ni de quien lo lee. La meta es aprender a preguntar "¿cómo lo sabemos?".
-- La estructura en cuatro partes se cotejó con varios resúmenes publicados del libro, que coinciden entre sí; los títulos en español son nuestra traducción.
+- La estructura en cuatro partes, las siete "mentiras" y el método FASTER se cotejaron con varios resúmenes publicados del libro, que coinciden entre sí; la traducción es nuestra.
 - Tiene derechos de autor: se citan frases cortas y se cuenta la idea con palabras propias.
