@@ -58,6 +58,8 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 **Ya tienen ficha (tanda 5, 2026-10-14):** *21 lecciones para el siglo XXI*, *Hablar con extraños* (*Talking to Strangers*), *Deberías hablar con alguien* (*Maybe You Should Talk to Someone*), *Los innovadores* (*The Innovators*) y *¡Bienvenidos al universo!* (*Welcome to the Universe*).
 
+**Ya tienen ficha (tanda 6, 2026-10-14):** *El poder de ser vulnerable* (*Daring Greatly*), *Los 7 hábitos de la gente altamente efectiva*, *Malcolm X: una autobiografía*, *Martin Luther King Jr.: textos y discursos radicales* (*The Radical King*) y *Por qué dormimos* (*Why We Sleep*).
+
 ### Dinero y emprender (frente 1)
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
@@ -76,14 +78,12 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Daring Greatly* | Brené Brown | 0 | media | Vulnerabilidad y vergüenza; popular entre docentes. |
 | *En el limbo* | Estanislao Bachrach | 0 | baja | Divulgación latinoamericana sobre emociones; conviene revisar su respaldo científico. |
 
 ### Trabajo y hábitos (frente 7)
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Los 7 hábitos de la gente altamente efectiva* | Stephen R. Covey | 0 | media | Clásico de la autoayuda; caso para comparar con la evidencia. |
 | *Focus* | Daniel Goleman | 0 | baja | Atención y concentración; se cruza con *Enfócate*. |
 | *Start with Why* | Simon Sinek | 0 | baja | Liderazgo y propósito; más útil para adultos. |
 
@@ -92,8 +92,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
 | *Caffeine* | Michael Pollan | 0 | baja | Historia y química de la cafeína; corto. |
-| *The Autobiography of Malcolm X* | Malcolm X y Alex Haley | 0 | media | Autobiografía clave de los derechos civiles; temas de violencia y racismo para los grados mayores. |
-| *The Radical King* | Martin Luther King Jr. (ed. Cornel West) | 0 | media | Textos de King; se cruza con Malcolm X y con *Pedagogía del oprimido*. |
 | *First They Killed My Father* | Loung Ung | 0 | baja | Memorias del genocidio en Camboya contadas por una niña; muy duro, para los grados mayores. |
 | *A Promised Land* | Barack Obama | 0 | baja | Memorias políticas; largo. |
 
@@ -101,7 +99,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Why We Sleep* | Matthew Walker | 0 | media | El sueño en la adolescencia es un tema del frente 3, pero varias afirmaciones del libro fueron criticadas por exageradas: buen caso de evidencia. |
 | *Unwinding Anxiety* | Judson Brewer | 0 | baja | Ansiedad y hábitos, con base en investigación del autor. |
 | *Scattered Minds* | Gabor Maté | 0 | baja | Su explicación del TDAH es discutida; solo con revisión experta. |
 
