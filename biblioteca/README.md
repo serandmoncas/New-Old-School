@@ -29,14 +29,17 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 
 | Libro | Autor | Publicado | Temas | Nodos | Estado |
 | --- | --- | --- | --- | --- | --- |
+| [*A More Beautiful Question*](a-more-beautiful-question.md) | Warren Berger | 2014 | curiosidad, educacion | — | propuesta |
 | [*Aprender a aprender*](learning-how-to-learn.md) | Barbara Oakley y Terrence Sejnowski, con Alistair McConville | 2018 | aprender-a-aprender, concentracion, memoria | — | propuesta |
 | [*Apréndetelo*](make-it-stick.md) | Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel | 2014 | aprender-a-aprender, memoria | — | propuesta |
 | [*Comunicación no violenta*](comunicacion-no-violenta.md) | Marshall B. Rosenberg | 1999 | comunicacion, justicia | — | propuesta |
 | [*David Copperfield*](david-copperfield.md) 📖 | Charles Dickens | 1849-1850 | presupuesto, deuda, dignidad | `dinero.ingresos-y-gastos`, `dinero.presupuesto` | propuesta |
 | [*Delirios multitudinarios*](delirios-multitudinarios.md) 📖 | Charles Mackay | 1841 | especulacion, codicia | `dinero.estafas-y-piramides`, `dinero.invertir-lo-basico`, `dinero.inflacion` | propuesta |
+| [*Design de vida*](designing-your-life.md) | Bill Burnett y Dave Evans | 2016 | vocacion, emprendimiento | `dinero.trabajo-independiente`, `dinero.emprender-con-numeros` | propuesta |
 | [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md) | Juan Felipe Builes Jaramillo | 2003 | educacion, aprender-a-aprender | — | propuesta |
 | [*El arte de pensar*](el-arte-de-pensar.md) | Rolf Dobelli | 2011 | sesgos, especulacion, autocontrol, aprender-a-aprender | `dinero.estafas-y-piramides`, `dinero.interes-compuesto`, `dinero.ahorro-y-metas`, `dinero.invertir-lo-basico`, `dinero.costo-real-de-un-credito` | propuesta |
 | [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md) | Gabriel García Márquez | 1961 | vejez-y-proteccion, dignidad | `dinero.primer-salario-y-seguridad-social` | propuesta |
+| [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | Viktor E. Frankl | 1946 | sentido, dignidad | — | propuesta |
 | [*El lobo estepario*](el-lobo-estepario.md) | Hermann Hesse | 1927 | identidad, soledad | — | propuesta |
 | [*El maestro ignorante*](el-maestro-ignorante.md) | Jacques Rancière | 1987 | educacion, aprender-a-aprender | — | propuesta |
 | [*El mercader de Venecia*](mercader-de-venecia.md) 📖 | William Shakespeare | hacia 1596-1598 | deuda, justicia, comercio | `dinero.deuda-buena-y-mala`, `dinero.costo-real-de-un-credito` | propuesta |
@@ -54,11 +57,13 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Paulo Freire | 1970 | educacion, justicia, aprender-a-aprender | — | propuesta |
 | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Daniel Kahneman | 2011 | sesgos, matematicas | `dinero.estafas-y-piramides`, `dinero.invertir-lo-basico`, `dinero.costo-real-de-un-credito`, `dinero.seguros` | propuesta |
 | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | Sofía Macías | 2011 | ahorro, presupuesto, deuda | `dinero.ingresos-y-gastos`, `dinero.presupuesto`, `dinero.ahorro-y-metas`, `dinero.deuda-buena-y-mala`, `dinero.tarjetas-de-credito`, `dinero.invertir-lo-basico` | propuesta |
+| [*Portarse mal*](misbehaving.md) | Richard H. Thaler | 2015 | sesgos, presupuesto, ahorro | `dinero.presupuesto`, `dinero.ahorro-y-metas`, `dinero.necesidad-o-deseo`, `dinero.invertir-lo-basico` | propuesta |
 | [*Robinson Crusoe*](robinson-crusoe.md) 📖 | Daniel Defoe | 1719 | necesidad-y-deseo, presupuesto, soledad, viaje | `dinero.necesidad-o-deseo`, `dinero.presupuesto` | propuesta |
 | [*Sin límites*](limitless.md) | Jim Kwik | 2020 | aprender-a-aprender, sesgos | — | propuesta |
 | [*Summerhill*](summerhill.md) | A. S. Neill | 1960 | educacion, aprender-a-aprender | — | propuesta |
 | [*Ultralearning*](ultralearning.md) | Scott H. Young | 2019 | aprender-a-aprender, autocontrol | — | propuesta |
 | [*Un pequeño empujón*](nudge.md) | Richard H. Thaler y Cass R. Sunstein | 2008 | sesgos, ahorro, habitos | `dinero.ahorro-y-metas`, `dinero.presupuesto`, `dinero.tarjetas-de-credito` | propuesta |
+| [*Una buena vida*](the-good-life.md) | Robert Waldinger y Marc Schulz | 2023 | relaciones, necesidad-y-deseo, sentido | `dinero.necesidad-o-deseo` | propuesta |
 
 📖 = texto completo libre y legal (dominio público).
 
@@ -66,6 +71,9 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 
 | Libro | Se cruza con | Por qué |
 | --- | --- | --- |
+| [*A More Beautiful Question*](a-more-beautiful-question.md) | [*Design de vida*](designing-your-life.md) | Los dos vienen del pensamiento de diseño: entender el problema, imaginar opciones y probarlas. |
+| [*A More Beautiful Question*](a-more-beautiful-question.md) | [*El maestro ignorante*](el-maestro-ignorante.md) | Jacotot no explicaba: preguntaba y dejaba que los estudiantes buscaran. Berger defiende lo mismo para cualquier edad. |
+| [*A More Beautiful Question*](a-more-beautiful-question.md) | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Freire criticó la escuela que solo da respuestas; Berger muestra qué pasa cuando se enseña a preguntar. |
 | [*Aprender a aprender*](learning-how-to-learn.md) | [*Enfócate*](deep-work.md) | Dos maneras de concentrarse: bloques cortos de 25 minutos con descanso (Oakley) o bloques largos sin distracciones (Newport). |
 | [*Apréndetelo*](make-it-stick.md) | [*Aprender a aprender*](learning-how-to-learn.md) | Las mismas ideas sobre cómo se aprende: una versión para adultos y otra para niños y adolescentes. |
 | [*Apréndetelo*](make-it-stick.md) | [*Ultralearning*](ultralearning.md) | Apréndetelo es la ciencia detrás de dos principios de Ultralearning: recuperar y retener. |
@@ -73,6 +81,8 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Comunicación no violenta*](comunicacion-no-violenta.md) | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Los dos ponen el diálogo en el centro: Freire para educar, Rosenberg para resolver conflictos. |
 | [*Comunicación no violenta*](comunicacion-no-violenta.md) | [*Summerhill*](summerhill.md) | Resolver los conflictos sin castigos ni culpas: la asamblea de Neill y las cuatro preguntas de Rosenberg. |
 | [*David Copperfield*](david-copperfield.md) | [*Robinson Crusoe*](robinson-crusoe.md) | Dos maneras de llevar cuentas: la regla de Micawber y la lista de males y bienes de Robinson. |
+| [*Design de vida*](designing-your-life.md) | [*La Odisea*](odisea.md) | Los autores llaman "planes Odisea" a imaginar tres caminos posibles para los próximos cinco años; Ulises tampoco volvió por la ruta que había planeado. |
+| [*Design de vida*](designing-your-life.md) | [*Mindset, la actitud del éxito*](mindset.md) | Los dos ven el fracaso como parte del proceso: Dweck lo explica con la mentalidad de crecimiento; Burnett y Evans proponen anotar los fracasos para aprender de ellos. |
 | [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md) | [*Apréndetelo*](make-it-stick.md) | Coinciden en que vivir algo no basta para aprenderlo: hace falta reflexionar (Builes) o recuperar de memoria (Apréndetelo). |
 | [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md) | [*Emilio, o De la educación*](emilio.md) | Rousseau aparece entre las bases filosóficas de la educación experiencial: aprender de las cosas y no de los discursos. |
 | [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md) | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Los dos parten de John Dewey: Freire lo lleva a la alfabetización de adultos y la justicia social; Builes, a los talleres de aventura en grupo. |
@@ -81,6 +91,8 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*El arte de pensar*](el-arte-de-pensar.md) | [*Hábitos atómicos*](atomic-habits.md) | Dobelli dice que la fuerza de voluntad se agota; Clear propone no depender de ella y cambiar el entorno. |
 | [*El arte de pensar*](el-arte-de-pensar.md) | [*La Odisea*](odisea.md) | El descuento hiperbólico (preferir el premio de hoy) es el problema; atarse al mástil, una solución. |
 | [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md) | [*David Copperfield*](david-copperfield.md) | Pobreza con dignidad: el coronel y Micawber mantienen las apariencias aunque no tienen con qué. |
+| [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md) | Sostenerse cuando falta todo: el coronel espera una carta; Frankl, volver a ver a los suyos. |
+| [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | [*Mindset, la actitud del éxito*](mindset.md) | Los dos dicen que la actitud cuenta, y los dos corren el riesgo de culpar a quien no pudo con circunstancias que no eligió. |
 | [*El maestro ignorante*](el-maestro-ignorante.md) | [*Ultralearning*](ultralearning.md) | Aprender sin que nadie te explique: Jacotot en 1818 y Scott Young con los cursos abiertos del MIT. |
 | [*El mercader de Venecia*](mercader-de-venecia.md) | [*David Copperfield*](david-copperfield.md) | Dos deudores: Antonio pone su propio cuerpo como garantía; Micawber termina en la cárcel por deudas. |
 | [*Emilio, o De la educación*](emilio.md) | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Dos raíces de la educación activa, separadas por dos siglos: aprender de la experiencia (Rousseau) y del diálogo sobre la propia realidad (Freire). |
@@ -104,6 +116,9 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | [*David Copperfield*](david-copperfield.md) | La regla de Micawber y el presupuesto de Macías dicen lo mismo con 160 años de distancia: gastar un poco menos de lo que entra. |
 | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | [*Fábulas de Esopo*](fabulas-de-esopo.md) | Los gastos hormiga y la hormiga de la fábula: dos maneras de explicar que lo pequeño, repetido, se vuelve grande. |
 | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | [*Hábitos atómicos*](atomic-habits.md) | Ahorrar como un hábito pequeño y automático, no como un esfuerzo heroico. |
+| [*Portarse mal*](misbehaving.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | La misma historia vista desde dos lados: Kahneman desde la psicología, Thaler desde la economía. Trabajaron juntos. |
+| [*Portarse mal*](misbehaving.md) | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | Macías enseña a ver los gastos hormiga; Thaler explica por qué se escapan: no tratamos igual todo el dinero, depende del cajón mental donde lo ponemos. |
+| [*Portarse mal*](misbehaving.md) | [*Un pequeño empujón*](nudge.md) | Misbehaving cuenta cómo nació la idea de los empujones y cómo llegó a los gobiernos. |
 | [*Robinson Crusoe*](robinson-crusoe.md) | [*El lobo estepario*](el-lobo-estepario.md) | Dos hombres solos: a Robinson la soledad se la impone un naufragio; Harry Haller la elige. |
 | [*Sin límites*](limitless.md) | [*El arte de pensar*](el-arte-de-pensar.md) | Dobelli enseña a desconfiar de las buenas historias y de la autoridad; sirve para leer con cabeza fría cualquier libro que prometa cambiarte la vida, incluido este. |
 | [*Summerhill*](summerhill.md) | [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md) | El "reto por opción" y las clases voluntarias de Summerhill comparten una idea: nadie aprende a la fuerza. |
@@ -115,48 +130,58 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Un pequeño empujón*](nudge.md) | [*Hábitos atómicos*](atomic-habits.md) | Los dos dicen que el entorno pesa más que la fuerza de voluntad: Clear lo aplica a uno mismo; Thaler y Sunstein, a quien diseña las opciones de otros. |
 | [*Un pequeño empujón*](nudge.md) | [*La Odisea*](odisea.md) | Ahorrar Más Mañana es atarse al mástil: comprometerse hoy a ahorrar los aumentos de sueldo que vendrán. |
 | [*Un pequeño empujón*](nudge.md) | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | Ahorrar de forma automática, para no depender de acordarse ni de la fuerza de voluntad. |
+| [*Una buena vida*](the-good-life.md) | [*Comunicación no violenta*](comunicacion-no-violenta.md) | Waldinger dice que las relaciones se cuidan como la salud; Rosenberg da una forma concreta de hacerlo cuando hay conflicto. |
+| [*Una buena vida*](the-good-life.md) | [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | Frankl se sostuvo pensando en su esposa; 85 años de datos dicen que las relaciones son lo que más pesa en una buena vida. |
+| [*Una buena vida*](the-good-life.md) | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | El dinero sí importa para estar bien, pero no reemplaza a los amigos: un buen par para el nodo Necesidad o deseo. |
 
 ### Por tema
 
 Dos libros que comparten tema son un cruce posible aunque nadie lo haya escrito aún.
 
-- **ahorro** (guardar hoy para mañana): [*Fábulas de Esopo*](fabulas-de-esopo.md), [*Hábitos atómicos*](atomic-habits.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Un pequeño empujón*](nudge.md)
+- **ahorro** (guardar hoy para mañana): [*Fábulas de Esopo*](fabulas-de-esopo.md), [*Hábitos atómicos*](atomic-habits.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Un pequeño empujón*](nudge.md)
 - **aprender-a-aprender** (cómo se aprende mejor y qué promesas no tienen evidencia): [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El arte de pensar*](el-arte-de-pensar.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Enfócate*](deep-work.md), [*Fuera de serie*](outliers.md), [*Hábitos atómicos*](atomic-habits.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md), [*Mindset, la actitud del éxito*](mindset.md), [*Número uno*](peak.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Sin límites*](limitless.md), [*Summerhill*](summerhill.md), [*Ultralearning*](ultralearning.md)
 - **autocontrol** (resistir una tentación con un plan): [*El arte de pensar*](el-arte-de-pensar.md), [*Hábitos atómicos*](atomic-habits.md), [*La Odisea*](odisea.md), [*Ultralearning*](ultralearning.md)
 - **codicia** (querer más de lo que hace falta, y lo que eso cuesta): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*Fábulas de Esopo*](fabulas-de-esopo.md)
-- **concentracion** (prestar atención a una sola cosa sin distraerse): [*Aprender a aprender*](learning-how-to-learn.md), [*Enfócate*](deep-work.md)
-- **comunicacion** (hablar y escuchar para entenderse, también en un conflicto): [*Comunicación no violenta*](comunicacion-no-violenta.md)
 - **comercio** (comprar, vender e intercambiar): [*El mercader de Venecia*](mercader-de-venecia.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*Liber Abaci (El libro del cálculo)*](liber-abaci.md)
+- **comunicacion** (hablar y escuchar para entenderse, también en un conflicto): [*Comunicación no violenta*](comunicacion-no-violenta.md)
+- **concentracion** (prestar atención a una sola cosa sin distraerse): [*Aprender a aprender*](learning-how-to-learn.md), [*Enfócate*](deep-work.md)
+- **curiosidad** (hacerse preguntas y querer saber): [*A More Beautiful Question*](a-more-beautiful-question.md)
 - **deuda** (deber dinero y lo que pasa si no se paga): [*David Copperfield*](david-copperfield.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md)
-- **dignidad** (sostenerse cuando falta todo): [*David Copperfield*](david-copperfield.md), [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md)
-- **educacion** (qué es enseñar, quién enseña y para qué se aprende): [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Summerhill*](summerhill.md)
-- **emprendimiento** (arriesgar para crear algo propio): [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md)
+- **dignidad** (sostenerse cuando falta todo): [*David Copperfield*](david-copperfield.md), [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md), [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md)
+- **educacion** (qué es enseñar, quién enseña y para qué se aprende): [*A More Beautiful Question*](a-more-beautiful-question.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Summerhill*](summerhill.md)
+- **emprendimiento** (arriesgar para crear algo propio): [*Design de vida*](designing-your-life.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md)
 - **especulacion** (comprar porque otros compran (burbujas y pirámides)): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*El arte de pensar*](el-arte-de-pensar.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md)
 - **habitos** (lo que hacemos sin pensar y cómo se cambia): [*Hábitos atómicos*](atomic-habits.md), [*Un pequeño empujón*](nudge.md)
 - **identidad** (quién soy y de cuántas piezas estoy hecho): [*El lobo estepario*](el-lobo-estepario.md), [*Mindset, la actitud del éxito*](mindset.md)
 - **justicia** (qué es justo cuando alguien no puede cumplir): [*Comunicación no violenta*](comunicacion-no-violenta.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md)
 - **matematicas** (cuentas que cambiaron la historia): [*Liber Abaci (El libro del cálculo)*](liber-abaci.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md)
 - **memoria** (cómo recordamos y cómo se entrena): [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md)
-- **necesidad-y-deseo** (lo que necesito frente a lo que quiero): [*Robinson Crusoe*](robinson-crusoe.md)
-- **presupuesto** (lo que entra frente a lo que sale): [*David Copperfield*](david-copperfield.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Robinson Crusoe*](robinson-crusoe.md)
-- **sesgos** (errores de pensamiento que todos cometemos sin darnos cuenta): [*El arte de pensar*](el-arte-de-pensar.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md), [*Sin límites*](limitless.md), [*Un pequeño empujón*](nudge.md)
+- **necesidad-y-deseo** (lo que necesito frente a lo que quiero): [*Robinson Crusoe*](robinson-crusoe.md), [*Una buena vida*](the-good-life.md)
+- **presupuesto** (lo que entra frente a lo que sale): [*David Copperfield*](david-copperfield.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Robinson Crusoe*](robinson-crusoe.md)
+- **relaciones** (amigos, familia y pareja, y cuánto pesan en una buena vida): [*Una buena vida*](the-good-life.md)
+- **sentido** (para qué vivir, también cuando las cosas van mal): [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md), [*Una buena vida*](the-good-life.md)
+- **sesgos** (errores de pensamiento que todos cometemos sin darnos cuenta): [*El arte de pensar*](el-arte-de-pensar.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md), [*Portarse mal*](misbehaving.md), [*Sin límites*](limitless.md), [*Un pequeño empujón*](nudge.md)
 - **soledad** (estar solo, por elección o por fuerza): [*El lobo estepario*](el-lobo-estepario.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **talento-y-practica** (cuánto pesa lo innato y cuánto la práctica): [*Fuera de serie*](outliers.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md), [*Mindset, la actitud del éxito*](mindset.md), [*Número uno*](peak.md)
-- **viaje** (salir de casa y volver distinto): [*La Odisea*](odisea.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **vejez-y-proteccion** (de qué vivir cuando ya no se puede trabajar): [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md)
+- **viaje** (salir de casa y volver distinto): [*La Odisea*](odisea.md), [*Robinson Crusoe*](robinson-crusoe.md)
+- **vocacion** (qué hacer con la vida y con el trabajo): [*Design de vida*](designing-your-life.md)
 
 ### Mapa
 
 ```mermaid
 flowchart LR
+  a_more_beautiful_question["A More Beautiful Question"]
   learning_how_to_learn["Aprender a aprender"]
   make_it_stick["Apréndetelo"]
   comunicacion_no_violenta["Comunicación no violenta"]
   david_copperfield["David Copperfield"]
   delirios_multitudinarios["Delirios multitudinarios"]
+  designing_your_life["Design de vida"]
   el_abordaje_de_la_educacion_experiencial["El abordaje de la educación experiencial"]
   el_arte_de_pensar["El arte de pensar"]
   el_coronel_no_tiene_quien_le_escriba["El coronel no tiene quien le escriba"]
+  el_hombre_en_busca_de_sentido["El hombre en busca de sentido"]
   el_lobo_estepario["El lobo estepario"]
   el_maestro_ignorante["El maestro ignorante"]
   mercader_de_venecia["El mercader de Venecia"]
@@ -174,17 +199,24 @@ flowchart LR
   pedagogia_del_oprimido["Pedagogía del oprimido"]
   pensar_rapido_pensar_despacio["Pensar rápido, pensar despacio"]
   pequeno_cerdo_capitalista["Pequeño cerdo capitalista"]
+  misbehaving["Portarse mal"]
   robinson_crusoe["Robinson Crusoe"]
   limitless["Sin límites"]
   summerhill["Summerhill"]
   ultralearning["Ultralearning"]
   nudge["Un pequeño empujón"]
+  the_good_life["Una buena vida"]
+  a_more_beautiful_question --- pedagogia_del_oprimido
+  a_more_beautiful_question --- el_maestro_ignorante
+  a_more_beautiful_question --- designing_your_life
   atomic_habits --- odisea
   comunicacion_no_violenta --- pedagogia_del_oprimido
   comunicacion_no_violenta --- summerhill
   comunicacion_no_violenta --- el_arte_de_pensar
   david_copperfield --- robinson_crusoe
   deep_work --- ultralearning
+  designing_your_life --- odisea
+  designing_your_life --- mindset
   el_abordaje_de_la_educacion_experiencial --- emilio
   el_abordaje_de_la_educacion_experiencial --- pedagogia_del_oprimido
   el_abordaje_de_la_educacion_experiencial --- make_it_stick
@@ -193,6 +225,8 @@ flowchart LR
   el_arte_de_pensar --- make_it_stick
   el_arte_de_pensar --- atomic_habits
   el_coronel_no_tiene_quien_le_escriba --- david_copperfield
+  el_hombre_en_busca_de_sentido --- el_coronel_no_tiene_quien_le_escriba
+  el_hombre_en_busca_de_sentido --- mindset
   el_maestro_ignorante --- ultralearning
   emilio --- robinson_crusoe
   emilio --- pedagogia_del_oprimido
@@ -207,6 +241,9 @@ flowchart LR
   mercader_de_venecia --- david_copperfield
   mindset --- limitless
   mindset --- outliers
+  misbehaving --- pensar_rapido_pensar_despacio
+  misbehaving --- nudge
+  misbehaving --- pequeno_cerdo_capitalista
   moonwalking_with_einstein --- limitless
   nudge --- atomic_habits
   nudge --- odisea
@@ -225,6 +262,9 @@ flowchart LR
   summerhill --- emilio
   summerhill --- el_maestro_ignorante
   summerhill --- el_abordaje_de_la_educacion_experiencial
+  the_good_life --- el_hombre_en_busca_de_sentido
+  the_good_life --- comunicacion_no_violenta
+  the_good_life --- pequeno_cerdo_capitalista
   ultralearning --- limitless
   ultralearning --- el_arte_de_pensar
   ultralearning --- robinson_crusoe

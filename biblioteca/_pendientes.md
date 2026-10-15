@@ -50,11 +50,12 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 **Ya tienen ficha (tanda 1, 2026-10-14):** *Pensar rápido, pensar despacio*, *Un pequeño empujón*, *Comunicación no violenta* y *Pequeño cerdo capitalista*.
 
+**Ya tienen ficha (tanda 2, 2026-10-14):** *Portarse mal* (*Misbehaving*), *A More Beautiful Question*, *El hombre en busca de sentido*, *Una buena vida* (*The Good Life*) y *Design de vida* (*Designing Your Life*).
+
 ### Dinero y emprender (frente 1)
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Misbehaving* | Richard H. Thaler | 1 (Thaler en `presupuesto`) | alta | La historia de la economía conductual contada por quien la fundó; puente con *Pensar rápido* y *Nudge*. |
 | *The Lean Startup* | Eric Ries | 0 | media | Probar ideas de negocio barato antes de invertir: encaja con *Emprender con números*. |
 | *Moneyball* | Michael Lewis | 0 | media | Datos contra intuición en el béisbol; sirve para estadística y para *Pensar y decidir*. |
 | *Starting a Business QuickStart Guide* | Ken Colwell | 0 | baja | Manual práctico; muy centrado en Estados Unidos. |
@@ -66,7 +67,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 | --- | --- | --- | --- | --- |
 | *The Signal and the Noise* | Nate Silver | 0 | alta | Predicciones, probabilidad y por qué fallan: puente con estadística e *Invertir, lo básico*. |
 | *Algorithms to Live By* | Brian Christian y Tom Griffiths | 0 | alta | Ideas de la computación para decidir en la vida diaria; puente con pensamiento computacional. |
-| *A More Beautiful Question* | Warren Berger | 0 | alta | El poder de preguntar; es la esencia de la sección *La puerta abierta* y del Formato Curioso. |
 | *21 lecciones para el siglo XXI* | Yuval Noah Harari | 0 | media | Tecnología, trabajo y verdad; buen material para discutir, con afirmaciones que conviene contrastar. |
 | *How to Be a Stoic* | Massimo Pigliucci | 0 | media | Filosofía práctica explicada por un filósofo; contrapeso académico a los libros de estoicismo popular. |
 | *The Obstacle Is the Way* y *Ego Is the Enemy* | Ryan Holiday | 0 | baja | Estoicismo popular; mejor una sola ficha con Pigliucci como referencia. |
@@ -76,20 +76,17 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *El hombre en busca de sentido* | Viktor E. Frankl | 0 | alta | Clásico breve sobre el sentido de la vida, escrito por un sobreviviente de los campos de concentración. |
 | *Inteligencia emocional* | Daniel Goleman | 0 | alta | El libro que popularizó el concepto; buen caso de evidencia (qué se sostuvo y qué se exageró). |
 | *How Emotions Are Made* | Lisa Feldman Barrett | 0 | media | La teoría de las emociones construidas; contrapeso científico de Goleman. Denso. |
 | *Daring Greatly* | Brené Brown | 0 | media | Vulnerabilidad y vergüenza; popular entre docentes. |
 | *Talking to Strangers* | Malcolm Gladwell | 3 (Gladwell, por *Fuera de serie*) | media | Por qué juzgamos mal a desconocidos; se cruza con *Fuera de serie*. |
 | *Maybe You Should Talk to Someone* | Lori Gottlieb | 0 | media | Una terapeuta cuenta cómo es ir a terapia; ayuda a quitarle el estigma a pedir ayuda. Revisión experta. |
-| *The Good Life* | Robert Waldinger y Marc Schulz | 0 | alta | El estudio de Harvard sobre la felicidad, el más largo de la historia: las relaciones pesan más que el dinero. |
 | *En el limbo* | Estanislao Bachrach | 0 | baja | Divulgación latinoamericana sobre emociones; conviene revisar su respaldo científico. |
 
 ### Trabajo y hábitos (frente 7)
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Designing Your Life* | Bill Burnett y Dave Evans | 0 | alta | Pensar la vida y el trabajo como un proyecto de diseño, con ejercicios; útil para orientación vocacional. |
 | *The Power of Habit* | Charles Duhigg | 0 | media | Antecesor de *Hábitos atómicos*; se puede cruzar con esa ficha. |
 | *Los 7 hábitos de la gente altamente efectiva* | Stephen R. Covey | 0 | media | Clásico de la autoayuda; caso para comparar con la evidencia. |
 | *Focus* | Daniel Goleman | 0 | baja | Atención y concentración; se cruza con *Enfócate*. |
