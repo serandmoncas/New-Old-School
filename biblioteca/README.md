@@ -64,14 +64,18 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*Design de vida*](designing-your-life.md) | Bill Burnett y Dave Evans | 2016 | vocacion, emprendimiento | `dinero.trabajo-independiente`, `dinero.emprender-con-numeros` | propuesta |
 | [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md) | Juan Felipe Builes Jaramillo | 2003 | educacion, aprender-a-aprender | — | propuesta |
 | [*El arte de pensar*](el-arte-de-pensar.md) | Rolf Dobelli | 2011 | sesgos, especulacion, autocontrol, aprender-a-aprender | `dinero.estafas-y-piramides`, `dinero.interes-compuesto`, `dinero.ahorro-y-metas`, `dinero.invertir-lo-basico`, `dinero.costo-real-de-un-credito` | propuesta |
+| [*El avaro*](el-avaro.md) 📖 | Molière | 1668 | codicia, deuda, necesidad-y-deseo | `dinero.interes-simple`, `dinero.porcentajes-en-la-vida-real`, `dinero.costo-real-de-un-credito`, `dinero.necesidad-o-deseo` | propuesta |
+| [*El banquero de los pobres*](el-banquero-de-los-pobres.md) | Muhammad Yunus con Alan Jolis | 1997 | deuda, emprendimiento, dignidad | `dinero.costo-real-de-un-credito`, `dinero.historial-crediticio`, `dinero.deuda-buena-y-mala`, `dinero.emprender-con-numeros` | propuesta |
 | [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md) | Gabriel García Márquez | 1961 | vejez-y-proteccion, dignidad | `dinero.primer-salario-y-seguridad-social` | propuesta |
 | [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | Viktor E. Frankl | 1946 | sentido, dignidad | — | propuesta |
+| [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md) | George S. Clason | 1926-1955 | ahorro, deuda, presupuesto | `dinero.ahorro-y-metas`, `dinero.presupuesto`, `dinero.interes-compuesto`, `dinero.deuda-buena-y-mala`, `dinero.estafas-y-piramides` | propuesta |
 | [*El lobo estepario*](el-lobo-estepario.md) | Hermann Hesse | 1927 | identidad, soledad | — | propuesta |
 | [*El maestro ignorante*](el-maestro-ignorante.md) | Jacques Rancière | 1987 | educacion, aprender-a-aprender | — | propuesta |
 | [*El mercader de Venecia*](mercader-de-venecia.md) 📖 | William Shakespeare | hacia 1596-1598 | deuda, justicia, comercio | `dinero.deuda-buena-y-mala`, `dinero.costo-real-de-un-credito` | propuesta |
 | [*El método Lean Startup*](the-lean-startup.md) | Eric Ries | 2011 | emprendimiento, decisiones | `dinero.emprender-con-numeros`, `dinero.trabajo-independiente` | propuesta |
 | [*El poder de los hábitos*](the-power-of-habit.md) | Charles Duhigg | 2012 | habitos, autocontrol, necesidad-y-deseo | `dinero.necesidad-o-deseo`, `dinero.ahorro-y-metas` | propuesta |
 | [*El poder de ser vulnerable*](daring-greatly.md) | Brené Brown | 2012 | emociones, relaciones, educacion | — | propuesta |
+| [*El triunfo del dinero*](el-triunfo-del-dinero.md) | Niall Ferguson | 2008 | ahorro, deuda, especulacion, vejez-y-proteccion | `dinero.donde-guardar-el-dinero`, `dinero.interes-compuesto`, `dinero.inflacion`, `dinero.seguros`, `dinero.invertir-lo-basico`, `dinero.deuda-buena-y-mala` | propuesta |
 | [*Emilio, o De la educación*](emilio.md) 📖 | Jean-Jacques Rousseau | 1762 | educacion, aprender-a-aprender | — | propuesta |
 | [*Enfócate*](deep-work.md) | Cal Newport | 2016 | concentracion, aprender-a-aprender | — | propuesta |
 | [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md) 📖 | Richard Cantillon | 1755 | emprendimiento, comercio, especulacion | `dinero.emprender-con-numeros`, `dinero.inflacion` | propuesta |
@@ -82,10 +86,12 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*Inteligencia emocional*](inteligencia-emocional.md) | Daniel Goleman | 1995 | emociones, autocontrol, educacion | `dinero.ahorro-y-metas` | propuesta |
 | [*La Odisea*](odisea.md) 📖 | Homero | s. VIII a. C. (según la tradición) | viaje, autocontrol | `dinero.ahorro-y-metas` | propuesta |
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | Jorge Volpi | 2024 | ficcion, identidad, memoria | — | propuesta |
+| [*La psicología del dinero*](la-psicologia-del-dinero.md) | Morgan Housel | 2020 | ahorro, sesgos, codicia, necesidad-y-deseo | `dinero.interes-compuesto`, `dinero.ahorro-y-metas`, `dinero.necesidad-o-deseo`, `dinero.invertir-lo-basico` | propuesta |
 | [*La señal y el ruido*](the-signal-and-the-noise.md) | Nate Silver | 2012 | decisiones, matematicas, especulacion | `dinero.invertir-lo-basico`, `dinero.estafas-y-piramides` | propuesta |
 | [*La vida secreta del cerebro*](how-emotions-are-made.md) | Lisa Feldman Barrett | 2017 | emociones, ciencia | — | propuesta |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | Leonardo de Pisa (Fibonacci) | 1202 | matematicas, comercio | `dinero.costo-real-de-un-credito` | propuesta |
 | [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md) | Stephen R. Covey | 1989 | habitos, decisiones, comunicacion | — | propuesta |
+| [*Los comuneros*](los-comuneros.md) | Germán Arciniegas | 1938 | impuestos, justicia, dignidad | `dinero.impuestos-basicos`, `dinero.porcentajes-en-la-vida-real` | propuesta |
 | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | Joshua Foer | 2011 | memoria, talento-y-practica, aprender-a-aprender | — | propuesta |
 | [*Los innovadores*](the-innovators.md) | Walter Isaacson | 2014 | tecnologia, emprendimiento, matematicas | — | propuesta |
 | [*Malcolm X: una autobiografía*](autobiografia-de-malcolm-x.md) | Malcolm X con Alex Haley | 1965 | identidad, justicia, educacion | — | propuesta |
@@ -93,11 +99,13 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*Mindset, la actitud del éxito*](mindset.md) | Carol S. Dweck | 2006 | talento-y-practica, aprender-a-aprender, identidad | — | propuesta |
 | [*Moneyball*](moneyball.md) | Michael Lewis | 2003 | decisiones, sesgos, talento-y-practica, presupuesto | `dinero.presupuesto` | propuesta |
 | [*Número uno*](peak.md) | Anders Ericsson y Robert Pool | 2016 | talento-y-practica, aprender-a-aprender | — | propuesta |
+| [*Padre rico, padre pobre*](padre-rico-padre-pobre.md) | Robert T. Kiyosaki con Sharon L. Lechter | 1997 | presupuesto, deuda, especulacion | `dinero.ingresos-y-gastos`, `dinero.deuda-buena-y-mala`, `dinero.invertir-lo-basico`, `dinero.estafas-y-piramides` | propuesta |
 | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Paulo Freire | 1970 | educacion, justicia, aprender-a-aprender | — | propuesta |
 | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Daniel Kahneman | 2011 | sesgos, matematicas | `dinero.estafas-y-piramides`, `dinero.invertir-lo-basico`, `dinero.costo-real-de-un-credito`, `dinero.seguros` | propuesta |
 | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | Sofía Macías | 2011 | ahorro, presupuesto, deuda | `dinero.ingresos-y-gastos`, `dinero.presupuesto`, `dinero.ahorro-y-metas`, `dinero.deuda-buena-y-mala`, `dinero.tarjetas-de-credito`, `dinero.invertir-lo-basico` | propuesta |
 | [*Por qué dormimos*](why-we-sleep.md) | Matthew Walker | 2017 | ciencia, memoria, habitos | — | propuesta |
 | [*Portarse mal*](misbehaving.md) | Richard H. Thaler | 2015 | sesgos, presupuesto, ahorro | `dinero.presupuesto`, `dinero.ahorro-y-metas`, `dinero.necesidad-o-deseo`, `dinero.invertir-lo-basico` | propuesta |
+| [*Repensar la pobreza*](repensar-la-pobreza.md) | Abhijit V. Banerjee y Esther Duflo | 2011 | ahorro, deuda, emprendimiento, decisiones | `dinero.costo-real-de-un-credito`, `dinero.historial-crediticio`, `dinero.seguros`, `dinero.ahorro-y-metas`, `dinero.donde-guardar-el-dinero`, `dinero.interes-compuesto`, `dinero.trabajo-independiente`, `dinero.emprender-con-numeros` | propuesta |
 | [*Robinson Crusoe*](robinson-crusoe.md) 📖 | Daniel Defoe | 1719 | necesidad-y-deseo, presupuesto, soledad, viaje | `dinero.necesidad-o-deseo`, `dinero.presupuesto` | propuesta |
 | [*Sin límites*](limitless.md) | Jim Kwik | 2020 | aprender-a-aprender, sesgos | — | propuesta |
 | [*Summerhill*](summerhill.md) | A. S. Neill | 1960 | educacion, aprender-a-aprender | — | propuesta |
@@ -144,9 +152,16 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*El arte de pensar*](el-arte-de-pensar.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | Dobelli explica en un capítulo la prueba social; Mackay muestra a países enteros cayendo en ella. |
 | [*El arte de pensar*](el-arte-de-pensar.md) | [*Hábitos atómicos*](atomic-habits.md) | Dobelli dice que la fuerza de voluntad se agota; Clear propone no depender de ella y cambiar el entorno. |
 | [*El arte de pensar*](el-arte-de-pensar.md) | [*La Odisea*](odisea.md) | El descuento hiperbólico (preferir el premio de hoy) es el problema; atarse al mástil, una solución. |
+| [*El avaro*](el-avaro.md) | [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md) | Mathon, el prestamista de Clason, presta con prudencia; Harpagón presta con trampa. Dos retratos opuestos del mismo oficio. |
+| [*El avaro*](el-avaro.md) | [*El mercader de Venecia*](mercader-de-venecia.md) | Dos comedias sobre prestamistas: Shylock pide una libra de carne como garantía; Harpagón esconde un interés del 25 % detrás de uno del 5 %. |
+| [*El banquero de los pobres*](el-banquero-de-los-pobres.md) | [*El mercader de Venecia*](mercader-de-venecia.md) | Dos maneras de asegurar un préstamo: la libra de carne de Shylock y la presión de un grupo de vecinas. |
+| [*El banquero de los pobres*](el-banquero-de-los-pobres.md) | [*Repensar la pobreza*](repensar-la-pobreza.md) | Yunus promete que el microcrédito acabará con la pobreza; Banerjee y Duflo cuentan los experimentos que lo pusieron a prueba. |
 | [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md) | [*David Copperfield*](david-copperfield.md) | Pobreza con dignidad: el coronel y Micawber mantienen las apariencias aunque no tienen con qué. |
 | [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md) | Sostenerse cuando falta todo: el coronel espera una carta; Frankl, volver a ver a los suyos. |
 | [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | [*Mindset, la actitud del éxito*](mindset.md) | Los dos dicen que la actitud cuenta, y los dos corren el riesgo de culpar a quien no pudo con circunstancias que no eligió. |
+| [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md) | [*Fábulas de Esopo*](fabulas-de-esopo.md) | Dos libros de parábolas sobre el ahorro: la hormiga de Esopo y el Arkad de Clason, que guarda una de cada diez monedas. |
+| [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md) | [*Padre rico, padre pobre*](padre-rico-padre-pobre.md) | Dos parábolas de dinero muy leídas, escritas por quienes ganaban vendiendo lo que recomiendan. |
+| [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md) | [*Un pequeño empujón*](nudge.md) | Clason pide pagarse primero a uno mismo; los estudios del ahorro automático muestran por qué funciona. |
 | [*El maestro ignorante*](el-maestro-ignorante.md) | [*Ultralearning*](ultralearning.md) | Aprender sin que nadie te explique: Jacotot en 1818 y Scott Young con los cursos abiertos del MIT. |
 | [*El mercader de Venecia*](mercader-de-venecia.md) | [*David Copperfield*](david-copperfield.md) | Dos deudores: Antonio pone su propio cuerpo como garantía; Micawber termina en la cárcel por deudas. |
 | [*El método Lean Startup*](the-lean-startup.md) | [*Design de vida*](designing-your-life.md) | La misma idea aplicada a cosas distintas: probar en pequeño antes de decidir, Ries con un negocio y Burnett y Evans con la propia vida. |
@@ -157,6 +172,9 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*El poder de ser vulnerable*](daring-greatly.md) | [*Deberías hablar con alguien*](maybe-you-should-talk-to-someone.md) | Mostrarse vulnerable y pedir ayuda: Brown lo propone; Gottlieb lo muestra desde la consulta de una terapeuta. |
 | [*El poder de ser vulnerable*](daring-greatly.md) | [*Inteligencia emocional*](inteligencia-emocional.md) | Dos éxitos de ventas sobre las emociones con una base científica más delgada de lo que su fama sugiere; útiles para enseñar a leer la evidencia. |
 | [*El poder de ser vulnerable*](daring-greatly.md) | [*Mindset, la actitud del éxito*](mindset.md) | Atreverse a fallar: Dweck lo explica con la mentalidad de crecimiento; Brown, con la vergüenza que nos impide intentarlo. |
+| [*El triunfo del dinero*](el-triunfo-del-dinero.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | Los dos cuentan la burbuja de John Law y la Compañía del Misisipi: Mackay en 1841, Ferguson con lo que se sabe hoy. |
+| [*El triunfo del dinero*](el-triunfo-del-dinero.md) | [*La señal y el ruido*](the-signal-and-the-noise.md) | Ferguson escribe justo antes de la crisis de 2008; Silver explica por qué casi nadie la vio venir. |
+| [*El triunfo del dinero*](el-triunfo-del-dinero.md) | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | Ferguson empieza su historia de la banca con Fibonacci, que trajo a Europa los números con los que se calculan los intereses. |
 | [*Emilio, o De la educación*](emilio.md) | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Dos raíces de la educación activa, separadas por dos siglos: aprender de la experiencia (Rousseau) y del diálogo sobre la propia realidad (Freire). |
 | [*Emilio, o De la educación*](emilio.md) | [*Robinson Crusoe*](robinson-crusoe.md) | Es el primer libro que Rousseau le deja leer a Emilio: el modelo de alguien que aprende de las cosas y no de los discursos. |
 | [*Enfócate*](deep-work.md) | [*Ultralearning*](ultralearning.md) | La concentración es uno de los nueve principios de Ultralearning; Newport le dedica un libro entero. |
@@ -172,6 +190,9 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*Fábulas de Esopo*](fabulas-de-esopo.md) | Las fábulas son ficciones que enseñan a cooperar y a desconfiar: justo la función que Volpi le atribuye a la ficción. |
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*La Odisea*](odisea.md) | Una de las ficciones más antiguas que seguimos contando; Volpi pregunta por qué los seres humanos no podemos dejar de contar historias. |
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Volpi usa el cerebro rápido de Kahneman para explicar por qué creemos en las historias antes de pensarlas. |
+| [*La psicología del dinero*](la-psicologia-del-dinero.md) | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | Dos libros de ahorro muy leídos: Housel dice que la riqueza es lo que no se gasta; Macías enseña a encontrar ese dinero en los gastos hormiga. |
+| [*La psicología del dinero*](la-psicologia-del-dinero.md) | [*Portarse mal*](misbehaving.md) | Thaler estudia con experimentos los errores con el dinero que Housel cuenta con anécdotas. |
+| [*La psicología del dinero*](la-psicologia-del-dinero.md) | [*Una buena vida*](the-good-life.md) | Housel dice que la habilidad más difícil es saber cuándo se tiene suficiente; el estudio de Harvard muestra qué pesa más que el dinero en una buena vida. |
 | [*La señal y el ruido*](the-signal-and-the-noise.md) | [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md) | Los dos enseñan la regla de Bayes y el sobreajuste: actualizar lo que creemos con cada dato nuevo, sin confundir el ruido con la señal. |
 | [*La señal y el ruido*](the-signal-and-the-noise.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | Mackay cuenta las burbujas del siglo XVIII; Silver, la de 2008, y por qué casi nadie la vio venir. |
 | [*La señal y el ruido*](the-signal-and-the-noise.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Los expertos se equivocan con mucha confianza: Kahneman explica por qué; Silver muestra cómo pronosticar mejor. |
@@ -182,6 +203,8 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md) | [*Comunicación no violenta*](comunicacion-no-violenta.md) | Buscar primero entender: Covey y Rosenberg ponen la escucha antes que la respuesta. |
 | [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md) | [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md) | Covey atribuyó a Frankl la idea del espacio entre el estímulo y la respuesta, pero la frase no aparece en sus libros. |
 | [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md) | [*El poder de los hábitos*](the-power-of-habit.md) | La palabra "hábito" en dos sentidos: Covey la usa para principios de carácter; Duhigg, para las rutinas automáticas que estudia la neurociencia. |
+| [*Los comuneros*](los-comuneros.md) | [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md) | Dos historias colombianas sobre lo que el Estado le debe a la gente: un impuesto que nadie consultó y una pensión que nunca llega. |
+| [*Los comuneros*](los-comuneros.md) | [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md) | Cantillon explica cómo un cambio en el dinero y los precios golpea primero a unos y después a otros; en el Socorro, los nuevos impuestos golpearon primero a los que vendían en el mercado. |
 | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | [*Sin límites*](limitless.md) | El palacio de la memoria: Kwik lo enseña como técnica; Foer cuenta cómo lo aprendió y hasta dónde llega. |
 | [*Los innovadores*](the-innovators.md) | [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md) | Isaacson cuenta quién inventó las computadoras; Christian y Griffiths, qué podemos aprender de cómo piensan. |
 | [*Los innovadores*](the-innovators.md) | [*El método Lean Startup*](the-lean-startup.md) | Dos miradas a Silicon Valley: la historia de cómo se hizo la revolución digital y el método que salió de sus empresas. |
@@ -197,6 +220,8 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*Moneyball*](moneyball.md) | [*Portarse mal*](misbehaving.md) | Thaler y Sunstein reseñaron Moneyball como un caso de economía del comportamiento, y Thaler estudió el mismo error en el draft del fútbol americano. |
 | [*Número uno*](peak.md) | [*Fuera de serie*](outliers.md) | La regla de las 10.000 horas: Gladwell la popularizó con el estudio de Ericsson, y Ericsson responde que no es eso lo que encontró. |
 | [*Número uno*](peak.md) | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | Foer usa la práctica deliberada de Ericsson para salir de la "meseta" en la que dejó de mejorar su memoria. |
+| [*Padre rico, padre pobre*](padre-rico-padre-pobre.md) | [*El arte de pensar*](el-arte-de-pensar.md) | Una historia inspiradora y un "padre rico" que nadie ha podido identificar: Dobelli enseña a desconfiar justo de ese tipo de relatos. |
+| [*Padre rico, padre pobre*](padre-rico-padre-pobre.md) | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | Dos libros de dinero muy leídos en América Latina: Macías enseña a llevar cuentas; Kiyosaki vende una fórmula para hacerse rico. Compararlos es una buena lección. |
 | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | [*El maestro ignorante*](el-maestro-ignorante.md) | Dos críticas al maestro que solo "deposita" o "explica": Freire propone el diálogo; Rancière, la igualdad de las inteligencias. |
 | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | Las burbujas que cuenta Mackay son exceso de confianza y prueba social a escala de un país. |
 | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | [*El arte de pensar*](el-arte-de-pensar.md) | Dobelli enumera los errores de pensamiento; Kahneman explica de dónde salen, con la teoría de los dos sistemas. |
@@ -209,6 +234,9 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 | [*Portarse mal*](misbehaving.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | La misma historia vista desde dos lados: Kahneman desde la psicología, Thaler desde la economía. Trabajaron juntos. |
 | [*Portarse mal*](misbehaving.md) | [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md) | Macías enseña a ver los gastos hormiga; Thaler explica por qué se escapan: no tratamos igual todo el dinero, depende del cajón mental donde lo ponemos. |
 | [*Portarse mal*](misbehaving.md) | [*Un pequeño empujón*](nudge.md) | Misbehaving cuenta cómo nació la idea de los empujones y cómo llegó a los gobiernos. |
+| [*Repensar la pobreza*](repensar-la-pobreza.md) | [*El método Lean Startup*](the-lean-startup.md) | Dos caras del emprendimiento: el negocio que se prueba para crecer y el que se monta porque no hay empleo. |
+| [*Repensar la pobreza*](repensar-la-pobreza.md) | [*La Odisea*](odisea.md) | Una cuenta de ahorro que no deja sacar el dinero antes de tiempo se estudió con el nombre de Ulises: atarse al mástil para no gastar. |
+| [*Repensar la pobreza*](repensar-la-pobreza.md) | [*Un pequeño empujón*](nudge.md) | Los dos muestran que ahorrar depende más del diseño de las opciones que de la fuerza de voluntad. |
 | [*Robinson Crusoe*](robinson-crusoe.md) | [*El lobo estepario*](el-lobo-estepario.md) | Dos hombres solos: a Robinson la soledad se la impone un naufragio; Harry Haller la elige. |
 | [*Sin límites*](limitless.md) | [*El arte de pensar*](el-arte-de-pensar.md) | Dobelli enseña a desconfiar de las buenas historias y de la autoridad; sirve para leer con cabeza fría cualquier libro que prometa cambiarte la vida, incluido este. |
 | [*Summerhill*](summerhill.md) | [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md) | El "reto por opción" y las clases voluntarias de Summerhill comparten una idea: nadie aprende a la fuerza. |
@@ -229,38 +257,39 @@ python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # t
 
 Dos libros que comparten tema son un cruce posible aunque nadie lo haya escrito aún.
 
-- **ahorro** (guardar hoy para mañana): [*Fábulas de Esopo*](fabulas-de-esopo.md), [*Hábitos atómicos*](atomic-habits.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Un pequeño empujón*](nudge.md)
+- **ahorro** (guardar hoy para mañana): [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md), [*El triunfo del dinero*](el-triunfo-del-dinero.md), [*Fábulas de Esopo*](fabulas-de-esopo.md), [*Hábitos atómicos*](atomic-habits.md), [*La psicología del dinero*](la-psicologia-del-dinero.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Repensar la pobreza*](repensar-la-pobreza.md), [*Un pequeño empujón*](nudge.md)
 - **aprender-a-aprender** (cómo se aprende mejor y qué promesas no tienen evidencia): [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El arte de pensar*](el-arte-de-pensar.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Enfócate*](deep-work.md), [*Fuera de serie*](outliers.md), [*Hábitos atómicos*](atomic-habits.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md), [*Mindset, la actitud del éxito*](mindset.md), [*Número uno*](peak.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Sin límites*](limitless.md), [*Summerhill*](summerhill.md), [*Ultralearning*](ultralearning.md)
 - **autocontrol** (resistir una tentación con un plan): [*Cómo ser un estoico*](how-to-be-a-stoic.md), [*El arte de pensar*](el-arte-de-pensar.md), [*El poder de los hábitos*](the-power-of-habit.md), [*Hábitos atómicos*](atomic-habits.md), [*Inteligencia emocional*](inteligencia-emocional.md), [*La Odisea*](odisea.md), [*Ultralearning*](ultralearning.md)
 - **ciencia** (cómo sabemos lo que sabemos, y cómo se corrige): [*Cosmos*](cosmos.md), [*La vida secreta del cerebro*](how-emotions-are-made.md), [*Por qué dormimos*](why-we-sleep.md), [*¡Bienvenidos al universo!*](welcome-to-the-universe.md)
-- **codicia** (querer más de lo que hace falta, y lo que eso cuesta): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*Fábulas de Esopo*](fabulas-de-esopo.md)
+- **codicia** (querer más de lo que hace falta, y lo que eso cuesta): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*El avaro*](el-avaro.md), [*Fábulas de Esopo*](fabulas-de-esopo.md), [*La psicología del dinero*](la-psicologia-del-dinero.md)
 - **comercio** (comprar, vender e intercambiar): [*El mercader de Venecia*](mercader-de-venecia.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*Liber Abaci (El libro del cálculo)*](liber-abaci.md)
 - **comunicacion** (hablar y escuchar para entenderse, también en un conflicto): [*Comunicación no violenta*](comunicacion-no-violenta.md), [*Hablar con extraños*](talking-to-strangers.md), [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md), [*Martin Luther King Jr.: textos y discursos radicales*](the-radical-king.md)
 - **concentracion** (prestar atención a una sola cosa sin distraerse): [*Aprender a aprender*](learning-how-to-learn.md), [*Enfócate*](deep-work.md)
 - **curiosidad** (hacerse preguntas y querer saber): [*A More Beautiful Question*](a-more-beautiful-question.md)
-- **decisiones** (elegir bien cuando no se sabe todo): [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md), [*El método Lean Startup*](the-lean-startup.md), [*La señal y el ruido*](the-signal-and-the-noise.md), [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md), [*Moneyball*](moneyball.md)
-- **deuda** (deber dinero y lo que pasa si no se paga): [*David Copperfield*](david-copperfield.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md)
-- **dignidad** (sostenerse cuando falta todo): [*David Copperfield*](david-copperfield.md), [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md), [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md)
+- **decisiones** (elegir bien cuando no se sabe todo): [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md), [*El método Lean Startup*](the-lean-startup.md), [*La señal y el ruido*](the-signal-and-the-noise.md), [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md), [*Moneyball*](moneyball.md), [*Repensar la pobreza*](repensar-la-pobreza.md)
+- **deuda** (deber dinero y lo que pasa si no se paga): [*David Copperfield*](david-copperfield.md), [*El avaro*](el-avaro.md), [*El banquero de los pobres*](el-banquero-de-los-pobres.md), [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*El triunfo del dinero*](el-triunfo-del-dinero.md), [*Padre rico, padre pobre*](padre-rico-padre-pobre.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Repensar la pobreza*](repensar-la-pobreza.md)
+- **dignidad** (sostenerse cuando falta todo): [*David Copperfield*](david-copperfield.md), [*El banquero de los pobres*](el-banquero-de-los-pobres.md), [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md), [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md), [*Los comuneros*](los-comuneros.md)
 - **educacion** (qué es enseñar, quién enseña y para qué se aprende): [*21 lecciones para el siglo XXI*](21-lecciones-para-el-siglo-xxi.md), [*A More Beautiful Question*](a-more-beautiful-question.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*El poder de ser vulnerable*](daring-greatly.md), [*Emilio, o De la educación*](emilio.md), [*Inteligencia emocional*](inteligencia-emocional.md), [*Malcolm X: una autobiografía*](autobiografia-de-malcolm-x.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Summerhill*](summerhill.md)
 - **emociones** (reconocer lo que sentimos y qué hacer con ello): [*Cómo ser un estoico*](how-to-be-a-stoic.md), [*Deberías hablar con alguien*](maybe-you-should-talk-to-someone.md), [*El poder de ser vulnerable*](daring-greatly.md), [*Inteligencia emocional*](inteligencia-emocional.md), [*La vida secreta del cerebro*](how-emotions-are-made.md)
-- **emprendimiento** (arriesgar para crear algo propio): [*Design de vida*](designing-your-life.md), [*El método Lean Startup*](the-lean-startup.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*Los innovadores*](the-innovators.md)
-- **especulacion** (comprar porque otros compran (burbujas y pirámides)): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*El arte de pensar*](el-arte-de-pensar.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*La señal y el ruido*](the-signal-and-the-noise.md)
+- **emprendimiento** (arriesgar para crear algo propio): [*Design de vida*](designing-your-life.md), [*El banquero de los pobres*](el-banquero-de-los-pobres.md), [*El método Lean Startup*](the-lean-startup.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*Los innovadores*](the-innovators.md), [*Repensar la pobreza*](repensar-la-pobreza.md)
+- **especulacion** (comprar porque otros compran (burbujas y pirámides)): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*El arte de pensar*](el-arte-de-pensar.md), [*El triunfo del dinero*](el-triunfo-del-dinero.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*La señal y el ruido*](the-signal-and-the-noise.md), [*Padre rico, padre pobre*](padre-rico-padre-pobre.md)
 - **ficcion** (las historias que nos contamos y para qué nos sirven): [*21 lecciones para el siglo XXI*](21-lecciones-para-el-siglo-xxi.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md)
 - **habitos** (lo que hacemos sin pensar y cómo se cambia): [*El poder de los hábitos*](the-power-of-habit.md), [*Hábitos atómicos*](atomic-habits.md), [*Los 7 hábitos de la gente altamente efectiva*](los-7-habitos.md), [*Por qué dormimos*](why-we-sleep.md), [*Un pequeño empujón*](nudge.md)
 - **identidad** (quién soy y de cuántas piezas estoy hecho): [*El lobo estepario*](el-lobo-estepario.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md), [*Malcolm X: una autobiografía*](autobiografia-de-malcolm-x.md), [*Mindset, la actitud del éxito*](mindset.md)
-- **justicia** (qué es justo cuando alguien no puede cumplir): [*Comunicación no violenta*](comunicacion-no-violenta.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Malcolm X: una autobiografía*](autobiografia-de-malcolm-x.md), [*Martin Luther King Jr.: textos y discursos radicales*](the-radical-king.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md)
+- **impuestos** (lo que se paga al Estado, para qué sirve y quién decide cuánto): [*Los comuneros*](los-comuneros.md)
+- **justicia** (qué es justo cuando alguien no puede cumplir): [*Comunicación no violenta*](comunicacion-no-violenta.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Los comuneros*](los-comuneros.md), [*Malcolm X: una autobiografía*](autobiografia-de-malcolm-x.md), [*Martin Luther King Jr.: textos y discursos radicales*](the-radical-king.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md)
 - **matematicas** (cuentas que cambiaron la historia): [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md), [*Cosmos*](cosmos.md), [*La señal y el ruido*](the-signal-and-the-noise.md), [*Liber Abaci (El libro del cálculo)*](liber-abaci.md), [*Los innovadores*](the-innovators.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md), [*¡Bienvenidos al universo!*](welcome-to-the-universe.md)
 - **memoria** (cómo recordamos y cómo se entrena): [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md), [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md), [*Por qué dormimos*](why-we-sleep.md)
-- **necesidad-y-deseo** (lo que necesito frente a lo que quiero): [*El poder de los hábitos*](the-power-of-habit.md), [*Robinson Crusoe*](robinson-crusoe.md), [*Una buena vida*](the-good-life.md)
-- **presupuesto** (lo que entra frente a lo que sale): [*David Copperfield*](david-copperfield.md), [*Moneyball*](moneyball.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Robinson Crusoe*](robinson-crusoe.md)
+- **necesidad-y-deseo** (lo que necesito frente a lo que quiero): [*El avaro*](el-avaro.md), [*El poder de los hábitos*](the-power-of-habit.md), [*La psicología del dinero*](la-psicologia-del-dinero.md), [*Robinson Crusoe*](robinson-crusoe.md), [*Una buena vida*](the-good-life.md)
+- **presupuesto** (lo que entra frente a lo que sale): [*David Copperfield*](david-copperfield.md), [*El hombre más rico de Babilonia*](el-hombre-mas-rico-de-babilonia.md), [*Moneyball*](moneyball.md), [*Padre rico, padre pobre*](padre-rico-padre-pobre.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **relaciones** (amigos, familia y pareja, y cuánto pesan en una buena vida): [*Deberías hablar con alguien*](maybe-you-should-talk-to-someone.md), [*El poder de ser vulnerable*](daring-greatly.md), [*Una buena vida*](the-good-life.md)
 - **salud-mental** (cuidar la mente y saber pedir ayuda): [*Deberías hablar con alguien*](maybe-you-should-talk-to-someone.md)
 - **sentido** (para qué vivir, también cuando las cosas van mal): [*Cómo ser un estoico*](how-to-be-a-stoic.md), [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md), [*Una buena vida*](the-good-life.md)
-- **sesgos** (errores de pensamiento que todos cometemos sin darnos cuenta): [*El arte de pensar*](el-arte-de-pensar.md), [*Hablar con extraños*](talking-to-strangers.md), [*Moneyball*](moneyball.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md), [*Portarse mal*](misbehaving.md), [*Sin límites*](limitless.md), [*Un pequeño empujón*](nudge.md)
+- **sesgos** (errores de pensamiento que todos cometemos sin darnos cuenta): [*El arte de pensar*](el-arte-de-pensar.md), [*Hablar con extraños*](talking-to-strangers.md), [*La psicología del dinero*](la-psicologia-del-dinero.md), [*Moneyball*](moneyball.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md), [*Portarse mal*](misbehaving.md), [*Sin límites*](limitless.md), [*Un pequeño empujón*](nudge.md)
 - **soledad** (estar solo, por elección o por fuerza): [*El lobo estepario*](el-lobo-estepario.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **talento-y-practica** (cuánto pesa lo innato y cuánto la práctica): [*Fuera de serie*](outliers.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md), [*Mindset, la actitud del éxito*](mindset.md), [*Moneyball*](moneyball.md), [*Número uno*](peak.md)
 - **tecnologia** (cómo las máquinas cambian el trabajo y la vida, y quién las inventa): [*21 lecciones para el siglo XXI*](21-lecciones-para-el-siglo-xxi.md), [*Los innovadores*](the-innovators.md)
-- **vejez-y-proteccion** (de qué vivir cuando ya no se puede trabajar): [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md)
+- **vejez-y-proteccion** (de qué vivir cuando ya no se puede trabajar): [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md), [*El triunfo del dinero*](el-triunfo-del-dinero.md)
 - **viaje** (salir de casa y volver distinto): [*La Odisea*](odisea.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **vocacion** (qué hacer con la vida y con el trabajo): [*Design de vida*](designing-your-life.md)
 
@@ -282,14 +311,18 @@ flowchart LR
   designing_your_life["Design de vida"]
   el_abordaje_de_la_educacion_experiencial["El abordaje de la educación experiencial"]
   el_arte_de_pensar["El arte de pensar"]
+  el_avaro["El avaro"]
+  el_banquero_de_los_pobres["El banquero de los pobres"]
   el_coronel_no_tiene_quien_le_escriba["El coronel no tiene quien le escriba"]
   el_hombre_en_busca_de_sentido["El hombre en busca de sentido"]
+  el_hombre_mas_rico_de_babilonia["El hombre más rico de Babilonia"]
   el_lobo_estepario["El lobo estepario"]
   el_maestro_ignorante["El maestro ignorante"]
   mercader_de_venecia["El mercader de Venecia"]
   the_lean_startup["El método Lean Startup"]
   the_power_of_habit["El poder de los hábitos"]
   daring_greatly["El poder de ser vulnerable"]
+  el_triunfo_del_dinero["El triunfo del dinero"]
   emilio["Emilio, o De la educación"]
   deep_work["Enfócate"]
   ensayo_sobre_el_comercio["Ensayo sobre la naturaleza del comercio en general"]
@@ -300,10 +333,12 @@ flowchart LR
   inteligencia_emocional["Inteligencia emocional"]
   odisea["La Odisea"]
   la_invencion_de_todas_las_cosas["La invención de todas las cosas"]
+  la_psicologia_del_dinero["La psicología del dinero"]
   the_signal_and_the_noise["La señal y el ruido"]
   how_emotions_are_made["La vida secreta del cerebro"]
   liber_abaci["Liber Abaci (El libro del cálculo)"]
   los_7_habitos["Los 7 hábitos de la gente altamente efectiva"]
+  los_comuneros["Los comuneros"]
   moonwalking_with_einstein["Los desafíos de la memoria"]
   the_innovators["Los innovadores"]
   autobiografia_de_malcolm_x["Malcolm X: una autobiografía"]
@@ -311,11 +346,13 @@ flowchart LR
   mindset["Mindset, la actitud del éxito"]
   moneyball["Moneyball"]
   peak["Número uno"]
+  padre_rico_padre_pobre["Padre rico, padre pobre"]
   pedagogia_del_oprimido["Pedagogía del oprimido"]
   pensar_rapido_pensar_despacio["Pensar rápido, pensar despacio"]
   pequeno_cerdo_capitalista["Pequeño cerdo capitalista"]
   why_we_sleep["Por qué dormimos"]
   misbehaving["Portarse mal"]
+  repensar_la_pobreza["Repensar la pobreza"]
   robinson_crusoe["Robinson Crusoe"]
   limitless["Sin límites"]
   summerhill["Summerhill"]
@@ -355,10 +392,20 @@ flowchart LR
   el_arte_de_pensar --- odisea
   el_arte_de_pensar --- make_it_stick
   el_arte_de_pensar --- atomic_habits
+  el_avaro --- mercader_de_venecia
+  el_avaro --- el_hombre_mas_rico_de_babilonia
+  el_banquero_de_los_pobres --- repensar_la_pobreza
+  el_banquero_de_los_pobres --- mercader_de_venecia
   el_coronel_no_tiene_quien_le_escriba --- david_copperfield
   el_hombre_en_busca_de_sentido --- el_coronel_no_tiene_quien_le_escriba
   el_hombre_en_busca_de_sentido --- mindset
+  el_hombre_mas_rico_de_babilonia --- fabulas_de_esopo
+  el_hombre_mas_rico_de_babilonia --- nudge
+  el_hombre_mas_rico_de_babilonia --- padre_rico_padre_pobre
   el_maestro_ignorante --- ultralearning
+  el_triunfo_del_dinero --- liber_abaci
+  el_triunfo_del_dinero --- delirios_multitudinarios
+  el_triunfo_del_dinero --- the_signal_and_the_noise
   emilio --- robinson_crusoe
   emilio --- pedagogia_del_oprimido
   ensayo_sobre_el_comercio --- delirios_multitudinarios
@@ -373,6 +420,9 @@ flowchart LR
   la_invencion_de_todas_las_cosas --- odisea
   la_invencion_de_todas_las_cosas --- fabulas_de_esopo
   la_invencion_de_todas_las_cosas --- pensar_rapido_pensar_despacio
+  la_psicologia_del_dinero --- misbehaving
+  la_psicologia_del_dinero --- the_good_life
+  la_psicologia_del_dinero --- pequeno_cerdo_capitalista
   learning_how_to_learn --- deep_work
   liber_abaci --- mercader_de_venecia
   liber_abaci --- ensayo_sobre_el_comercio
@@ -380,6 +430,8 @@ flowchart LR
   los_7_habitos --- the_power_of_habit
   los_7_habitos --- el_hombre_en_busca_de_sentido
   los_7_habitos --- comunicacion_no_violenta
+  los_comuneros --- el_coronel_no_tiene_quien_le_escriba
+  los_comuneros --- ensayo_sobre_el_comercio
   make_it_stick --- ultralearning
   make_it_stick --- learning_how_to_learn
   maybe_you_should_talk_to_someone --- how_to_be_a_stoic
@@ -399,6 +451,8 @@ flowchart LR
   nudge --- odisea
   nudge --- pequeno_cerdo_capitalista
   odisea --- robinson_crusoe
+  padre_rico_padre_pobre --- pequeno_cerdo_capitalista
+  padre_rico_padre_pobre --- el_arte_de_pensar
   peak --- outliers
   peak --- moonwalking_with_einstein
   pedagogia_del_oprimido --- el_maestro_ignorante
@@ -408,6 +462,9 @@ flowchart LR
   pequeno_cerdo_capitalista --- fabulas_de_esopo
   pequeno_cerdo_capitalista --- david_copperfield
   pequeno_cerdo_capitalista --- atomic_habits
+  repensar_la_pobreza --- odisea
+  repensar_la_pobreza --- nudge
+  repensar_la_pobreza --- the_lean_startup
   robinson_crusoe --- el_lobo_estepario
   summerhill --- emilio
   summerhill --- el_maestro_ignorante
