@@ -1,0 +1,135 @@
+# Datos de la página pública "Libros para aprender a aprender" (scripts/pagina_aprender.py).
+# Los veredictos resumen el Análisis de cada ficha; si cambias uno, cita el estudio que lo justifica.
+# Cada estudio se comprueba en Crossref y su resultado se toma del resumen (AGENTS.md, regla 5).
+#
+# veredicto: solido | matices | promete | filosofia
+
+etiquetas:
+  solido: Sólido
+  matices: Con matices
+  promete: Promete más de lo que prueba
+  filosofia: Filosofía de la educación
+
+grupos:
+  - nombre: Cómo aprende el cerebro
+    sub: Recordar, practicar y entender
+    libros: [make-it-stick, learning-how-to-learn, moonwalking-with-einstein]
+  - nombre: Práctica, talento y mentalidad
+    sub: Cuánto pesa lo innato y cuánto el esfuerzo
+    libros: [peak, outliers, mindset]
+  - nombre: Hábitos y concentración
+    sub: Lo que hacemos sin pensar y cómo cuidar la atención
+    libros: [atomic-habits, deep-work]
+  - nombre: Aprender por cuenta propia
+    sub: Métodos para autodidactas, y sus promesas
+    libros: [ultralearning, limitless, el-arte-de-pensar]
+  - nombre: Pedagogía
+    sub: Qué es enseñar y para qué se aprende
+    libros: [pedagogia-del-oprimido, el-maestro-ignorante, emilio, summerhill, el-abordaje-de-la-educacion-experiencial]
+
+rutas:
+  - nombre: Si estudias
+    texto: Empieza por cómo funciona tu cerebro y qué técnicas sirven de verdad.
+    libros: [learning-how-to-learn, make-it-stick, moonwalking-with-einstein, atomic-habits]
+  - nombre: Si enseñas
+    texto: La ciencia del aprendizaje y las grandes preguntas sobre qué es enseñar.
+    libros: [make-it-stick, mindset, pedagogia-del-oprimido, el-maestro-ignorante, summerhill]
+  - nombre: Si acompañas a un estudiante en casa
+    texto: Hábitos, concentración y qué esperar del talento y el esfuerzo.
+    libros: [atomic-habits, deep-work, mindset, outliers]
+
+veredictos:
+  make-it-stick:
+    veredicto: solido
+    promesa: Recordar sin mirar enseña más que releer
+    juicio: Recordar lo estudiado sin mirar superó a releerlo, y también a hacer mapas conceptuales.
+    cita: Roediger y Karpicke, 2006
+    doi: 10.1111/j.1467-9280.2006.01693.x
+  learning-how-to-learn:
+    veredicto: matices
+    promesa: Dejar descansar un problema ayuda a resolverlo
+    juicio: Tiene apoyo, sobre todo en problemas creativos. Otras herramientas del libro, como la técnica Pomodoro, no tienen estudios propios.
+    cita: Sio y Ormerod, 2009
+    doi: 10.1037/a0014212
+  moonwalking-with-einstein:
+    veredicto: solido
+    promesa: La memoria excepcional es una técnica, no un don
+    juicio: Personas sin experiencia que entrenaron seis semanas con el palacio de la memoria mejoraron, y la mejora seguía cuatro meses después. Sirve para listas, no para entender un tema.
+    cita: Dresler y otros, 2017
+    doi: 10.1016/j.neuron.2017.02.003
+  peak:
+    veredicto: matices
+    promesa: Los expertos se hacen con práctica deliberada
+    juicio: 'La práctica importa, pero explica menos de lo que el libro sugiere: el 26 % de las diferencias en juegos como el ajedrez y el 4 % en educación.'
+    cita: Macnamara, Hambrick y Oswald, 2014
+    doi: 10.1177/0956797614535810
+  outliers:
+    veredicto: promete
+    promesa: La regla de las 10.000 horas
+    juicio: 'El efecto de la fecha de nacimiento es sólido, pero la regla de las 10.000 horas no: la práctica explica menos del 1 % de las diferencias en profesiones.'
+    cita: Macnamara, Hambrick y Oswald, 2014
+    doi: 10.1177/0956797614535810
+  mindset:
+    veredicto: promete
+    promesa: Creer que puedes mejorar mejora tus notas
+    juicio: En los estudios de mejor calidad, el efecto promedio de las intervenciones de mentalidad es casi cero.
+    cita: Macnamara y Burgoyne, 2023
+    doi: 10.1037/bul0000352
+  atomic-habits:
+    veredicto: matices
+    promesa: Decidir cuándo y dónde vas a hacer algo
+    juicio: Las intenciones de implementación tuvieron un efecto de tamaño medio a grande en 94 estudios. La idea de cambiar de identidad, en cambio, no está probada.
+    cita: Gollwitzer y Sheeran, 2006
+    doi: 10.1016/S0065-2601(06)38002-1
+  deep-work:
+    veredicto: matices
+    promesa: La tecnología arruina la concentración de los jóvenes
+    juicio: En más de 350.000 adolescentes, el uso de tecnología digital tuvo una relación muy pequeña con su bienestar. El problema existe, pero el libro lo agranda.
+    cita: Orben y Przybylski, 2019
+    doi: 10.1038/s41562-018-0506-1
+  ultralearning:
+    veredicto: matices
+    promesa: Aprender en poco tiempo y con intensidad
+    juicio: Repasar espaciado en el tiempo supera a estudiar todo de una vez, y eso choca con la intensidad que propone el libro.
+    cita: Cepeda y otros, 2006
+    doi: 10.1037/0033-2909.132.3.354
+  limitless:
+    veredicto: promete
+    promesa: Puedes leer mucho más rápido sin entender menos
+    juicio: 'La revisión más completa concluye que no: cuando se acelera la lectura, se pierde comprensión.'
+    cita: Rayner y otros, 2016
+    doi: 10.1177/1529100615623267
+  el-arte-de-pensar:
+    veredicto: matices
+    promesa: Conocer los sesgos te protege de ellos
+    juicio: Leer sobre los sesgos sirve de poco. Practicar con casos y recibir retroalimentación sí los redujo, y el efecto duró dos meses.
+    cita: Morewedge y otros, 2015
+    doi: 10.1177/2372732215600886
+  pedagogia-del-oprimido:
+    veredicto: filosofia
+    promesa: Enseñar con diálogo, no con depósitos
+    juicio: 'Es filosofía y política de la educación. El diálogo en clase tiene respaldo: en 72 salones, la participación amplia se asoció con mejor dominio de los contenidos.'
+    cita: Howe y otros, 2019
+    doi: 10.1080/10508406.2019.1573730
+  el-maestro-ignorante:
+    veredicto: filosofia
+    promesa: Se puede enseñar lo que no se sabe
+    juicio: Es filosofía. Para principiantes, la evidencia favorece la instrucción explícita y los ejemplos resueltos sobre descubrir solo.
+    cita: Kirschner, Sweller y Clark, 2006
+    doi: 10.1207/s15326985ep4102_1
+  emilio:
+    veredicto: filosofia
+    promesa: El niño no es un adulto pequeño
+    juicio: Es un experimento imaginario de 1762, no una investigación. Su valor está en las preguntas que abrió.
+  summerhill:
+    veredicto: filosofia
+    promesa: Una escuela donde las clases son voluntarias
+    juicio: Lleva más de cien años abierta. Los egresados de otra escuela democrática siguieron estudiando o trabajando sin grandes dificultades, aunque las familias eligen la escuela.
+    cita: Gray y Chanoff, 1986
+    doi: 10.1086/443842
+  el-abordaje-de-la-educacion-experiencial:
+    veredicto: matices
+    promesa: Aprender haciendo y reflexionando
+    juicio: Los programas de aventura tienen efectos positivos moderados que siguen creciendo después, pero varían mucho entre programas.
+    cita: Hattie y otros, 1997
+    doi: 10.3102/00346543067001043
