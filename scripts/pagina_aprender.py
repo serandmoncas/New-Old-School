@@ -54,6 +54,11 @@ def validar(cfg: dict[str, Any], fichas: dict) -> list[str]:
             errores.append(f"'{s}': veredicto '{v['veredicto']}' no válido; usa uno de {', '.join(VEREDICTOS)}")
         elif bool(v.get("cita")) != bool(v.get("doi")):
             errores.append(f"'{s}': la cita y el doi van juntos")
+    for i, q in enumerate(cfg.get("preguntas") or [], 1):
+        if q.get("es") not in ("mito", "evidencia"):
+            errores.append(f"pregunta {i}: 'es' debe ser mito o evidencia")
+        if not all(q.get(k) for k in ("frase", "explica", "cita", "doi")):
+            errores.append(f"pregunta {i}: necesita frase, explica, cita y doi")
     return errores
 
 
@@ -128,7 +133,10 @@ def construir(cfg: dict[str, Any], fichas: dict) -> tuple[str, int, int]:
         for r in cfg["rutas"]
     )
     datos_js = json.dumps(
-        {"libros": libros, "aristas": aristas, "grupos": [g["nombre"] for g in cfg["grupos"]], "etiquetas": cfg["etiquetas"]},
+        {
+            "libros": libros, "aristas": aristas, "grupos": [g["nombre"] for g in cfg["grupos"]],
+            "etiquetas": cfg["etiquetas"], "preguntas": cfg.get("preguntas") or [],
+        },
         ensure_ascii=False,
     ).replace("</", "<\\/")
     pagina = (

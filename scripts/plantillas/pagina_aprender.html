@@ -151,6 +151,12 @@ dt { color: var(--tenue); } dd { margin: 0; }
 .pregunta .respuesta { font-size: 1rem; display: grid; gap: 4px; }
 .pregunta .respuesta a { font: .76rem var(--f-ficha); word-break: break-all; }
 
+.estado-repaso { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; }
+.cajas { display: flex; gap: 6px; align-items: flex-end; }
+.cajas div { display: grid; justify-items: center; gap: 2px; font: .66rem var(--f-ficha); color: var(--tenue); }
+.cajas i { display: block; width: 28px; background: var(--sello); border-radius: 2px 2px 0 0; min-height: 2px; }
+.pregunta .cuando { font: .74rem var(--f-ficha); color: var(--tenue); }
+
 /* Planificador */
 .planificador { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 24px; background: var(--tarjeta); border: 1px solid var(--regla); padding: 22px; }
 @media (max-width: 820px) { .planificador { grid-template-columns: 1fr; } }
@@ -234,9 +240,13 @@ dt { color: var(--tenue); } dd { margin: 0; }
     <header>
       <p class="rotulo">Ponte a prueba · práctica de recuperación</p>
       <h2>¿Mito o evidencia?</h2>
-      <p>Ocho ideas muy repetidas sobre cómo se aprende. Decide antes de ver la respuesta: intentar recordar y equivocarse ayuda más que leer la respuesta directamente.</p>
+      <p>Veinte ideas muy repetidas sobre cómo se aprende. Decide antes de ver la respuesta: intentar recordar y equivocarse ayuda más que leer la respuesta. La página recuerda tus respuestas en este navegador y te vuelve a preguntar, días después, lo que fallaste y lo que hace rato no repasas. Así funciona el repaso espaciado.</p>
     </header>
-    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="marcador" id="marcador">0 de 8 respondidas</span><button class="boton" id="otra-vez">Volver a intentar</button></div>
+    <div class="estado-repaso">
+      <span class="marcador" id="marcador"></span>
+      <div class="cajas" id="cajas" aria-label="Preguntas por caja de repaso"></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="boton" id="practicar">Practicar todas</button><button class="boton" id="otra-vez">Empezar de nuevo</button></div>
+    </div>
     <div class="preguntas" id="preguntas"></div>
   </section>
 
@@ -451,33 +461,68 @@ Object.entries(ESCENAS).forEach(([k, e]) => {
 tm = ESCENAS[escenaActual].duracion;
 
 
-/* ===== Ponte a prueba: ¿mito o evidencia? ===== */
-const PREGUNTAS = [
-  { frase: 'Cada persona aprende mejor si le enseñan según su estilo: visual, auditivo o kinestésico.', es: 'mito', explica: 'No hay evidencia de que adaptar la enseñanza al estilo de cada estudiante mejore lo que aprende.', cita: 'Pashler y otros, 2008', doi: '10.1111/j.1539-6053.2009.01038.x' },
-  { frase: 'Cerrar el cuaderno e intentar recordar enseña más que releer.', es: 'evidencia', explica: 'Recordar sin mirar superó a releer, y también a hacer mapas conceptuales.', cita: 'Roediger y Karpicke, 2006', doi: '10.1111/j.1467-9280.2006.01693.x' },
-  { frase: 'Un hábito nuevo se forma en 21 días.', es: 'mito', explica: 'En 96 voluntarios, volver automática una conducta tomó entre 18 y 254 días, según la persona. Saltarse un día no arruinó el proceso.', cita: 'Lally y otros, 2010', doi: '10.1002/ejsp.674' },
-  { frase: 'Con 10.000 horas de práctica, cualquiera llega a ser experto.', es: 'mito', explica: 'La práctica importa, pero explica el 26 % de las diferencias en juegos como el ajedrez, el 4 % en educación y menos del 1 % en profesiones.', cita: 'Macnamara, Hambrick y Oswald, 2014', doi: '10.1177/0956797614535810' },
-  { frase: 'Con entrenamiento se puede leer el doble de rápido sin entender menos.', es: 'mito', explica: 'Cuando se acelera la lectura, se pierde comprensión. Lo que sí ayuda es leer mucho y conocer más palabras.', cita: 'Rayner y otros, 2016', doi: '10.1177/1529100615623267' },
-  { frase: 'Repartir el estudio en varios días rinde más que estudiar todo la noche anterior.', es: 'evidencia', explica: 'El repaso espaciado supera al estudio concentrado en cientos de experimentos.', cita: 'Cepeda y otros, 2006', doi: '10.1037/0033-2909.132.3.354' },
-  { frase: 'Convencerte de que puedes mejorar sube tus notas de forma clara.', es: 'mito', explica: 'En los estudios de mejor calidad, el efecto promedio de las intervenciones de mentalidad de crecimiento es casi cero.', cita: 'Macnamara y Burgoyne, 2023', doi: '10.1037/bul0000352' },
-  { frase: 'Cualquiera puede entrenar su memoria con el palacio de la memoria.', es: 'evidencia', explica: 'Personas sin experiencia que entrenaron seis semanas mejoraron su memoria, y la mejora seguía cuatro meses después. Sirve para listas, no para entender un tema.', cita: 'Dresler y otros, 2017', doi: '10.1016/j.neuron.2017.02.003' },
-];
-let respuestas = {};
+/* ===== Ponte a prueba con repaso espaciado (cajas de Leitner) =====
+   Cada pregunta vive en una caja del 1 al 5. Si aciertas, sube de caja y vuelve más tarde;
+   si fallas, regresa a la caja 1 y vuelve mañana. Se guarda solo en este navegador. */
+const PREGUNTAS = DATOS.preguntas;
+const INTERVALO = [1, 2, 4, 8, 16];   // días hasta el próximo repaso según la caja
+const NUEVAS_POR_DIA = 8;
+const CLAVE = 'aprender-repaso-v1';
+const leer = () => { try { return JSON.parse(localStorage.getItem(CLAVE)) || {}; } catch (e) { return {}; } };
+const guardar = r => { try { localStorage.setItem(CLAVE, JSON.stringify(r)); } catch (e) { /* sin almacenamiento: funciona solo en esta visita */ } };
+const hoyIso = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+const sumarDias = (isoD, n) => { const [y, m, d] = isoD.split('-').map(Number); const f = new Date(y, m - 1, d + n); return `${f.getFullYear()}-${String(f.getMonth() + 1).padStart(2, '0')}-${String(f.getDate()).padStart(2, '0')}`; };
+const fechaLarga = isoD => { const [y, m, d] = isoD.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('es-CO', { weekday: 'long', day: 'numeric', month: 'long' }); };
+let registro = leer(), deHoy = {}, practicando = false, turno = null;
+
+function armarTurno() {
+  const hoy = hoyIso();
+  const pendientes = PREGUNTAS.map((q, i) => i).filter(i => registro[PREGUNTAS[i].frase] && registro[PREGUNTAS[i].frase].proxima <= hoy);
+  const nuevas = PREGUNTAS.map((q, i) => i).filter(i => !registro[PREGUNTAS[i].frase]).slice(0, Math.max(0, NUEVAS_POR_DIA - pendientes.length));
+  turno = practicando ? PREGUNTAS.map((q, i) => i) : [...pendientes, ...nuevas];
+}
+function responder(i, r) {
+  const q = PREGUNTAS[i], bien = r === q.es;
+  deHoy[i] = r;
+  if (!practicando) {
+    const antes = registro[q.frase] || { caja: 1 };   // una pregunta nueva entra en la caja 1
+    const caja = bien ? Math.min(5, antes.caja + 1) : 1;
+    registro[q.frase] = { caja, proxima: sumarDias(hoyIso(), bien ? INTERVALO[caja - 1] : 1) };
+    guardar(registro);
+  }
+  pintarPreguntas();
+}
 function pintarPreguntas() {
+  if (!turno) armarTurno();
   const cont = $('preguntas'); cont.innerHTML = '';
-  PREGUNTAS.forEach((q, i) => {
-    const r = respuestas[i], div = document.createElement('div');
+  turno.forEach(i => {
+    const q = PREGUNTAS[i], r = deHoy[i], div = document.createElement('div'), reg = registro[q.frase];
     div.className = 'pregunta' + (r ? (r === q.es ? ' acierto' : ' error') : '');
     div.innerHTML = `<q>${esc(q.frase)}</q>` + (r
-      ? `<div class="respuesta"><b>${r === q.es ? 'Correcto' : 'No'}: es ${q.es === 'mito' ? 'un mito' : 'evidencia'}.</b><span>${esc(q.explica)}</span><a href="https://doi.org/${q.doi}" target="_blank" rel="noopener">${esc(q.cita)} · doi.org/${esc(q.doi)}</a></div>`
+      ? `<div class="respuesta"><b>${r === q.es ? 'Correcto' : 'No'}: es ${q.es === 'mito' ? 'un mito' : 'evidencia'}.</b><span>${esc(q.explica)}</span><a href="https://doi.org/${q.doi}" target="_blank" rel="noopener">${esc(q.cita)} · doi.org/${esc(q.doi)}</a>${!practicando && reg ? `<span class="cuando">Caja ${reg.caja} · vuelve el ${esc(fechaLarga(reg.proxima))}</span>` : ''}</div>`
       : `<div class="opciones"><button class="boton" data-r="mito">Mito</button><button class="boton" data-r="evidencia">Evidencia</button></div>`);
-    div.querySelectorAll('button[data-r]').forEach(b => b.onclick = () => { respuestas[i] = b.dataset.r; pintarPreguntas(); });
+    div.querySelectorAll('button[data-r]').forEach(b => b.onclick = () => responder(i, b.dataset.r));
     cont.append(div);
   });
-  const n = Object.keys(respuestas).length, bien = Object.entries(respuestas).filter(([i, r]) => PREGUNTAS[i].es === r).length;
-  $('marcador').textContent = n < PREGUNTAS.length ? `${n} de ${PREGUNTAS.length} respondidas` : `${bien} de ${PREGUNTAS.length} correctas`;
+  const faltan = turno.filter(i => !deHoy[i]).length;
+  const proximas = Object.values(registro).map(x => x.proxima).filter(f => f > hoyIso()).sort();
+  $('marcador').textContent = practicando
+    ? `Práctica libre: ${turno.length - faltan} de ${turno.length} respondidas. No cambia tu calendario.`
+    : turno.length === 0
+      ? (proximas.length ? `Terminaste el repaso de hoy. La próxima pregunta vuelve el ${fechaLarga(proximas[0])}.` : 'No hay preguntas pendientes.')
+      : faltan ? `Hoy te tocan ${turno.length} preguntas; faltan ${faltan}.` : `Terminaste el repaso de hoy.${proximas.length ? ` Vuelve el ${fechaLarga(proximas[0])}.` : ''}`;
+  const conteo = [0, 0, 0, 0, 0, 0]; PREGUNTAS.forEach(q => { conteo[registro[q.frase] ? registro[q.frase].caja : 0]++; });
+  const max = Math.max(...conteo, 1);
+  $('cajas').innerHTML = conteo.map((n, c) => `<div title="${c === 0 ? 'Sin ver' : 'Caja ' + c}: ${n}"><span>${n}</span><i style="height:${4 + n / max * 36}px;opacity:${c === 0 ? .35 : .45 + c * .11}"></i><span>${c === 0 ? 'nuevas' : 'caja ' + c}</span></div>`).join('');
+  $('practicar').textContent = practicando ? 'Volver a mi repaso de hoy' : 'Practicar todas';
 }
-$('otra-vez').onclick = () => { respuestas = {}; pintarPreguntas(); };
+$('practicar').onclick = () => { practicando = !practicando; deHoy = {}; turno = null; pintarPreguntas(); };
+let confirmando = null;   // dos toques para borrar el progreso: el visor no muestra diálogos de confirmación
+$('otra-vez').onclick = () => {
+  if (!confirmando) { $('otra-vez').textContent = '¿Borrar tu progreso? Toca otra vez'; confirmando = setTimeout(() => { confirmando = null; $('otra-vez').textContent = 'Empezar de nuevo'; }, 4000); return; }
+  clearTimeout(confirmando); confirmando = null; $('otra-vez').textContent = 'Empezar de nuevo';
+  registro = {}; guardar(registro); deHoy = {}; practicando = false; turno = null; pintarPreguntas();
+};
 pintarPreguntas();
 
 /* ===== Planificador de repaso espaciado ===== */

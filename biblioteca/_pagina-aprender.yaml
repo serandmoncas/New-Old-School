@@ -133,3 +133,107 @@ veredictos:
     juicio: Los programas de aventura tienen efectos positivos moderados que siguen creciendo después, pero varían mucho entre programas.
     cita: Hattie y otros, 1997
     doi: 10.3102/00346543067001043
+
+# "¿Mito o evidencia?": cada pregunta se repasa con espaciado en el navegador de cada visitante.
+# es: mito | evidencia. Usa solo afirmaciones que ya estén verificadas en alguna ficha.
+preguntas:
+  - frase: Cada persona aprende mejor si le enseñan según su estilo, visual, auditivo o kinestésico.
+    es: mito
+    explica: No hay evidencia de que adaptar la enseñanza al estilo de cada estudiante mejore lo que aprende.
+    cita: Pashler y otros, 2008
+    doi: 10.1111/j.1539-6053.2009.01038.x
+  - frase: Cerrar el cuaderno e intentar recordar enseña más que releer.
+    es: evidencia
+    explica: Recordar sin mirar superó a releer, y también a hacer mapas conceptuales.
+    cita: Roediger y Karpicke, 2006
+    doi: 10.1111/j.1467-9280.2006.01693.x
+  - frase: Un hábito nuevo se forma en 21 días.
+    es: mito
+    explica: En 96 voluntarios, volver automática una conducta tomó entre 18 y 254 días, según la persona. Saltarse un día no arruinó el proceso.
+    cita: Lally y otros, 2010
+    doi: 10.1002/ejsp.674
+  - frase: Con 10.000 horas de práctica, cualquiera llega a ser experto.
+    es: mito
+    explica: La práctica importa, pero explica el 26 % de las diferencias en juegos como el ajedrez, el 4 % en educación y menos del 1 % en profesiones.
+    cita: Macnamara, Hambrick y Oswald, 2014
+    doi: 10.1177/0956797614535810
+  - frase: Con entrenamiento se puede leer el doble de rápido sin entender menos.
+    es: mito
+    explica: Cuando se acelera la lectura, se pierde comprensión. Lo que sí ayuda es leer mucho y conocer más palabras.
+    cita: Rayner y otros, 2016
+    doi: 10.1177/1529100615623267
+  - frase: Repartir el estudio en varios días rinde más que estudiar todo la noche anterior.
+    es: evidencia
+    explica: El repaso espaciado supera al estudio concentrado en cientos de experimentos.
+    cita: Cepeda y otros, 2006
+    doi: 10.1037/0033-2909.132.3.354
+  - frase: Convencerte de que puedes mejorar sube tus notas de forma clara.
+    es: mito
+    explica: En los estudios de mejor calidad, el efecto promedio de las intervenciones de mentalidad de crecimiento es casi cero.
+    cita: Macnamara y Burgoyne, 2023
+    doi: 10.1037/bul0000352
+  - frase: Cualquiera puede entrenar su memoria con el palacio de la memoria.
+    es: evidencia
+    explica: Personas sin experiencia que entrenaron seis semanas mejoraron su memoria, y la mejora seguía cuatro meses después. Sirve para listas, no para entender un tema.
+    cita: Dresler y otros, 2017
+    doi: 10.1016/j.neuron.2017.02.003
+  - frase: Los campeones de memoria nacen con cerebros distintos a los demás.
+    es: mito
+    explica: Un estudio con memorizadores de campeonato no encontró más inteligencia ni cerebros distintos. Usaban una estrategia espacial, el método de los lugares.
+    cita: Maguire y otros, 2003
+    doi: 10.1038/nn988
+  - frase: Subrayar es una de las técnicas de estudio más útiles.
+    es: mito
+    explica: Una revisión de diez técnicas le dio utilidad baja a subrayar y a releer. Las de utilidad alta fueron ponerse a prueba y repartir el estudio en el tiempo.
+    cita: Dunlosky y otros, 2013
+    doi: 10.1177/1529100612453266
+  - frase: Mezclar distintos tipos de ejercicios cuesta más, pero enseña más que practicar uno hasta dominarlo.
+    es: evidencia
+    explica: Mezclar tipos de problemas se siente más difícil y da mejores resultados después.
+    cita: Rohrer y Taylor, 2007
+    doi: 10.1007/s11251-007-9015-8
+  - frase: Decidir de antemano cuándo y dónde vas a hacer algo te ayuda a cumplirlo.
+    es: evidencia
+    explica: Las intenciones de implementación tuvieron un efecto de tamaño medio a grande en un metaanálisis de 94 estudios.
+    cita: Gollwitzer y Sheeran, 2006
+    doi: 10.1016/S0065-2601(06)38002-1
+  - frase: Si conoces tus sesgos, dejas de caer en ellos.
+    es: mito
+    explica: Las personas ven los sesgos mucho más en los demás que en sí mismas, incluso después de leer cómo funcionan. Lo que ayuda es practicar con retroalimentación.
+    cita: Pronin, Lin y Ross, 2002
+    doi: 10.1177/0146167202286008
+  - frase: Para alguien que empieza de cero, descubrir solo enseña más que una explicación con ejemplos resueltos.
+    es: mito
+    explica: Quien no sabe nada de un tema aprende mejor con instrucción explícita y ejemplos resueltos que descubriendo solo.
+    cita: Kirschner, Sweller y Clark, 2006
+    doi: 10.1207/s15326985ep4102_1
+  - frase: Cuando un problema se atasca, dejarlo descansar un rato puede ayudar a resolverlo.
+    es: evidencia
+    explica: Tiene apoyo, sobre todo en problemas creativos.
+    cita: Sio y Ormerod, 2009
+    doi: 10.1037/a0014212
+  - frase: Recibir retroalimentación siempre mejora el desempeño.
+    es: mito
+    explica: En promedio ayuda, pero en más de un tercio de los casos estudiados lo empeoró, sobre todo cuando se centra en la persona y no en la tarea.
+    cita: Kluger y DeNisi, 1996
+    doi: 10.1037/0033-2909.119.2.254
+  - frase: Una noche sin dormir empeora lo que logras guardar en la memoria al día siguiente.
+    es: evidencia
+    explica: Sin dormir, la zona del cerebro que guarda los recuerdos nuevos trabajó menos, y se recordó peor lo aprendido.
+    cita: Yoo y otros, 2007
+    doi: 10.1038/nn1851
+  - frase: Usar el celular y la tecnología digital es la gran causa del malestar de los adolescentes.
+    es: mito
+    explica: En más de 350.000 adolescentes, el uso de tecnología digital tuvo una relación muy pequeña con su bienestar.
+    cita: Orben y Przybylski, 2019
+    doi: 10.1038/s41562-018-0506-1
+  - frase: En el deporte juvenil de élite hay muchos más nacidos a comienzos del año que a finales.
+    es: evidencia
+    explica: En el hockey juvenil de élite y en mundiales de fútbol juveniles, cerca del 40 % nació en el primer trimestre y cerca del 10 % en el último.
+    cita: Barnsley, 2025
+    doi: 10.3389/fspor.2024.1516173
+  - frase: Hablar en clase, construyendo sobre lo que dicen otros, se asocia con aprender mejor los contenidos.
+    es: evidencia
+    explica: En 72 salones de primaria, la participación amplia y el diálogo se asociaron con mejor dominio de los contenidos, aun controlando el nivel previo.
+    cita: Howe y otros, 2019
+    doi: 10.1080/10508406.2019.1573730
