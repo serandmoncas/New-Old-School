@@ -13,6 +13,8 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 5. Un libro nuevo entra con `estado: propuesta`. Pasa a `aceptado` cuando un curador lo revisa.
 6. Corre `python3 scripts/biblioteca.py --indice` para validar y actualizar el índice de abajo.
 
+¿No sabes qué libro agregar? Mira el backlog en [`_pendientes.md`](_pendientes.md).
+
 ## Reglas
 
 - **Derechos de autor.** Si el libro tiene derechos (`acceso: con-derechos`), no se suben copias ni fragmentos largos. Se cuenta con palabras propias y se citan frases cortas. Solo los libros de dominio público llevan `texto_libre`, y el enlace debe ser a una edición legal (Gutenberg, Wikisource).
