@@ -10,8 +10,9 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 2. Usa solo temas de [`_temas.yaml`](_temas.yaml). Si falta uno, agrégalo en el mismo PR.
 3. En `cruza_con`, escribe **por qué** se cruzan los dos libros, en una frase. Cada cruce se declara una sola vez, en cualquiera de los dos libros; el índice lo muestra en ambos sentidos.
 4. En `nodos`, pon solo ids que existan en algún `_modulo.yaml`.
-5. Un libro nuevo entra con `estado: propuesta`. Pasa a `aceptado` cuando un curador lo revisa.
-6. Corre `python3 scripts/biblioteca.py --indice` para validar y actualizar el índice de abajo.
+5. En divulgación, ensayo, tratado y monografía, escribe también las secciones **Resumen** y **Análisis** de la plantilla: qué dice el libro y qué tan bien se sostiene. Mira *Ultralearning* o *El arte de pensar* como ejemplo.
+6. Un libro nuevo entra con `estado: propuesta`. Pasa a `aceptado` cuando un curador lo revisa.
+7. Corre `python3 scripts/biblioteca.py --indice` para validar y actualizar el índice de abajo.
 
 ¿No sabes qué libro agregar? Mira el backlog en [`_pendientes.md`](_pendientes.md).
 

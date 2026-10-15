@@ -4,7 +4,7 @@ titulo: El abordaje de la educación experiencial
 titulo_original: null
 autor: Juan Felipe Builes Jaramillo
 publicado: '2003'
-tipo: ensayo
+tipo: monografia
 acceso: con-derechos
 texto_libre: null
 temas: [educacion, aprender-a-aprender]
