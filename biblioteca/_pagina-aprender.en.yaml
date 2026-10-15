@@ -1,0 +1,211 @@
+# English version of _pagina-aprender.yaml (scripts/pagina_aprender.py --idioma en).
+# Translates the texts only: book lists, verdicts, citations and DOIs come from the Spanish file,
+# so a change in evidence is made once, there. Questions follow the same order as in Spanish.
+
+etiquetas:
+  solido: Solid
+  matices: Partly right
+  promete: Promises more than it proves
+  filosofia: Philosophy of education
+
+grupos:
+  - nombre: How the brain learns
+    sub: Remembering, practicing and understanding
+  - nombre: Practice, talent and mindset
+    sub: How much is innate and how much is effort
+  - nombre: Habits and focus
+    sub: What we do without thinking, and how to protect attention
+  - nombre: Learning on your own
+    sub: Methods for self-learners, and their promises
+  - nombre: Pedagogy
+    sub: What teaching is and what learning is for
+
+rutas:
+  - nombre: If you are a student
+    texto: Start with how your brain works and which techniques really help.
+  - nombre: If you teach
+    texto: The science of learning and the big questions about what teaching is.
+  - nombre: If you support a student at home
+    texto: Habits, focus, and what to expect from talent and effort.
+
+titulos:
+  make-it-stick: Make It Stick
+  learning-how-to-learn: Learning How to Learn
+  moonwalking-with-einstein: Moonwalking with Einstein
+  peak: Peak
+  outliers: Outliers
+  mindset: Mindset
+  atomic-habits: Atomic Habits
+  deep-work: Deep Work
+  ultralearning: Ultralearning
+  limitless: Limitless
+  el-arte-de-pensar: The Art of Thinking Clearly
+  pedagogia-del-oprimido: Pedagogy of the Oppressed
+  el-maestro-ignorante: The Ignorant Schoolmaster
+  emilio: Emile, or On Education
+  summerhill: Summerhill
+  el-abordaje-de-la-educacion-experiencial: El abordaje de la educación experiencial (in Spanish only)
+  21-lecciones-para-el-siglo-xxi: 21 Lessons for the 21st Century
+  a-more-beautiful-question: A More Beautiful Question
+  algorithms-to-live-by: Algorithms to Live By
+  autobiografia-de-malcolm-x: The Autobiography of Malcolm X
+  comunicacion-no-violenta: Nonviolent Communication
+  daring-greatly: Daring Greatly
+  delirios-multitudinarios: Extraordinary Popular Delusions and the Madness of Crowds
+  designing-your-life: Designing Your Life
+  el-hombre-en-busca-de-sentido: Man's Search for Meaning
+  inteligencia-emocional: Emotional Intelligence
+  moneyball: Moneyball
+  nudge: Nudge
+  odisea: The Odyssey
+  pensar-rapido-pensar-despacio: Thinking, Fast and Slow
+  pequeno-cerdo-capitalista: Pequeño cerdo capitalista
+  robinson-crusoe: Robinson Crusoe
+  talking-to-strangers: Talking to Strangers
+  the-power-of-habit: The Power of Habit
+  the-radical-king: The Radical King
+  why-we-sleep: Why We Sleep
+
+veredictos:
+  make-it-stick:
+    promesa: Recalling without looking teaches more than rereading
+    juicio: Recalling what you studied without looking beat rereading it, and also beat making concept maps.
+  learning-how-to-learn:
+    promesa: Letting a problem rest helps you solve it
+    juicio: It has support, especially for creative problems. Other tools in the book, such as the Pomodoro technique, have no studies of their own.
+  moonwalking-with-einstein:
+    promesa: An exceptional memory is a technique, not a gift
+    juicio: People with no experience who trained for six weeks with the memory palace improved, and the gain was still there four months later. It works for lists, not for understanding a subject.
+  peak:
+    promesa: Experts are made through deliberate practice
+    juicio: 'Practice matters, but it explains less than the book suggests: 26 % of the differences in games such as chess and 4 % in education.'
+  outliers:
+    promesa: The 10,000-hour rule
+    juicio: 'The birth-date effect is solid, but the 10,000-hour rule is not: practice explains less than 1 % of the differences in professions.'
+  mindset:
+    promesa: Believing you can improve raises your grades
+    juicio: In the highest-quality studies, the average effect of mindset interventions is close to zero.
+  atomic-habits:
+    promesa: Decide when and where you will do something
+    juicio: Implementation intentions had a medium-to-large effect across 94 studies. The idea of changing your identity, on the other hand, has not been tested.
+  deep-work:
+    promesa: Technology ruins young people's focus
+    juicio: In more than 350,000 teenagers, digital technology use had a very small relationship with their well-being. The problem exists, but the book enlarges it.
+  ultralearning:
+    promesa: Learn fast and intensely
+    juicio: Reviewing spaced out over time beats studying everything at once, which clashes with the intensity the book proposes.
+  limitless:
+    promesa: You can read much faster without understanding less
+    juicio: 'The most complete review concludes that you cannot: when reading speeds up, comprehension drops.'
+  el-arte-de-pensar:
+    promesa: Knowing your biases protects you from them
+    juicio: Reading about biases helps little. Practicing with cases and getting feedback did reduce them, and the effect lasted two months.
+  pedagogia-del-oprimido:
+    promesa: Teach through dialogue, not deposits
+    juicio: 'It is philosophy and politics of education. Classroom dialogue has support: in 72 classrooms, broad participation was associated with better mastery of the content.'
+  el-maestro-ignorante:
+    promesa: You can teach what you do not know
+    juicio: It is philosophy. For beginners, the evidence favors explicit instruction and worked examples over discovering alone.
+  emilio:
+    promesa: A child is not a small adult
+    juicio: It is an imaginary experiment from 1762, not research. Its value lies in the questions it opened.
+  summerhill:
+    promesa: A school where classes are optional
+    juicio: It has been open for more than a hundred years. Graduates of another democratic school went on to study or work without major difficulties, although families choose the school.
+  el-abordaje-de-la-educacion-experiencial:
+    promesa: Learning by doing and reflecting
+    juicio: Adventure programs have moderate positive effects that keep growing afterwards, but they vary a lot between programs.
+
+preguntas:
+  - frase: Everyone learns best when taught in their own style, visual, auditory or kinesthetic.
+    explica: There is no evidence that matching teaching to each student's style improves what they learn.
+  - frase: Closing the notebook and trying to recall teaches more than rereading.
+    explica: Recalling without looking beat rereading, and also beat making concept maps.
+  - frase: A new habit forms in 21 days.
+    explica: In 96 volunteers, making a behavior automatic took between 18 and 254 days, depending on the person. Missing a day did not ruin the process.
+  - frase: With 10,000 hours of practice, anyone can become an expert.
+    explica: Practice matters, but it explains 26 % of the differences in games such as chess, 4 % in education and less than 1 % in professions.
+  - frase: With training you can read twice as fast without understanding less.
+    explica: When reading speeds up, comprehension drops. What does help is reading a lot and knowing more words.
+  - frase: Spreading study over several days pays off more than studying everything the night before.
+    explica: Spaced review beats massed study in hundreds of experiments.
+  - frase: Convincing yourself that you can improve clearly raises your grades.
+    explica: In the highest-quality studies, the average effect of growth-mindset interventions is close to zero.
+  - frase: Anyone can train their memory with the memory palace.
+    explica: People with no experience who trained for six weeks improved their memory, and the gain was still there four months later. It works for lists, not for understanding a subject.
+  - frase: Memory champions are born with brains different from everyone else's.
+    explica: A study of championship memorizers found no higher intelligence and no different brains. They used a spatial strategy, the method of loci.
+  - frase: Highlighting is one of the most useful study techniques.
+    explica: A review of ten techniques rated highlighting and rereading as low utility. The high-utility ones were practice testing and spreading study over time.
+  - frase: Mixing different kinds of exercises is harder, but teaches more than practicing one kind until you master it.
+    explica: Mixing problem types feels harder and gives better results later.
+  - frase: Deciding in advance when and where you will do something helps you follow through.
+    explica: Implementation intentions had a medium-to-large effect in a meta-analysis of 94 studies.
+  - frase: If you know your biases, you stop falling for them.
+    explica: People see biases much more in others than in themselves, even after reading how they work. What helps is practicing with feedback.
+  - frase: For someone starting from zero, discovering alone teaches more than an explanation with worked examples.
+    explica: Someone who knows nothing about a subject learns better with explicit instruction and worked examples than by discovering alone.
+  - frase: When a problem gets stuck, letting it rest for a while can help solve it.
+    explica: It has support, especially for creative problems.
+  - frase: Getting feedback always improves performance.
+    explica: On average it helps, but in more than a third of the cases studied it made performance worse, especially when it focused on the person rather than the task.
+  - frase: A night without sleep worsens what you manage to store in memory the next day.
+    explica: Without sleep, the brain area that stores new memories worked less, and what was learned was remembered worse.
+  - frase: Phones and digital technology are the big cause of teenagers' distress.
+    explica: In more than 350,000 teenagers, digital technology use had a very small relationship with their well-being.
+  - frase: In elite youth sport there are many more people born early in the year than late in the year.
+    explica: In elite youth hockey and in youth soccer world cups, about 40 % were born in the first quarter and about 10 % in the last.
+  - frase: Talking in class, building on what others say, is associated with learning the content better.
+    explica: In 72 primary classrooms, broad participation and dialogue were associated with better mastery of the content, even controlling for prior level.
+
+cruces:
+  ultralearning|21-lecciones-para-el-siglo-xxi: If what we learn today may become obsolete, learning on your own is the key skill. Harari raises the problem; Young proposes how.
+  pedagogia-del-oprimido|a-more-beautiful-question: Freire criticized the school that only gives answers; Berger shows what happens when you teach people to ask.
+  el-maestro-ignorante|a-more-beautiful-question: Jacotot did not explain. He asked, and let students search. Berger defends the same thing at any age.
+  deep-work|algorithms-to-live-by: Switching from task to task has a cost. Newport calls it attention residue; computer scientists call it thrashing.
+  moonwalking-with-einstein|algorithms-to-live-by: Foer trains memory to remember more; Christian and Griffiths explain why forgetting is also useful.
+  atomic-habits|odisea: Designing your surroundings so you do not give in to temptation is the modern version of tying yourself to the mast.
+  pedagogia-del-oprimido|autobiografia-de-malcolm-x: Learning to read to understand your own oppression. Malcolm X did it alone in a prison; Freire turned it into a method.
+  ultralearning|autobiografia-de-malcolm-x: One of the most famous self-learners. He copied the whole dictionary in prison to learn to read and write well.
+  pedagogia-del-oprimido|comunicacion-no-violenta: Both put dialogue at the center, Freire to educate and Rosenberg to resolve conflicts.
+  summerhill|comunicacion-no-violenta: Resolving conflicts without punishment or blame, through Neill's school meeting and Rosenberg's four questions.
+  el-arte-de-pensar|comunicacion-no-violenta: Separating what happened from what we judge. Rosenberg asks for it to speak better; Dobelli shows how hard it is.
+  mindset|daring-greatly: Daring to fail. Dweck explains it with the growth mindset; Brown, with the shame that keeps us from trying.
+  deep-work|ultralearning: Focus is one of the nine principles of Ultralearning; Newport devotes a whole book to it.
+  mindset|designing-your-life: Both see failure as part of the process. Dweck explains it with the growth mindset; Burnett and Evans suggest logging failures to learn from them.
+  el-abordaje-de-la-educacion-experiencial|emilio: Rousseau is among the philosophical foundations of experiential education, learning from things and not from speeches.
+  el-abordaje-de-la-educacion-experiencial|pedagogia-del-oprimido: Both start from John Dewey. Freire takes him to adult literacy and social justice; Builes, to group adventure workshops.
+  el-abordaje-de-la-educacion-experiencial|make-it-stick: They agree that living through something is not enough to learn it. You need to reflect (Builes) or retrieve from memory (Make It Stick).
+  el-arte-de-pensar|delirios-multitudinarios: Dobelli explains social proof in a chapter; Mackay shows whole countries falling for it.
+  el-arte-de-pensar|odisea: Hyperbolic discounting (preferring today's reward) is the problem; tying yourself to the mast is a solution.
+  el-arte-de-pensar|make-it-stick: Overconfidence, student version. Rereading gives the illusion of knowing, and Make It Stick shows how to check it.
+  el-arte-de-pensar|atomic-habits: Dobelli says willpower runs out; Clear proposes not depending on it and changing your surroundings instead.
+  mindset|el-hombre-en-busca-de-sentido: Both say attitude counts, and both risk blaming those who could not cope with circumstances they did not choose.
+  el-maestro-ignorante|ultralearning: Learning without anyone explaining. Jacotot in 1818, and Scott Young with MIT's open courses.
+  emilio|robinson-crusoe: It is the first book Rousseau lets Emile read, the model of someone who learns from things and not from speeches.
+  emilio|pedagogia-del-oprimido: Two roots of active education, two centuries apart. Learning from experience (Rousseau) and from dialogue about one's own reality (Freire).
+  mindset|inteligencia-emocional: Two psychology ideas that became trends. They have a real basis, but the popular version promises more than the studies show.
+  learning-how-to-learn|deep-work: Two ways of focusing. Short 25-minute blocks with breaks (Oakley) or long blocks without distractions (Newport).
+  limitless|el-arte-de-pensar: Dobelli teaches you to distrust good stories and authority, useful for reading with a cool head any book that promises to change your life, this one included.
+  make-it-stick|ultralearning: Make It Stick is the science behind two principles of Ultralearning, retrieval and retention.
+  make-it-stick|learning-how-to-learn: The same ideas about how we learn, one version for adults and another for children and teenagers.
+  mindset|limitless: Both say beliefs about ourselves limit what we learn. Dweck has more studies behind her, and even so her effect is small.
+  mindset|outliers: Dweck looks at what happens inside the person (their mindset); Gladwell, at what happens outside (their opportunities).
+  outliers|moneyball: Both discuss how talent is recognized. Gladwell looks at opportunities; Lewis, at the mistakes of the people scouting players.
+  moonwalking-with-einstein|limitless: The memory palace. Kwik teaches it as a technique; Foer tells how he learned it and how far it goes.
+  atomic-habits|nudge: Both say surroundings matter more than willpower. Clear applies it to yourself; Thaler and Sunstein, to whoever designs other people's choices.
+  peak|outliers: The 10,000-hour rule. Gladwell popularized it with Ericsson's study, and Ericsson replies that this is not what he found.
+  peak|moonwalking-with-einstein: Foer uses Ericsson's deliberate practice to get out of the plateau where his memory had stopped improving.
+  pedagogia-del-oprimido|el-maestro-ignorante: Two critiques of the teacher who only deposits or explains. Freire proposes dialogue; Rancière, the equality of intelligences.
+  el-arte-de-pensar|pensar-rapido-pensar-despacio: Dobelli lists thinking errors; Kahneman explains where they come from, with the theory of two systems.
+  atomic-habits|pequeno-cerdo-capitalista: Saving as a small, automatic habit, not as a heroic effort.
+  summerhill|emilio: Both start from the idea that children are good by nature and learn best in freedom. Neill took it to a real school.
+  summerhill|el-maestro-ignorante: Trusting that students can learn by themselves. Jacotot without explaining, Neill without compulsory classes.
+  summerhill|el-abordaje-de-la-educacion-experiencial: Challenge by choice and Summerhill's optional classes share one idea, that nobody learns by force.
+  outliers|talking-to-strangers: The same author and the same method. Very well told stories that sometimes carry more than they prove.
+  atomic-habits|the-power-of-habit: Clear builds his method on Duhigg's loop (cue, routine, reward) and adds a fourth piece, craving as its own step.
+  pedagogia-del-oprimido|the-radical-king: Two voices of the sixties against oppression, King from nonviolence and faith, Freire from education.
+  ultralearning|limitless: Two promises of faster learning. Comparing them is a good exercise in separating what has evidence from what is merely said.
+  ultralearning|el-arte-de-pensar: Ultralearning relies on stories of people who succeeded; Dobelli explains why that can be survivorship bias.
+  ultralearning|robinson-crusoe: Learning alone and by doing. Robinson learns to bake bread and make pots through failed attempts.
+  make-it-stick|why-we-sleep: Sleeping after studying consolidates what you learned, the other half of the study techniques Make It Stick proposes.

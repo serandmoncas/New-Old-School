@@ -1,0 +1,282 @@
+# Textos de la interfaz de la página "aprender a aprender", por idioma.
+# El contenido de los libros está en biblioteca/_pagina-aprender.yaml (y .en.yaml para inglés).
+
+es:
+  lang: es
+  locale: es-CO
+  titulo: Libros para aprender a aprender
+  descripcion: "Libros sobre cómo se aprende mejor, cómo se enseña y qué promesas no tienen evidencia: veredictos, mapa de cruces y ejercicios de repaso. Biblioteca de New Old School."
+  nav: [En 5 minutos, Qué funciona, Ponte a prueba, Planea tu repaso, Veredictos, Mapa de cruces, Fichas]
+  nav_aria: Secciones
+  presentar: Presentar en 5 minutos
+  portada_rotulo: Biblioteca de New Old School
+  portada_p: "{n} libros sobre cómo se aprende mejor, cómo se enseña y qué promesas no tienen evidencia. Cada uno trae su veredicto, el estudio que lo sostiene o lo contradice y los libros con los que dialoga."
+  leyenda: {solido: la evidencia lo respalda, matices: acierta en parte, promete: '', filosofia: no se mide igual}
+  c_rotulo: La idea en Formato Curioso · 300 segundos
+  c_h2: Lo que se siente como aprender no siempre es aprender
+  c_p: Una sola idea en cinco bloques, con el tiempo de cada uno. Toca un bloque para leerlo, o usa “Presentar” para mostrarlo en pantalla completa con reloj.
+  c_aria: Bloques
+  iniciar: Iniciar
+  pausa: Pausa
+  reiniciar: Reiniciar
+  c_nota: Ámbar en los últimos 10 s; rojo si te pasas.
+  objetivo: objetivo
+  f_rotulo: Explicador animado
+  f_h2: Qué funciona al estudiar, y cuánto pesa la práctica
+  f_p: Dos gráficos de la investigación que citan varios de estos libros. Elige uno, reprodúcelo o arrastra la línea de tiempo.
+  f_aria_grafico: Gráfico animado
+  f_aria_linea: Línea de tiempo
+  reproducir: Reproducir
+  fuente: 'Fuente: '
+  p_rotulo: Ponte a prueba · práctica de recuperación
+  p_h2: ¿Mito o evidencia?
+  p_p: "Veinte ideas muy repetidas sobre cómo se aprende. Decide antes de ver la respuesta: intentar recordar y equivocarse ayuda más que leer la respuesta. La página recuerda tus respuestas en este navegador y te vuelve a preguntar, días después, lo que fallaste y lo que hace rato no repasas. Así funciona el repaso espaciado."
+  p_aria_cajas: Preguntas por caja de repaso
+  practicar: Practicar todas
+  volver_repaso: Volver a mi repaso de hoy
+  otra_vez: Empezar de nuevo
+  otra_vez_confirmar: ¿Borrar tu progreso? Toca otra vez
+  mito: Mito
+  evidencia: Evidencia
+  correcto: Correcto
+  incorrecto: 'No'
+  es_mito: es un mito
+  es_evidencia: es evidencia
+  caja: Caja
+  vuelve: vuelve el
+  nuevas: nuevas
+  sin_ver: Sin ver
+  q_practica: "Práctica libre: {r} de {n} respondidas. No cambia tu calendario."
+  q_fin_proxima: Terminaste el repaso de hoy. La próxima pregunta vuelve el {f}.
+  q_nada: No hay preguntas pendientes.
+  q_tocan: Hoy te tocan {n} preguntas; faltan {f}.
+  q_fin: Terminaste el repaso de hoy.
+  q_vuelve: ' Vuelve el {f}.'
+  r_rotulo: Planea tu repaso · práctica espaciada
+  r_h2: ¿Cuándo repasar para un examen?
+  r_p: Repartir el estudio en varios días rinde más que meter todo la noche anterior. Pon la fecha del examen y el planificador propone sesiones cortas, cada vez más separadas, en las que te pones a prueba sin mirar.
+  r_empiezo: Empiezo a estudiar el
+  r_examen: El examen es el
+  r_sesiones: Número de sesiones
+  r_nota: Cada sesión, 20 a 30 minutos. Cierra el cuaderno, escribe o di en voz alta lo que recuerdas, y después revisa qué te faltó.
+  r_error: La fecha del examen debe ser posterior al día en que empiezas.
+  r_examen_corto: Examen
+  r_resumen: "{n} sesiones en {d} días, separadas por {g} días. Ejemplo calculado desde hoy; cambia las fechas para tu examen."
+  r_tareas:
+    - Estudia el tema por primera vez y, al final, escribe lo que recuerdas sin mirar.
+    - Ponte a prueba sin mirar. Revisa solo lo que olvidaste.
+    - Mezcla tipos de ejercicios y explica en voz alta los pasos.
+    - Ponte a prueba otra vez, como si fuera el examen.
+    - 'Repaso corto: preguntas rápidas, sin releer todo.'
+    - Último repaso, corto. Duerme bien esta noche.
+  v_rotulo: Tablero de veredictos · toca un libro
+  v_h2: ¿Qué tanto se sostiene cada libro?
+  v_p: Cada veredicto guarda la afirmación central del libro y el estudio que la juzga. El análisis completo está en su ficha.
+  todos: Todos
+  la_promesa: 'La promesa:'
+  ir_ficha_completa: Ir a la ficha completa
+  m_rotulo: Mapa de cruces
+  m_h2: Cómo dialogan los libros entre sí
+  m_p: Cada línea es un cruce de la biblioteca. Toca un libro para ver con cuáles conversa y por qué. Los puntos grises son libros de otros temas.
+  m_aria: Mapa de cruces entre libros
+  otro_tema: (otro tema)
+  sin_cruces: Este libro todavía no tiene cruces.
+  ir_ficha: Ir a la ficha
+  otros_temas: Otros temas
+  fi_rotulo: Las fichas
+  fi_h2: Los {n} libros, uno por uno
+  leer_ficha: Leer la ficha completa
+  ficha_es: ''
+  autor: Autor
+  temas: Temas
+  se_cruza: Se cruza con
+  atras: ← Bloque anterior
+  adelante: Bloque siguiente →
+  salir: Salir
+  curioso:
+    - nombre: Gancho
+      objetivo: 30
+      texto:
+        - ¿Cómo estudiaron para su último examen? Si la respuesta es “leí el cuaderno otra vez y subrayé lo importante”, están en buena compañía, porque es lo que más hace la gente.
+        - Y, según la investigación, es de lo que menos funciona.
+    - nombre: Idea
+      objetivo: 90
+      texto:
+        - Cuando releemos, el texto se vuelve familiar, y esa familiaridad se siente como saber. Pero reconocer algo no es poder recordarlo.
+        - En cambio, cerrar el cuaderno e intentar recordar cuesta. Uno se equivoca, se queda en blanco, siente que no avanza. Ese esfuerzo es justamente lo que hace que lo aprendido dure. Los psicólogos lo llaman dificultades deseables.
+        - Lo mismo pasa con repartir el estudio en varios días en vez de meter todo la noche anterior. Se siente peor, y funciona mejor. Lo que se siente como aprender no siempre es aprender.
+    - nombre: Evidencia
+      objetivo: 60
+      texto:
+        - 'En 2013, un grupo de psicólogos revisó diez técnicas de estudio. Solo dos recibieron utilidad alta: ponerse a prueba y repartir el estudio en el tiempo. Releer y subrayar recibieron utilidad baja.'
+        - Y una idea muy popular, enseñar según el “estilo de aprendizaje” de cada uno, visual o auditivo, no tiene evidencia de que mejore lo que se aprende.
+    - nombre: ¿Y a mí qué?
+      objetivo: 60
+      texto:
+        - Si estudias, cierra el cuaderno y escribe lo que recuerdas; reparte el estudio en varios días; mezcla tipos de ejercicios.
+        - Si enseñas, empieza la clase con tres preguntas cortas sobre la anterior, sin nota.
+        - Si acompañas en casa, en vez de “¿estudiaste?”, pregunta “¿qué aprendiste? Explícamelo sin mirar”.
+    - nombre: Puerta abierta
+      objetivo: 30
+      texto:
+        - Dos libros para seguir. Apréndetelo (Make It Stick), escrito por los propios investigadores, y Aprender a aprender, pensado para estudiantes.
+        - Y la pregunta para conversar, ¿qué vas a dejar de hacer la próxima vez que estudies?
+  escenas:
+    tecnicas:
+      nombre: Diez técnicas de estudio
+      fuente: Dunlosky, Rawson, Marsh, Nathan y Willingham (2013), Psychological Science in the Public Interest. doi.org/10.1177/1529100612453266
+      titulo: Utilidad de diez técnicas de estudio, según una revisión de 2013
+      utilidad: Utilidad
+      niveles: [alta, moderada, baja]
+      tecnicas:
+        - [Ponerse a prueba (recordar sin mirar), Repartir el estudio en el tiempo]
+        - [Preguntarse por qué, Explicarse a uno mismo, Mezclar tipos de ejercicios]
+        - [Resumir, Subrayar, Palabras clave (mnemotecnia), Imaginar el texto, Releer]
+      cierre: Lo que más hace la gente, releer y subrayar, está abajo.
+    practica:
+      nombre: Cuánto explica la práctica
+      fuente: Macnamara, Hambrick y Oswald (2014), Psychological Science. doi.org/10.1177/0956797614535810
+      titulo: Porcentaje de las diferencias de desempeño que explica la práctica
+      etiquetas: [Juegos (ajedrez y otros), Música, Deportes, Educación, Profesiones]
+      menos_de: 'menos de '
+      cierre: La práctica importa, pero en el estudio y el trabajo explica muy poco de las diferencias.
+
+en:
+  lang: en
+  locale: en-US
+  titulo: Books on learning how to learn
+  descripcion: "Books on how we learn best, how we teach, and which promises lack evidence: verdicts, a map of connections and review exercises. New Old School library."
+  nav: [In 5 minutes, What works, Test yourself, Plan your review, Verdicts, Map, Books]
+  nav_aria: Sections
+  presentar: Present in 5 minutes
+  portada_rotulo: New Old School library
+  portada_p: "{n} books on how we learn best, how we teach, and which promises lack evidence. Each one comes with its verdict, the study that supports or contradicts it, and the books it talks to."
+  leyenda: {solido: the evidence backs it, matices: right in part, promete: '', filosofia: not measured the same way}
+  c_rotulo: The idea in Curioso Format · 300 seconds
+  c_h2: What feels like learning is not always learning
+  c_p: One idea in five blocks, each with its time. Tap a block to read it, or use “Present” to show it full screen with a timer.
+  c_aria: Blocks
+  iniciar: Start
+  pausa: Pause
+  reiniciar: Reset
+  c_nota: Amber in the last 10 s; red if you go over.
+  objetivo: target
+  f_rotulo: Animated explainer
+  f_h2: What works when studying, and how much practice matters
+  f_p: Two charts from research that several of these books cite. Pick one, play it or drag the timeline.
+  f_aria_grafico: Animated chart
+  f_aria_linea: Timeline
+  reproducir: Play
+  fuente: 'Source: '
+  p_rotulo: Test yourself · retrieval practice
+  p_h2: Myth or evidence?
+  p_p: "Twenty widely repeated ideas about how we learn. Decide before you see the answer: trying to recall and getting it wrong helps more than reading the answer. The page remembers your answers in this browser and asks you again, days later, what you got wrong and what you have not reviewed in a while. That is how spaced review works."
+  p_aria_cajas: Questions per review box
+  practicar: Practice all
+  volver_repaso: Back to today's review
+  otra_vez: Start over
+  otra_vez_confirmar: Erase your progress? Tap again
+  mito: Myth
+  evidencia: Evidence
+  correcto: Correct
+  incorrecto: 'No'
+  es_mito: it is a myth
+  es_evidencia: it is evidence
+  caja: Box
+  vuelve: back on
+  nuevas: new
+  sin_ver: Not seen
+  q_practica: "Free practice: {r} of {n} answered. It does not change your schedule."
+  q_fin_proxima: You finished today's review. The next question comes back on {f}.
+  q_nada: No questions pending.
+  q_tocan: You have {n} questions today; {f} to go.
+  q_fin: You finished today's review.
+  q_vuelve: ' Come back on {f}.'
+  r_rotulo: Plan your review · spaced practice
+  r_h2: When should you review for an exam?
+  r_p: Spreading study over several days pays off more than cramming the night before. Enter the exam date and the planner suggests short sessions, further and further apart, where you test yourself without looking.
+  r_empiezo: I start studying on
+  r_examen: The exam is on
+  r_sesiones: Number of sessions
+  r_nota: Each session, 20 to 30 minutes. Close the notebook, write or say out loud what you remember, and then check what you missed.
+  r_error: The exam date must be after the day you start.
+  r_examen_corto: Exam
+  r_resumen: "{n} sessions over {d} days, spaced {g} days apart. Example calculated from today; change the dates for your exam."
+  r_tareas:
+    - Study the topic for the first time and, at the end, write what you remember without looking.
+    - Test yourself without looking. Review only what you forgot.
+    - Mix kinds of exercises and explain the steps out loud.
+    - Test yourself again, as if it were the exam.
+    - 'Short review: quick questions, without rereading everything.'
+    - Last review, short. Sleep well tonight.
+  v_rotulo: Verdict board · tap a book
+  v_h2: How well does each book hold up?
+  v_p: Each verdict keeps the book's central claim and the study that judges it. The full review is in Spanish, in the New Old School library.
+  todos: All
+  la_promesa: 'The promise:'
+  ir_ficha_completa: Go to the book
+  m_rotulo: Map of connections
+  m_h2: How the books talk to each other
+  m_p: Each line is a connection in the library. Tap a book to see which others it talks to and why. Grey dots are books on other topics.
+  m_aria: Map of connections between books
+  otro_tema: (other topic)
+  sin_cruces: This book has no connections yet.
+  ir_ficha: Go to the book
+  otros_temas: Other topics
+  fi_rotulo: The books
+  fi_h2: The {n} books, one by one
+  leer_ficha: Read the full review (in Spanish)
+  ficha_es: The full review, with summary and analysis, is in Spanish.
+  autor: Author
+  temas: Topics
+  se_cruza: Connects with
+  atras: ← Previous block
+  adelante: Next block →
+  salir: Exit
+  curioso:
+    - nombre: Hook
+      objetivo: 30
+      texto:
+        - How did you study for your last exam? If the answer is “I reread my notes and highlighted the important parts”, you are in good company, because that is what most people do.
+        - And, according to research, it is one of the things that works least.
+    - nombre: Idea
+      objetivo: 90
+      texto:
+        - When we reread, the text becomes familiar, and that familiarity feels like knowing. But recognizing something is not the same as being able to recall it.
+        - Closing the notebook and trying to recall, on the other hand, is hard. You make mistakes, you go blank, you feel you are not getting anywhere. That effort is exactly what makes learning last. Psychologists call it desirable difficulties.
+        - The same happens with spreading study over several days instead of cramming the night before. It feels worse, and it works better. What feels like learning is not always learning.
+    - nombre: Evidence
+      objetivo: 60
+      texto:
+        - 'In 2013, a group of psychologists reviewed ten study techniques. Only two were rated high utility: practice testing and spreading study over time. Rereading and highlighting were rated low utility.'
+        - And a very popular idea, teaching each student according to their “learning style”, visual or auditory, has no evidence that it improves what is learned.
+    - nombre: So what?
+      objetivo: 60
+      texto:
+        - If you study, close the notebook and write what you remember; spread study over several days; mix kinds of exercises.
+        - If you teach, start class with three short, ungraded questions about the previous one.
+        - If you support a student at home, instead of “did you study?”, ask “what did you learn? Explain it to me without looking”.
+    - nombre: Open door
+      objetivo: 30
+      texto:
+        - Two books to keep going. Make It Stick, written by the researchers themselves, and Learning How to Learn, written for students.
+        - And the question to discuss, what will you stop doing the next time you study?
+  escenas:
+    tecnicas:
+      nombre: Ten study techniques
+      fuente: Dunlosky, Rawson, Marsh, Nathan and Willingham (2013), Psychological Science in the Public Interest. doi.org/10.1177/1529100612453266
+      titulo: Utility of ten study techniques, according to a 2013 review
+      utilidad: Utility
+      niveles: [high, moderate, low]
+      tecnicas:
+        - [Practice testing (recall without looking), Spreading study over time]
+        - [Asking yourself why, Explaining to yourself, Mixing kinds of exercises]
+        - [Summarizing, Highlighting, Keyword mnemonic, Imagery for text, Rereading]
+      cierre: What people do most, rereading and highlighting, is at the bottom.
+    practica:
+      nombre: How much practice explains
+      fuente: Macnamara, Hambrick and Oswald (2014), Psychological Science. doi.org/10.1177/0956797614535810
+      titulo: Share of performance differences explained by practice
+      etiquetas: [Games (chess and others), Music, Sports, Education, Professions]
+      menos_de: 'less than '
+      cierre: Practice matters, but in school and work it explains very little of the differences.

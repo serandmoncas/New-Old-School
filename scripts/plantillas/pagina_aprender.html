@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>Libros para aprender a aprender</title>
+<title>{{t.titulo}}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -185,50 +185,50 @@ dt { color: var(--tenue); } dd { margin: 0; }
 
 <div class="marco">
   <div class="barra">
-    <nav aria-label="Secciones">
-      <a href="#cinco-minutos">En 5 minutos</a><a href="#que-funciona">Qué funciona</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#repaso">Planea tu repaso</a><a href="#veredictos">Veredictos</a><a href="#mapa">Mapa de cruces</a><a href="#fichas">Fichas</a>
+    <nav aria-label="{{t.nav_aria}}">
+      {{NAV}}
     </nav>
-    <button class="boton lleno" id="presentar">Presentar en 5 minutos</button>
+    <button class="boton lleno" id="presentar">{{t.presentar}}</button>
   </div>
 
   <header class="portada">
-    <p class="rotulo">Biblioteca de New Old School</p>
-    <h1>Libros para aprender a aprender</h1>
-    <p>{{TOTAL}} libros sobre cómo se aprende mejor, cómo se enseña y qué promesas no tienen evidencia. Cada uno trae su veredicto, el estudio que lo sostiene o lo contradice y los libros con los que dialoga.</p>
-    <div class="leyenda-v"><span><span class="chip v-solido">Sólido</span> la evidencia lo respalda</span><span><span class="chip v-matices">Con matices</span> acierta en parte</span><span><span class="chip v-promete">Promete más de lo que prueba</span></span><span><span class="chip v-filosofia">Filosofía de la educación</span> no se mide igual</span></div>
+    <p class="rotulo">{{t.portada_rotulo}}</p>
+    <h1>{{t.titulo}}</h1>
+    <p>{{t.portada_p}}</p>
+    <div class="leyenda-v">{{LEYENDA}}</div>
     <div class="rutas">{{RUTAS}}</div>
   </header>
 
   <section class="seccion" id="cinco-minutos">
     <header>
-      <p class="rotulo">La idea en Formato Curioso · 300 segundos</p>
-      <h2>Lo que se siente como aprender no siempre es aprender</h2>
-      <p>Una sola idea en cinco bloques, con el tiempo de cada uno. Toca un bloque para leerlo, o usa “Presentar” para mostrarlo en pantalla completa con reloj.</p>
+      <p class="rotulo">{{t.c_rotulo}}</p>
+      <h2>{{t.c_h2}}</h2>
+      <p>{{t.c_p}}</p>
     </header>
-    <div class="regla" id="regla" role="tablist" aria-label="Bloques"></div>
+    <div class="regla" id="regla" role="tablist" aria-label="{{t.c_aria}}"></div>
     <div class="curioso">
       <div class="guion" id="guion"></div>
       <div class="reloj">
         <span class="rotulo" id="bloque-nombre"></span>
         <span class="tiempo" id="reloj">0:30</span>
-        <div style="display:flex;gap:8px"><button class="boton lleno" id="iniciar">Iniciar</button><button class="boton" id="reiniciar">Reiniciar</button></div>
-        <span class="tenue" style="font-size:.9rem">Ámbar en los últimos 10 s; rojo si te pasas.</span>
+        <div style="display:flex;gap:8px"><button class="boton lleno" id="iniciar">{{t.iniciar}}</button><button class="boton" id="reiniciar">{{t.reiniciar}}</button></div>
+        <span class="tenue" style="font-size:.9rem">{{t.c_nota}}</span>
       </div>
     </div>
   </section>
 
   <section class="seccion" id="que-funciona">
     <header>
-      <p class="rotulo">Explicador animado</p>
-      <h2>Qué funciona al estudiar, y cuánto pesa la práctica</h2>
-      <p>Dos gráficos de la investigación que citan varios de estos libros. Elige uno, reprodúcelo o arrastra la línea de tiempo.</p>
+      <p class="rotulo">{{t.f_rotulo}}</p>
+      <h2>{{t.f_h2}}</h2>
+      <p>{{t.f_p}}</p>
     </header>
     <div class="motion">
       <div class="filtros" id="escenas"></div>
-      <canvas id="lienzo" width="1280" height="680" aria-label="Gráfico animado"></canvas>
+      <canvas id="lienzo" width="1280" height="680" aria-label="{{t.f_aria_grafico}}"></canvas>
       <div class="controles">
-        <button class="boton lleno" id="play">Reproducir</button>
-        <input id="scrub" type="range" min="0" max="10" step="0.01" value="10" aria-label="Línea de tiempo">
+        <button class="boton lleno" id="play">{{t.reproducir}}</button>
+        <input id="scrub" type="range" min="0" max="10" step="0.01" value="10" aria-label="{{t.f_aria_linea}}">
         <span class="dato tenue" id="t"></span>
       </div>
       <p class="tenue" id="fuente-escena" style="font-size:.95rem"></p>
@@ -238,30 +238,30 @@ dt { color: var(--tenue); } dd { margin: 0; }
 
   <section class="seccion" id="ponte-a-prueba">
     <header>
-      <p class="rotulo">Ponte a prueba · práctica de recuperación</p>
-      <h2>¿Mito o evidencia?</h2>
-      <p>Veinte ideas muy repetidas sobre cómo se aprende. Decide antes de ver la respuesta: intentar recordar y equivocarse ayuda más que leer la respuesta. La página recuerda tus respuestas en este navegador y te vuelve a preguntar, días después, lo que fallaste y lo que hace rato no repasas. Así funciona el repaso espaciado.</p>
+      <p class="rotulo">{{t.p_rotulo}}</p>
+      <h2>{{t.p_h2}}</h2>
+      <p>{{t.p_p}}</p>
     </header>
     <div class="estado-repaso">
       <span class="marcador" id="marcador"></span>
-      <div class="cajas" id="cajas" aria-label="Preguntas por caja de repaso"></div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="boton" id="practicar">Practicar todas</button><button class="boton" id="otra-vez">Empezar de nuevo</button></div>
+      <div class="cajas" id="cajas" aria-label="{{t.p_aria_cajas}}"></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="boton" id="practicar">{{t.practicar}}</button><button class="boton" id="otra-vez">{{t.otra_vez}}</button></div>
     </div>
     <div class="preguntas" id="preguntas"></div>
   </section>
 
   <section class="seccion" id="repaso">
     <header>
-      <p class="rotulo">Planea tu repaso · práctica espaciada</p>
-      <h2>¿Cuándo repasar para un examen?</h2>
-      <p>Repartir el estudio en varios días rinde más que meter todo la noche anterior. Pon la fecha del examen y el planificador propone sesiones cortas, cada vez más separadas, en las que te pones a prueba sin mirar.</p>
+      <p class="rotulo">{{t.r_rotulo}}</p>
+      <h2>{{t.r_h2}}</h2>
+      <p>{{t.r_p}}</p>
     </header>
     <div class="planificador">
       <div class="campos">
-        <label for="f-hoy">Empiezo a estudiar el<input type="date" id="f-hoy"></label>
-        <label for="f-examen">El examen es el<input type="date" id="f-examen"></label>
-        <label for="f-sesiones">Número de sesiones<select id="f-sesiones"><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
-        <p class="tenue" style="font-size:.95rem">Cada sesión: 20 a 30 minutos. Cierra el cuaderno, escribe o di en voz alta lo que recuerdas, y después revisa qué te faltó.</p>
+        <label for="f-hoy">{{t.r_empiezo}}<input type="date" id="f-hoy"></label>
+        <label for="f-examen">{{t.r_examen}}<input type="date" id="f-examen"></label>
+        <label for="f-sesiones">{{t.r_sesiones}}<select id="f-sesiones"><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
+        <p class="tenue" style="font-size:.95rem">{{t.r_nota}}</p>
       </div>
       <div class="calendario">
         <div class="franja" id="franja" aria-hidden="true"></div>
@@ -273,9 +273,9 @@ dt { color: var(--tenue); } dd { margin: 0; }
 
   <section class="seccion" id="veredictos">
     <header>
-      <p class="rotulo">Tablero de veredictos · toca un libro</p>
-      <h2>¿Qué tanto se sostiene cada libro?</h2>
-      <p>Cada veredicto guarda la afirmación central del libro y el estudio que la juzga. El análisis completo está en su ficha.</p>
+      <p class="rotulo">{{t.v_rotulo}}</p>
+      <h2>{{t.v_h2}}</h2>
+      <p>{{t.v_p}}</p>
     </header>
     <div class="filtros" id="filtros"></div>
     <div class="tablero"><div class="libros" id="libros"></div><aside class="panel" id="panel" aria-live="polite"></aside></div>
@@ -283,19 +283,19 @@ dt { color: var(--tenue); } dd { margin: 0; }
 
   <section class="seccion" id="mapa">
     <header>
-      <p class="rotulo">Mapa de cruces</p>
-      <h2>Cómo dialogan los libros entre sí</h2>
-      <p>Cada línea es un cruce de la biblioteca. Toca un libro para ver con cuáles conversa y por qué. Los puntos grises son libros de otros temas.</p>
+      <p class="rotulo">{{t.m_rotulo}}</p>
+      <h2>{{t.m_h2}}</h2>
+      <p>{{t.m_p}}</p>
     </header>
     <div class="mapa">
-      <canvas id="red" width="900" height="680" aria-label="Mapa de cruces entre libros"></canvas>
+      <canvas id="red" width="900" height="680" aria-label="{{t.m_aria}}"></canvas>
       <div class="lista-cruces" id="cruces"></div>
       <p class="leyenda-v" id="leyenda-mapa" style="grid-column:1/-1"></p>
     </div>
   </section>
 
   <section class="seccion" id="fichas">
-    <header><p class="rotulo">Las fichas</p><h2>Los {{TOTAL}} libros, uno por uno</h2></header>
+    <header><p class="rotulo">{{t.fi_rotulo}}</p><h2>{{t.fi_h2}}</h2></header>
     {{FICHAS}}
   </section>
 </div>
@@ -306,40 +306,24 @@ dt { color: var(--tenue); } dd { margin: 0; }
   <div class="pie">
     <span class="dato" id="reloj2" style="font-size:1.6rem">0:30</span>
     <div style="display:flex;gap:8px;flex-wrap:wrap">
-      <button class="boton" id="atras">← Bloque anterior</button>
-      <button class="boton lleno" id="iniciar2">Iniciar</button>
-      <button class="boton" id="adelante">Bloque siguiente →</button>
-      <button class="boton" id="salir">Salir</button>
+      <button class="boton" id="atras">{{t.atras}}</button>
+      <button class="boton lleno" id="iniciar2">{{t.iniciar}}</button>
+      <button class="boton" id="adelante">{{t.adelante}}</button>
+      <button class="boton" id="salir">{{t.salir}}</button>
     </div>
   </div>
 </div>
 
 <script>
 const DATOS = {{DATOS}};
+const UI = {{UI}};
+const fmtT = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => v[k]);
 const $ = id => document.getElementById(id);
 const tok = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 /* ===== Curioso: guion de 300 s ===== */
-const CURIOSO = [
-  { nombre: 'Gancho', objetivo: 30, texto: [
-    '¿Cómo estudiaron para su último examen? Si la respuesta es “leí el cuaderno otra vez y subrayé lo importante”, están en buena compañía: es lo que más hace la gente.',
-    'Y, según la investigación, es de lo que menos funciona.' ] },
-  { nombre: 'Idea', objetivo: 90, texto: [
-    'Cuando releemos, el texto se vuelve familiar, y esa familiaridad se siente como saber. Pero reconocer algo no es poder recordarlo.',
-    'En cambio, cerrar el cuaderno e intentar recordar cuesta. Uno se equivoca, se queda en blanco, siente que no avanza. Ese esfuerzo es justamente lo que hace que lo aprendido dure. Los psicólogos lo llaman dificultades deseables.',
-    'Lo mismo pasa con repartir el estudio en varios días en vez de meter todo la noche anterior: se siente peor, y funciona mejor. Lo que se siente como aprender no siempre es aprender.' ] },
-  { nombre: 'Evidencia', objetivo: 60, texto: [
-    'En 2013, un grupo de psicólogos revisó diez técnicas de estudio. Solo dos recibieron utilidad alta: ponerse a prueba y repartir el estudio en el tiempo. Releer y subrayar recibieron utilidad baja.',
-    'Y una idea muy popular, enseñar según el “estilo de aprendizaje” de cada uno, visual o auditivo, no tiene evidencia de que mejore lo que se aprende.' ] },
-  { nombre: '¿Y a mí qué?', objetivo: 60, texto: [
-    'Si estudias: cierra el cuaderno y escribe lo que recuerdas; reparte el estudio en varios días; mezcla tipos de ejercicios.',
-    'Si enseñas: empieza la clase con tres preguntas cortas sobre la anterior, sin nota.',
-    'Si acompañas en casa: en vez de “¿estudiaste?”, pregunta “¿qué aprendiste? Explícamelo sin mirar”.' ] },
-  { nombre: 'Puerta abierta', objetivo: 30, texto: [
-    'Dos libros para seguir: Apréndetelo (Make It Stick), escrito por los propios investigadores, y Aprender a aprender, pensado para estudiantes.',
-    'Y la pregunta para conversar: ¿qué vas a dejar de hacer la próxima vez que estudies?' ] },
-];
+const CURIOSO = UI.curioso;
 const COLORES = ['--b1', '--b2', '--b3', '--b4', '--b5'];
 let bloque = 0, gastado = CURIOSO.map(() => 0), andando = false, marca = 0;
 const fmt = s => { const n = s < 0; s = Math.abs(Math.round(s)); return (n ? '−' : '') + Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
@@ -356,13 +340,13 @@ armarRegla($('regla'), true); armarRegla($('regla2'), false);
 function pintarCurioso() {
   const b = CURIOSO[bloque], resta = b.objetivo - gastado[bloque];
   for (const r of [$('regla'), $('regla2')]) [...r.children].forEach((x, j) => x.setAttribute('aria-current', j === bloque));
-  $('bloque-nombre').textContent = `${b.nombre} · objetivo ${b.objetivo} s`;
+  $('bloque-nombre').textContent = `${b.nombre} · ${UI.objetivo} ${b.objetivo} s`;
   for (const el of [$('reloj'), $('reloj2')]) { el.textContent = fmt(resta); el.classList.toggle('ambar', resta <= 10 && resta >= 0); el.classList.toggle('rojo', resta < 0); }
   $('guion').innerHTML = b.texto.map(p => `<p>${esc(p)}</p>`).join('');
   $('contenido').innerHTML = `<h2>${esc(b.nombre)}</h2>` + b.texto.map(p => `<p>${esc(p)}</p>`).join('');
 }
 function tic(ahora) { if (!andando) return; gastado[bloque] += (ahora - marca) / 1000; marca = ahora; pintarCurioso(); requestAnimationFrame(tic); }
-function alternar() { andando = !andando; for (const b of [$('iniciar'), $('iniciar2')]) b.textContent = andando ? 'Pausa' : 'Iniciar'; if (andando) { marca = performance.now(); requestAnimationFrame(tic); } }
+function alternar() { andando = !andando; for (const b of [$('iniciar'), $('iniciar2')]) b.textContent = andando ? UI.pausa : UI.iniciar; if (andando) { marca = performance.now(); requestAnimationFrame(tic); } }
 $('iniciar').onclick = alternar; $('iniciar2').onclick = alternar;
 $('reiniciar').onclick = () => { gastado = CURIOSO.map(() => 0); bloque = 0; if (andando) alternar(); pintarCurioso(); };
 const mover = d => { bloque = Math.max(0, Math.min(CURIOSO.length - 1, bloque + d)); pintarCurioso(); };
@@ -379,22 +363,15 @@ document.addEventListener('keydown', e => {
 
 /* ===== Explicador: escena (datos) → render(escena, t) ===== */
 const ease = t => 1 - Math.pow(1 - t, 3);   // ease-out cúbica: nunca pasa del valor real
+const ET = UI.escenas.tecnicas, EP = UI.escenas.practica;
 const ESCENAS = {
   tecnicas: {
-    nombre: 'Diez técnicas de estudio', duracion: 7,
-    fuente: 'Dunlosky, Rawson, Marsh, Nathan y Willingham (2013), Psychological Science in the Public Interest. doi.org/10.1177/1529100612453266',
-    titulo: 'Utilidad de diez técnicas de estudio, según una revisión de 2013',
-    grupos: [
-      { nivel: 'Alta', color: '--u-alta', tecnicas: ['Ponerse a prueba (recordar sin mirar)', 'Repartir el estudio en el tiempo'] },
-      { nivel: 'Moderada', color: '--u-moderada', tecnicas: ['Preguntarse por qué', 'Explicarse a uno mismo', 'Mezclar tipos de ejercicios'] },
-      { nivel: 'Baja', color: '--u-baja', tecnicas: ['Resumir', 'Subrayar', 'Palabras clave (mnemotecnia)', 'Imaginar el texto', 'Releer'] },
-    ],
+    nombre: ET.nombre, duracion: 7, fuente: ET.fuente, titulo: ET.titulo, cierre: ET.cierre,
+    grupos: ['--u-alta', '--u-moderada', '--u-baja'].map((color, i) => ({ nivel: ET.niveles[i], color, tecnicas: ET.tecnicas[i] })),
   },
   practica: {
-    nombre: 'Cuánto explica la práctica', duracion: 7,
-    fuente: 'Macnamara, Hambrick y Oswald (2014), Psychological Science. doi.org/10.1177/0956797614535810',
-    titulo: 'Porcentaje de las diferencias de desempeño que explica la práctica',
-    datos: [ { etiqueta: 'Juegos (ajedrez y otros)', valor: 26 }, { etiqueta: 'Música', valor: 21 }, { etiqueta: 'Deportes', valor: 18 }, { etiqueta: 'Educación', valor: 4 }, { etiqueta: 'Profesiones', valor: 1, menor: true } ],
+    nombre: EP.nombre, duracion: 7, fuente: EP.fuente, titulo: EP.titulo, cierre: EP.cierre,
+    datos: [26, 21, 18, 4, 1].map((valor, i) => ({ etiqueta: EP.etiquetas[i], valor, menor: i === 4 })),
   },
 };
 let escenaActual = 'tecnicas';
@@ -414,7 +391,7 @@ const RENDER = {
       const ini = .7 + i * 1.2, x = x0 + i * (anchoCol + 20), p = prog(t, ini);
       if (t < ini) return;
       ctx.globalAlpha = p; ctx.fillStyle = tok(g.color); ctx.fillRect(x, 110, anchoCol, 56);
-      ctx.fillStyle = tok('--tarjeta'); ctx.font = `600 24px ${tok('--f-ficha')}`; ctx.fillText(`Utilidad ${g.nivel.toLowerCase()}`, x + 18, 146);
+      ctx.fillStyle = tok('--tarjeta'); ctx.font = `600 24px ${tok('--f-ficha')}`; ctx.fillText(`${ET.utilidad} ${g.nivel}`, x + 18, 146);
       g.tecnicas.forEach((tec, j) => {
         const pj = prog(t, ini + .3 + j * .25); if (pj <= 0) return;
         ctx.globalAlpha = pj; const y = 190 + j * 92 + (1 - pj) * 16;
@@ -423,7 +400,7 @@ const RENDER = {
       });
     });
     ctx.globalAlpha = prog(t, 5.3); ctx.fillStyle = tok('--sello'); ctx.font = `600 26px ${tok('--f-titulo')}`;
-    ctx.fillText('Lo que más hace la gente, releer y subrayar, está abajo.', 50, 655);
+    ctx.fillText(e.cierre, 50, 655);
   },
   practica(e, t) {
     ctx.globalAlpha = prog(t, .1); ctx.fillStyle = tok('--tinta'); ctx.font = `800 36px ${tok('--f-titulo')}`; ctx.fillText(e.titulo, 50, 66);
@@ -437,10 +414,10 @@ const RENDER = {
       ctx.globalAlpha = 1; ctx.fillStyle = tok('--tinta'); ctx.font = `400 26px ${tok('--f-texto')}`; ctx.fillText(d.etiqueta, 50, y + 36);
       const w = (xv(d.valor) - X0) * p; ctx.fillStyle = tok('--sello'); ctx.fillRect(X0, y + 8, w, 44);
       ctx.fillStyle = tok('--tinta'); ctx.font = `600 24px ${tok('--f-ficha')}`;
-      ctx.fillText(`${d.menor ? 'menos de ' : ''}${Math.round(d.valor * p)} %`, X0 + w + 12, y + 39);
+      ctx.fillText(`${d.menor ? EP.menos_de : ''}${Math.round(d.valor * p)} %`, X0 + w + 12, y + 39);
     });
     ctx.globalAlpha = prog(t, 4.6); ctx.fillStyle = tok('--linea-roja'); ctx.font = `600 26px ${tok('--f-titulo')}`;
-    ctx.fillText('La práctica importa, pero en el estudio y el trabajo explica muy poco de las diferencias.', 50, 655);
+    ctx.fillText(e.cierre, 50, 655);
   },
 };
 function render(t) {
@@ -448,10 +425,10 @@ function render(t) {
   RENDER[escenaActual](ESCENAS[escenaActual], t); ctx.globalAlpha = 1;
 }
 let tm = 0, corriendo = false, previo = 0;
-function pintarEscena() { const e = ESCENAS[escenaActual]; $('scrub').max = e.duracion; render(tm); $('scrub').value = tm; $('t').textContent = `${tm.toFixed(2)} / ${e.duracion.toFixed(2)} s`; $('fuente-escena').textContent = 'Fuente: ' + e.fuente; }
+function pintarEscena() { const e = ESCENAS[escenaActual]; $('scrub').max = e.duracion; render(tm); $('scrub').value = tm; $('t').textContent = `${tm.toFixed(2)} / ${e.duracion.toFixed(2)} s`; $('fuente-escena').textContent = UI.fuente + e.fuente; }
 function bucle(a) { if (!corriendo) return; tm += (a - previo) / 1000; previo = a; const d = ESCENAS[escenaActual].duracion; if (tm >= d) { tm = d; parar(); } pintarEscena(); if (corriendo) requestAnimationFrame(bucle); }
-function parar() { corriendo = false; $('play').textContent = 'Reproducir'; }
-$('play').onclick = () => { if (corriendo) return parar(); if (tm >= ESCENAS[escenaActual].duracion) tm = 0; corriendo = true; $('play').textContent = 'Pausa'; previo = performance.now(); requestAnimationFrame(bucle); };
+function parar() { corriendo = false; $('play').textContent = UI.reproducir; }
+$('play').onclick = () => { if (corriendo) return parar(); if (tm >= ESCENAS[escenaActual].duracion) tm = 0; corriendo = true; $('play').textContent = UI.pausa; previo = performance.now(); requestAnimationFrame(bucle); };
 $('scrub').addEventListener('input', () => { tm = +$('scrub').value; pintarEscena(); });
 Object.entries(ESCENAS).forEach(([k, e]) => {
   const b = document.createElement('button'); b.className = 'boton'; b.textContent = e.nombre; b.setAttribute('aria-pressed', k === escenaActual);
@@ -472,7 +449,7 @@ const leer = () => { try { return JSON.parse(localStorage.getItem(CLAVE)) || {};
 const guardar = r => { try { localStorage.setItem(CLAVE, JSON.stringify(r)); } catch (e) { /* sin almacenamiento: funciona solo en esta visita */ } };
 const hoyIso = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
 const sumarDias = (isoD, n) => { const [y, m, d] = isoD.split('-').map(Number); const f = new Date(y, m - 1, d + n); return `${f.getFullYear()}-${String(f.getMonth() + 1).padStart(2, '0')}-${String(f.getDate()).padStart(2, '0')}`; };
-const fechaLarga = isoD => { const [y, m, d] = isoD.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('es-CO', { weekday: 'long', day: 'numeric', month: 'long' }); };
+const fechaLarga = isoD => { const [y, m, d] = isoD.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString(UI.locale, { weekday: 'long', day: 'numeric', month: 'long' }); };
 let registro = leer(), deHoy = {}, practicando = false, turno = null;
 
 function armarTurno() {
@@ -499,28 +476,28 @@ function pintarPreguntas() {
     const q = PREGUNTAS[i], r = deHoy[i], div = document.createElement('div'), reg = registro[q.frase];
     div.className = 'pregunta' + (r ? (r === q.es ? ' acierto' : ' error') : '');
     div.innerHTML = `<q>${esc(q.frase)}</q>` + (r
-      ? `<div class="respuesta"><b>${r === q.es ? 'Correcto' : 'No'}: es ${q.es === 'mito' ? 'un mito' : 'evidencia'}.</b><span>${esc(q.explica)}</span><a href="https://doi.org/${q.doi}" target="_blank" rel="noopener">${esc(q.cita)} · doi.org/${esc(q.doi)}</a>${!practicando && reg ? `<span class="cuando">Caja ${reg.caja} · vuelve el ${esc(fechaLarga(reg.proxima))}</span>` : ''}</div>`
-      : `<div class="opciones"><button class="boton" data-r="mito">Mito</button><button class="boton" data-r="evidencia">Evidencia</button></div>`);
+      ? `<div class="respuesta"><b>${r === q.es ? UI.correcto : UI.incorrecto}: ${q.es === 'mito' ? UI.es_mito : UI.es_evidencia}.</b><span>${esc(q.explica)}</span><a href="https://doi.org/${q.doi}" target="_blank" rel="noopener">${esc(q.cita)} · doi.org/${esc(q.doi)}</a>${!practicando && reg ? `<span class="cuando">${UI.caja} ${reg.caja} · ${UI.vuelve} ${esc(fechaLarga(reg.proxima))}</span>` : ''}</div>`
+      : `<div class="opciones"><button class="boton" data-r="mito">${UI.mito}</button><button class="boton" data-r="evidencia">${UI.evidencia}</button></div>`);
     div.querySelectorAll('button[data-r]').forEach(b => b.onclick = () => responder(i, b.dataset.r));
     cont.append(div);
   });
   const faltan = turno.filter(i => !deHoy[i]).length;
   const proximas = Object.values(registro).map(x => x.proxima).filter(f => f > hoyIso()).sort();
   $('marcador').textContent = practicando
-    ? `Práctica libre: ${turno.length - faltan} de ${turno.length} respondidas. No cambia tu calendario.`
+    ? fmtT(UI.q_practica, { r: turno.length - faltan, n: turno.length })
     : turno.length === 0
-      ? (proximas.length ? `Terminaste el repaso de hoy. La próxima pregunta vuelve el ${fechaLarga(proximas[0])}.` : 'No hay preguntas pendientes.')
-      : faltan ? `Hoy te tocan ${turno.length} preguntas; faltan ${faltan}.` : `Terminaste el repaso de hoy.${proximas.length ? ` Vuelve el ${fechaLarga(proximas[0])}.` : ''}`;
+      ? (proximas.length ? fmtT(UI.q_fin_proxima, { f: fechaLarga(proximas[0]) }) : UI.q_nada)
+      : faltan ? fmtT(UI.q_tocan, { n: turno.length, f: faltan }) : UI.q_fin + (proximas.length ? fmtT(UI.q_vuelve, { f: fechaLarga(proximas[0]) }) : '');
   const conteo = [0, 0, 0, 0, 0, 0]; PREGUNTAS.forEach(q => { conteo[registro[q.frase] ? registro[q.frase].caja : 0]++; });
   const max = Math.max(...conteo, 1);
-  $('cajas').innerHTML = conteo.map((n, c) => `<div title="${c === 0 ? 'Sin ver' : 'Caja ' + c}: ${n}"><span>${n}</span><i style="height:${4 + n / max * 36}px;opacity:${c === 0 ? .35 : .45 + c * .11}"></i><span>${c === 0 ? 'nuevas' : 'caja ' + c}</span></div>`).join('');
-  $('practicar').textContent = practicando ? 'Volver a mi repaso de hoy' : 'Practicar todas';
+  $('cajas').innerHTML = conteo.map((n, c) => `<div title="${c === 0 ? UI.sin_ver : UI.caja + ' ' + c}: ${n}"><span>${n}</span><i style="height:${4 + n / max * 36}px;opacity:${c === 0 ? .35 : .45 + c * .11}"></i><span>${c === 0 ? UI.nuevas : UI.caja.toLowerCase() + ' ' + c}</span></div>`).join('');
+  $('practicar').textContent = practicando ? UI.volver_repaso : UI.practicar;
 }
 $('practicar').onclick = () => { practicando = !practicando; deHoy = {}; turno = null; pintarPreguntas(); };
 let confirmando = null;   // dos toques para borrar el progreso: el visor no muestra diálogos de confirmación
 $('otra-vez').onclick = () => {
-  if (!confirmando) { $('otra-vez').textContent = '¿Borrar tu progreso? Toca otra vez'; confirmando = setTimeout(() => { confirmando = null; $('otra-vez').textContent = 'Empezar de nuevo'; }, 4000); return; }
-  clearTimeout(confirmando); confirmando = null; $('otra-vez').textContent = 'Empezar de nuevo';
+  if (!confirmando) { $('otra-vez').textContent = UI.otra_vez_confirmar; confirmando = setTimeout(() => { confirmando = null; $('otra-vez').textContent = UI.otra_vez; }, 4000); return; }
+  clearTimeout(confirmando); confirmando = null; $('otra-vez').textContent = UI.otra_vez;
   registro = {}; guardar(registro); deHoy = {}; practicando = false; turno = null; pintarPreguntas();
 };
 pintarPreguntas();
@@ -530,12 +507,12 @@ const DIA = 864e5;
 const aFecha = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 const desdeIso = s => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
-const largo = d => d.toLocaleDateString('es-CO', { weekday: 'long', day: 'numeric', month: 'long' });
-const corto = d => d.toLocaleDateString('es-CO', { day: 'numeric', month: 'short' });
+const largo = d => d.toLocaleDateString(UI.locale, { weekday: 'long', day: 'numeric', month: 'long' });
+const corto = d => d.toLocaleDateString(UI.locale, { day: 'numeric', month: 'short' });
 // Sesiones con separaciones crecientes (1, 2, 3, ...) escaladas a los días disponibles; la última, el día antes del examen.
 function planear(hoy, examen, n) {
   const dias = Math.round((examen - hoy) / DIA);
-  if (dias < 1) return { error: 'La fecha del examen debe ser posterior al día en que empiezas.' };
+  if (dias < 1) return { error: UI.r_error };
   const k = Math.min(n, dias), pesos = Array.from({ length: k - 1 }, (_, i) => i + 1), total = pesos.reduce((a, b) => a + b, 0);
   const offs = [0]; let acc = 0;
   for (const w of pesos) { acc += w; offs.push(Math.round(acc / total * (dias - 1))); }
@@ -547,16 +524,16 @@ function pintarPlan() {
   const p = planear(hoy, examen, n), lista = $('sesiones'), franja = $('franja');
   lista.innerHTML = ''; franja.innerHTML = '';
   if (p.error) { $('nota-plan').textContent = p.error; return; }
-  const tareas = ['Estudia el tema por primera vez y, al final, escribe lo que recuerdas sin mirar.', 'Ponte a prueba sin mirar. Revisa solo lo que olvidaste.', 'Mezcla tipos de ejercicios y explica en voz alta los pasos.', 'Ponte a prueba otra vez, como si fuera el examen.', 'Repaso corto: preguntas rápidas, sin releer todo.', 'Último repaso, corto. Duerme bien esta noche.'];
+  const tareas = UI.r_tareas;
   p.sesiones.forEach((d, i) => {
     const ultimo = i === p.sesiones.length - 1;
     lista.insertAdjacentHTML('beforeend', `<li><b>${esc(largo(d))}</b><span>${esc(ultimo && i > 0 ? tareas[5] : tareas[Math.min(i, 4)])}</span></li>`);
     const x = (d - hoy) / (examen - hoy) * 100;
     franja.insertAdjacentHTML('beforeend', `<div class="punto" style="left:${x}%"><span>${esc(corto(d))}</span></div>`);
   });
-  franja.insertAdjacentHTML('beforeend', `<div class="punto examen" style="left:100%"><span>Examen</span></div>`);
+  franja.insertAdjacentHTML('beforeend', `<div class="punto examen" style="left:100%"><span>${esc(UI.r_examen_corto)}</span></div>`);
   const gaps = p.sesiones.slice(1).map((d, i) => Math.round((d - p.sesiones[i]) / DIA));
-  $('nota-plan').textContent = `${p.sesiones.length} sesiones en ${p.dias} días, separadas por ${gaps.join(', ')} días. Ejemplo calculado desde hoy; cambia las fechas para tu examen.`;
+  $('nota-plan').textContent = fmtT(UI.r_resumen, { n: p.sesiones.length, d: p.dias, g: gaps.join(', ') });
 }
 { const h = aFecha(new Date()); $('f-hoy').value = iso(h); $('f-examen').value = iso(new Date(h.getTime() + 14 * DIA)); }
 ['f-hoy', 'f-examen', 'f-sesiones'].forEach(id => $(id).addEventListener('input', pintarPlan));
@@ -565,7 +542,7 @@ pintarPlan();
 /* ===== Tablero de veredictos ===== */
 const libros = DATOS.libros, porId = Object.fromEntries(libros.map(l => [l.id, l]));
 let filtro = 'todos', elegido = 'make-it-stick';
-const FILTROS = [['todos', 'Todos'], ...Object.entries(DATOS.etiquetas)];
+const FILTROS = [['todos', UI.todos], ...Object.entries(DATOS.etiquetas)];
 FILTROS.forEach(([k, n]) => {
   const b = document.createElement('button'); b.className = 'boton'; b.textContent = n; b.setAttribute('aria-pressed', k === filtro);
   b.onclick = () => { filtro = k; [...$('filtros').children].forEach(x => x.setAttribute('aria-pressed', x === b)); pintarTablero(); };
@@ -582,9 +559,9 @@ function pintarTablero() {
   const l = porId[elegido];
   $('panel').innerHTML = `<span class="chip v-${l.veredicto}" style="justify-self:start">${esc(DATOS.etiquetas[l.veredicto])}</span>
     <h3>${esc(l.titulo)}</h3><p class="tenue">${esc(l.autor)} · ${esc(l.anio)}</p>
-    <p><b>La promesa:</b> ${esc(l.frase)}.</p><p>${esc(l.juicio)}</p>
+    <p><b>${esc(UI.la_promesa)}</b> ${esc(l.frase)}.</p><p>${esc(l.juicio)}</p>
     ${l.doi ? `<div class="fuente"><span>${esc(l.cita)}</span><a href="https://doi.org/${l.doi}" target="_blank" rel="noopener">doi.org/${esc(l.doi)}</a></div>` : ''}
-    <a href="#${l.id}">Ir a la ficha completa</a>`;
+    <a href="#${l.id}">${esc(UI.ir_ficha_completa)}</a>`;
 }
 
 /* ===== Mapa de cruces (fuerzas simples en canvas) ===== */
@@ -625,10 +602,10 @@ function dibujarRed() {
   const lista = DATOS.aristas.filter(e => e.a === enMapa || e.b === enMapa);
   const l = porId[enMapa];
   $('cruces').innerHTML = `<h3 style="font-size:1.35rem">${esc(l ? l.titulo : nodoDe[enMapa].titulo)}</h3>` +
-    (lista.length ? '<ul style="padding-left:18px;margin:0">' + lista.map(e => { const otro = e.a === enMapa ? e.b : e.a; const t = nodoDe[otro].titulo; return `<li><b>${esc(t)}</b>${nodoDe[otro].fuera ? ' <span class="tenue">(otro tema)</span>' : ''}: ${esc(e.por)}</li>`; }).join('') + '</ul>' : '<p class="tenue">Este libro todavía no tiene cruces.</p>') +
-    (l ? `<a href="#${l.id}">Ir a la ficha</a>` : '');
+    (lista.length ? '<ul style="padding-left:18px;margin:0">' + lista.map(e => { const otro = e.a === enMapa ? e.b : e.a; const t = nodoDe[otro].titulo; return `<li><b>${esc(t)}</b>${nodoDe[otro].fuera ? ` <span class="tenue">${esc(UI.otro_tema)}</span>` : ''}: ${esc(e.por)}</li>`; }).join('') + '</ul>' : `<p class="tenue">${esc(UI.sin_cruces)}</p>`) +
+    (l ? `<a href="#${l.id}">${esc(UI.ir_ficha)}</a>` : '');
 }
-$('leyenda-mapa').innerHTML = DATOS.grupos.map((g, i) => `<span><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(${COL_GRUPO[i]})"></span> ${esc(g)}</span>`).join('') + '<span><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--tenue)"></span> Otros temas</span>';
+$('leyenda-mapa').innerHTML = DATOS.grupos.map((g, i) => `<span><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(${COL_GRUPO[i]})"></span> ${esc(g)}</span>`).join('') + '<span><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--tenue)"></span> ' + esc(UI.otros_temas) + '</span>';
 function elegirEnMapa(id) { enMapa = id; dibujarRed(); }
 red.addEventListener('click', ev => {
   const r = red.getBoundingClientRect(), x = (ev.clientX - r.left) * W / r.width, y = (ev.clientY - r.top) * H / r.height;
