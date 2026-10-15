@@ -1,0 +1,210 @@
+# English version of _pagina-dinero.yaml (scripts/pagina_aprender.py --pagina dinero --idioma en).
+# Translates the texts only: book lists, verdicts, citations and DOIs come from the Spanish file.
+# Questions follow the same order as in Spanish.
+
+etiquetas:
+  solido: Solid
+  matices: Partly right
+  promete: Promises more than it proves
+  filosofia: Philosophy of education
+  literatura: Literature and history
+
+grupos:
+  - nombre: Stories that teach about money
+    sub: Fables, poems, plays and novels that tell an idea from the module better than an explanation
+  - nombre: The history of money and markets
+    sub: Where accounting, trade and bubbles come from
+  - nombre: How we decide with money
+    sub: Predictable mistakes, and how to design better decisions
+  - nombre: Saving, starting a business and living well
+    sub: From the budget to your own business, and how much money matters in a good life
+
+rutas:
+  - nombre: If you are a student
+    texto: Short stories and a practical book to start managing your money.
+  - nombre: If you teach
+    texto: Why we decide badly with money, and how to use it in class.
+  - nombre: If you support a student at home
+    texto: Saving without heroics, distrusting easy promises and not confusing money with happiness.
+
+titulos:
+  fabulas-de-esopo: Aesop's Fables
+  odisea: The Odyssey
+  mercader-de-venecia: The Merchant of Venice
+  robinson-crusoe: Robinson Crusoe
+  david-copperfield: David Copperfield
+  el-coronel-no-tiene-quien-le-escriba: No One Writes to the Colonel
+  liber-abaci: Liber Abaci
+  ensayo-sobre-el-comercio: Essay on the Nature of Trade in General
+  delirios-multitudinarios: Extraordinary Popular Delusions and the Madness of Crowds
+  pensar-rapido-pensar-despacio: Thinking, Fast and Slow
+  misbehaving: Misbehaving
+  nudge: Nudge
+  the-signal-and-the-noise: The Signal and the Noise
+  pequeno-cerdo-capitalista: Pequeño cerdo capitalista
+  the-lean-startup: The Lean Startup
+  the-good-life: The Good Life
+  21-lecciones-para-el-siglo-xxi: 21 Lessons for the 21st Century
+  algorithms-to-live-by: Algorithms to Live By
+  atomic-habits: Atomic Habits
+  cosmos: Cosmos
+  designing-your-life: Designing Your Life
+  el-arte-de-pensar: The Art of Thinking Clearly
+  el-hombre-en-busca-de-sentido: Man's Search for Meaning
+  emilio: Emile, or On Education
+  inteligencia-emocional: Emotional Intelligence
+  la-invencion-de-todas-las-cosas: La invención de todas las cosas (in Spanish only)
+  maybe-you-should-talk-to-someone: Maybe You Should Talk to Someone
+  moneyball: Moneyball
+  comunicacion-no-violenta: Nonviolent Communication
+  el-lobo-estepario: Steppenwolf
+  the-innovators: The Innovators
+  the-power-of-habit: The Power of Habit
+  ultralearning: Ultralearning
+  why-we-sleep: Why We Sleep
+
+nodos_titulos:
+  dinero.ingresos-y-gastos: Income and expenses
+  dinero.necesidad-o-deseo: Need or want?
+  dinero.presupuesto: Budget
+  dinero.porcentajes-en-la-vida-real: Percentages in real life
+  dinero.ahorro-y-metas: Saving and goals
+  dinero.donde-guardar-el-dinero: Where to keep your money
+  dinero.interes-simple: Simple interest
+  dinero.interes-compuesto: Compound interest
+  dinero.inflacion: Inflation
+  dinero.invertir-lo-basico: Investing, the basics
+  dinero.deuda-buena-y-mala: Good debt and bad debt
+  dinero.tarjetas-de-credito: Credit cards
+  dinero.costo-real-de-un-credito: The real cost of a loan
+  dinero.historial-crediticio: Credit history
+  dinero.estafas-y-piramides: Scams and pyramid schemes
+  dinero.seguros: Insurance
+  dinero.impuestos-basicos: Basic taxes
+  dinero.primer-salario-y-seguridad-social: First salary and social security
+  dinero.trabajo-independiente: Self-employment
+  dinero.emprender-con-numeros: Starting a business with numbers
+
+veredictos:
+  fabulas-de-esopo:
+    promesa: Save in time, and do not destroy what produces
+    juicio: The Ant and the Grasshopper is the Saving and goals lesson told to a child; the Goose That Laid the Golden Eggs, the idea of not destroying what produces, central to Investing, the basics.
+  odisea:
+    promesa: Tie yourself to the mast before temptation
+    juicio: Ulysses has himself tied up to hear the sirens without being lost. It is the oldest image of a commitment device, the idea behind saving automatically.
+  mercader-de-venecia:
+    promesa: What you lose if a loan is not repaid
+    juicio: It is the most famous story about the collateral of a loan. It helps to talk about reading the terms before signing, and about when a debt stops being a help.
+  robinson-crusoe:
+    promesa: The value of things depends on what you can do with them
+    juicio: On the island, a knife is worth more than all the coins from the ship. And when he is desperate, Robinson writes his evils and his goods in two columns, like a balance sheet.
+  david-copperfield:
+    promesa: Spend a little less than what comes in
+    juicio: Micawber sums up the Budget lesson in two sentences, the difference between happiness and misery lies in spending a little less or a little more than you earn. He says it on leaving debtors' prison.
+  el-coronel-no-tiene-quien-le-escriba:
+    promesa: What a person lives on when they can no longer work
+    juicio: A colonel waits for years for a pension that never arrives. It is the best short novel, and a Colombian one, for understanding social security.
+  liber-abaci:
+    promesa: The numbers we do our sums with today
+    juicio: It helped Europe leave Roman numerals behind, and it shows that the mathematics of credit is more than 800 years old.
+  ensayo-sobre-el-comercio:
+    promesa: The entrepreneur buys at a certain price to sell at an uncertain one
+    juicio: It defines the entrepreneur as the one who takes on risk, and explains why, when new money is created, those who receive it last pay higher prices.
+  delirios-multitudinarios:
+    promesa: Everyone buys because everyone buys
+    juicio: Bubbles and pyramid schemes have repeated the same pattern for centuries. The story of John Law, who printed banknotes without control, also works for Inflation.
+  pensar-rapido-pensar-despacio:
+    promesa: We think with a fast system and a slow one
+    juicio: The book offers a serious theory and much of it holds, such as the anchoring effect. But a famous experiment in chapter 4, in which reading words about old age made people walk more slowly, could not be repeated.
+  misbehaving:
+    promesa: People make predictable mistakes with money
+    juicio: Those given a mug asked much more to sell it than others offered to buy it. It is the endowment effect; with careful training on the rules of the experiment, the gap can disappear.
+  nudge:
+    promesa: A well-designed nudge changes what people choose
+    juicio: Default saving works very well. But after correcting for unpublished studies, the average effect of nudges almost disappears. Some work a lot and others hardly at all.
+  the-signal-and-the-noise:
+    promesa: Forecasting better can be learned
+    juicio: In a two-year forecasting tournament, training in probability, working in teams and grouping the best forecasters improved the forecasts.
+  pequeno-cerdo-capitalista:
+    promesa: Small daily expenses eat your money
+    juicio: It has support, a cost presented per day seems smaller than it is. But the book thinks of Mexico and of people with some margin, and small expenses do not explain a lack of money when income is not enough.
+  the-lean-startup:
+    promesa: Test a business idea before investing in it
+    juicio: In a trial with 116 startups assigned at random, those who learned to test hypotheses performed better. The method grew out of Silicon Valley anecdotes and does not work equally for every business.
+  the-good-life:
+    promesa: Relationships matter more than money in a good life
+    juicio: Relationships are associated with more health and happiness, although that does not prove they cause them. And money does matter, well-being keeps rising with income for most people.
+
+preguntas:
+  - frase: If your employer enrolls you in a savings plan by default, you are much more likely to save.
+    explica: Enrolling employees automatically raised participation in the savings plan a lot, and most kept the default contribution.
+  - frase: An expense presented "per day" seems smaller than it is.
+    explica: Presenting a cost in small daily amounts makes it seem smaller than the same cost presented in full.
+  - frase: Committing today to save future pay raises can greatly increase saving.
+    explica: In the Save More Tomorrow program, the saving rate of those who joined rose from 3.5 % to 13.6 % in 40 months.
+  - frase: All nudges to help people decide better work very well.
+    explica: After correcting for unpublished studies, the average effect of nudges almost disappears. Some work a lot and others hardly at all.
+  - frase: We value something more just because it is already ours.
+    explica: Those given a mug asked much more to sell it than others offered to buy it, and far fewer mugs were traded than expected.
+  - frase: Checking your investment every day helps you decide better.
+    explica: Checking very often shows more losses, and since losses hurt more than gains, you end up choosing safer options that earn less.
+  - frase: The stocks that fell the most in recent years will keep falling.
+    explica: The stocks that had fallen the most later earned more than those that had risen the most, a sign that the market overreacts.
+  - frase: Beyond a certain income, earning more no longer increases anyone's well-being.
+    explica: For most people, well-being keeps rising with income. Only among the unhappiest does it stop rising beyond a certain level.
+  - frase: Teaching entrepreneurs to test their ideas improves their business results.
+    explica: In a trial with 116 startups assigned at random, those who learned to formulate and test hypotheses performed better.
+  - frase: It has been proven that reading words about old age makes people walk more slowly.
+    explica: A famous experiment found it, but when other researchers repeated it more carefully, the effect did not appear.
+
+cruces:
+  the-signal-and-the-noise|21-lecciones-para-el-siglo-xxi: Harari forecasts the future of work with great confidence; Silver teaches you to distrust forecasts that give no probabilities.
+  pensar-rapido-pensar-despacio|algorithms-to-live-by: Kahneman shows how often we are wrong; Christian and Griffiths, that we often decide reasonably well with the little we know.
+  odisea|atomic-habits: Designing your surroundings so you do not give in to temptation is the modern version of tying yourself to the mast.
+  liber-abaci|cosmos: A history of the mathematics that changed the world. Sagan tells of Eratosthenes and Kepler; Fibonacci brought the numbers we use today.
+  david-copperfield|robinson-crusoe: Two ways of keeping accounts, Micawber's rule and Robinson's list of evils and goods.
+  odisea|designing-your-life: The authors call imagining three possible paths for the next five years "Odyssey plans"; Ulysses did not come home by the route he had planned either.
+  delirios-multitudinarios|el-arte-de-pensar: Dobelli explains social proof in a chapter; Mackay shows whole countries falling for it.
+  odisea|el-arte-de-pensar: Hyperbolic discounting (preferring today's reward) is the problem; tying yourself to the mast is a solution.
+  el-coronel-no-tiene-quien-le-escriba|david-copperfield: Poverty with dignity. The colonel and Micawber keep up appearances even though they have nothing to do it with.
+  el-coronel-no-tiene-quien-le-escriba|el-hombre-en-busca-de-sentido: Holding on when everything is missing. The colonel waits for a letter; Frankl, to see his loved ones again.
+  robinson-crusoe|emilio: It is the first book Rousseau lets Emile read, the model of someone who learns from things and not from speeches.
+  ensayo-sobre-el-comercio|delirios-multitudinarios: Cantillon got rich from the John Law bubble that Mackay tells about, and sold before it burst.
+  fabulas-de-esopo|delirios-multitudinarios: The Goose That Laid the Golden Eggs in real life, people who risk everything to earn more, and faster.
+  odisea|inteligencia-emocional: Ulysses ties himself to the mast because he knows he will not resist the sirens. Self-control with a plan, not with willpower.
+  odisea|la-invencion-de-todas-las-cosas: One of the oldest fictions we still tell; Volpi asks why human beings cannot stop telling stories.
+  fabulas-de-esopo|la-invencion-de-todas-las-cosas: Fables are fictions that teach us to cooperate and to be wary, exactly the role Volpi gives to fiction.
+  pensar-rapido-pensar-despacio|la-invencion-de-todas-las-cosas: Volpi uses Kahneman's fast brain to explain why we believe stories before we think them through.
+  liber-abaci|mercader-de-venecia: Italian merchants and loans. Fibonacci taught them to do the sums; Shakespeare showed what happens when a loan goes wrong.
+  liber-abaci|ensayo-sobre-el-comercio: Two books written for merchants, five centuries apart.
+  the-good-life|maybe-you-should-talk-to-someone: Waldinger says relationships sustain a good life; Gottlieb shows how one relationship, therapy, helps people change.
+  mercader-de-venecia|david-copperfield: Two debtors. Antonio pledges his own body as collateral; Micawber ends up in debtors' prison.
+  misbehaving|pensar-rapido-pensar-despacio: The same story seen from two sides, Kahneman from psychology and Thaler from economics. They worked together.
+  misbehaving|nudge: Misbehaving tells how the idea of nudges was born and how it reached governments.
+  misbehaving|pequeno-cerdo-capitalista: Macías teaches you to see small daily expenses; Thaler explains why they slip away, because we do not treat all money the same, it depends on the mental drawer we put it in.
+  misbehaving|moneyball: Thaler and Sunstein reviewed Moneyball as a case of behavioral economics, and Thaler studied the same mistake in the American football draft.
+  the-signal-and-the-noise|moneyball: Silver devotes a chapter to baseball, when data beats the expert's eye and when the two complement each other.
+  nudge|atomic-habits: Both say surroundings matter more than willpower. Clear applies it to yourself; Thaler and Sunstein, to whoever designs other people's choices.
+  nudge|odisea: Save More Tomorrow is tying yourself to the mast, committing today to save the pay raises still to come.
+  nudge|pequeno-cerdo-capitalista: Saving automatically, so you do not depend on remembering or on willpower.
+  odisea|robinson-crusoe: Two castaways far from home. Ulysses gets through with cunning; Robinson, with work and accounts.
+  pensar-rapido-pensar-despacio|el-arte-de-pensar: Dobelli lists thinking errors; Kahneman explains where they come from, with the theory of two systems.
+  pensar-rapido-pensar-despacio|nudge: Kahneman describes how the mind goes wrong; Thaler and Sunstein, how to design decisions so those errors weigh less.
+  pensar-rapido-pensar-despacio|delirios-multitudinarios: The bubbles Mackay tells about are overconfidence and social proof on the scale of a country.
+  pequeno-cerdo-capitalista|fabulas-de-esopo: Small daily expenses and the ant in the fable, two ways of explaining that small things, repeated, become big.
+  pequeno-cerdo-capitalista|david-copperfield: Micawber's rule and Macías's budget say the same thing 160 years apart, spend a little less than what comes in.
+  pequeno-cerdo-capitalista|atomic-habits: Saving as a small, automatic habit, not as a heroic effort.
+  robinson-crusoe|el-lobo-estepario: Two men alone. Robinson's solitude is forced on him by a shipwreck; Harry Haller chooses his.
+  the-good-life|el-hombre-en-busca-de-sentido: Frankl held on by thinking of his wife; 85 years of data say relationships are what matters most in a good life.
+  the-good-life|comunicacion-no-violenta: Waldinger says relationships are cared for like health; Rosenberg gives a concrete way to do it when there is conflict.
+  the-good-life|pequeno-cerdo-capitalista: Money does matter for well-being, but it does not replace friends. A good pair for the Need or want? lesson.
+  the-lean-startup|the-innovators: Two views of Silicon Valley, the history of how the digital revolution was made and the method that came out of its companies.
+  the-lean-startup|designing-your-life: The same idea applied to different things, testing small before deciding. Ries with a business, Burnett and Evans with your own life.
+  the-lean-startup|the-signal-and-the-noise: Both ask you to treat what you believe as a hypothesis and change your mind when the data says so.
+  the-lean-startup|pequeno-cerdo-capitalista: Macías teaches you to look after your own money; Ries, not to spend it on a business before knowing if anyone wants it.
+  nudge|the-power-of-habit: Companies also study our habits to sell us more. Duhigg shows it with Target; Thaler and Sunstein, with nudges.
+  the-signal-and-the-noise|algorithms-to-live-by: Both teach Bayes' rule and overfitting, updating what we believe with each new piece of data without mistaking noise for signal.
+  the-signal-and-the-noise|delirios-multitudinarios: Mackay tells of the 18th-century bubbles; Silver, of the 2008 one, and why almost nobody saw it coming.
+  the-signal-and-the-noise|pensar-rapido-pensar-despacio: Experts are wrong with great confidence. Kahneman explains why; Silver shows how to forecast better.
+  robinson-crusoe|ultralearning: Learning alone and by doing. Robinson learns to bake bread and make pots through failed attempts.
+  the-signal-and-the-noise|why-we-sleep: A good case for Silver's lesson, a chart with one data point removed changes what it seems to say.

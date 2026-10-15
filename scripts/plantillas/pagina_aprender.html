@@ -10,7 +10,7 @@
 :root {
   --papel: #f2f4f0; --tarjeta: #fbfcf9; --tinta: #1d2430; --tenue: #5b6470;
   --sello: #2b4f8c; --linea-roja: #b4473f; --regla: #d6dbd3;
-  --v-solido: #2f7a4c; --v-matices: #9a6400; --v-promete: #b4473f; --v-filosofia: #6a5a9e;
+  --v-solido: #2f7a4c; --v-matices: #9a6400; --v-promete: #b4473f; --v-filosofia: #6a5a9e; --v-literatura: #2b6f80;
   --u-alta: #2f7a4c; --u-moderada: #9a6400; --u-baja: #b4473f;
   --b1: #b4473f; --b2: #2b4f8c; --b3: #2f7a4c; --b4: #6a5a9e; --b5: #9a6400;
   --f-titulo: "Alegreya", Georgia, "Times New Roman", serif;
@@ -22,7 +22,7 @@
     color-scheme: dark;
     --papel: #151a21; --tarjeta: #1c222b; --tinta: #e3e7ec; --tenue: #9aa3ae;
     --sello: #8fb0ea; --linea-roja: #e0786f; --regla: #2e3641;
-    --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6;
+    --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6; --v-literatura: #7cc3d4;
     --u-alta: #6cc493; --u-moderada: #e3ad4f; --u-baja: #e0786f;
     --b1: #e0786f; --b2: #8fb0ea; --b3: #6cc493; --b4: #ab9be6; --b5: #e3ad4f;
   }
@@ -31,7 +31,7 @@
   color-scheme: dark;
   --papel: #151a21; --tarjeta: #1c222b; --tinta: #e3e7ec; --tenue: #9aa3ae;
   --sello: #8fb0ea; --linea-roja: #e0786f; --regla: #2e3641;
-  --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6;
+  --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6; --v-literatura: #7cc3d4;
   --u-alta: #6cc493; --u-moderada: #e3ad4f; --u-baja: #e0786f;
   --b1: #e0786f; --b2: #8fb0ea; --b3: #6cc493; --b4: #ab9be6; --b5: #e3ad4f;
 }
@@ -49,6 +49,7 @@ p { margin: 0; }
 .boton[aria-pressed="true"] { border-color: var(--sello); color: var(--sello); }
 
 .marco { max-width: 1180px; margin: 0 auto; display: grid; gap: 72px; padding-block: 40px 96px; }
+.marco > *, .seccion > * { min-width: 0; }   /* que ningún hijo de la cuadrícula la ensanche */
 .barra { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 4; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; padding-block: 10px; background: color-mix(in srgb, var(--papel) 90%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--regla); }
 .barra nav { display: flex; flex-wrap: wrap; gap: 4px 14px; font: .8rem var(--f-ficha); }
 .barra nav a { color: var(--tinta); text-decoration: none; }
@@ -71,7 +72,7 @@ p { margin: 0; }
 
 /* Chips de veredicto */
 .chip { font: 600 .66rem var(--f-ficha); letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 2px; color: var(--tarjeta); white-space: nowrap; }
-.v-solido { background: var(--v-solido); } .v-matices { background: var(--v-matices); } .v-promete { background: var(--v-promete); } .v-filosofia { background: var(--v-filosofia); }
+.v-solido { background: var(--v-solido); } .v-matices { background: var(--v-matices); } .v-promete { background: var(--v-promete); } .v-filosofia { background: var(--v-filosofia); } .v-literatura { background: var(--v-literatura); }
 
 /* Curioso */
 .regla { display: flex; height: 38px; overflow: hidden; border-radius: 3px; }
@@ -159,7 +160,7 @@ dt { color: var(--tenue); } dd { margin: 0; }
 
 /* Línea de tiempo por décadas */
 .linea { display: grid; gap: 0; border-top: 1px solid var(--regla); }
-.decada { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--regla); }
+.decada { display: grid; grid-template-columns: 6.8rem minmax(0, 1fr); gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--regla); }
 .decada > span { font: 600 1.05rem var(--f-ficha); color: var(--tenue); font-variant-numeric: tabular-nums; }
 .decada.salto { border-bottom-style: dashed; }
 .decada .fila { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -169,6 +170,10 @@ dt { color: var(--tenue); } dd { margin: 0; }
 .hito[aria-pressed="true"] { outline: 2px solid var(--sello); }
 .hito:focus-visible { outline: 2px solid var(--sello); }
 .resumen-linea { font-size: 1.05rem; max-width: 70ch; }
+.lecciones .decada { grid-template-columns: minmax(8rem, 15rem) minmax(0, 1fr); }
+.lecciones .nodo { font: 600 1rem/1.25 var(--f-titulo); color: var(--tinta); }
+a.hito { color: var(--tinta); text-decoration: none; }
+@media (max-width: 640px) { .lecciones .decada { grid-template-columns: 1fr; gap: 8px; } }
 
 /* Planificador */
 .planificador { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 24px; background: var(--tarjeta); border: 1px solid var(--regla); padding: 22px; }
@@ -192,7 +197,22 @@ dt { color: var(--tenue); } dd { margin: 0; }
 .escenario .contenido h2 { font-size: clamp(2rem, 5vw, 3.4rem); color: var(--sello); }
 .escenario .pie { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
 
-.escenario[hidden], .libro[hidden] { display: none !important; }
+.escenario[hidden], .libro[hidden], .seccion[hidden], .boton[hidden] { display: none !important; }
+
+/* Celular: la barra no se queda fija ni ocupa varias líneas; la regla muestra solo los nombres */
+@media (max-width: 640px) {
+  .barra { position: static; flex-wrap: nowrap; gap: 10px; }
+  .barra nav { flex-wrap: nowrap; overflow-x: auto; white-space: nowrap; scrollbar-width: none; min-width: 0; padding-block: 4px; }
+  .barra nav::-webkit-scrollbar { display: none; }
+  .barra .boton { flex: none; }
+  .regla { height: 46px; }
+  .regla .seg { display: none; }
+  .franja .punto:not(.examen) span { display: none; }   /* las fechas ya están en la lista de abajo */
+  .regla button { font-size: .68rem; line-height: 1.15; }
+  .marco { gap: 56px; }
+  .decada { grid-template-columns: 4.6rem minmax(0, 1fr); gap: 10px; }
+  .decada > span { font-size: .82rem; }
+}
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 </style>
 
@@ -294,6 +314,15 @@ dt { color: var(--tenue); } dd { margin: 0; }
     <div class="tablero"><div class="libros" id="libros"></div><aside class="panel" id="panel" aria-live="polite"></aside></div>
   </section>
 
+  <section class="seccion" id="nodos">
+    <header>
+      <p class="rotulo">{{t.n_rotulo}}</p>
+      <h2>{{t.n_h2}}</h2>
+      <p>{{t.n_p}}</p>
+    </header>
+    {{LECCIONES}}
+  </section>
+
   <section class="seccion" id="linea">
     <header>
       <p class="rotulo">{{t.l_rotulo}}</p>
@@ -345,6 +374,9 @@ const $ = id => document.getElementById(id);
 const tok = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+/* En pantallas angostas los lienzos se dibujan con un diseño vertical y letra más grande */
+const ANGOSTO = matchMedia('(max-width: 640px)');
+
 /* ===== Curioso: guion de 300 s ===== */
 const CURIOSO = UI.curioso;
 const COLORES = ['--b1', '--b2', '--b3', '--b4', '--b5'];
@@ -354,7 +386,7 @@ function armarRegla(el, conClic) {
   CURIOSO.forEach((b, i) => {
     const x = document.createElement('button');
     x.style.flex = `${b.objetivo} 0 0`; x.style.background = `var(${COLORES[i]})`;
-    x.textContent = `${b.nombre} · ${b.objetivo} s`;
+    x.innerHTML = `${esc(b.nombre)}<span class="seg">&nbsp;· ${b.objetivo} s</span>`;
     if (conClic) { x.setAttribute('role', 'tab'); x.onclick = () => { bloque = i; pintarCurioso(); }; } else x.tabIndex = -1;
     el.append(x);
   });
@@ -406,6 +438,50 @@ function textoEnvuelto(txt, x, y, ancho, alto) {
   for (const p of txt.split(' ')) { const prueba = linea ? linea + ' ' + p : p; if (ctx.measureText(prueba).width > ancho && linea) { ctx.fillText(linea, x, yy); linea = p; yy += alto; } else linea = prueba; }
   ctx.fillText(linea, x, yy);
 }
+const MEDIDAS = { ancho: [1280, 680], tecnicas: [720, 1240], practica: [720, 940] };
+function medirLienzo() {
+  const [w, h] = ANGOSTO.matches ? MEDIDAS[escenaActual] : MEDIDAS.ancho;
+  if (lienzo.width !== w || lienzo.height !== h) { lienzo.width = w; lienzo.height = h; }
+}
+const RENDER_ANGOSTO = {
+  tecnicas(e, t) {
+    ctx.globalAlpha = prog(t, .1); ctx.fillStyle = tok('--tinta'); ctx.font = `800 40px ${tok('--f-titulo')}`; textoEnvuelto(e.titulo, 30, 60, 660, 46);
+    let y = 170;
+    e.grupos.forEach((g, i) => {
+      const ini = .7 + i * 1.2;
+      if (t < ini) { y += 76 + g.tecnicas.length * 76; return; }
+      const p = prog(t, ini);
+      ctx.globalAlpha = p; ctx.fillStyle = tok(g.color); ctx.fillRect(30, y, 660, 58);
+      ctx.fillStyle = tok('--tarjeta'); ctx.font = `600 28px ${tok('--f-ficha')}`; ctx.fillText(`${ET.utilidad} ${g.nivel}`, 50, y + 39);
+      y += 76;
+      g.tecnicas.forEach((tec, j) => {
+        const pj = prog(t, ini + .3 + j * .25);
+        if (pj > 0) {
+          ctx.globalAlpha = pj; ctx.strokeStyle = tok(g.color); ctx.lineWidth = 3; ctx.strokeRect(30, y, 660, 62);
+          ctx.fillStyle = tok('--tinta'); ctx.font = `400 30px ${tok('--f-texto')}`; ctx.fillText(tec, 50, y + 41);
+        }
+        y += 76;
+      });
+    });
+    ctx.globalAlpha = prog(t, 5.3); ctx.fillStyle = tok('--sello'); ctx.font = `600 30px ${tok('--f-titulo')}`; textoEnvuelto(e.cierre, 30, y + 30, 660, 38);
+  },
+  practica(e, t) {
+    ctx.globalAlpha = prog(t, .1); ctx.fillStyle = tok('--tinta'); ctx.font = `800 40px ${tok('--f-titulo')}`; textoEnvuelto(e.titulo, 30, 60, 660, 46);
+    const X0 = 30, X1 = 600, max = 30, xv = v => X0 + v / max * (X1 - X0);
+    ctx.globalAlpha = prog(t, .5); ctx.strokeStyle = tok('--regla'); ctx.fillStyle = tok('--tenue'); ctx.font = `500 24px ${tok('--f-ficha')}`; ctx.lineWidth = 1; ctx.textAlign = 'center';
+    for (let v = 0; v <= max; v += 10) { ctx.beginPath(); ctx.moveTo(xv(v), 170); ctx.lineTo(xv(v), 760); ctx.stroke(); ctx.fillText(`${v} %`, xv(v), 795); }
+    ctx.textAlign = 'left';
+    e.datos.forEach((d, i) => {
+      const ini = 1 + i * .5; if (t < ini) return;
+      const p = prog(t, ini, .9), y = 180 + i * 116;
+      ctx.globalAlpha = 1; ctx.fillStyle = tok('--tinta'); ctx.font = `400 30px ${tok('--f-texto')}`; ctx.fillText(d.etiqueta, X0, y + 30);
+      const w = (xv(d.valor) - X0) * p; ctx.fillStyle = tok('--sello'); ctx.fillRect(X0, y + 46, w, 44);
+      ctx.fillStyle = tok('--tinta'); ctx.font = `600 28px ${tok('--f-ficha')}`;
+      ctx.fillText(`${d.menor ? EP.menos_de : ''}${Math.round(d.valor * p)} %`, X0 + w + 12, y + 79);
+    });
+    ctx.globalAlpha = prog(t, 4.6); ctx.fillStyle = tok('--linea-roja'); ctx.font = `600 30px ${tok('--f-titulo')}`; textoEnvuelto(e.cierre, 30, 850, 660, 38);
+  },
+};
 const RENDER = {
   tecnicas(e, t) {
     ctx.globalAlpha = prog(t, .1); ctx.fillStyle = tok('--tinta'); ctx.font = `800 36px ${tok('--f-titulo')}`; ctx.fillText(e.titulo, 50, 66);
@@ -444,8 +520,9 @@ const RENDER = {
   },
 };
 function render(t) {
+  medirLienzo();
   ctx.globalAlpha = 1; ctx.textAlign = 'left'; ctx.fillStyle = tok('--tarjeta'); ctx.fillRect(0, 0, lienzo.width, lienzo.height);
-  RENDER[escenaActual](ESCENAS[escenaActual], t); ctx.globalAlpha = 1;
+  (ANGOSTO.matches ? RENDER_ANGOSTO : RENDER)[escenaActual](ESCENAS[escenaActual], t); ctx.globalAlpha = 1;
 }
 let tm = 0, corriendo = false, previo = 0;
 function pintarEscena() { const e = ESCENAS[escenaActual]; $('scrub').max = e.duracion; render(tm); $('scrub').value = tm; $('t').textContent = `${tm.toFixed(2)} / ${e.duracion.toFixed(2)} s`; $('fuente-escena').textContent = UI.fuente + e.fuente; }
@@ -467,7 +544,7 @@ tm = ESCENAS[escenaActual].duracion;
 const PREGUNTAS = DATOS.preguntas;
 const INTERVALO = [1, 2, 4, 8, 16];   // días hasta el próximo repaso según la caja
 const NUEVAS_POR_DIA = 8;
-const CLAVE = 'aprender-repaso-v1';
+const CLAVE = UI.clave_repaso;   // cada página guarda su propio repaso
 const leer = () => { try { return JSON.parse(localStorage.getItem(CLAVE)) || {}; } catch (e) { return {}; } };
 const guardar = r => { try { localStorage.setItem(CLAVE, JSON.stringify(r)); } catch (e) { /* sin almacenamiento: funciona solo en esta visita */ } };
 const hoyIso = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
@@ -564,8 +641,8 @@ pintarPlan();
 
 /* ===== Tablero de veredictos ===== */
 const libros = DATOS.libros, porId = Object.fromEntries(libros.map(l => [l.id, l]));
-let filtro = 'todos', elegido = 'make-it-stick';
-const FILTROS = [['todos', UI.todos], ...Object.entries(DATOS.etiquetas)];
+let filtro = 'todos', elegido = DATOS.libros[0].id;
+const FILTROS = [['todos', UI.todos], ...Object.entries(DATOS.etiquetas).filter(([k]) => DATOS.libros.some(l => l.veredicto === k))];
 FILTROS.forEach(([k, n]) => {
   const b = document.createElement('button'); b.className = 'boton'; b.textContent = n; b.setAttribute('aria-pressed', k === filtro);
   b.onclick = () => { filtro = k; [...$('filtros').children].forEach(x => x.setAttribute('aria-pressed', x === b)); pintarTablero(); };
@@ -574,7 +651,10 @@ FILTROS.forEach(([k, n]) => {
 libros.forEach(l => {
   const b = document.createElement('button'); b.className = 'libro'; b.dataset.id = l.id;
   b.innerHTML = `<span class="chip v-${l.veredicto}">${esc(DATOS.etiquetas[l.veredicto])}</span><b>${esc(l.titulo)}</b><span class="tenue" style="font-size:.95rem">${esc(l.frase)}</span>`;
-  b.onclick = () => { elegido = l.id; pintarTablero(); elegirEnMapa(l.id); pintarLinea(); };
+  b.onclick = () => {
+    elegido = l.id; pintarTablero(); elegirEnMapa(l.id); pintarLinea();
+    if (ANGOSTO.matches) $('panel').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });   // en el celular el detalle queda debajo de la lista
+  };
   $('libros').append(b);
 });
 function pintarTablero() {
@@ -588,58 +668,69 @@ function pintarTablero() {
 }
 
 /* ===== Línea de tiempo por décadas ===== */
-const anioDe = l => +String(l.anio).match(/\d{4}/)[0];
+const anioDe = l => l.orden;   // año numérico calculado por el generador; negativo antes de Cristo
 function pintarLinea() {
   const porDecada = {};
-  libros.forEach(l => { const d = Math.floor(anioDe(l) / 10) * 10; (porDecada[d] = porDecada[d] || []).push(l); });
+  libros.forEach(l => { const d = l.siglo ? anioDe(l) : Math.floor(anioDe(l) / 10) * 10; (porDecada[d] = porDecada[d] || []).push(l); });   // antes de Cristo, por siglo
   const decadas = Object.keys(porDecada).map(Number).sort((a, b) => a - b);
   $('linea-tiempo').innerHTML = decadas.map((d, i) => {
     const salto = i < decadas.length - 1 && decadas[i + 1] - d > 10;   // un salto de décadas vacías se marca con línea punteada
     const hitos = porDecada[d].sort((a, b) => anioDe(a) - anioDe(b)).map(l =>
-      `<button class="hito" data-id="${l.id}" aria-pressed="${l.id === elegido}"><i style="background:var(--v-${l.veredicto})" title="${esc(DATOS.etiquetas[l.veredicto])}"></i>${esc(l.titulo)} <small>${anioDe(l)}</small></button>`).join('');
-    return `<div class="decada${salto ? ' salto' : ''}"><span>${fmtT(UI.l_decada, { d, h: String(d + 9).slice(-2) })}</span><div class="fila">${hitos}</div></div>`;
+      `<button class="hito" data-id="${l.id}" aria-pressed="${l.id === elegido}"><i style="background:var(--v-${l.veredicto})" title="${esc(DATOS.etiquetas[l.veredicto])}"></i>${esc(l.titulo)} <small>${esc(l.siglo || anioDe(l))}</small></button>`).join('');
+    const etiqueta = porDecada[d][0].siglo || fmtT(UI.l_decada, { d, h: String(d + 9).slice(-2) });
+    return `<div class="decada${salto ? ' salto' : ''}"><span>${esc(etiqueta)}</span><div class="fila">${hitos}</div></div>`;
   }).join('');
   $('linea-tiempo').querySelectorAll('.hito').forEach(b => b.onclick = () => {
     elegido = b.dataset.id; pintarTablero(); elegirEnMapa(b.dataset.id); pintarLinea();
     $('panel').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
   });
-  const rango = v => { const a = libros.filter(l => l.veredicto === v).map(anioDe); return a.length ? [Math.min(...a), Math.max(...a)] : ['–', '–']; };
-  const [fa, fb] = rango('filosofia'), [pa, pb] = rango('promete');
-  $('resumen-linea').textContent = fmtT(UI.l_resumen, { fa, fb, pa, pb });
+  const nombre = a => { const l = libros.find(x => anioDe(x) === a); return l && l.siglo ? l.siglo : a; };   // un año antes de Cristo se nombra por su siglo
+  const rango = v => { const a = libros.filter(l => l.veredicto === v).map(anioDe); return a.length ? [nombre(Math.min(...a)), nombre(Math.max(...a))] : ['–', '–']; };
+  const [fa, fb] = rango('filosofia'), [pa, pb] = rango('promete'), [la, lb] = rango('literatura');
+  const div = libros.filter(l => ['solido', 'matices', 'promete'].includes(l.veredicto)).map(anioDe), [da, db] = div.length ? [nombre(Math.min(...div)), nombre(Math.max(...div))] : ['–', '–'];
+  $('resumen-linea').textContent = fmtT(UI.l_resumen, { fa, fb, pa, pb, la, lb, da, db });
 }
 
 /* ===== Mapa de cruces (fuerzas simples en canvas) ===== */
-const red = $('red'), rx = red.getContext('2d'), W = red.width, H = red.height;
-const nodos = libros.map((l, i) => ({ id: l.id, titulo: l.titulo, grupo: l.grupo, fuera: false, x: W / 2 + Math.cos(i * 2.4) * 220, y: H / 2 + Math.sin(i * 2.4) * 200, vx: 0, vy: 0 }));
-const nodoDe = Object.fromEntries(nodos.map(n => [n.id, n]));
-DATOS.aristas.forEach((a, i) => { if (a.fuera && !nodoDe[a.b]) { const n = { id: a.b, titulo: a.titulo_b, fuera: true, x: W / 2 + Math.cos(i) * 300, y: H / 2 + Math.sin(i) * 280, vx: 0, vy: 0 }; nodos.push(n); nodoDe[a.b] = n; } });
+const red = $('red'), rx = red.getContext('2d');
+let W = 900, H = 680, K = 1;   // K agranda letra, puntos y zona de toque en el celular
 const COL_GRUPO = ['--b2', '--b1', '--b3', '--b5', '--b4'];
-for (let it = 0; it < 500; it++) {   // simulación fija y determinista: misma posición en cada carga
-  for (const a of nodos) for (const b of nodos) { if (a === b) continue; const dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy + .01, f = 5200 / d2; a.vx += dx * f / Math.sqrt(d2); a.vy += dy * f / Math.sqrt(d2); }
-  for (const e of DATOS.aristas) { const a = nodoDe[e.a], b = nodoDe[e.b]; const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1, f = (d - 170) * .01; a.vx += dx / d * f; a.vy += dy / d * f; b.vx -= dx / d * f; b.vy -= dy / d * f; }
-  for (const n of nodos) { n.vx += (W / 2 - n.x) * .004; n.vy += (H / 2 - n.y) * .004; n.x += n.vx * .5; n.y += n.vy * .5; n.vx *= .6; n.vy *= .6; n.x = Math.max(70, Math.min(W - 70, n.x)); n.y = Math.max(40, Math.min(H - 40, n.y)); }
-}
-{ // ajustar el dibujo al lienzo
+let nodos = [], nodoDe = {};
+function armarRed() {
+  [W, H, K] = ANGOSTO.matches ? [700, 1000, 2] : [900, 680, 1];
+  red.width = W; red.height = H;
+  nodos = libros.map((l, i) => ({ id: l.id, titulo: l.titulo, grupo: l.grupo, fuera: false, x: W / 2 + Math.cos(i * 2.4) * 220, y: H / 2 + Math.sin(i * 2.4) * 200, vx: 0, vy: 0 }));
+  nodoDe = Object.fromEntries(nodos.map(n => [n.id, n]));
+  DATOS.aristas.forEach((a, i) => { if (a.fuera && !nodoDe[a.b]) { const n = { id: a.b, titulo: a.titulo_b, fuera: true, x: W / 2 + Math.cos(i) * 300, y: H / 2 + Math.sin(i) * 280, vx: 0, vy: 0 }; nodos.push(n); nodoDe[a.b] = n; } });
+  for (let it = 0; it < 500; it++) {   // simulación fija y determinista: misma posición en cada carga
+    for (const a of nodos) for (const b of nodos) { if (a === b) continue; const dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy + .01, f = 5200 / d2; a.vx += dx * f / Math.sqrt(d2); a.vy += dy * f / Math.sqrt(d2); }
+    for (const e of DATOS.aristas) { const a = nodoDe[e.a], b = nodoDe[e.b]; const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1, f = (d - 170) * .01; a.vx += dx / d * f; a.vy += dy / d * f; b.vx -= dx / d * f; b.vy -= dy / d * f; }
+    for (const n of nodos) { n.vx += (W / 2 - n.x) * .004; n.vy += (H / 2 - n.y) * .004; n.x += n.vx * .5; n.y += n.vy * .5; n.vx *= .6; n.vy *= .6; n.x = Math.max(70, Math.min(W - 70, n.x)); n.y = Math.max(40, Math.min(H - 40, n.y)); }
+  }
+  // ajustar el dibujo al lienzo, dejando margen para los nombres
   const xs = nodos.map(n => n.x), ys = nodos.map(n => n.y), x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
-  for (const n of nodos) { n.x = 90 + (n.x - x0) / (x1 - x0 || 1) * (W - 180); n.y = 50 + (n.y - y0) / (y1 - y0 || 1) * (H - 90); }
+  const mx = K > 1 ? 150 : 90, my = K > 1 ? 80 : 50;
+  for (const n of nodos) { n.x = mx + (n.x - x0) / (x1 - x0 || 1) * (W - 2 * mx); n.y = my + (n.y - y0) / (y1 - y0 || 1) * (H - 2 * my + 10 * K); }
 }
-let enMapa = 'make-it-stick';
+armarRed();
+let enMapa = DATOS.libros[0].id;
 function dibujarRed() {
   rx.fillStyle = tok('--tarjeta'); rx.fillRect(0, 0, W, H);
   const vecinos = new Set(DATOS.aristas.filter(e => e.a === enMapa || e.b === enMapa).flatMap(e => [e.a, e.b]));
   for (const e of DATOS.aristas) {
     const a = nodoDe[e.a], b = nodoDe[e.b], activa = e.a === enMapa || e.b === enMapa;
-    rx.strokeStyle = activa ? tok('--sello') : tok('--regla'); rx.lineWidth = activa ? 2.5 : 1;
+    rx.strokeStyle = activa ? tok('--sello') : tok('--regla'); rx.lineWidth = (activa ? 2.5 : 1) * K;
     rx.beginPath(); rx.moveTo(a.x, a.y); rx.lineTo(b.x, b.y); rx.stroke();
   }
   for (const n of nodos) {
     const sel = n.id === enMapa, cerca = vecinos.has(n.id);
     rx.fillStyle = n.fuera ? tok('--tenue') : tok(COL_GRUPO[n.grupo]);
     rx.globalAlpha = sel || cerca || !enMapa ? 1 : .45;
-    rx.beginPath(); rx.arc(n.x, n.y, n.fuera ? 5 : sel ? 12 : 9, 0, Math.PI * 2); rx.fill();
-    if (!n.fuera || cerca) {
-      rx.fillStyle = tok('--tinta'); rx.font = `${sel ? 800 : 400} ${n.fuera ? 13 : 15}px ${tok('--f-titulo')}`; rx.textAlign = 'center';
-      rx.fillText(n.titulo.length > 28 ? n.titulo.slice(0, 26) + '…' : n.titulo, n.x, n.y - 15);
+    rx.beginPath(); rx.arc(n.x, n.y, (n.fuera ? 5 : sel ? 12 : 9) * K, 0, Math.PI * 2); rx.fill();
+    if (K > 1 ? sel || cerca : !n.fuera || cerca) {   // en el celular, solo los nombres del libro elegido y sus vecinos
+      rx.fillStyle = tok('--tinta'); rx.font = `${sel ? 800 : 400} ${(n.fuera ? 13 : 15) * K}px ${tok('--f-titulo')}`; rx.textAlign = 'center';
+      const largo = K > 1 ? 20 : 28;
+      rx.fillText(n.titulo.length > largo ? n.titulo.slice(0, largo - 2) + '…' : n.titulo, n.x, n.y - 15 * K);
     }
     rx.globalAlpha = 1;
   }
@@ -653,13 +744,14 @@ $('leyenda-mapa').innerHTML = DATOS.grupos.map((g, i) => `<span><span style="dis
 function elegirEnMapa(id) { enMapa = id; dibujarRed(); }
 red.addEventListener('click', ev => {
   const r = red.getBoundingClientRect(), x = (ev.clientX - r.left) * W / r.width, y = (ev.clientY - r.top) * H / r.height;
-  let mejor = null, dm = 30; for (const n of nodos) { const d = Math.hypot(n.x - x, n.y - y); if (d < dm) { dm = d; mejor = n; } }
+  let mejor = null, dm = 30 * K; for (const n of nodos) { const d = Math.hypot(n.x - x, n.y - y); if (d < dm) { dm = d; mejor = n; } }
   if (mejor) { enMapa = mejor.id; if (porId[mejor.id]) { elegido = mejor.id; pintarTablero(); pintarLinea(); } dibujarRed(); }
 });
 
 /* ===== Arranque y cambio de tema ===== */
 function todo() { pintarCurioso(); pintarEscena(); pintarTablero(); pintarLinea(); dibujarRed(); }
 todo();
+ANGOSTO.addEventListener('change', () => { armarRed(); todo(); });
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', todo);
 new MutationObserver(todo).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 </script>

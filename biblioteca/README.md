@@ -22,19 +22,26 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 - **No inventes datos** (AGENTS.md, regla 5). Fechas, capítulos y escenas se comprueban; si no hay fuente, se deja `<!-- VERIFICAR: ... -->`.
 - **Con cuidado.** Si el libro trae temas sensibles o prejuicios de su época, la ficha lo dice.
 
-## Página pública de aprender a aprender
+## Páginas públicas por tema
 
-Los libros del tema *aprender a aprender* tienen una página para compartir con estudiantes, docentes y familias: veredicto de cada libro con el estudio que lo sostiene, mapa de cruces, un explicador animado, un juego de "¿mito o evidencia?", un planificador de repaso espaciado y una versión de cinco minutos en Formato Curioso.
+Dos temas de la biblioteca tienen una página para compartir con estudiantes, docentes y familias, en español y en inglés:
+
+| Página | Español | Inglés |
+| --- | --- | --- |
+| Aprender a aprender | [aprender-a-aprender.html](https://sergiomonsalve.com/aprender-a-aprender.html) | [learning-to-learn.html](https://sergiomonsalve.com/learning-to-learn.html) |
+| Módulo Dinero | [libros-del-dinero.html](https://sergiomonsalve.com/libros-del-dinero.html) | [books-on-money.html](https://sergiomonsalve.com/books-on-money.html) |
+
+Cada página trae el veredicto de cada libro con el estudio que lo sostiene, una línea de tiempo, el mapa de cruces, un "¿mito o evidencia?" con repaso espaciado y las fichas. La de aprender a aprender suma una versión de cinco minutos en Formato Curioso, un explicador animado y un planificador de repaso; la de Dinero, qué leer para cada lección del módulo.
 
 ```bash
-python3 scripts/pagina_aprender.py   # escribe _sitio/aprender-a-aprender.html
+python3 scripts/pagina_aprender.py                      # una página en _sitio/ (opciones: --pagina, --idioma)
+python3 scripts/pagina_aprender.py --publicar ../sergiomonsalve.com/public   # todas, enlazadas entre sí
 ```
 
-- El texto de cada libro sale de su ficha: si corriges una ficha, vuelve a generar la página.
-- Los veredictos, las rutas de lectura y los grupos están en [`_pagina-aprender.yaml`](_pagina-aprender.yaml). Un veredicto resume el **Análisis** de la ficha y cita su estudio, comprobado en Crossref.
-- El diseño y la interacción están en `scripts/plantillas/pagina_aprender.html`.
-- **En inglés:** `python3 scripts/pagina_aprender.py --idioma en`. La traducción de veredictos, preguntas, cruces y títulos está en [`_pagina-aprender.en.yaml`](_pagina-aprender.en.yaml), y los textos de la interfaz en `scripts/plantillas/pagina_aprender.textos.yaml`. Las fichas completas no se traducen: cada libro enlaza a su ficha en español. El script avisa si falta traducir algo.
-- La copia pública vive en [sergiomonsalve.com/aprender-a-aprender.html](https://sergiomonsalve.com/aprender-a-aprender.html) y en inglés en [sergiomonsalve.com/learning-to-learn.html](https://sergiomonsalve.com/learning-to-learn.html). Para actualizarlas, genera con `--sitio --otro-idioma` hacia la carpeta `public/` de ese sitio (ver el encabezado del script).
+- El texto de cada libro sale de su ficha: si corriges una ficha, vuelve a generar las páginas.
+- Los veredictos, las rutas de lectura, los grupos, las preguntas y las secciones de cada página están en `_pagina-<tema>.yaml`, y su traducción en `_pagina-<tema>.en.yaml`. Un veredicto resume el **Análisis** de la ficha y cita su estudio, comprobado en Crossref. Las fábulas y novelas llevan el veredicto *literatura*, que no se juzga con estudios.
+- Los textos de la interfaz están en `scripts/plantillas/pagina_aprender.textos.yaml` (y los propios de Dinero en `pagina_dinero.textos.yaml`); el diseño, en `scripts/plantillas/pagina_aprender.html`.
+- En inglés, las fichas completas no se traducen: cada libro enlaza a su ficha en español. El script avisa si falta traducir algo.
 
 <!-- indice:inicio -->
 <!-- Generado por scripts/biblioteca.py --indice. No editar a mano. -->
