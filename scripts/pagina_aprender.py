@@ -37,7 +37,7 @@ TEXTOS = PLANTILLAS / "pagina_aprender.textos.yaml"
 SALIDA = {"es": RAIZ / "_sitio" / "aprender-a-aprender.html", "en": RAIZ / "_sitio" / "learning-to-learn.html"}
 PAGINA_ES = "aprender-a-aprender.html"
 VEREDICTOS = ("solido", "matices", "promete", "filosofia")
-SECCIONES = ("cinco-minutos", "que-funciona", "ponte-a-prueba", "repaso", "veredictos", "mapa", "fichas")
+SECCIONES = ("cinco-minutos", "que-funciona", "ponte-a-prueba", "repaso", "veredictos", "linea", "mapa", "fichas")
 
 
 def cargar_fichas() -> dict[str, tuple[dict[str, Any], str]]:

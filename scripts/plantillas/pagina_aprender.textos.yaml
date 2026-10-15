@@ -6,7 +6,7 @@ es:
   locale: es-CO
   titulo: Libros para aprender a aprender
   descripcion: "Libros sobre cómo se aprende mejor, cómo se enseña y qué promesas no tienen evidencia: veredictos, mapa de cruces y ejercicios de repaso. Biblioteca de New Old School."
-  nav: [En 5 minutos, Qué funciona, Ponte a prueba, Planea tu repaso, Veredictos, Mapa de cruces, Fichas]
+  nav: [En 5 minutos, Qué funciona, Ponte a prueba, Planea tu repaso, Veredictos, Línea de tiempo, Mapa de cruces, Fichas]
   nav_aria: Secciones
   presentar: Presentar en 5 minutos
   portada_rotulo: Biblioteca de New Old School
@@ -75,6 +75,11 @@ es:
   todos: Todos
   la_promesa: 'La promesa:'
   ir_ficha_completa: Ir a la ficha completa
+  l_rotulo: Línea de tiempo · toca un libro
+  l_h2: Dos siglos y medio de ideas sobre cómo se aprende
+  l_p: Los libros agrupados por la década en que se publicaron, con el color de su veredicto. Al tocar uno, el tablero y el mapa lo muestran.
+  l_resumen: Los libros de filosofía de la educación van de {fa} a {fb}. Los que prometen más de lo que prueban son divulgación reciente, de {pa} a {pb}.
+  l_decada: '{d}-{h}'
   m_rotulo: Mapa de cruces
   m_h2: Cómo dialogan los libros entre sí
   m_p: Cada línea es un cruce de la biblioteca. Toca un libro para ver con cuáles conversa y por qué. Los puntos grises son libros de otros temas.
@@ -146,7 +151,7 @@ en:
   locale: en-US
   titulo: Books on learning how to learn
   descripcion: "Books on how we learn best, how we teach, and which promises lack evidence: verdicts, a map of connections and review exercises. New Old School library."
-  nav: [In 5 minutes, What works, Test yourself, Plan your review, Verdicts, Map, Books]
+  nav: [In 5 minutes, What works, Test yourself, Plan your review, Verdicts, Timeline, Map, Books]
   nav_aria: Sections
   presentar: Present in 5 minutes
   portada_rotulo: New Old School library
@@ -215,6 +220,11 @@ en:
   todos: All
   la_promesa: 'The promise:'
   ir_ficha_completa: Go to the book
+  l_rotulo: Timeline · tap a book
+  l_h2: Two and a half centuries of ideas about how we learn
+  l_p: The books grouped by the decade they were published, colored by their verdict. Tap one and the board and the map show it.
+  l_resumen: The philosophy of education books run from {fa} to {fb}. The ones that promise more than they prove are recent popular science, from {pa} to {pb}.
+  l_decada: '{d}s'
   m_rotulo: Map of connections
   m_h2: How the books talk to each other
   m_p: Each line is a connection in the library. Tap a book to see which others it talks to and why. Grey dots are books on other topics.
