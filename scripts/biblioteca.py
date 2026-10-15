@@ -57,7 +57,7 @@ def ids_del_curriculo() -> set[str]:
 def cargar_libros(errores: list[str]) -> dict[str, dict[str, Any]]:
     libros: dict[str, dict[str, Any]] = {}
     for archivo in sorted(BIBLIOTECA.glob("*.md")):
-        if archivo.name == "README.md":
+        if archivo.name == "README.md" or archivo.name.startswith("_"):
             continue
         try:
             d, _ = separar_encabezado(archivo.read_text(encoding="utf-8"))
