@@ -54,12 +54,12 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 **Ya tienen ficha (tanda 3, 2026-10-14):** *La señal y el ruido* (*The Signal and the Noise*), *Algoritmos para la vida cotidiana* (*Algorithms to Live By*), *Inteligencia emocional* y *Cosmos*. Además, por pedido de Coordinación, *La invención de todas las cosas*, de Jorge Volpi.
 
+**Ya tienen ficha (tanda 4, 2026-10-14):** *El método Lean Startup*, *Moneyball*, *Cómo ser un estoico* (*How to Be a Stoic*), *La vida secreta del cerebro* (*How Emotions Are Made*) y *El poder de los hábitos* (*The Power of Habit*).
+
 ### Dinero y emprender (frente 1)
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *The Lean Startup* | Eric Ries | 0 | media | Probar ideas de negocio barato antes de invertir: encaja con *Emprender con números*. |
-| *Moneyball* | Michael Lewis | 0 | media | Datos contra intuición en el béisbol; sirve para estadística y para *Pensar y decidir*. |
 | *Starting a Business QuickStart Guide* | Ken Colwell | 0 | baja | Manual práctico; muy centrado en Estados Unidos. |
 | *Entrepreneurship for Dummies* | Kathleen Allen | 0 | baja | Igual que el anterior. |
 
@@ -68,7 +68,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
 | *21 lecciones para el siglo XXI* | Yuval Noah Harari | 0 | media | Tecnología, trabajo y verdad; buen material para discutir, con afirmaciones que conviene contrastar. |
-| *How to Be a Stoic* | Massimo Pigliucci | 0 | media | Filosofía práctica explicada por un filósofo; contrapeso académico a los libros de estoicismo popular. |
 | *The Obstacle Is the Way* y *Ego Is the Enemy* | Ryan Holiday | 0 | baja | Estoicismo popular; mejor una sola ficha con Pigliucci como referencia. |
 | *The Practicing Stoic* | Ward Farnsworth | 0 | baja | Antología de textos estoicos para adultos. |
 
@@ -76,7 +75,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *How Emotions Are Made* | Lisa Feldman Barrett | 0 | media | La teoría de las emociones construidas; contrapeso científico de Goleman. Denso. |
 | *Daring Greatly* | Brené Brown | 0 | media | Vulnerabilidad y vergüenza; popular entre docentes. |
 | *Talking to Strangers* | Malcolm Gladwell | 3 (Gladwell, por *Fuera de serie*) | media | Por qué juzgamos mal a desconocidos; se cruza con *Fuera de serie*. |
 | *Maybe You Should Talk to Someone* | Lori Gottlieb | 0 | media | Una terapeuta cuenta cómo es ir a terapia; ayuda a quitarle el estigma a pedir ayuda. Revisión experta. |
@@ -86,7 +84,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *The Power of Habit* | Charles Duhigg | 0 | media | Antecesor de *Hábitos atómicos*; se puede cruzar con esa ficha. |
 | *Los 7 hábitos de la gente altamente efectiva* | Stephen R. Covey | 0 | media | Clásico de la autoayuda; caso para comparar con la evidencia. |
 | *Focus* | Daniel Goleman | 0 | baja | Atención y concentración; se cruza con *Enfócate*. |
 | *Start with Why* | Simon Sinek | 0 | baja | Liderazgo y propósito; más útil para adultos. |
