@@ -18,10 +18,12 @@ grupos:
     sub: Predictable mistakes, and how to design better decisions
   - nombre: Saving, starting a business and living well
     sub: From the budget to your own business, and how much money matters in a good life
+  - nombre: The most read, read closely
+    sub: Very popular money books, to separate what holds up from what does not
 
 rutas:
   - nombre: If you are a student
-    texto: Short stories and a practical book to start managing your money.
+    texto: Short stories, two practical books to start managing your money and one to read closely.
   - nombre: If you teach
     texto: Why we decide badly with money, and how to use it in class.
   - nombre: If you support a student at home
@@ -62,6 +64,14 @@ titulos:
   the-power-of-habit: The Power of Habit
   ultralearning: Ultralearning
   why-we-sleep: Why We Sleep
+  el-avaro: The Miser
+  los-comuneros: Los comuneros (in Spanish only)
+  el-triunfo-del-dinero: The Ascent of Money
+  la-psicologia-del-dinero: The Psychology of Money
+  repensar-la-pobreza: Poor Economics
+  el-hombre-mas-rico-de-babilonia: The Richest Man in Babylon
+  padre-rico-padre-pobre: Rich Dad Poor Dad
+  el-banquero-de-los-pobres: Banker to the Poor
 
 nodos_titulos:
   dinero.ingresos-y-gastos: Income and expenses
@@ -134,6 +144,30 @@ veredictos:
   the-good-life:
     promesa: Relationships matter more than money in a good life
     juicio: Relationships are associated with more health and happiness, although that does not prove they cause them. And money does matter, well-being keeps rising with income for most people.
+  el-avaro:
+    promesa: An "honest" interest rate can hide an abusive one
+    juicio: Harpagon lends at 5.56 %, then adds 20 % and pays part of the loan in worthless junk. With the sums in the scene, the loan costs about 50 % a year. It is a lesson in fine print.
+  los-comuneros:
+    promesa: A tax nobody was consulted on made a people rise up
+    juicio: In 1781 the comuneros demanded that the sales tax be charged at only 2 % and not on food. It works for Basic taxes, although historians dispute its claim that the revolt led to independence.
+  el-triunfo-del-dinero:
+    promesa: Finance is a great tool, crises included
+    juicio: It tells the origin of banks, bonds and insurance with stories such as the Scottish widows' fund of 1744. It pays little attention to the losers and was finished before the 2008 crash.
+  la-psicologia-del-dinero:
+    promesa: Getting rich depends more on behavior than on knowing finance
+    juicio: It is right that exponential growth fools us, about a third of people ignore compound interest entirely. But these are essays built on anecdotes, which pick the winners.
+  repensar-la-pobreza:
+    promesa: Poverty is understood through experiments, not grand theories
+    juicio: Its experiments hold up. In the Philippines, an account that did not allow withdrawing money early raised the savings of those who got it. Deaton warns that what works in one place does not always carry over to another.
+  el-hombre-mas-rico-de-babilonia:
+    promesa: Keep one of every ten coins you earn
+    juicio: Saving first and automatically has support, although 10 % is not a magic number. But it asks you to hand your money to "men wise in its handling", which suited the companies that gave out the pamphlets.
+  padre-rico-padre-pobre:
+    promesa: School does not teach money, and the formula is buying assets
+    juicio: Teaching finance helps, but little. Across 201 studies, the effect on behavior was very small and faded over time. And nobody has been able to identify the "rich dad".
+  el-banquero-de-los-pobres:
+    promesa: Microcredit can lift people out of poverty
+    juicio: Lending to the poor without collateral does work. But six experiments on four continents found modestly positive effects, not transformative ones.
 
 preguntas:
   - frase: If your employer enrolls you in a savings plan by default, you are much more likely to save.
@@ -156,6 +190,12 @@ preguntas:
     explica: In a trial with 116 startups assigned at random, those who learned to formulate and test hypotheses performed better.
   - frase: It has been proven that reading words about old age makes people walk more slowly.
     explica: A famous experiment found it, but when other researchers repeated it more carefully, the effect did not appear.
+  - frase: Microcredit lifts most of the families who receive it out of poverty.
+    explica: Six randomized evaluations, in six countries on four continents, found modestly positive, but not transformative, effects.
+  - frase: Many people calculate compound interest as if it grew in a straight line.
+    explica: The tendency to see exponential growth as linear is very common, and the households that show it most borrow more and save less.
+  - frase: A finance course at school only brings good results.
+    explica: In Brazil, the course improved what students knew, their saving and their budgeting, but it also increased their use of expensive credit to buy things.
 
 cruces:
   the-signal-and-the-noise|21-lecciones-para-el-siglo-xxi: Harari forecasts the future of work with great confidence; Silver teaches you to distrust forecasts that give no probabilities.
@@ -208,3 +248,23 @@ cruces:
   the-signal-and-the-noise|pensar-rapido-pensar-despacio: Experts are wrong with great confidence. Kahneman explains why; Silver shows how to forecast better.
   robinson-crusoe|ultralearning: Learning alone and by doing. Robinson learns to bake bread and make pots through failed attempts.
   the-signal-and-the-noise|why-we-sleep: A good case for Silver's lesson, a chart with one data point removed changes what it seems to say.
+  el-avaro|el-hombre-mas-rico-de-babilonia: Mathon, Clason's moneylender, lends with care; Harpagon lends with tricks. Two opposite portraits of the same trade.
+  el-avaro|mercader-de-venecia: Two comedies about moneylenders. Shylock asks for a pound of flesh as collateral; Harpagon hides 25 % interest behind 5 %.
+  el-banquero-de-los-pobres|mercader-de-venecia: Two ways of securing a loan, Shylock's pound of flesh and the pressure of a group of neighbors.
+  el-banquero-de-los-pobres|repensar-la-pobreza: Yunus promises that microcredit will end poverty; Banerjee and Duflo tell of the experiments that put it to the test.
+  el-hombre-mas-rico-de-babilonia|fabulas-de-esopo: Two books of parables about saving, Aesop's ant and Clason's Arkad, who keeps one of every ten coins.
+  el-hombre-mas-rico-de-babilonia|nudge: Clason asks you to pay yourself first; studies of automatic saving show why it works.
+  el-hombre-mas-rico-de-babilonia|padre-rico-padre-pobre: Two widely read money parables, written by people who profited from selling what they recommend.
+  el-triunfo-del-dinero|delirios-multitudinarios: Both tell of John Law's bubble and the Mississippi Company, Mackay in 1841 and Ferguson with what is known today.
+  el-triunfo-del-dinero|liber-abaci: Ferguson begins his history of banking with Fibonacci, who brought to Europe the numbers used to calculate interest.
+  el-triunfo-del-dinero|the-signal-and-the-noise: Ferguson wrote just before the 2008 crisis; Silver explains why almost nobody saw it coming.
+  la-psicologia-del-dinero|misbehaving: Thaler studies with experiments the money mistakes that Housel tells with anecdotes.
+  la-psicologia-del-dinero|pequeno-cerdo-capitalista: Two widely read books on saving. Housel says wealth is what you do not spend; Macías teaches you to find that money in small daily expenses.
+  la-psicologia-del-dinero|the-good-life: Housel says the hardest skill is knowing when you have enough; the Harvard study shows what matters more than money in a good life.
+  los-comuneros|el-coronel-no-tiene-quien-le-escriba: Two Colombian stories about what the state owes people, a tax nobody was consulted on and a pension that never arrives.
+  los-comuneros|ensayo-sobre-el-comercio: Cantillon explains how a change in money and prices hits some people first and others later; in Socorro, the new taxes hit first those who sold at the market.
+  padre-rico-padre-pobre|el-arte-de-pensar: An inspiring story and a "rich dad" nobody has been able to identify. Dobelli teaches you to distrust exactly that kind of tale.
+  padre-rico-padre-pobre|pequeno-cerdo-capitalista: Two money books widely read in Latin America. Macías teaches you to keep accounts; Kiyosaki sells a formula for getting rich. Comparing them is a good lesson.
+  repensar-la-pobreza|nudge: Both show that saving depends more on how choices are designed than on willpower.
+  repensar-la-pobreza|odisea: A savings account that does not let you withdraw money early was studied under Ulysses' name, tying yourself to the mast so as not to spend.
+  repensar-la-pobreza|the-lean-startup: Two faces of entrepreneurship, the business tested in order to grow and the one started because there are no jobs.
