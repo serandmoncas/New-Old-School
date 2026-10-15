@@ -4,6 +4,8 @@
 Uso:
     python scripts/pagina_aprender.py                      # escribe _sitio/aprender-a-aprender.html
     python scripts/pagina_aprender.py --salida otra.html   # en otro lugar
+    python scripts/pagina_aprender.py --sitio --salida ../sergiomonsalve.com/public/aprender-a-aprender.html
+                                                           # documento completo para un sitio propio
 
 Lee las fichas de biblioteca/, los veredictos y las rutas de biblioteca/_pagina-aprender.yaml
 y la plantilla de scripts/plantillas/pagina_aprender.html. La página es un solo archivo HTML
@@ -29,6 +31,32 @@ BIBLIOTECA = RAIZ / "biblioteca"
 DATOS = BIBLIOTECA / "_pagina-aprender.yaml"
 PLANTILLA = RAIZ / "scripts" / "plantillas" / "pagina_aprender.html"
 SALIDA = RAIZ / "_sitio" / "aprender-a-aprender.html"
+DESCRIPCION = (
+    "Libros sobre cómo se aprende mejor, cómo se enseña y qué promesas no tienen evidencia: "
+    "veredictos, mapa de cruces y ejercicios de repaso. Biblioteca de New Old School."
+)
+
+
+def documento_completo(pagina: str, volver: str) -> str:
+    """Envuelve la página (pensada para un visor que pone el esqueleto) en un HTML completo."""
+    corte = pagina.index('<div class="marco">')
+    cabeza, cuerpo = pagina[:corte], pagina[corte:]
+    cuerpo = cuerpo.replace(
+        '<nav aria-label="Secciones">',
+        f'<nav aria-label="Secciones"><a href="{html.escape(volver)}">← {html.escape(volver.split("//")[-1].strip("/"))}</a>',
+        1,
+    )
+    titulo = re.search(r"<title>(.*?)</title>", cabeza).group(1)
+    meta = (
+        '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+        f'<meta name="description" content="{html.escape(DESCRIPCION)}">\n'
+        f'<meta property="og:title" content="{titulo}">\n'
+        f'<meta property="og:description" content="{html.escape(DESCRIPCION)}">\n'
+        '<meta property="og:type" content="website">\n'
+        "<style>body { margin: 0; } [hidden] { display: none !important; }</style>\n"
+    )
+    return f'<!doctype html>\n<html lang="es">\n<head>\n{cabeza}{meta}</head>\n<body>\n{cuerpo}</body>\n</html>\n'
+
 VEREDICTOS = ("solido", "matices", "promete", "filosofia")
 
 
@@ -152,6 +180,8 @@ def construir(cfg: dict[str, Any], fichas: dict) -> tuple[str, int, int]:
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     p.add_argument("--salida", type=Path, default=SALIDA, help="archivo HTML de salida")
+    p.add_argument("--sitio", action="store_true", help="documento HTML completo, para publicarlo en un sitio propio")
+    p.add_argument("--volver", default="https://sergiomonsalve.com", help="con --sitio: enlace de regreso en la barra")
     a = p.parse_args()
 
     cfg = yaml.safe_load(DATOS.read_text(encoding="utf-8"))
@@ -163,6 +193,8 @@ def main() -> None:
         sys.exit(1)
 
     pagina, n_libros, n_cruces = construir(cfg, fichas)
+    if a.sitio:
+        pagina = documento_completo(pagina, a.volver)
     a.salida.parent.mkdir(parents=True, exist_ok=True)
     a.salida.write_text(pagina, encoding="utf-8")
     print(f"{a.salida}: {n_libros} libros, {n_cruces} cruces.")
