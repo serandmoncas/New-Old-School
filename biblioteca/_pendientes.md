@@ -17,13 +17,11 @@ Las menciones se contaron el 2026-10-14 en `curriculo/`, `docs/` y `biblioteca/`
 
 | Libro | Autor y año | Menciones | Por qué |
 | --- | --- | --- | --- |
-| *Pensar rápido, pensar despacio* **(en curso)** | Daniel Kahneman, 2011 | 1 (*El arte de pensar*) | Explica con una sola teoría los sesgos que Dobelli solo enumera. Puente para *Estafas y pirámides*, *Invertir, lo básico* y *El costo real de un crédito*. |
 | *Manual de urbanidad y buenas maneras* (la "Urbanidad de Carreño") | Manuel Antonio Carreño, 1853 | 2 (`marco-curricular.md`, `origen.md`) | Es el modelo explícito del frente 11, *Convivencia*, del marco curricular, y no tiene ficha. Latinoamericano y de dominio público. |
 | *Experiencia y educación* | John Dewey, 1938 | 2 (*Emilio*, *El abordaje de la educación experiencial*) | La raíz de la educación activa que citan Freire, Builes y Kolb. Corto y para docentes. |
 | *Factfulness* | Hans Rosling, 2018 | 0 | Datos contra la intuición: el mejor libro para el frente *Pensar y decidir*, y escrito para no expertos. |
 | *La vorágine* | José Eustasio Rivera, 1924 | 0 | Novela colombiana sobre las caucherías y el endeude de los trabajadores: deuda y trabajo en la historia propia. Probable dominio público. |
 | *Padre rico, padre pobre* | Robert Kiyosaki, 1997 | 0 | El libro de finanzas personales más leído del mundo, con consejos muy discutidos. Como *Sin límites*, sirve para practicar la pregunta "¿cómo lo sabemos?". |
-| *Un pequeño empujón* (*Nudge*) **(en curso)** | Richard Thaler y Cass Sunstein, 2008 | 1 (`presupuesto`) | Thaler ya aparece en el nodo *Presupuesto*. Ahorro automático y diseño de decisiones; se cruza con *Hábitos atómicos*. |
 
 ## Prioridad media
 
@@ -50,7 +48,7 @@ Las menciones se contaron el 2026-10-14 en `curriculo/`, `docs/` y `biblioteca/`
 
 Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), revisados el 2026-10-14. Casi ninguno se menciona todavía en el repo, así que el orden lo da sobre todo el **encaje** con los frentes del marco curricular y con los nodos, y luego la solidez de la evidencia y la edad del público. Se dejaron fuera los que ya tienen ficha, los duplicados, lo que no es un libro (podcasts, cursos, rutinas de ejercicio) y los títulos que no son adecuados para estudiantes de 11 a 16 años.
 
-**En curso (tanda 1):** *Comunicación no violenta* (Marshall Rosenberg) y *Pequeño cerdo capitalista* (Sofía Macías), además de Kahneman y Thaler.
+**Ya tienen ficha (tanda 1, 2026-10-14):** *Pensar rápido, pensar despacio*, *Un pequeño empujón*, *Comunicación no violenta* y *Pequeño cerdo capitalista*.
 
 ### Dinero y emprender (frente 1)
 
