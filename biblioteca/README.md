@@ -33,6 +33,7 @@ python3 scripts/pagina_aprender.py   # escribe _sitio/aprender-a-aprender.html
 - El texto de cada libro sale de su ficha: si corriges una ficha, vuelve a generar la página.
 - Los veredictos, las rutas de lectura y los grupos están en [`_pagina-aprender.yaml`](_pagina-aprender.yaml). Un veredicto resume el **Análisis** de la ficha y cita su estudio, comprobado en Crossref.
 - El diseño y la interacción están en `scripts/plantillas/pagina_aprender.html`.
+- La copia pública vive en [sergiomonsalve.com/aprender-a-aprender.html](https://sergiomonsalve.com/aprender-a-aprender.html). Para actualizarla, genera con `--sitio --salida` hacia `public/aprender-a-aprender.html` de ese sitio.
 
 <!-- indice:inicio -->
 <!-- Generado por scripts/biblioteca.py --indice. No editar a mano. -->
