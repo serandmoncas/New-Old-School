@@ -17,27 +17,30 @@ etiquetas:
 grupos:
   - nombre: Historias que enseñan sobre el dinero
     sub: Fábulas, poemas, teatro y novelas que cuentan una idea del módulo mejor que una explicación
-    libros: [fabulas-de-esopo, odisea, mercader-de-venecia, robinson-crusoe, david-copperfield, el-coronel-no-tiene-quien-le-escriba]
+    libros: [fabulas-de-esopo, odisea, mercader-de-venecia, el-avaro, robinson-crusoe, david-copperfield, el-coronel-no-tiene-quien-le-escriba]
   - nombre: La historia del dinero y los mercados
     sub: De dónde vienen las cuentas, el comercio y las burbujas
-    libros: [liber-abaci, ensayo-sobre-el-comercio, delirios-multitudinarios]
+    libros: [liber-abaci, ensayo-sobre-el-comercio, delirios-multitudinarios, los-comuneros, el-triunfo-del-dinero]
   - nombre: Cómo decidimos con el dinero
     sub: Los errores predecibles y cómo diseñar mejores decisiones
-    libros: [pensar-rapido-pensar-despacio, misbehaving, nudge, the-signal-and-the-noise]
+    libros: [pensar-rapido-pensar-despacio, misbehaving, nudge, the-signal-and-the-noise, la-psicologia-del-dinero]
   - nombre: Ahorrar, emprender y vivir bien
     sub: Del presupuesto al negocio propio, y qué tanto pesa el dinero en una buena vida
-    libros: [pequeno-cerdo-capitalista, the-lean-startup, the-good-life]
+    libros: [pequeno-cerdo-capitalista, repensar-la-pobreza, the-lean-startup, the-good-life]
+  - nombre: Los más leídos, leídos con lupa
+    sub: Libros de dinero muy populares, para separar lo que se sostiene de lo que no
+    libros: [el-hombre-mas-rico-de-babilonia, padre-rico-padre-pobre, el-banquero-de-los-pobres]
 
 rutas:
   - nombre: Si estudias
-    texto: Historias cortas y un libro práctico para empezar a manejar tu plata.
-    libros: [fabulas-de-esopo, david-copperfield, pequeno-cerdo-capitalista, robinson-crusoe]
+    texto: Historias cortas, dos libros prácticos para empezar a manejar tu plata y uno para leer con lupa.
+    libros: [fabulas-de-esopo, el-avaro, pequeno-cerdo-capitalista, la-psicologia-del-dinero, padre-rico-padre-pobre]
   - nombre: Si enseñas
     texto: Por qué decidimos mal con el dinero y cómo usarlo en clase.
-    libros: [misbehaving, nudge, pensar-rapido-pensar-despacio, mercader-de-venecia]
+    libros: [misbehaving, nudge, repensar-la-pobreza, mercader-de-venecia, los-comuneros]
   - nombre: Si acompañas a un estudiante en casa
     texto: Ahorrar sin heroísmo, desconfiar de las promesas fáciles y no confundir dinero con felicidad.
-    libros: [pequeno-cerdo-capitalista, delirios-multitudinarios, the-good-life, nudge]
+    libros: [pequeno-cerdo-capitalista, delirios-multitudinarios, the-good-life, el-hombre-mas-rico-de-babilonia]
 
 veredictos:
   fabulas-de-esopo:
@@ -76,6 +79,18 @@ veredictos:
     veredicto: literatura
     promesa: Todos compran porque todos compran
     juicio: Las burbujas y las pirámides se repiten desde hace siglos con el mismo patrón. La historia de John Law, que imprimió billetes sin control, sirve también para Inflación.
+  el-avaro:
+    veredicto: literatura
+    promesa: Un interés "honrado" puede esconder uno abusivo
+    juicio: Harpagón presta al 5,56 %, luego suma un 20 % y paga parte en trastos sin valor. Con las cuentas de la escena, el préstamo cuesta cerca del 50 % al año. Es una lección de letra pequeña.
+  los-comuneros:
+    veredicto: literatura
+    promesa: Un impuesto que nadie consultó levantó a un pueblo
+    juicio: En 1781 los comuneros pidieron cobrar la alcabala solo al 2 % y no cobrarla a los alimentos. Sirve para Impuestos básicos, aunque los historiadores discuten su tesis de que fue un antecedente de la independencia.
+  el-triunfo-del-dinero:
+    veredicto: literatura
+    promesa: Las finanzas son una gran herramienta, con crisis incluidas
+    juicio: Cuenta el origen de los bancos, los bonos y los seguros con historias como el fondo de las viudas escocesas de 1744. Mira poco a los que pierden y se terminó antes de la crisis de 2008.
   pensar-rapido-pensar-despacio:
     veredicto: matices
     promesa: Pensamos con un sistema rápido y otro lento
@@ -100,12 +115,24 @@ veredictos:
     juicio: En un torneo de pronósticos de dos años, entrenar en probabilidad, trabajar en equipo y juntar a los mejores mejoró los pronósticos.
     cita: Mellers y otros, 2014
     doi: 10.1177/0956797614524255
+  la-psicologia-del-dinero:
+    veredicto: matices
+    promesa: Hacerse rico depende más del comportamiento que de saber finanzas
+    juicio: Tiene razón en que lo exponencial engaña, cerca de un tercio de las personas ignora por completo el interés compuesto. Pero son ensayos con anécdotas, que eligen a los ganadores.
+    cita: Levy y Tasoff, 2016
+    doi: 10.1111/jeea.12149
   pequeno-cerdo-capitalista:
     veredicto: matices
     promesa: Los gastos hormiga se comen tu dinero
     juicio: Tiene respaldo, un costo presentado por día parece menor de lo que es. Pero el libro piensa en México y en quien tiene margen, y los gastos hormiga no explican la falta de dinero cuando el ingreso no alcanza.
     cita: Gourville, 1998
     doi: 10.1086/209517
+  repensar-la-pobreza:
+    veredicto: solido
+    promesa: La pobreza se entiende con experimentos, no con grandes teorías
+    juicio: Sus experimentos se sostienen. En Filipinas, una cuenta que no dejaba sacar el dinero antes de tiempo subió el ahorro de quienes la recibieron. Deaton advierte que lo que funciona en un lugar no siempre se traslada a otro.
+    cita: Ashraf, Karlan y Yin, 2006
+    doi: 10.1162/qjec.2006.121.2.635
   the-lean-startup:
     veredicto: matices
     promesa: Probar una idea de negocio antes de invertir en ella
@@ -118,6 +145,25 @@ veredictos:
     juicio: Las relaciones se asocian con más salud y felicidad, aunque eso no prueba que las causen. Y el dinero sí importa, el bienestar sigue subiendo con el ingreso para la mayoría de las personas.
     cita: Killingsworth, Kahneman y Mellers, 2023
     doi: 10.1073/pnas.2208661120
+
+  el-hombre-mas-rico-de-babilonia:
+    veredicto: matices
+    promesa: Guarda una de cada diez monedas que ganes
+    juicio: Ahorrar primero y en automático tiene respaldo, aunque el 10 % no es una cifra mágica. Pero pide entregar el dinero a "hombres sabios en su manejo", lo que convenía a las empresas que repartían los folletos.
+    cita: Madrian y Shea, 2001
+    doi: 10.1162/003355301753265543
+  padre-rico-padre-pobre:
+    veredicto: promete
+    promesa: La escuela no enseña dinero, y la fórmula es comprar activos
+    juicio: Enseñar finanzas ayuda, pero poco. En 201 estudios, el efecto sobre la conducta fue muy pequeño y se desvaneció con el tiempo. Y nadie ha podido identificar al "padre rico".
+    cita: Fernandes, Lynch y Netemeyer, 2014
+    doi: 10.1287/mnsc.2013.1849
+  el-banquero-de-los-pobres:
+    veredicto: promete
+    promesa: El microcrédito puede sacar a la gente de la pobreza
+    juicio: Prestar a los pobres sin garantía sí funciona. Pero seis experimentos en cuatro continentes encontraron efectos modestamente positivos, no transformadores.
+    cita: Banerjee, Karlan y Zinman, 2015
+    doi: 10.1257/app.20140287
 
 # "¿Mito o evidencia?" sobre el dinero. es: mito | evidencia.
 preguntas:
@@ -171,3 +217,18 @@ preguntas:
     explica: Un experimento famoso lo encontró, pero cuando otros investigadores lo repitieron con más cuidado, el efecto no apareció.
     cita: Doyen y otros, 2012
     doi: 10.1371/journal.pone.0029081
+  - frase: El microcrédito saca de la pobreza a la mayoría de las familias que lo reciben.
+    es: mito
+    explica: Seis evaluaciones con asignación al azar, en seis países de cuatro continentes, encontraron efectos modestamente positivos, pero no transformadores.
+    cita: Banerjee, Karlan y Zinman, 2015
+    doi: 10.1257/app.20140287
+  - frase: Mucha gente calcula el interés compuesto como si creciera en línea recta.
+    es: evidencia
+    explica: La tendencia a ver lo exponencial como lineal es muy común, y los hogares que más la tienen se endeudan más y ahorran menos.
+    cita: Stango y Zinman, 2009
+    doi: 10.1111/j.1540-6261.2009.01518.x
+  - frase: Un curso de finanzas en el colegio solo trae buenos resultados.
+    es: mito
+    explica: En Brasil, el curso mejoró lo que sabían los estudiantes, su ahorro y su presupuesto, pero también aumentó su uso de crédito caro para comprar.
+    cita: Bruhn y otros, 2016
+    doi: 10.1257/app.20150149

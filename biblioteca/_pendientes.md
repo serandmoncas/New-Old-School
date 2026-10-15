@@ -21,7 +21,6 @@ Las menciones se contaron el 2026-10-14 en `curriculo/`, `docs/` y `biblioteca/`
 | *Experiencia y educación* | John Dewey, 1938 | 2 (*Emilio*, *El abordaje de la educación experiencial*) | La raíz de la educación activa que citan Freire, Builes y Kolb. Corto y para docentes. |
 | *Factfulness* | Hans Rosling, 2018 | 0 | Datos contra la intuición: el mejor libro para el frente *Pensar y decidir*, y escrito para no expertos. |
 | *La vorágine* | José Eustasio Rivera, 1924 | 0 | Novela colombiana sobre las caucherías y el endeude de los trabajadores: deuda y trabajo en la historia propia. Probable dominio público. |
-| *Padre rico, padre pobre* | Robert Kiyosaki, 1997 | 0 | El libro de finanzas personales más leído del mundo, con consejos muy discutidos. Como *Sin límites*, sirve para practicar la pregunta "¿cómo lo sabemos?". |
 
 ## Prioridad media
 
@@ -31,7 +30,6 @@ Las menciones se contaron el 2026-10-14 en `curriculo/`, `docs/` y `biblioteca/`
 | *Vindicación de los derechos de la mujer* | Mary Wollstonecraft, 1792 | 1 (*Emilio*) | La respuesta al Libro V del *Emilio*. Abre el frente *Ciudadanía práctica*. Dominio público. |
 | *Decisiones instintivas* (*Gut Feelings*) | Gerd Gigerenzer, 2007 | 1 (*El arte de pensar*) | El contrapeso de Dobelli: cuándo los atajos mentales funcionan bien. |
 | *El cisne negro* | Nassim Nicholas Taleb, 2007 | 1 (*El arte de pensar*, por *Antifrágil*) | Riesgo y sucesos improbables; puente para *Seguros* e *Invertir, lo básico*. |
-| *El hombre más rico de Babilonia* | George S. Clason, 1926 | 0 | Clásico popular del ahorro contado como parábolas. Comparable con las *Fábulas de Esopo*. |
 | *Experiential Learning* | David Kolb, 1984 | 1 (*El abordaje de la educación experiencial*) | La fuente del ciclo del aprendizaje experiencial. Técnico; mejor resumido dentro de otra ficha. |
 | *Lazarillo de Tormes* | Anónimo, 1554 | 0 | Hambre, trabajo y astucia: abre el frente *Trabajo* con un clásico corto en español y de dominio público. |
 
@@ -59,6 +57,8 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 **Ya tienen ficha (tanda 5, 2026-10-14):** *21 lecciones para el siglo XXI*, *Hablar con extraños* (*Talking to Strangers*), *Deberías hablar con alguien* (*Maybe You Should Talk to Someone*), *Los innovadores* (*The Innovators*) y *¡Bienvenidos al universo!* (*Welcome to the Universe*).
 
 **Ya tienen ficha (tanda 6, 2026-10-14):** *El poder de ser vulnerable* (*Daring Greatly*), *Los 7 hábitos de la gente altamente efectiva*, *Malcolm X: una autobiografía*, *Martin Luther King Jr.: textos y discursos radicales* (*The Radical King*) y *Por qué dormimos* (*Why We Sleep*).
+
+**Ya tienen ficha (tanda 7, 2026-10-15), para llenar las lecciones vacías del módulo Dinero:** *El avaro*, *Repensar la pobreza*, *El triunfo del dinero*, *La psicología del dinero* y *Los comuneros*. También tres casos de evidencia, libros muy leídos que se incluyen para aprender a leerlos con espíritu crítico: *El hombre más rico de Babilonia*, *Padre rico, padre pobre* y *El banquero de los pobres*.
 
 ### Dinero y emprender (frente 1)
 
