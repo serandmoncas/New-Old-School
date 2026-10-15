@@ -157,6 +157,19 @@ dt { color: var(--tenue); } dd { margin: 0; }
 .cajas i { display: block; width: 28px; background: var(--sello); border-radius: 2px 2px 0 0; min-height: 2px; }
 .pregunta .cuando { font: .74rem var(--f-ficha); color: var(--tenue); }
 
+/* Línea de tiempo por décadas */
+.linea { display: grid; gap: 0; border-top: 1px solid var(--regla); }
+.decada { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--regla); }
+.decada > span { font: 600 1.05rem var(--f-ficha); color: var(--tenue); font-variant-numeric: tabular-nums; }
+.decada.salto { border-bottom-style: dashed; }
+.decada .fila { display: flex; flex-wrap: wrap; gap: 8px; }
+.hito { all: unset; box-sizing: border-box; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; padding: 5px 10px 5px 6px; background: var(--tarjeta); border: 1px solid var(--regla); border-radius: 3px; font-size: 1rem; line-height: 1.2; }
+.hito i { width: 12px; height: 12px; border-radius: 2px; flex: none; }
+.hito small { font: .72rem var(--f-ficha); color: var(--tenue); }
+.hito[aria-pressed="true"] { outline: 2px solid var(--sello); }
+.hito:focus-visible { outline: 2px solid var(--sello); }
+.resumen-linea { font-size: 1.05rem; max-width: 70ch; }
+
 /* Planificador */
 .planificador { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 24px; background: var(--tarjeta); border: 1px solid var(--regla); padding: 22px; }
 @media (max-width: 820px) { .planificador { grid-template-columns: 1fr; } }
@@ -279,6 +292,16 @@ dt { color: var(--tenue); } dd { margin: 0; }
     </header>
     <div class="filtros" id="filtros"></div>
     <div class="tablero"><div class="libros" id="libros"></div><aside class="panel" id="panel" aria-live="polite"></aside></div>
+  </section>
+
+  <section class="seccion" id="linea">
+    <header>
+      <p class="rotulo">{{t.l_rotulo}}</p>
+      <h2>{{t.l_h2}}</h2>
+      <p>{{t.l_p}}</p>
+    </header>
+    <div class="linea" id="linea-tiempo"></div>
+    <p class="resumen-linea" id="resumen-linea"></p>
   </section>
 
   <section class="seccion" id="mapa">
@@ -551,7 +574,7 @@ FILTROS.forEach(([k, n]) => {
 libros.forEach(l => {
   const b = document.createElement('button'); b.className = 'libro'; b.dataset.id = l.id;
   b.innerHTML = `<span class="chip v-${l.veredicto}">${esc(DATOS.etiquetas[l.veredicto])}</span><b>${esc(l.titulo)}</b><span class="tenue" style="font-size:.95rem">${esc(l.frase)}</span>`;
-  b.onclick = () => { elegido = l.id; pintarTablero(); elegirEnMapa(l.id); };
+  b.onclick = () => { elegido = l.id; pintarTablero(); elegirEnMapa(l.id); pintarLinea(); };
   $('libros').append(b);
 });
 function pintarTablero() {
@@ -562,6 +585,27 @@ function pintarTablero() {
     <p><b>${esc(UI.la_promesa)}</b> ${esc(l.frase)}.</p><p>${esc(l.juicio)}</p>
     ${l.doi ? `<div class="fuente"><span>${esc(l.cita)}</span><a href="https://doi.org/${l.doi}" target="_blank" rel="noopener">doi.org/${esc(l.doi)}</a></div>` : ''}
     <a href="#${l.id}">${esc(UI.ir_ficha_completa)}</a>`;
+}
+
+/* ===== Línea de tiempo por décadas ===== */
+const anioDe = l => +String(l.anio).match(/\d{4}/)[0];
+function pintarLinea() {
+  const porDecada = {};
+  libros.forEach(l => { const d = Math.floor(anioDe(l) / 10) * 10; (porDecada[d] = porDecada[d] || []).push(l); });
+  const decadas = Object.keys(porDecada).map(Number).sort((a, b) => a - b);
+  $('linea-tiempo').innerHTML = decadas.map((d, i) => {
+    const salto = i < decadas.length - 1 && decadas[i + 1] - d > 10;   // un salto de décadas vacías se marca con línea punteada
+    const hitos = porDecada[d].sort((a, b) => anioDe(a) - anioDe(b)).map(l =>
+      `<button class="hito" data-id="${l.id}" aria-pressed="${l.id === elegido}"><i style="background:var(--v-${l.veredicto})" title="${esc(DATOS.etiquetas[l.veredicto])}"></i>${esc(l.titulo)} <small>${anioDe(l)}</small></button>`).join('');
+    return `<div class="decada${salto ? ' salto' : ''}"><span>${fmtT(UI.l_decada, { d, h: String(d + 9).slice(-2) })}</span><div class="fila">${hitos}</div></div>`;
+  }).join('');
+  $('linea-tiempo').querySelectorAll('.hito').forEach(b => b.onclick = () => {
+    elegido = b.dataset.id; pintarTablero(); elegirEnMapa(b.dataset.id); pintarLinea();
+    $('panel').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
+  });
+  const rango = v => { const a = libros.filter(l => l.veredicto === v).map(anioDe); return a.length ? [Math.min(...a), Math.max(...a)] : ['–', '–']; };
+  const [fa, fb] = rango('filosofia'), [pa, pb] = rango('promete');
+  $('resumen-linea').textContent = fmtT(UI.l_resumen, { fa, fb, pa, pb });
 }
 
 /* ===== Mapa de cruces (fuerzas simples en canvas) ===== */
@@ -610,11 +654,11 @@ function elegirEnMapa(id) { enMapa = id; dibujarRed(); }
 red.addEventListener('click', ev => {
   const r = red.getBoundingClientRect(), x = (ev.clientX - r.left) * W / r.width, y = (ev.clientY - r.top) * H / r.height;
   let mejor = null, dm = 30; for (const n of nodos) { const d = Math.hypot(n.x - x, n.y - y); if (d < dm) { dm = d; mejor = n; } }
-  if (mejor) { enMapa = mejor.id; if (porId[mejor.id]) { elegido = mejor.id; pintarTablero(); } dibujarRed(); }
+  if (mejor) { enMapa = mejor.id; if (porId[mejor.id]) { elegido = mejor.id; pintarTablero(); pintarLinea(); } dibujarRed(); }
 });
 
 /* ===== Arranque y cambio de tema ===== */
-function todo() { pintarCurioso(); pintarEscena(); pintarTablero(); dibujarRed(); }
+function todo() { pintarCurioso(); pintarEscena(); pintarTablero(); pintarLinea(); dibujarRed(); }
 todo();
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', todo);
 new MutationObserver(todo).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
