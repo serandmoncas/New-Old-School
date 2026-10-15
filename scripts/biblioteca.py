@@ -39,7 +39,7 @@ CAMPOS = (
     "procedencia",
     "actualizado",
 )
-TIPOS = ("novela", "cuento", "fabula", "poema", "teatro", "ensayo", "tratado", "divulgacion", "historia")
+TIPOS = ("novela", "cuento", "fabula", "poema", "teatro", "ensayo", "tratado", "divulgacion", "historia", "monografia")
 ACCESOS = ("dominio-publico", "con-derechos")
 ESTADOS = ("propuesta", "aceptado", "retirado")
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
