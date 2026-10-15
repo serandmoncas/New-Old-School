@@ -1,12 +1,9 @@
 name: Validar currículo
 
 on:
+  # Corre en todo PR (sin filtro de rutas): main exige este chequeo, y un
+  # chequeo obligatorio que no corre deja el PR bloqueado.
   pull_request:
-    paths:
-      - "curriculo/**"
-      - "biblioteca/**"
-      - "scripts/**"
-      - "docs/plantillas/**"
   push:
     branches: [main]
 
