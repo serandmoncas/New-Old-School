@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Reloj de Curioso · New Old School · CC BY-SA 4.0. Ver docs/pilotos/. -->
+<title>Reloj de Curioso</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Literata:opsz,wght@7..72,400;7..72,600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{color-scheme:light}[hidden]{display:none!important}body{font-size:14px}img{max-width:100%}
+/* Layout: consola de presentador; arriba la regla de 300 s en cinco tramos, al centro el reloj del bloque y el guion, abajo los controles. */
+:root{
+  --bg:#eef1f4; --panel:#ffffff; --fg:#1b2430; --muted:#5d6b7a; --line:#d3dae2;
+  --accent:#2b5bd7;
+  --b1:#e0853a; --b2:#2b5bd7; --b3:#2f9a8a; --b4:#9b5cc4; --b5:#c9a227;
+  --ok:#2e8a4f; --warn:#c77a12; --over:#c83a3a;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-read:"Literata",Georgia,"Times New Roman",serif;
+  --f-num:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12171e; --panel:#1a212b; --fg:#e6ebf1; --muted:#93a1b1; --line:#2c3644;
+  --accent:#7c9ef0; --b1:#f0a062; --b2:#7c9ef0; --b3:#5cc4b2; --b4:#bf8ee0; --b5:#e3c35a;
+  --ok:#5cc07f; --warn:#e9a13d; --over:#f07272; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12171e; --panel:#1a212b; --fg:#e6ebf1; --muted:#93a1b1; --line:#2c3644;
+  --accent:#7c9ef0; --b1:#f0a062; --b2:#7c9ef0; --b3:#5cc4b2; --b4:#bf8ee0; --b5:#e3c35a;
+  --ok:#5cc07f; --warn:#e9a13d; --over:#f07272; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-display);margin:0}
+.wrap{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:16px 32px;display:flex;flex-direction:column;gap:16px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
+h1{font-size:1.5rem;font-weight:700;margin:0;letter-spacing:-.01em}
+h1 small{font-weight:500;color:var(--muted);font-size:.95rem;margin-left:.4em}
+.pick{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pick label{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+select,button,textarea{font:inherit;color:inherit}
+select{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.ruler{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.track{position:relative;display:flex;height:28px;border-radius:6px;overflow:hidden;gap:2px}
+.seg{position:relative;height:100%;opacity:.28;display:flex;align-items:center;padding-inline:6px;font-size:.72rem;font-weight:500;white-space:nowrap;overflow:hidden;color:var(--fg)}
+.seg.done{opacity:.55}.seg.now{opacity:1;color:#fff}
+.real{display:flex;height:8px;gap:2px;border-radius:4px;overflow:hidden}
+.real span{height:100%}
+.play{position:absolute;top:-4px;bottom:-4px;width:3px;background:var(--fg);border-radius:2px;transform:translateX(-1px)}
+.scale{display:flex;justify-content:space-between;font-family:var(--f-num);font-size:.7rem;color:var(--muted)}
+.stage{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:16px}
+@media (max-width:720px){.stage{grid-template-columns:minmax(0,1fr)}}
+.clock{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:14px}
+.bname{display:flex;align-items:center;gap:8px;font-weight:700;font-size:1.15rem}
+.dot{width:12px;height:12px;border-radius:50%;flex:none}
+.big{font-family:var(--f-num);font-weight:700;font-size:clamp(3rem,10vw,4.6rem);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.state{display:inline-block;font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:99px;border:1px solid currentColor;width:max-content}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.over{color:var(--over)}
+.total{display:grid;grid-template-columns:1fr 1fr;gap:10px;border-top:1px solid var(--line);padding-top:12px}
+.total div{display:flex;flex-direction:column;gap:2px}
+.lbl{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
+.num{font-family:var(--f-num);font-size:1.4rem;font-variant-numeric:tabular-nums}
+.script{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px;min-width:0;display:flex;flex-direction:column;gap:14px}
+.script p{font-family:var(--f-read);font-size:clamp(1.1rem,2.4vw,1.35rem);line-height:1.6;margin:0;max-width:62ch}
+.script p.dir{font-family:var(--f-display);font-size:.95rem;color:var(--muted);font-style:italic}
+.next{font-size:.85rem;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px}
+.hideText .script p{display:none}
+.hideText .script .hint{display:block}
+.hint{display:none;color:var(--muted);font-size:.95rem}
+.controls{display:flex;flex-wrap:wrap;gap:8px}
+button{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:12px 16px;font-weight:500;cursor:pointer;min-height:48px}
+button:hover{border-color:var(--accent)}
+button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff;min-width:140px}
+:root[data-theme="dark"] button.primary{color:#0e1420}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) button.primary{color:#0e1420}}
+.grow{flex:1}
+kbd{font-family:var(--f-num);font-size:.75rem;border:1px solid var(--line);border-radius:4px;padding:1px 5px;color:var(--muted)}
+.keys{font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px}
+.toggle{display:flex;align-items:center;gap:6px;font-size:.9rem}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.panel h2{font-size:1.1rem;margin:0}
+textarea{width:100%;min-height:200px;border:1px solid var(--line);border-radius:8px;padding:10px;background:var(--bg);font-family:var(--f-num);font-size:.85rem;line-height:1.5}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);font-size:.92rem}
+th{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;font-weight:500}
+td.n{font-family:var(--f-num)}
+pre.copy{font-family:var(--f-num);font-size:.82rem;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;white-space:pre-wrap;margin:0;user-select:all}
+.muted{color:var(--muted);font-size:.9rem;margin:0}
+nav.tabs{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:4px;width:max-content;max-width:100%;overflow-x:auto}
+nav.tabs button{min-height:40px;padding:8px 14px;border:0;border-radius:7px;background:transparent}
+nav.tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+:root[data-theme="dark"] nav.tabs button[aria-selected="true"]{color:#0e1420}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) nav.tabs button[aria-selected="true"]{color:#0e1420}}
+form.obs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 16px}
+@media (max-width:640px){form.obs{grid-template-columns:minmax(0,1fr)}}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field.wide{grid-column:1/-1}
+.field label,.field legend{font-size:.8rem;color:var(--muted);font-weight:500}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+input[type=text],input[type=number],input[type=date],.obs textarea{font:inherit;font-family:var(--f-display);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;color:var(--fg);width:100%}
+.obs textarea{min-height:70px;font-size:.95rem}
+.times{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+@media (max-width:520px){.times{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.times label{font-size:.72rem}
+.seg3{display:flex;gap:6px;flex-wrap:wrap}
+.seg3 label{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:.92rem;color:var(--fg);cursor:pointer}
+.seg3 input{accent-color:var(--accent)}
+.sub{grid-column:1/-1;font-size:.95rem;margin:8px 0 0;padding-top:12px;border-top:1px solid var(--line)}
+.note{grid-column:1/-1;font-size:.85rem;color:var(--muted);margin:0}
+.chip{display:inline-block;font-size:.75rem;border-radius:99px;padding:2px 8px;border:1px solid currentColor}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.card h3{font-size:1rem;margin:0}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin:0;font-size:.88rem}
+.card dt{color:var(--muted)}.card dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.empty{color:var(--muted);border:1px dashed var(--line);border-radius:10px;padding:18px;margin:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="wrap" id="app">
+  <header>
+    <h1>Reloj de Curioso <small>300 segundos</small></h1>
+    <div class="pick">
+      <label for="guion">Guion</label>
+      <select id="guion">
+        <option value="p1">Prueba 1 · No tienes dos almas, tienes mil</option>
+        <option value="p3">Prueba 3 · Del lobo estepario a Born to Be Wild</option>
+        <option value="libre">Mi guion</option>
+      </select>
+    </div>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="Modo">
+    <button role="tab" id="t-pres" aria-selected="true" data-view="v-pres">Presentar</button>
+    <button role="tab" id="t-obs" aria-selected="false" data-view="v-obs">Observar</button>
+    <button role="tab" id="t-reg" aria-selected="false" data-view="v-reg">Registro</button>
+  </nav>
+  <div id="v-pres" class="view" style="display:contents">
+
+  <section class="ruler" aria-label="Regla de tiempo">
+    <div class="track" id="track"></div>
+    <div class="real" id="realbar" aria-hidden="true"></div>
+    <div class="scale" id="scale"></div>
+  </section>
+
+  <section class="stage" id="stage">
+    <div class="clock">
+      <div class="bname"><span class="dot" id="dot"></span><span id="bname">Gancho</span></div>
+      <div>
+        <div class="lbl">Queda en este bloque</div>
+        <div class="big" id="bleft" aria-live="off">0:30</div>
+      </div>
+      <span class="state ok" id="bstate">Listo</span>
+      <div class="total">
+        <div><span class="lbl">Total usado</span><span class="num" id="tused">0:00</span></div>
+        <div><span class="lbl">Quedan de 300 s</span><span class="num" id="tleft">5:00</span></div>
+      </div>
+    </div>
+    <div class="script" id="script" aria-live="polite">
+      <div id="text"></div>
+      <p class="hint">Guion oculto. Solo cuentan los tiempos.</p>
+      <div class="next" id="next"></div>
+    </div>
+  </section>
+
+  <div class="controls">
+    <button class="primary" id="go">Iniciar</button>
+    <button id="prev">Bloque anterior</button>
+    <button id="nextb">Siguiente bloque</button>
+    <button id="reset">Reiniciar</button>
+    <span class="grow"></span>
+    <label class="toggle"><input type="checkbox" id="showtext" checked> Mostrar guion</label>
+  </div>
+  <div class="keys"><span><kbd>Espacio</kbd> iniciar o pausar</span><span><kbd>→</kbd> siguiente bloque</span><span><kbd>←</kbd> bloque anterior</span></div>
+
+  <section class="panel" id="editor" hidden>
+    <h2>Mi guion</h2>
+    <p class="muted">Cada bloque empieza con una línea que comienza con #, su nombre y, si quieres, sus segundos entre paréntesis. Lo que escribas se guarda solo en este navegador.</p>
+    <textarea id="src" spellcheck="false"></textarea>
+    <div class="controls"><button id="apply">Usar este guion</button></div>
+  </section>
+
+  <section class="panel" id="report" hidden>
+    <h2>Resultado de la prueba</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Bloque</th><th>Objetivo</th><th>Real</th><th>Diferencia</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table></div>
+    <p class="muted">Para la hoja del observador:</p>
+    <pre class="copy" id="sheet"></pre>
+    <div class="controls"><button id="copy">Copiar para la hoja</button><button id="toobs">Llevar a la hoja del observador</button><span class="muted" id="copied" role="status"></span></div>
+  </section>
+  </div>
+
+  <section class="panel view" id="v-obs" hidden>
+    <h2>Hoja del observador</h2>
+    <p class="muted">La llena alguien distinto de quien presenta, en vivo. No escribas nombres ni historias personales de los asistentes sin su permiso.</p>
+    <form class="obs" id="obsform" novalidate>
+      <div class="field"><label for="o-guion">Guion o nodo</label><input type="text" id="o-guion" required></div>
+      <div class="field"><label for="o-fecha">Fecha</label><input type="date" id="o-fecha" required></div>
+      <div class="field"><label for="o-presento">Presentó</label><input type="text" id="o-presento" placeholder="Nombre o rol"></div>
+      <div class="field"><label for="o-total">Tiempo total (s)</label><input type="number" id="o-total" min="0" max="3600" inputmode="numeric"></div>
+      <div class="field wide"><span class="lbl">Tiempo por sección (s, aproximado)</span>
+        <div class="times" id="o-times"></div></div>
+      <div class="field wide"><label for="o-alta">¿En qué momento se notó más atención?</label><textarea id="o-alta"></textarea></div>
+      <div class="field wide"><label for="o-baja">¿En qué momento se perdió la atención?</label><textarea id="o-baja"></textarea></div>
+      <div class="field wide"><label for="o-dudas">Palabras o ideas que generaron dudas</label><textarea id="o-dudas"></textarea></div>
+      <div class="field wide"><label for="o-preguntas">Preguntas que hizo el público (literales)</label><textarea id="o-preguntas"></textarea></div>
+      <fieldset class="field wide"><legend>¿La pregunta final abrió conversación?</legend>
+        <div class="seg3"><label><input type="radio" name="o-conv" value="nada"> Nada</label><label><input type="radio" name="o-conv" value="poca"> Poca</label><label><input type="radio" name="o-conv" value="mucha"> Mucha</label></div></fieldset>
+      <div class="field wide"><label for="o-vida">Algo que alguien contó de su propia vida (sin nombres)</label><textarea id="o-vida"></textarea></div>
+      <h3 class="sub">Respuestas del público</h3>
+      <div class="field"><label for="o-claridad">Claridad promedio (1 a 5)</label><input type="number" id="o-claridad" min="1" max="5" step="0.1" inputmode="decimal"></div>
+      <div class="field"><label for="o-utilidad">Utilidad promedio (1 a 5)</label><input type="number" id="o-utilidad" min="1" max="5" step="0.1" inputmode="decimal"></div>
+      <div class="field wide"><label for="o-recuerdan">Qué cifra, historia o frase recuerdan</label><textarea id="o-recuerdan"></textarea></div>
+      <div class="field wide"><label for="o-sobra">Qué sobraba o qué no entendieron</label><textarea id="o-sobra"></textarea></div>
+      <div class="controls field wide" style="flex-direction:row"><button type="submit" class="primary" id="o-save">Guardar en el registro</button><button type="button" id="o-copy">Copiar como texto</button><span class="muted" id="o-msg" role="status"></span></div>
+    </form>
+  </section>
+
+  <section class="panel view" id="v-reg" hidden>
+    <h2>Registro del piloto</h2>
+    <p class="muted" id="r-intro">Cada hoja guardada aparece aquí, para comparar las pruebas entre sesiones.</p>
+    <div class="tablewrap"><table id="r-sum" hidden>
+      <thead><tr><th>Guion</th><th>Sesiones</th><th>Tiempo medio</th><th>Pasó de 300 s</th><th>Conversación</th><th>Claridad</th></tr></thead>
+      <tbody></tbody></table></div>
+    <div class="cards" id="r-cards"></div>
+  </section>
+</div>
+
+<script>
+const GUIONES = {"p1": [{"nombre": "Gancho", "objetivo": 30, "texto": ["Piensen un momento: ¿cuántas veces han dicho \"una parte de mí quiere esto, pero otra parte quiere lo contrario\"?", "En 1927, un escritor alemán de cincuenta años estaba convencido de que él era exactamente eso: mitad hombre, mitad lobo. Y escribió una novela en la que alguien le entrega un folleto que le dice: estás equivocado. No eres dos. Eres miles."]}, {"nombre": "Idea", "objetivo": 90, "texto": ["El libro es El lobo estepario, de Hermann Hesse. Su protagonista, Harry Haller, es un intelectual solitario: ama a Mozart y a Goethe, desprecia la vida ordinaria y vive encerrado en una pensión, peleando consigo mismo. Él tiene una explicación sencilla: adentro le viven un hombre culto y una bestia salvaje, y nunca se ponen de acuerdo.", "Una noche, en la calle, un hombre que carga un cartel le entrega un folletito. Harry lo abre en su cuarto y descubre, con escalofrío, que habla de él. Y le dice algo incómodo: esa historia del hombre y el lobo es una simplificación. Es cómoda, porque explica todo con solo dos personajes. Pero un ser humano no tiene dos almas. Tiene muchas, cientos, miles, que se turnan, se mezclan y se contradicen.", "Y aquí viene la imagen más bonita del libro. Casi al final, en un teatro fantástico, un hombre le muestra a Harry las piezas de su personalidad sobre un tablero de ajedrez. Y las acomoda de mil maneras distintas.", "El mensaje es este: no estás condenado a ser una sola versión de ti. El tablero se puede volver a armar."]}, {"nombre": "Evidencia", "objetivo": 60, "texto": ["Sesenta años después, la psicología llegó a una idea muy parecida.", "En 1987, la psicóloga Patricia Linville propuso el concepto de complejidad del yo. Su hipótesis era que las personas que se definen a partir de muchos roles distintos, y bien separados entre sí, deberían sufrir menos cuando uno de esos roles se cae. En sus estudios, quienes tenían una identidad más variada mostraron menos síntomas de depresión y de enfermedad frente al estrés.", "Hay que decirlo con honestidad: estudios posteriores encontraron resultados mezclados, y el efecto no es tan fuerte como se creyó al principio. Pero la intuición de fondo sigue en pie. Y un novelista la tuvo antes que los laboratorios."]}, {"nombre": "¿Y a mí qué?", "objetivo": 60, "texto": ["Piénsenlo así. Si yo soy solamente \"contador\", y pierdo el trabajo, se me cae el mundo entero. Pero si además soy hermano, amigo, alguien que cocina, que toca guitarra o que cuida un jardín, el golpe pega en una pieza, no en todo el tablero.", "Esto nos deja dos cosas prácticas.", "La primera: cuando algo falla, cambiar la pregunta. En vez de \"¿qué tan fracasado soy?\", preguntar \"¿cuál de mis piezas fue la que cayó?\". Es una pregunta mucho más pequeña, y se puede responder.", "La segunda: cultivar a propósito más de una identidad. No como escape, sino como red de seguridad. Un oficio distinto, una comunidad, algo que hagan solo porque les gusta. Cada una es una pieza más en el tablero."]}, {"nombre": "Puerta abierta", "objetivo": 30, "texto": ["Dentro de la novela, ese folleto ocupa unas treinta páginas. Se llama el Tratado del lobo estepario, y se puede leer solo, sin el resto del libro.", "Les dejo un reto: léanlo esta semana. Y para conversar ahora: ¿cuál de sus piezas los ha sostenido cuando otra se cayó?"]}], "p3": [{"nombre": "Gancho", "objetivo": 30, "texto": ["(Suenan 5 segundos de la canción y se corta.)", "Esa es Born to Be Wild, de 1968: la canción de las motos y la carretera.", "Lo curioso es el nombre de la banda: Steppenwolf. Se llama así por una novela alemana de 1927, escrita por un hombre que desconfiaba del ruido de la vida moderna. ¿Cómo pasó eso?"]}, {"nombre": "Idea", "objetivo": 90, "texto": ["La novela es El lobo estepario, de Hermann Hesse. Su protagonista, Harry Haller, es un intelectual solitario de cincuenta años. Ama a Mozart y a Goethe, y le irritan el jazz, la radio, los autos y las multitudes. Es, por decirlo así, lo contrario de una banda de rock.", "Hesse murió en 1962 sin ver lo que vino después. En esa década, miles de jóvenes en Estados Unidos descubrieron sus libros. ¿Qué encontraron en ellos? Un hombre que no encaja en la sociedad de su tiempo. Un viaje hacia adentro. Drogas, misticismo oriental, un teatro mágico donde la realidad se deshace. Justo lo que buscaba la contracultura.", "En 1967, en Los Ángeles, una banda nueva buscaba nombre. Su productor, Gabriel Mekler, estaba leyendo la novela y propuso: Steppenwolf. Al cantante, John Kay, le gustó: sonaba misterioso y poderoso. Y Kay, por cierto, había nacido en Alemania.", "Así, un libro sobre la soledad de un intelectual terminó dándole nombre a uno de los himnos de las motos y la libertad."]}, {"nombre": "Evidencia", "objetivo": 60, "texto": ["No fue un caso aislado. Timothy Leary, el gran promotor de la psicodelia, llamó a Hesse el poeta del viaje interior. En Berkeley, en 1967, nació una compañía de teatro llamada Magic Theatre, por el teatro mágico de la novela.", "Pero hay un giro. El propio Hesse, en una nota para una nueva edición, se quejó de que este era el libro suyo más malinterpretado. Los lectores veían solo la desesperación de Harry y no veían lo que para él era lo central: que la historia trata de una posible curación.", "O sea: la novela se volvió famosa, en parte, por lo que su autor no quiso decir."]}, {"nombre": "¿Y a mí qué?", "objetivo": 60, "texto": ["Esto nos deja una lección útil: las obras tienen segundas vidas.", "Un libro, una canción o una película no significan una sola cosa para siempre. Cada época los lee con sus propias preguntas, y a veces les hace decir lo contrario de lo que querían decir.", "Y no solo cambia la época: cambia uno. Si releen un libro que les gustó a los quince, a los treinta y a los cincuenta, van a leer tres libros distintos. Por eso vale la pena volver a lo que nos marcó: no para confirmar lo que pensábamos, sino para ver qué encontramos ahora."]}, {"nombre": "Puerta abierta", "objetivo": 30, "texto": ["Les dejo una pregunta para conversar: ¿qué obra que ustedes aman creen que su autor no reconocería en lo que la gente hoy dice de ella?", "Y si les da curiosidad, lean la novela con Born to Be Wild de fondo. A ver si encuentran el lobo."]}]};
+const COLORS = ['--b1','--b2','--b3','--b4','--b5'];
+const DEFAULTS = [30,90,60,60,30];
+const EJEMPLO = `# Gancho (30)
+La pregunta o el dato que engancha.
+
+# Idea (90)
+La única idea que quieres dejar.
+
+# Evidencia (60)
+Cómo lo sabemos.
+
+# ¿Y a mí qué? (60)
+Para qué le sirve a quien escucha.
+
+# Puerta abierta (30)
+La pregunta para conversar.`;
+const LIMIT = 300;
+const $ = id => document.getElementById(id);
+const fmt = s => { const neg = s < 0; s = Math.abs(Math.round(s)); return (neg?'−':'') + Math.floor(s/60) + ':' + String(s%60).padStart(2,'0'); };
+const store = { get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }, set(k,v){ try{ localStorage.setItem(k,v); }catch(e){} } };
+
+let blocks = [], spent = [], cur = 0, running = false, last = 0, finished = false, wake = null;
+
+function parseLibre(src){
+  const out = [];
+  src.split('\n').forEach(line => {
+    const m = line.match(/^#+\s*(.+?)\s*(?:\((\d+)\s*s?\))?\s*$/);
+    if (m){ out.push({nombre:m[1], objetivo: m[2] ? +m[2] : (DEFAULTS[out.length] ?? 60), texto:[]}); }
+    else if (out.length && line.trim()){ out[out.length-1].texto.push(line.trim()); }
+  });
+  return out.length ? out : null;
+}
+
+function load(key){
+  if (key === 'libre'){
+    $('editor').hidden = false;
+    const src = store.get('curioso-guion') || EJEMPLO;
+    $('src').value = src;
+    blocks = parseLibre(src) || parseLibre(EJEMPLO);
+  } else { $('editor').hidden = true; blocks = GUIONES[key]; }
+  store.set('curioso-sel', key);
+  reset();
+}
+
+function reset(){
+  pause(); spent = blocks.map(()=>0); cur = 0; finished = false;
+  $('report').hidden = true; buildTrack(); render();
+}
+
+function buildTrack(){
+  const total = blocks.reduce((a,b)=>a+b.objetivo,0);
+  $('track').innerHTML = blocks.map((b,i)=>`<div class="seg" style="flex:${b.objetivo};background:var(${COLORS[i%5]})" title="${b.nombre}: ${b.objetivo} s">${b.nombre} · ${b.objetivo}s</div>`).join('') + '<div class="play" id="playhead"></div>';
+  const marks = [0]; let acc = 0; blocks.forEach(b=>{acc+=b.objetivo; marks.push(acc);});
+  $('scale').innerHTML = `<span>0 s</span><span>${total} s objetivo · límite ${LIMIT} s</span>`;
+}
+
+function used(){ return spent.reduce((a,b)=>a+b,0); }
+
+function render(){
+  const b = blocks[cur], left = b.objetivo - spent[cur], tot = used();
+  $('bname').textContent = `${b.nombre}  ·  ${cur+1} de ${blocks.length}`;
+  $('dot').style.background = `var(${COLORS[cur%5]})`;
+  $('bleft').textContent = fmt(left);
+  const st = $('bstate');
+  let cls = 'ok', label = running ? 'En tiempo' : (tot ? 'En pausa' : 'Listo');
+  if (left <= 10 && left > 0){ cls = 'warn'; label = 'Cerrando'; }
+  if (left <= 0 && spent[cur] > 0){ cls = 'over'; label = `Excedido ${fmt(-left)}`; }
+  st.className = 'state ' + cls; st.textContent = label;
+  $('bleft').className = 'big ' + (cls === 'ok' ? '' : cls);
+  $('tused').textContent = fmt(tot);
+  const tl = LIMIT - tot; $('tleft').textContent = fmt(tl);
+  $('tleft').className = 'num ' + (tl < 0 ? 'over' : tl <= 30 ? 'warn' : '');
+  if (!render.lastBlock || render.lastBlock !== b){
+    $('text').innerHTML = (b.texto.length ? b.texto : ['(Sin texto para este bloque.)']).map(p => `<p class="${/^\(.*\)$/.test(p) ? 'dir' : ''}">${p.replace(/&/g,'&amp;').replace(/</g,'&lt;')}</p>`).join('');
+    render.lastBlock = b;
+  }
+  const n = blocks[cur+1];
+  $('next').textContent = n ? `Sigue: ${n.nombre} (${n.objetivo} s)` : 'Es el último bloque. Siguiente bloque termina la prueba.';
+  $('segs');
+  document.querySelectorAll('.seg').forEach((s,i)=>{ s.classList.toggle('now', i===cur); s.classList.toggle('done', i<cur); });
+  const scaleTot = Math.max(LIMIT, blocks.reduce((a,x)=>a+x.objetivo,0), tot);
+  const ph = $('playhead'); if (ph){ const objTot = blocks.reduce((a,x)=>a+x.objetivo,0); let pos = 0; for(let i=0;i<cur;i++) pos += blocks[i].objetivo; pos += Math.min(spent[cur], b.objetivo); ph.style.left = (pos/objTot*100)+'%'; }
+  $('realbar').innerHTML = spent.map((s,i)=> s ? `<span style="flex:${s};background:var(${COLORS[i%5]})"></span>` : '').join('') + (tot < scaleTot ? `<span style="flex:${scaleTot-tot};background:transparent"></span>` : '');
+  $('go').textContent = running ? 'Pausar' : (tot && !finished ? 'Continuar' : 'Iniciar');
+  $('prev').disabled = cur === 0;
+  $('nextb').textContent = cur === blocks.length-1 ? 'Terminar' : 'Siguiente bloque';
+}
+
+function tick(t){
+  if (!running) return;
+  spent[cur] += (t - last)/1000; last = t; render();
+  requestAnimationFrame(tick);
+}
+async function start(){
+  if (finished) reset();
+  running = true; last = performance.now(); requestAnimationFrame(tick); render();
+  try{ if ('wakeLock' in navigator) wake = await navigator.wakeLock.request('screen'); }catch(e){}
+}
+function pause(){ running = false; try{ wake && wake.release(); }catch(e){} wake = null; if (blocks.length) render(); }
+function toggle(){ running ? pause() : start(); }
+function nextBlock(){
+  if (cur < blocks.length-1){ cur++; render(); }
+  else { pause(); finished = true; report(); render(); }
+}
+function prevBlock(){ if (cur>0){ cur--; render(); } }
+
+function report(){
+  const rows = blocks.map((b,i)=>{ const d = spent[i]-b.objetivo; const c = d > 5 ? 'over' : d < -10 ? 'warn' : 'ok';
+    return `<tr><td>${b.nombre}</td><td class="n">${b.objetivo} s</td><td class="n">${Math.round(spent[i])} s</td><td class="n ${c}">${d>0?'+':''}${Math.round(d)} s</td></tr>`; }).join('');
+  const tot = used();
+  $('rows').innerHTML = rows + `<tr><td><strong>Total</strong></td><td class="n">${blocks.reduce((a,b)=>a+b.objetivo,0)} s</td><td class="n"><strong>${Math.round(tot)} s</strong></td><td class="n ${tot>LIMIT?'over':'ok'}">${tot>LIMIT?'pasó de 300 s':'dentro de 300 s'}</td></tr>`;
+  const guion = $('guion').selectedOptions[0].textContent;
+  $('sheet').textContent = `Nodo: ${guion}\nTiempo total: ${Math.round(tot)} s   (¿pasó de 300?  ${tot>LIMIT?'sí':'no'})\nTiempo por sección: ` + blocks.map((b,i)=>`${b.nombre.toLowerCase()} ${Math.round(spent[i])}`).join('  ');
+  $('report').hidden = false; $('copied').textContent = '';
+}
+
+$('go').onclick = toggle; $('nextb').onclick = nextBlock; $('prev').onclick = prevBlock; $('reset').onclick = reset;
+$('guion').onchange = e => load(e.target.value);
+$('showtext').onchange = e => $('app').classList.toggle('hideText', !e.target.checked);
+$('apply').onclick = () => { const p = parseLibre($('src').value); if (!p){ $('src').setCustomValidity('Escribe al menos una línea que empiece con #'); $('src').reportValidity(); return; } $('src').setCustomValidity(''); store.set('curioso-guion', $('src').value); blocks = p; reset(); };
+$('copy').onclick = () => { const t = $('sheet').textContent;
+  const ok = () => $('copied').textContent = 'Copiado.';
+  const fail = () => { const r = document.createRange(); r.selectNodeContents($('sheet')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $('copied').textContent = 'Texto seleccionado; cópialo con tu teclado.'; };
+  try { navigator.clipboard.writeText(t).then(ok, fail); } catch(e){ fail(); } };
+document.addEventListener('keydown', e => {
+  if (e.target.closest('textarea,select,input')) return;
+  if (e.code === 'Space'){ e.preventDefault(); toggle(); }
+  else if (e.key === 'ArrowRight'){ e.preventDefault(); nextBlock(); }
+  else if (e.key === 'ArrowLeft'){ e.preventDefault(); prevBlock(); }
+});
+document.addEventListener('visibilitychange', async () => { if (running && document.visibilityState === 'visible'){ try{ if ('wakeLock' in navigator) wake = await navigator.wakeLock.request('screen'); }catch(e){} } });
+
+// ---------- Vistas ----------
+document.querySelectorAll('nav.tabs button').forEach(b => b.onclick = () => show(b.dataset.view));
+function show(id){
+  document.querySelectorAll('nav.tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.view === id)));
+  $('v-pres').style.display = id === 'v-pres' ? 'contents' : 'none';
+  $('v-obs').hidden = id !== 'v-obs'; $('v-reg').hidden = id !== 'v-reg';
+  if (id !== 'v-pres' && running) pause();
+  if (id === 'v-obs') prepObs(false);
+}
+
+// ---------- Hoja del observador ----------
+const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function prepObs(fromTimer){
+  if (!$('o-guion').value || fromTimer) $('o-guion').value = $('guion').selectedOptions[0].textContent;
+  if (!$('o-fecha').value){ const d = new Date(); $('o-fecha').value = new Date(d - d.getTimezoneOffset()*6e4).toISOString().slice(0,10); }
+  const names = blocks.map(b => b.nombre);
+  const have = [...$('o-times').querySelectorAll('input')].map(i => i.dataset.n).join('|');
+  if (have !== names.join('|')) $('o-times').innerHTML = names.map((n,i) => `<div class="field"><label for="o-t${i}">${esc(n)}</label><input type="number" id="o-t${i}" data-n="${esc(n)}" min="0" max="900" inputmode="numeric"></div>`).join('');
+  if (fromTimer){
+    blocks.forEach((b,i) => { const el = $('o-t'+i); if (el) el.value = Math.round(spent[i]); });
+    $('o-total').value = Math.round(used());
+  }
+}
+$('toobs').onclick = () => { show('v-obs'); prepObs(true); $('o-alta').focus(); };
+function readObs(){
+  const num = id => { const v = $(id).value; return v === '' ? null : Number(v); };
+  const conv = document.querySelector('input[name="o-conv"]:checked');
+  return {
+    guion: $('o-guion').value.trim(), fecha: $('o-fecha').value, presento: $('o-presento').value.trim(),
+    total: num('o-total'),
+    secciones: [...$('o-times').querySelectorAll('input')].map(i => ({ nombre: i.dataset.n, s: i.value === '' ? null : Number(i.value) })),
+    atencionAlta: $('o-alta').value.trim(), atencionBaja: $('o-baja').value.trim(), dudas: $('o-dudas').value.trim(),
+    preguntas: $('o-preguntas').value.trim(), conversacion: conv ? conv.value : null, vida: $('o-vida').value.trim(),
+    claridad: num('o-claridad'), utilidad: num('o-utilidad'), recuerdan: $('o-recuerdan').value.trim(), sobra: $('o-sobra').value.trim()
+  };
+}
+function obsText(o){
+  return [`Nodo: ${o.guion}            Fecha: ${o.fecha}            Presentó: ${o.presento}`,
+    `Tiempo total: ${o.total ?? '__'} s   (¿pasó de 300?  ${o.total == null ? 'sí / no' : o.total > 300 ? 'sí' : 'no'})`,
+    `Tiempo por sección (aprox.): ` + o.secciones.map(s => `${s.nombre.toLowerCase()} ${s.s ?? '__'}`).join('  '),
+    `¿En qué momento se notó más atención? ${o.atencionAlta}`, `¿En qué momento se perdió la atención? ${o.atencionBaja}`,
+    `Palabras o ideas que generaron dudas: ${o.dudas}`, `Preguntas que hizo el público (literales): ${o.preguntas}`,
+    `¿La pregunta final abrió conversación?  ${o.conversacion ?? 'nada / poca / mucha'}`, `Algo que alguien contó de su propia vida: ${o.vida}`,
+    `Público · claridad: ${o.claridad ?? '__'}  utilidad: ${o.utilidad ?? '__'}`, `Recuerdan: ${o.recuerdan}`, `Sobraba o no se entendió: ${o.sobra}`].join('\n');
+}
+function copyText(text, msgEl){
+  const ok = () => msgEl.textContent = 'Copiado.';
+  const fail = () => { msgEl.textContent = 'No se pudo copiar. Selecciona el texto en la pestaña Presentar o cópialo a mano.'; };
+  try { navigator.clipboard.writeText(text).then(ok, fail); } catch(e){ fail(); }
+}
+$('o-copy').onclick = () => copyText(obsText(readObs()), $('o-msg'));
+
+let db = null;
+$('obsform').addEventListener('submit', async e => {
+  e.preventDefault();
+  const o = readObs();
+  if (!o.guion || !o.fecha){ $('o-msg').textContent = 'Falta el guion o la fecha.'; (o.guion ? $('o-fecha') : $('o-guion')).focus(); return; }
+  if (!db){ copyText(obsText(o), $('o-msg')); $('o-msg').textContent += ' Esta copia de la página no guarda registros: pega el texto en la conversación del piloto.'; return; }
+  $('o-save').disabled = true; $('o-msg').textContent = 'Guardando…';
+  try { await db.collection('sesiones').add({ ...o, creado: new Date().toISOString() });
+    $('o-msg').textContent = 'Guardado en el registro.'; $('obsform').reset(); $('o-times').innerHTML = ''; prepObs(false);
+  } catch(err){ $('o-msg').textContent = err && err.code === 'permission_denied' ? 'No tienes permiso para guardar aquí. Usa Copiar como texto.' : 'No se guardó. Revisa la conexión y vuelve a intentar.'; }
+  finally { $('o-save').disabled = false; }
+});
+
+// ---------- Registro ----------
+function renderReg(docs){
+  const rows = docs.map(d => ({ id: d.id, ...d.data() })).sort((a,b) => String(b.fecha).localeCompare(String(a.fecha)) || String(b.creado).localeCompare(String(a.creado)));
+  if (!rows.length){ $('r-sum').hidden = true; $('r-cards').innerHTML = '<p class="empty">Todavía no hay hojas guardadas. Después de cada presentación, llena la hoja en la pestaña Observar y guárdala: aparecerá aquí.</p>'; return; }
+  const by = {}; rows.forEach(r => (by[r.guion] ??= []).push(r));
+  const avg = a => { const v = a.filter(x => typeof x === 'number'); return v.length ? v.reduce((p,c)=>p+c,0)/v.length : null; };
+  $('r-sum').querySelector('tbody').innerHTML = Object.entries(by).map(([g, rs]) => {
+    const t = avg(rs.map(r => r.total)), over = rs.filter(r => r.total > 300).length, c = avg(rs.map(r => r.claridad));
+    const conv = ['nada','poca','mucha'].map(k => `${k} ${rs.filter(r => r.conversacion === k).length}`).join(' · ');
+    return `<tr><td>${esc(g)}</td><td class="n">${rs.length}</td><td class="n">${t == null ? '—' : Math.round(t) + ' s'}</td><td class="n ${over ? 'over' : 'ok'}">${over} de ${rs.length}</td><td>${conv}</td><td class="n">${c == null ? '—' : c.toFixed(1)}</td></tr>`; }).join('');
+  $('r-sum').hidden = false;
+  $('r-cards').innerHTML = rows.map(r => `<article class="card"><h3>${esc(r.guion)}</h3>
+    <div class="muted">${esc(r.fecha)}${r.presento ? ' · presentó ' + esc(r.presento) : ''}</div>
+    <dl><dt>Tiempo</dt><dd class="${r.total > 300 ? 'over' : ''}">${r.total ?? '—'} s</dd>
+    ${(r.secciones||[]).some(s => s.s != null) ? `<dt>Secciones</dt><dd>${(r.secciones||[]).map(s => esc(s.nombre) + ' ' + (s.s ?? '—')).join(' · ')}</dd>` : ''}
+    ${r.conversacion ? `<dt>Conversación</dt><dd>${esc(r.conversacion)}</dd>` : ''}
+    ${r.claridad != null ? `<dt>Claridad</dt><dd>${r.claridad} · utilidad ${r.utilidad ?? '—'}</dd>` : ''}
+    ${r.recuerdan ? `<dt>Recuerdan</dt><dd>${esc(r.recuerdan)}</dd>` : ''}
+    ${r.atencionBaja ? `<dt>Se perdió</dt><dd>${esc(r.atencionBaja)}</dd>` : ''}
+    ${r.dudas ? `<dt>Dudas</dt><dd>${esc(r.dudas)}</dd>` : ''}
+    ${r.sobra ? `<dt>Sobraba</dt><dd>${esc(r.sobra)}</dd>` : ''}</dl></article>`).join('');
+}
+(async () => {
+  try { db = window.claude && window.claude.use ? await window.claude.use('db') : null; } catch(e){ db = null; }
+  if (!db){
+    $('o-save').textContent = 'Copiar la hoja';
+    $('r-intro').textContent = 'Esta copia de la página no guarda registros. Copia cada hoja y pégala en la conversación del piloto en GitHub Discussions.';
+    $('r-cards').innerHTML = ''; return;
+  }
+  $('r-cards').innerHTML = '<p class="empty">Cargando el registro…</p>';
+  db.collection('sesiones').onSnapshot(snap => renderReg(snap.docs), () => { $('r-cards').innerHTML = '<p class="empty">No se pudo leer el registro en este momento.</p>'; });
+})();
+
+const saved = store.get('curioso-sel');
+if (saved && (saved in GUIONES || saved === 'libre')) $('guion').value = saved;
+load($('guion').value);
+</script>
+
+</body>
+</html>
