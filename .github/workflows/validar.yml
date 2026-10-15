@@ -22,6 +22,11 @@ jobs:
         run: python scripts/validar_curriculo.py
       - name: Validar la biblioteca y su índice
         run: python scripts/biblioteca.py --comprobar
+      - name: Generar las páginas de la biblioteca (sin publicarlas)
+        # Una ficha puede cambiar otra página (un cruce nuevo pide su traducción al inglés).
+        run: |
+          mkdir -p "$RUNNER_TEMP/paginas"
+          python scripts/pagina_aprender.py --publicar "$RUNNER_TEMP/paginas"
       - name: Un nodo por PR (los PR de grafo pueden traer encabezados de nodos)
         if: github.event_name == 'pull_request'
         run: |
