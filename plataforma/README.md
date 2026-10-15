@@ -14,6 +14,10 @@ python scripts/construir_sitio.py   # genera _sitio/
 # abre _sitio/index.html en el navegador
 ```
 
+## Experimento: clases narradas
+
+`plataforma/narraciones/` convierte un nodo en una clase de audio con tres voces (propuesta, [ADR 0005](../docs/decisiones/0005-motor-de-narraciones.md)). Ver su [README](narraciones/README.md).
+
 ## Qué hace
 
 1. **Grafo de conocimiento**: lee `curriculo/` (Git es la fuente de verdad) y lo indexa.
