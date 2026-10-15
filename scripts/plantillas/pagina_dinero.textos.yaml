@@ -1,0 +1,25 @@
+# Textos propios de la página de Dinero; se aplican encima de pagina_aprender.textos.yaml.
+
+es:
+  titulo: Libros para entender el dinero
+  descripcion: "Libros, fábulas y novelas para el módulo Dinero de New Old School: qué enseña cada uno, qué tanto se sostiene y con qué lección se conecta."
+  portada_rotulo: Biblioteca de New Old School · módulo Dinero
+  portada_p: "{n} libros para el módulo Dinero: fábulas y novelas que cuentan una idea mejor que una explicación, y libros de divulgación sobre cómo decidimos con la plata. Cada uno trae su veredicto, la lección del módulo con la que se conecta y los libros con los que dialoga."
+  clave_repaso: dinero-repaso-v1
+  p_p: "Diez ideas sobre el dinero y cómo lo manejamos. Decide antes de ver la respuesta: intentar recordar y equivocarse ayuda a aprender más que leer la respuesta. La página recuerda tus respuestas en este navegador y te vuelve a preguntar, días después, lo que fallaste."
+  v_p: Cada veredicto guarda la idea central del libro. En los de divulgación, también el estudio que la juzga; las fábulas y novelas no se juzgan con estudios, sino por lo que ayudan a entender.
+  l_h2: Casi tres mil años de historias sobre el dinero
+  l_p: Los libros por la década en que se publicaron, con el color de su veredicto. Al tocar uno, el tablero y el mapa lo muestran.
+  l_resumen: Las historias y los clásicos van desde el {la} hasta {lb}. La divulgación sobre cómo decidimos con el dinero es de {da} a {db}.
+
+en:
+  titulo: Books for understanding money
+  descripcion: "Books, fables and novels for the New Old School Money module: what each one teaches, how well it holds up and which lesson it connects to."
+  portada_rotulo: New Old School library · Money module
+  portada_p: "{n} books for the Money module: fables and novels that tell an idea better than an explanation, and popular science on how we decide with money. Each one comes with its verdict, the module lesson it connects to, and the books it talks to."
+  clave_repaso: dinero-repaso-v1
+  p_p: "Ten ideas about money and how we handle it. Decide before you see the answer: trying to recall and getting it wrong helps you learn more than reading the answer. The page remembers your answers in this browser and asks you again, days later, what you got wrong."
+  v_p: Each verdict keeps the book's central idea. For popular science books, also the study that judges it; fables and novels are not judged by studies, but by what they help you understand. The full reviews are in Spanish.
+  l_h2: Nearly three thousand years of stories about money
+  l_p: The books by the decade they were published, colored by their verdict. Tap one and the board and the map show it.
+  l_resumen: The stories and classics run from the {la} to {lb}. The popular science on how we decide with money is from {da} to {db}.

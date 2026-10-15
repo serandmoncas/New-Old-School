@@ -10,7 +10,7 @@
 :root {
   --papel: #f2f4f0; --tarjeta: #fbfcf9; --tinta: #1d2430; --tenue: #5b6470;
   --sello: #2b4f8c; --linea-roja: #b4473f; --regla: #d6dbd3;
-  --v-solido: #2f7a4c; --v-matices: #9a6400; --v-promete: #b4473f; --v-filosofia: #6a5a9e;
+  --v-solido: #2f7a4c; --v-matices: #9a6400; --v-promete: #b4473f; --v-filosofia: #6a5a9e; --v-literatura: #2b6f80;
   --u-alta: #2f7a4c; --u-moderada: #9a6400; --u-baja: #b4473f;
   --b1: #b4473f; --b2: #2b4f8c; --b3: #2f7a4c; --b4: #6a5a9e; --b5: #9a6400;
   --f-titulo: "Alegreya", Georgia, "Times New Roman", serif;
@@ -22,7 +22,7 @@
     color-scheme: dark;
     --papel: #151a21; --tarjeta: #1c222b; --tinta: #e3e7ec; --tenue: #9aa3ae;
     --sello: #8fb0ea; --linea-roja: #e0786f; --regla: #2e3641;
-    --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6;
+    --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6; --v-literatura: #7cc3d4;
     --u-alta: #6cc493; --u-moderada: #e3ad4f; --u-baja: #e0786f;
     --b1: #e0786f; --b2: #8fb0ea; --b3: #6cc493; --b4: #ab9be6; --b5: #e3ad4f;
   }
@@ -31,7 +31,7 @@
   color-scheme: dark;
   --papel: #151a21; --tarjeta: #1c222b; --tinta: #e3e7ec; --tenue: #9aa3ae;
   --sello: #8fb0ea; --linea-roja: #e0786f; --regla: #2e3641;
-  --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6;
+  --v-solido: #6cc493; --v-matices: #e3ad4f; --v-promete: #e0786f; --v-filosofia: #ab9be6; --v-literatura: #7cc3d4;
   --u-alta: #6cc493; --u-moderada: #e3ad4f; --u-baja: #e0786f;
   --b1: #e0786f; --b2: #8fb0ea; --b3: #6cc493; --b4: #ab9be6; --b5: #e3ad4f;
 }
@@ -72,7 +72,7 @@ p { margin: 0; }
 
 /* Chips de veredicto */
 .chip { font: 600 .66rem var(--f-ficha); letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 2px; color: var(--tarjeta); white-space: nowrap; }
-.v-solido { background: var(--v-solido); } .v-matices { background: var(--v-matices); } .v-promete { background: var(--v-promete); } .v-filosofia { background: var(--v-filosofia); }
+.v-solido { background: var(--v-solido); } .v-matices { background: var(--v-matices); } .v-promete { background: var(--v-promete); } .v-filosofia { background: var(--v-filosofia); } .v-literatura { background: var(--v-literatura); }
 
 /* Curioso */
 .regla { display: flex; height: 38px; overflow: hidden; border-radius: 3px; }
@@ -160,7 +160,7 @@ dt { color: var(--tenue); } dd { margin: 0; }
 
 /* Línea de tiempo por décadas */
 .linea { display: grid; gap: 0; border-top: 1px solid var(--regla); }
-.decada { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--regla); }
+.decada { display: grid; grid-template-columns: 6.8rem minmax(0, 1fr); gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--regla); }
 .decada > span { font: 600 1.05rem var(--f-ficha); color: var(--tenue); font-variant-numeric: tabular-nums; }
 .decada.salto { border-bottom-style: dashed; }
 .decada .fila { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -170,6 +170,10 @@ dt { color: var(--tenue); } dd { margin: 0; }
 .hito[aria-pressed="true"] { outline: 2px solid var(--sello); }
 .hito:focus-visible { outline: 2px solid var(--sello); }
 .resumen-linea { font-size: 1.05rem; max-width: 70ch; }
+.lecciones .decada { grid-template-columns: minmax(8rem, 15rem) minmax(0, 1fr); }
+.lecciones .nodo { font: 600 1rem/1.25 var(--f-titulo); color: var(--tinta); }
+a.hito { color: var(--tinta); text-decoration: none; }
+@media (max-width: 640px) { .lecciones .decada { grid-template-columns: 1fr; gap: 8px; } }
 
 /* Planificador */
 .planificador { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 24px; background: var(--tarjeta); border: 1px solid var(--regla); padding: 22px; }
@@ -193,7 +197,7 @@ dt { color: var(--tenue); } dd { margin: 0; }
 .escenario .contenido h2 { font-size: clamp(2rem, 5vw, 3.4rem); color: var(--sello); }
 .escenario .pie { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
 
-.escenario[hidden], .libro[hidden] { display: none !important; }
+.escenario[hidden], .libro[hidden], .seccion[hidden], .boton[hidden] { display: none !important; }
 
 /* Celular: la barra no se queda fija ni ocupa varias líneas; la regla muestra solo los nombres */
 @media (max-width: 640px) {
@@ -206,6 +210,8 @@ dt { color: var(--tenue); } dd { margin: 0; }
   .franja .punto:not(.examen) span { display: none; }   /* las fechas ya están en la lista de abajo */
   .regla button { font-size: .68rem; line-height: 1.15; }
   .marco { gap: 56px; }
+  .decada { grid-template-columns: 4.6rem minmax(0, 1fr); gap: 10px; }
+  .decada > span { font-size: .82rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 </style>
@@ -306,6 +312,15 @@ dt { color: var(--tenue); } dd { margin: 0; }
     </header>
     <div class="filtros" id="filtros"></div>
     <div class="tablero"><div class="libros" id="libros"></div><aside class="panel" id="panel" aria-live="polite"></aside></div>
+  </section>
+
+  <section class="seccion" id="nodos">
+    <header>
+      <p class="rotulo">{{t.n_rotulo}}</p>
+      <h2>{{t.n_h2}}</h2>
+      <p>{{t.n_p}}</p>
+    </header>
+    {{LECCIONES}}
   </section>
 
   <section class="seccion" id="linea">
@@ -529,7 +544,7 @@ tm = ESCENAS[escenaActual].duracion;
 const PREGUNTAS = DATOS.preguntas;
 const INTERVALO = [1, 2, 4, 8, 16];   // días hasta el próximo repaso según la caja
 const NUEVAS_POR_DIA = 8;
-const CLAVE = 'aprender-repaso-v1';
+const CLAVE = UI.clave_repaso;   // cada página guarda su propio repaso
 const leer = () => { try { return JSON.parse(localStorage.getItem(CLAVE)) || {}; } catch (e) { return {}; } };
 const guardar = r => { try { localStorage.setItem(CLAVE, JSON.stringify(r)); } catch (e) { /* sin almacenamiento: funciona solo en esta visita */ } };
 const hoyIso = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
@@ -626,8 +641,8 @@ pintarPlan();
 
 /* ===== Tablero de veredictos ===== */
 const libros = DATOS.libros, porId = Object.fromEntries(libros.map(l => [l.id, l]));
-let filtro = 'todos', elegido = 'make-it-stick';
-const FILTROS = [['todos', UI.todos], ...Object.entries(DATOS.etiquetas)];
+let filtro = 'todos', elegido = DATOS.libros[0].id;
+const FILTROS = [['todos', UI.todos], ...Object.entries(DATOS.etiquetas).filter(([k]) => DATOS.libros.some(l => l.veredicto === k))];
 FILTROS.forEach(([k, n]) => {
   const b = document.createElement('button'); b.className = 'boton'; b.textContent = n; b.setAttribute('aria-pressed', k === filtro);
   b.onclick = () => { filtro = k; [...$('filtros').children].forEach(x => x.setAttribute('aria-pressed', x === b)); pintarTablero(); };
@@ -653,24 +668,27 @@ function pintarTablero() {
 }
 
 /* ===== Línea de tiempo por décadas ===== */
-const anioDe = l => +String(l.anio).match(/\d{4}/)[0];
+const anioDe = l => l.orden;   // año numérico calculado por el generador; negativo antes de Cristo
 function pintarLinea() {
   const porDecada = {};
-  libros.forEach(l => { const d = Math.floor(anioDe(l) / 10) * 10; (porDecada[d] = porDecada[d] || []).push(l); });
+  libros.forEach(l => { const d = l.siglo ? anioDe(l) : Math.floor(anioDe(l) / 10) * 10; (porDecada[d] = porDecada[d] || []).push(l); });   // antes de Cristo, por siglo
   const decadas = Object.keys(porDecada).map(Number).sort((a, b) => a - b);
   $('linea-tiempo').innerHTML = decadas.map((d, i) => {
     const salto = i < decadas.length - 1 && decadas[i + 1] - d > 10;   // un salto de décadas vacías se marca con línea punteada
     const hitos = porDecada[d].sort((a, b) => anioDe(a) - anioDe(b)).map(l =>
-      `<button class="hito" data-id="${l.id}" aria-pressed="${l.id === elegido}"><i style="background:var(--v-${l.veredicto})" title="${esc(DATOS.etiquetas[l.veredicto])}"></i>${esc(l.titulo)} <small>${anioDe(l)}</small></button>`).join('');
-    return `<div class="decada${salto ? ' salto' : ''}"><span>${fmtT(UI.l_decada, { d, h: String(d + 9).slice(-2) })}</span><div class="fila">${hitos}</div></div>`;
+      `<button class="hito" data-id="${l.id}" aria-pressed="${l.id === elegido}"><i style="background:var(--v-${l.veredicto})" title="${esc(DATOS.etiquetas[l.veredicto])}"></i>${esc(l.titulo)} <small>${esc(l.siglo || anioDe(l))}</small></button>`).join('');
+    const etiqueta = porDecada[d][0].siglo || fmtT(UI.l_decada, { d, h: String(d + 9).slice(-2) });
+    return `<div class="decada${salto ? ' salto' : ''}"><span>${esc(etiqueta)}</span><div class="fila">${hitos}</div></div>`;
   }).join('');
   $('linea-tiempo').querySelectorAll('.hito').forEach(b => b.onclick = () => {
     elegido = b.dataset.id; pintarTablero(); elegirEnMapa(b.dataset.id); pintarLinea();
     $('panel').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
   });
-  const rango = v => { const a = libros.filter(l => l.veredicto === v).map(anioDe); return a.length ? [Math.min(...a), Math.max(...a)] : ['–', '–']; };
-  const [fa, fb] = rango('filosofia'), [pa, pb] = rango('promete');
-  $('resumen-linea').textContent = fmtT(UI.l_resumen, { fa, fb, pa, pb });
+  const nombre = a => { const l = libros.find(x => anioDe(x) === a); return l && l.siglo ? l.siglo : a; };   // un año antes de Cristo se nombra por su siglo
+  const rango = v => { const a = libros.filter(l => l.veredicto === v).map(anioDe); return a.length ? [nombre(Math.min(...a)), nombre(Math.max(...a))] : ['–', '–']; };
+  const [fa, fb] = rango('filosofia'), [pa, pb] = rango('promete'), [la, lb] = rango('literatura');
+  const div = libros.filter(l => ['solido', 'matices', 'promete'].includes(l.veredicto)).map(anioDe), [da, db] = div.length ? [nombre(Math.min(...div)), nombre(Math.max(...div))] : ['–', '–'];
+  $('resumen-linea').textContent = fmtT(UI.l_resumen, { fa, fb, pa, pb, la, lb, da, db });
 }
 
 /* ===== Mapa de cruces (fuerzas simples en canvas) ===== */
@@ -695,7 +713,7 @@ function armarRed() {
   for (const n of nodos) { n.x = mx + (n.x - x0) / (x1 - x0 || 1) * (W - 2 * mx); n.y = my + (n.y - y0) / (y1 - y0 || 1) * (H - 2 * my + 10 * K); }
 }
 armarRed();
-let enMapa = 'make-it-stick';
+let enMapa = DATOS.libros[0].id;
 function dibujarRed() {
   rx.fillStyle = tok('--tarjeta'); rx.fillRect(0, 0, W, H);
   const vecinos = new Set(DATOS.aristas.filter(e => e.a === enMapa || e.b === enMapa).flatMap(e => [e.a, e.b]));

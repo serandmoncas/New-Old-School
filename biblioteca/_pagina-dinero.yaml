@@ -1,0 +1,173 @@
+# Datos de la página pública "Libros para el módulo Dinero" (scripts/pagina_aprender.py --pagina dinero).
+# Los veredictos resumen el Análisis o el "Por qué está" de cada ficha; si cambias uno, cita su fuente.
+# Cada estudio se comprueba en Crossref y su resultado se toma del resumen (AGENTS.md, regla 5).
+#
+# veredicto: solido | matices | promete | filosofia | literatura
+
+secciones: [ponte-a-prueba, veredictos, nodos, linea, mapa, fichas]
+modulo: dinero
+
+etiquetas:
+  solido: Sólido
+  matices: Con matices
+  promete: Promete más de lo que prueba
+  filosofia: Filosofía de la educación
+  literatura: Literatura e historia
+
+grupos:
+  - nombre: Historias que enseñan sobre el dinero
+    sub: Fábulas, poemas, teatro y novelas que cuentan una idea del módulo mejor que una explicación
+    libros: [fabulas-de-esopo, odisea, mercader-de-venecia, robinson-crusoe, david-copperfield, el-coronel-no-tiene-quien-le-escriba]
+  - nombre: La historia del dinero y los mercados
+    sub: De dónde vienen las cuentas, el comercio y las burbujas
+    libros: [liber-abaci, ensayo-sobre-el-comercio, delirios-multitudinarios]
+  - nombre: Cómo decidimos con el dinero
+    sub: Los errores predecibles y cómo diseñar mejores decisiones
+    libros: [pensar-rapido-pensar-despacio, misbehaving, nudge, the-signal-and-the-noise]
+  - nombre: Ahorrar, emprender y vivir bien
+    sub: Del presupuesto al negocio propio, y qué tanto pesa el dinero en una buena vida
+    libros: [pequeno-cerdo-capitalista, the-lean-startup, the-good-life]
+
+rutas:
+  - nombre: Si estudias
+    texto: Historias cortas y un libro práctico para empezar a manejar tu plata.
+    libros: [fabulas-de-esopo, david-copperfield, pequeno-cerdo-capitalista, robinson-crusoe]
+  - nombre: Si enseñas
+    texto: Por qué decidimos mal con el dinero y cómo usarlo en clase.
+    libros: [misbehaving, nudge, pensar-rapido-pensar-despacio, mercader-de-venecia]
+  - nombre: Si acompañas a un estudiante en casa
+    texto: Ahorrar sin heroísmo, desconfiar de las promesas fáciles y no confundir dinero con felicidad.
+    libros: [pequeno-cerdo-capitalista, delirios-multitudinarios, the-good-life, nudge]
+
+veredictos:
+  fabulas-de-esopo:
+    veredicto: literatura
+    promesa: Ahorrar a tiempo y no destruir lo que produce
+    juicio: La cigarra y la hormiga es el nodo Ahorro y metas contado a un niño; la gallina de los huevos de oro, la idea de no destruir lo que produce, central en Invertir, lo básico.
+  odisea:
+    veredicto: literatura
+    promesa: Atarse al mástil antes de la tentación
+    juicio: Ulises se hace atar para oír a las sirenas sin perderse. Es la imagen más antigua de un mecanismo de compromiso, la idea detrás de ahorrar en automático.
+  mercader-de-venecia:
+    veredicto: literatura
+    promesa: Lo que se pierde si un préstamo no se paga
+    juicio: Es la historia más famosa sobre la garantía de un préstamo. Sirve para hablar de leer las condiciones antes de firmar y de cuándo una deuda deja de ser una ayuda.
+  robinson-crusoe:
+    veredicto: literatura
+    promesa: El valor de las cosas depende de lo que puedes hacer con ellas
+    juicio: En la isla, un cuchillo vale más que todas las monedas del barco. Y cuando está desesperado, Robinson escribe sus males y sus bienes en dos columnas, como un balance.
+  david-copperfield:
+    veredicto: literatura
+    promesa: Gastar un poquito menos de lo que entra
+    juicio: Micawber resume el nodo Presupuesto en dos frases, la diferencia entre la felicidad y la miseria está en gastar un poco menos o un poco más de lo que se gana. Lo dice al salir de la cárcel por deudas.
+  el-coronel-no-tiene-quien-le-escriba:
+    veredicto: literatura
+    promesa: De qué vive una persona cuando ya no puede trabajar
+    juicio: Un coronel espera durante años una pensión que no llega. Es la mejor novela corta, colombiana, para entender la seguridad social.
+  liber-abaci:
+    veredicto: literatura
+    promesa: Los números con los que hoy hacemos las cuentas
+    juicio: Ayudó a que Europa dejara los números romanos y muestra que las matemáticas del crédito tienen más de 800 años.
+  ensayo-sobre-el-comercio:
+    veredicto: literatura
+    promesa: El emprendedor compra a un precio cierto para vender a uno incierto
+    juicio: Define al emprendedor como quien asume el riesgo, y explica por qué, cuando se crea dinero nuevo, quienes lo reciben de últimos pagan precios más altos.
+  delirios-multitudinarios:
+    veredicto: literatura
+    promesa: Todos compran porque todos compran
+    juicio: Las burbujas y las pirámides se repiten desde hace siglos con el mismo patrón. La historia de John Law, que imprimió billetes sin control, sirve también para Inflación.
+  pensar-rapido-pensar-despacio:
+    veredicto: matices
+    promesa: Pensamos con un sistema rápido y otro lento
+    juicio: El libro da una teoría seria y buena parte se sostiene, como el efecto ancla. Pero un experimento famoso de su capítulo 4, en el que leer palabras sobre la vejez hacía caminar más despacio, no se pudo repetir.
+    cita: Doyen y otros, 2012
+    doi: 10.1371/journal.pone.0029081
+  misbehaving:
+    veredicto: matices
+    promesa: Las personas cometen errores predecibles con el dinero
+    juicio: Quienes recibían una taza pedían mucho más por venderla de lo que otros ofrecían por comprarla. Es el efecto dotación; con un entrenamiento cuidadoso en las reglas del experimento, la diferencia puede desaparecer.
+    cita: Kahneman, Knetsch y Thaler, 1990
+    doi: 10.1086/261737
+  nudge:
+    veredicto: matices
+    promesa: Un empujón bien diseñado cambia lo que la gente elige
+    juicio: El ahorro por defecto funciona muy bien. Pero al corregir por los estudios que no se publican, el efecto promedio de los empujones casi desaparece. Unos funcionan mucho y otros casi nada.
+    cita: Maier y otros, 2022
+    doi: 10.1073/pnas.2200300119
+  the-signal-and-the-noise:
+    veredicto: solido
+    promesa: Pronosticar mejor se puede aprender
+    juicio: En un torneo de pronósticos de dos años, entrenar en probabilidad, trabajar en equipo y juntar a los mejores mejoró los pronósticos.
+    cita: Mellers y otros, 2014
+    doi: 10.1177/0956797614524255
+  pequeno-cerdo-capitalista:
+    veredicto: matices
+    promesa: Los gastos hormiga se comen tu dinero
+    juicio: Tiene respaldo, un costo presentado por día parece menor de lo que es. Pero el libro piensa en México y en quien tiene margen, y los gastos hormiga no explican la falta de dinero cuando el ingreso no alcanza.
+    cita: Gourville, 1998
+    doi: 10.1086/209517
+  the-lean-startup:
+    veredicto: matices
+    promesa: Probar una idea de negocio antes de invertir en ella
+    juicio: En un ensayo con 116 emprendimientos asignados al azar, quienes aprendieron a probar hipótesis tuvieron mejor desempeño. El método nació de anécdotas de Silicon Valley y no sirve igual para todos los negocios.
+    cita: Camuffo y otros, 2020
+    doi: 10.1287/mnsc.2018.3249
+  the-good-life:
+    veredicto: matices
+    promesa: Las relaciones pesan más que el dinero en una buena vida
+    juicio: Las relaciones se asocian con más salud y felicidad, aunque eso no prueba que las causen. Y el dinero sí importa, el bienestar sigue subiendo con el ingreso para la mayoría de las personas.
+    cita: Killingsworth, Kahneman y Mellers, 2023
+    doi: 10.1073/pnas.2208661120
+
+# "¿Mito o evidencia?" sobre el dinero. es: mito | evidencia.
+preguntas:
+  - frase: Si la empresa te inscribe por defecto en un plan de ahorro, es mucho más probable que ahorres.
+    es: evidencia
+    explica: Inscribir a los empleados automáticamente subió mucho la participación en el plan de ahorro, y la mayoría se quedó con el aporte que venía por defecto.
+    cita: Madrian y Shea, 2001
+    doi: 10.1162/003355301753265543
+  - frase: Un gasto presentado "por día" parece más pequeño de lo que es.
+    es: evidencia
+    explica: Presentar un costo en pequeñas cantidades diarias hace que parezca menor que el mismo costo presentado completo.
+    cita: Gourville, 1998
+    doi: 10.1086/209517
+  - frase: Comprometerse hoy a ahorrar los aumentos de sueldo futuros puede subir mucho el ahorro.
+    es: evidencia
+    explica: En el programa Ahorra Más Mañana, la tasa de ahorro de quienes se unieron pasó del 3,5 % al 13,6 % en 40 meses.
+    cita: Thaler y Benartzi, 2004
+    doi: 10.1086/380085
+  - frase: Todos los empujones para decidir mejor funcionan muy bien.
+    es: mito
+    explica: Al corregir por los estudios que no se publican, el efecto promedio de los empujones casi desaparece. Unos funcionan mucho y otros casi nada.
+    cita: Maier y otros, 2022
+    doi: 10.1073/pnas.2200300119
+  - frase: Valoramos más una cosa solo porque ya es nuestra.
+    es: evidencia
+    explica: Quienes recibían una taza pedían mucho más por venderla de lo que otros ofrecían por comprarla, y se intercambiaron muchas menos tazas de las esperadas.
+    cita: Kahneman, Knetsch y Thaler, 1990
+    doi: 10.1086/261737
+  - frase: Mirar tu inversión todos los días te ayuda a decidir mejor.
+    es: mito
+    explica: Quien revisa muy seguido ve más pérdidas, y como las pérdidas duelen más que las ganancias, termina eligiendo opciones más seguras que rinden menos.
+    cita: Benartzi y Thaler, 1995
+    doi: 10.2307/2118511
+  - frase: Las acciones que más han caído en los últimos años van a seguir cayendo.
+    es: mito
+    explica: Las acciones que más habían caído luego rindieron más que las que más habían subido, señal de que el mercado reacciona de más.
+    cita: De Bondt y Thaler, 1985
+    doi: 10.1111/j.1540-6261.1985.tb05004.x
+  - frase: Después de cierto ingreso, ganar más dinero ya no aumenta el bienestar de nadie.
+    es: mito
+    explica: Para la mayoría de las personas, el bienestar sigue subiendo con el ingreso. Solo entre las más infelices deja de subir a partir de cierto nivel.
+    cita: Killingsworth, Kahneman y Mellers, 2023
+    doi: 10.1073/pnas.2208661120
+  - frase: Enseñar a los emprendedores a poner a prueba sus ideas mejora los resultados de su negocio.
+    es: evidencia
+    explica: En un ensayo con 116 emprendimientos asignados al azar, quienes aprendieron a formular y probar hipótesis tuvieron mejor desempeño.
+    cita: Camuffo y otros, 2020
+    doi: 10.1287/mnsc.2018.3249
+  - frase: Está comprobado que leer palabras sobre la vejez hace caminar más despacio.
+    es: mito
+    explica: Un experimento famoso lo encontró, pero cuando otros investigadores lo repitieron con más cuidado, el efecto no apareció.
+    cita: Doyen y otros, 2012
+    doi: 10.1371/journal.pone.0029081

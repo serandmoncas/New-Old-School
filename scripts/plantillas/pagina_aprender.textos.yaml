@@ -6,12 +6,18 @@ es:
   locale: es-CO
   titulo: Libros para aprender a aprender
   descripcion: "Libros sobre cómo se aprende mejor, cómo se enseña y qué promesas no tienen evidencia: veredictos, mapa de cruces y ejercicios de repaso. Biblioteca de New Old School."
-  nav: [En 5 minutos, Qué funciona, Ponte a prueba, Planea tu repaso, Veredictos, Línea de tiempo, Mapa de cruces, Fichas]
+  nav: {cinco-minutos: En 5 minutos, que-funciona: Qué funciona, ponte-a-prueba: Ponte a prueba, repaso: Planea tu repaso, veredictos: Veredictos, nodos: Por lección, linea: Línea de tiempo, mapa: Mapa de cruces, fichas: Fichas}
+  clave_repaso: aprender-repaso-v1
+  nodos: Nodos
+  sin_libros: Todavía no hay libros para esta lección.
+  n_rotulo: Qué leer para cada lección
+  n_h2: Los libros de cada nodo del módulo
+  n_p: Los nodos del módulo en su orden, con los libros que los iluminan. Toca un libro para ir a su ficha.
   nav_aria: Secciones
   presentar: Presentar en 5 minutos
   portada_rotulo: Biblioteca de New Old School
   portada_p: "{n} libros sobre cómo se aprende mejor, cómo se enseña y qué promesas no tienen evidencia. Cada uno trae su veredicto, el estudio que lo sostiene o lo contradice y los libros con los que dialoga."
-  leyenda: {solido: la evidencia lo respalda, matices: acierta en parte, promete: '', filosofia: no se mide igual}
+  leyenda: {solido: la evidencia lo respalda, matices: acierta en parte, promete: '', filosofia: no se mide igual, literatura: no se juzga con estudios}
   c_rotulo: La idea en Formato Curioso · 300 segundos
   c_h2: Lo que se siente como aprender no siempre es aprender
   c_p: Una sola idea en cinco bloques, con el tiempo de cada uno. Toca un bloque para leerlo, o usa “Presentar” para mostrarlo en pantalla completa con reloj.
@@ -151,12 +157,18 @@ en:
   locale: en-US
   titulo: Books on learning how to learn
   descripcion: "Books on how we learn best, how we teach, and which promises lack evidence: verdicts, a map of connections and review exercises. New Old School library."
-  nav: [In 5 minutes, What works, Test yourself, Plan your review, Verdicts, Timeline, Map, Books]
+  nav: {cinco-minutos: In 5 minutes, que-funciona: What works, ponte-a-prueba: Test yourself, repaso: Plan your review, veredictos: Verdicts, nodos: By lesson, linea: Timeline, mapa: Map, fichas: Books}
+  clave_repaso: aprender-repaso-v1
+  nodos: Lessons
+  sin_libros: No books for this lesson yet.
+  n_rotulo: What to read for each lesson
+  n_h2: The books for each lesson in the module
+  n_p: The module's lessons in order, with the books that shed light on them. Tap a book to go to it.
   nav_aria: Sections
   presentar: Present in 5 minutes
   portada_rotulo: New Old School library
   portada_p: "{n} books on how we learn best, how we teach, and which promises lack evidence. Each one comes with its verdict, the study that supports or contradicts it, and the books it talks to."
-  leyenda: {solido: the evidence backs it, matices: right in part, promete: '', filosofia: not measured the same way}
+  leyenda: {solido: the evidence backs it, matices: right in part, promete: '', filosofia: not measured the same way, literatura: not judged by studies}
   c_rotulo: The idea in Curioso Format · 300 seconds
   c_h2: What feels like learning is not always learning
   c_p: One idea in five blocks, each with its time. Tap a block to read it, or use “Present” to show it full screen with a timer.
