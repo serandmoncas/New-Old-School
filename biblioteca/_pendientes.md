@@ -56,6 +56,8 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 **Ya tienen ficha (tanda 4, 2026-10-14):** *El método Lean Startup*, *Moneyball*, *Cómo ser un estoico* (*How to Be a Stoic*), *La vida secreta del cerebro* (*How Emotions Are Made*) y *El poder de los hábitos* (*The Power of Habit*).
 
+**Ya tienen ficha (tanda 5, 2026-10-14):** *21 lecciones para el siglo XXI*, *Hablar con extraños* (*Talking to Strangers*), *Deberías hablar con alguien* (*Maybe You Should Talk to Someone*), *Los innovadores* (*The Innovators*) y *¡Bienvenidos al universo!* (*Welcome to the Universe*).
+
 ### Dinero y emprender (frente 1)
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
@@ -67,7 +69,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *21 lecciones para el siglo XXI* | Yuval Noah Harari | 0 | media | Tecnología, trabajo y verdad; buen material para discutir, con afirmaciones que conviene contrastar. |
 | *The Obstacle Is the Way* y *Ego Is the Enemy* | Ryan Holiday | 0 | baja | Estoicismo popular; mejor una sola ficha con Pigliucci como referencia. |
 | *The Practicing Stoic* | Ward Farnsworth | 0 | baja | Antología de textos estoicos para adultos. |
 
@@ -76,8 +77,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
 | *Daring Greatly* | Brené Brown | 0 | media | Vulnerabilidad y vergüenza; popular entre docentes. |
-| *Talking to Strangers* | Malcolm Gladwell | 3 (Gladwell, por *Fuera de serie*) | media | Por qué juzgamos mal a desconocidos; se cruza con *Fuera de serie*. |
-| *Maybe You Should Talk to Someone* | Lori Gottlieb | 0 | media | Una terapeuta cuenta cómo es ir a terapia; ayuda a quitarle el estigma a pedir ayuda. Revisión experta. |
 | *En el limbo* | Estanislao Bachrach | 0 | baja | Divulgación latinoamericana sobre emociones; conviene revisar su respaldo científico. |
 
 ### Trabajo y hábitos (frente 7)
@@ -92,8 +91,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Welcome to the Universe* | Neil deGrasse Tyson, Michael A. Strauss y J. Richard Gott | 0 | media | Astronomía para principiantes; más reciente que *Cosmos*. |
-| *The Innovators* | Walter Isaacson | 0 | media | Historia de la revolución digital contada como trabajo en equipo; puente con pensamiento computacional. |
 | *Caffeine* | Michael Pollan | 0 | baja | Historia y química de la cafeína; corto. |
 | *The Autobiography of Malcolm X* | Malcolm X y Alex Haley | 0 | media | Autobiografía clave de los derechos civiles; temas de violencia y racismo para los grados mayores. |
 | *The Radical King* | Martin Luther King Jr. (ed. Cornel West) | 0 | media | Textos de King; se cruza con Malcolm X y con *Pedagogía del oprimido*. |
