@@ -28,7 +28,7 @@ Sugerencia: empezar por la 1 y la 3, que son las más distintas entre sí.
 
 ## Guion completo · Prueba 1: "No tienes dos almas, tienes mil"
 
-Calculado a ≈135 palabras por minuto: ≈560 palabras, cerca de 4 min 10 s; con pausas queda cerca de 4 min 30 s.
+Calculado a ≈135 palabras por minuto: ≈540 palabras, cerca de 4 min; con pausas queda cerca de 4 min 20 s.
 
 ### Gancho (30 s · ≈70 palabras)
 
@@ -80,7 +80,7 @@ Les dejo un reto: léanlo esta semana. Y para conversar ahora: ¿cuál de sus pi
 
 ## Guion completo · Prueba 3: "Del lobo estepario a *Born to Be Wild*"
 
-Calculado a ≈135 palabras por minuto: ≈520 palabras, cerca de 3 min 50 s, más 5 s de música en el gancho; queda margen para pausas. Es el que más depende de datos, así que las cifras y fechas van exactas.
+Calculado a ≈135 palabras por minuto: ≈470 palabras, cerca de 3 min 30 s, más 5 s de música en el gancho; queda margen para pausas. Es el que más depende de datos, así que las cifras y fechas van exactas.
 
 ### Gancho (30 s · ≈70 palabras)
 
@@ -127,7 +127,7 @@ Y si les da curiosidad, lean la novela con *Born to Be Wild* de fondo. A ver si 
 - **Apoyo visual opcional:** la portada de la novela junto a la carátula del primer disco de Steppenwolf (1968), una al lado de la otra.
 - **Música en el gancho:** 5 segundos del arranque de la canción, sin cantar ni leer la letra. Si no hay forma de ponerla, se describe en una frase y se sigue.
 - **Si se pasa de tiempo,** recorta la lista de lo que encontraron los jóvenes en la Idea. No recortes el giro de la Evidencia: es el corazón de la historia.
-- **Datos para revisar antes de presentar:** el año de la nota de Hesse no está claro en las fuentes (unas dicen 1941 y otras 1960); por eso el guion no lo menciona. <!-- VERIFICAR: año de la nota del autor sobre la mala interpretación -->
+- **La nota de Hesse:** es el prefacio que escribió para la edición de 1960, según Wikipedia. El guion no necesita el año; si alguien pregunta, ese es el dato.
 
 ## Fuentes
 
@@ -136,4 +136,5 @@ Y si les da curiosidad, lean la novela con *Born to Be Wild* de fondo. A ver si 
 - Rafaeli-Mor, E. y Steinberg, J. (2002). Self-complexity and well-being: A review and research synthesis. *Personality and Social Psychology Review*, 6(1), 31–58. (Metaanálisis que encontró efectos débiles e inconsistentes.)
 - American Songwriter, "Behind the Band Name: Steppenwolf" (origen del nombre por Gabriel Mekler): https://americansongwriter.com/behind-the-band-name-steppenwolf/
 - Swissinfo, "Hesse: from counterculture to computer games" (Hesse en la contracultura, Timothy Leary): https://www.swissinfo.ch/eng/culture/hesse-from-counterculture-to-computer-games/33252700
-- Wikipedia, "Steppenwolf (novel)" (nota del autor, Magic Theatre de Berkeley): https://en.wikipedia.org/wiki/Steppenwolf_(novel)
+- Wikipedia, "Steppenwolf (novel)" (prefacio de 1960 sobre la mala interpretación): https://en.wikipedia.org/wiki/Steppenwolf_(novel)
+- Wikipedia, "Magic Theatre" (fundado en Berkeley en 1967, con nombre tomado de la novela): https://en.wikipedia.org/wiki/Magic_Theatre
