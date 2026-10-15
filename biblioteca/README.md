@@ -22,6 +22,18 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 - **No inventes datos** (AGENTS.md, regla 5). Fechas, capítulos y escenas se comprueban; si no hay fuente, se deja `<!-- VERIFICAR: ... -->`.
 - **Con cuidado.** Si el libro trae temas sensibles o prejuicios de su época, la ficha lo dice.
 
+## Página pública de aprender a aprender
+
+Los libros del tema *aprender a aprender* tienen una página para compartir con estudiantes, docentes y familias: veredicto de cada libro con el estudio que lo sostiene, mapa de cruces, un explicador animado, un juego de "¿mito o evidencia?", un planificador de repaso espaciado y una versión de cinco minutos en Formato Curioso.
+
+```bash
+python3 scripts/pagina_aprender.py   # escribe _sitio/aprender-a-aprender.html
+```
+
+- El texto de cada libro sale de su ficha: si corriges una ficha, vuelve a generar la página.
+- Los veredictos, las rutas de lectura y los grupos están en [`_pagina-aprender.yaml`](_pagina-aprender.yaml). Un veredicto resume el **Análisis** de la ficha y cita su estudio, comprobado en Crossref.
+- El diseño y la interacción están en `scripts/plantillas/pagina_aprender.html`.
+
 <!-- indice:inicio -->
 <!-- Generado por scripts/biblioteca.py --indice. No editar a mano. -->
 
