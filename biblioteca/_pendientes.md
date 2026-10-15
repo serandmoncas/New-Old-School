@@ -52,6 +52,8 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 **Ya tienen ficha (tanda 2, 2026-10-14):** *Portarse mal* (*Misbehaving*), *A More Beautiful Question*, *El hombre en busca de sentido*, *Una buena vida* (*The Good Life*) y *Design de vida* (*Designing Your Life*).
 
+**Ya tienen ficha (tanda 3, 2026-10-14):** *La señal y el ruido* (*The Signal and the Noise*), *Algoritmos para la vida cotidiana* (*Algorithms to Live By*), *Inteligencia emocional* y *Cosmos*. Además, por pedido de Coordinación, *La invención de todas las cosas*, de Jorge Volpi.
+
 ### Dinero y emprender (frente 1)
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
@@ -65,8 +67,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *The Signal and the Noise* | Nate Silver | 0 | alta | Predicciones, probabilidad y por qué fallan: puente con estadística e *Invertir, lo básico*. |
-| *Algorithms to Live By* | Brian Christian y Tom Griffiths | 0 | alta | Ideas de la computación para decidir en la vida diaria; puente con pensamiento computacional. |
 | *21 lecciones para el siglo XXI* | Yuval Noah Harari | 0 | media | Tecnología, trabajo y verdad; buen material para discutir, con afirmaciones que conviene contrastar. |
 | *How to Be a Stoic* | Massimo Pigliucci | 0 | media | Filosofía práctica explicada por un filósofo; contrapeso académico a los libros de estoicismo popular. |
 | *The Obstacle Is the Way* y *Ego Is the Enemy* | Ryan Holiday | 0 | baja | Estoicismo popular; mejor una sola ficha con Pigliucci como referencia. |
@@ -76,7 +76,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Inteligencia emocional* | Daniel Goleman | 0 | alta | El libro que popularizó el concepto; buen caso de evidencia (qué se sostuvo y qué se exageró). |
 | *How Emotions Are Made* | Lisa Feldman Barrett | 0 | media | La teoría de las emociones construidas; contrapeso científico de Goleman. Denso. |
 | *Daring Greatly* | Brené Brown | 0 | media | Vulnerabilidad y vergüenza; popular entre docentes. |
 | *Talking to Strangers* | Malcolm Gladwell | 3 (Gladwell, por *Fuera de serie*) | media | Por qué juzgamos mal a desconocidos; se cruza con *Fuera de serie*. |
@@ -96,7 +95,6 @@ Libros de la biblioteca personal de Sergio Monsalve (coordinador del proyecto), 
 
 | Libro | Autor | Menciones | Prioridad | Por qué |
 | --- | --- | --- | --- | --- |
-| *Cosmos* | Carl Sagan | 0 | alta | El gran clásico de la divulgación científica; puente con ciencias de la Tierra y el espacio. |
 | *Welcome to the Universe* | Neil deGrasse Tyson, Michael A. Strauss y J. Richard Gott | 0 | media | Astronomía para principiantes; más reciente que *Cosmos*. |
 | *The Innovators* | Walter Isaacson | 0 | media | Historia de la revolución digital contada como trabajo en equipo; puente con pensamiento computacional. |
 | *Caffeine* | Michael Pollan | 0 | baja | Historia y química de la cafeína; corto. |

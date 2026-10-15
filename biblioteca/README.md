@@ -30,9 +30,11 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | Libro | Autor | Publicado | Temas | Nodos | Estado |
 | --- | --- | --- | --- | --- | --- |
 | [*A More Beautiful Question*](a-more-beautiful-question.md) | Warren Berger | 2014 | curiosidad, educacion | — | propuesta |
+| [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md) | Brian Christian y Tom Griffiths | 2016 | decisiones, matematicas, memoria | — | propuesta |
 | [*Aprender a aprender*](learning-how-to-learn.md) | Barbara Oakley y Terrence Sejnowski, con Alistair McConville | 2018 | aprender-a-aprender, concentracion, memoria | — | propuesta |
 | [*Apréndetelo*](make-it-stick.md) | Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel | 2014 | aprender-a-aprender, memoria | — | propuesta |
 | [*Comunicación no violenta*](comunicacion-no-violenta.md) | Marshall B. Rosenberg | 1999 | comunicacion, justicia | — | propuesta |
+| [*Cosmos*](cosmos.md) | Carl Sagan | 1980 | ciencia, matematicas | — | propuesta |
 | [*David Copperfield*](david-copperfield.md) 📖 | Charles Dickens | 1849-1850 | presupuesto, deuda, dignidad | `dinero.ingresos-y-gastos`, `dinero.presupuesto` | propuesta |
 | [*Delirios multitudinarios*](delirios-multitudinarios.md) 📖 | Charles Mackay | 1841 | especulacion, codicia | `dinero.estafas-y-piramides`, `dinero.invertir-lo-basico`, `dinero.inflacion` | propuesta |
 | [*Design de vida*](designing-your-life.md) | Bill Burnett y Dave Evans | 2016 | vocacion, emprendimiento | `dinero.trabajo-independiente`, `dinero.emprender-con-numeros` | propuesta |
@@ -49,8 +51,10 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Fuera de serie*](outliers.md) | Malcolm Gladwell | 2008 | talento-y-practica, aprender-a-aprender | — | propuesta |
 | [*Fábulas de Esopo*](fabulas-de-esopo.md) 📖 | Esopo (atribuidas) | s. VI a. C. (según la tradición) | ahorro, codicia | `dinero.ahorro-y-metas`, `dinero.invertir-lo-basico` | propuesta |
 | [*Hábitos atómicos*](atomic-habits.md) | James Clear | 2018 | habitos, autocontrol, ahorro, aprender-a-aprender | `dinero.ahorro-y-metas`, `dinero.interes-compuesto` | propuesta |
+| [*Inteligencia emocional*](inteligencia-emocional.md) | Daniel Goleman | 1995 | emociones, autocontrol, educacion | `dinero.ahorro-y-metas` | propuesta |
 | [*La Odisea*](odisea.md) 📖 | Homero | s. VIII a. C. (según la tradición) | viaje, autocontrol | `dinero.ahorro-y-metas` | propuesta |
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | Jorge Volpi | 2024 | ficcion, identidad, memoria | — | propuesta |
+| [*La señal y el ruido*](the-signal-and-the-noise.md) | Nate Silver | 2012 | decisiones, matematicas, especulacion | `dinero.invertir-lo-basico`, `dinero.estafas-y-piramides` | propuesta |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | Leonardo de Pisa (Fibonacci) | 1202 | matematicas, comercio | `dinero.costo-real-de-un-credito` | propuesta |
 | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | Joshua Foer | 2011 | memoria, talento-y-practica, aprender-a-aprender | — | propuesta |
 | [*Mindset, la actitud del éxito*](mindset.md) | Carol S. Dweck | 2006 | talento-y-practica, aprender-a-aprender, identidad | — | propuesta |
@@ -75,12 +79,17 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*A More Beautiful Question*](a-more-beautiful-question.md) | [*Design de vida*](designing-your-life.md) | Los dos vienen del pensamiento de diseño: entender el problema, imaginar opciones y probarlas. |
 | [*A More Beautiful Question*](a-more-beautiful-question.md) | [*El maestro ignorante*](el-maestro-ignorante.md) | Jacotot no explicaba: preguntaba y dejaba que los estudiantes buscaran. Berger defiende lo mismo para cualquier edad. |
 | [*A More Beautiful Question*](a-more-beautiful-question.md) | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Freire criticó la escuela que solo da respuestas; Berger muestra qué pasa cuando se enseña a preguntar. |
+| [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md) | [*Enfócate*](deep-work.md) | Saltar de una tarea a otra tiene un costo: Newport lo llama residuo de atención; los informáticos, thrashing. |
+| [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md) | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | Foer entrena la memoria para recordar más; Christian y Griffiths explican por qué olvidar también es útil. |
+| [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Kahneman muestra cuánto nos equivocamos; Christian y Griffiths, que muchas veces decidimos razonablemente bien con lo poco que sabemos. |
 | [*Aprender a aprender*](learning-how-to-learn.md) | [*Enfócate*](deep-work.md) | Dos maneras de concentrarse: bloques cortos de 25 minutos con descanso (Oakley) o bloques largos sin distracciones (Newport). |
 | [*Apréndetelo*](make-it-stick.md) | [*Aprender a aprender*](learning-how-to-learn.md) | Las mismas ideas sobre cómo se aprende: una versión para adultos y otra para niños y adolescentes. |
 | [*Apréndetelo*](make-it-stick.md) | [*Ultralearning*](ultralearning.md) | Apréndetelo es la ciencia detrás de dos principios de Ultralearning: recuperar y retener. |
 | [*Comunicación no violenta*](comunicacion-no-violenta.md) | [*El arte de pensar*](el-arte-de-pensar.md) | Separar lo que pasó de lo que juzgamos: Rosenberg lo pide para hablar mejor; Dobelli muestra cuánto nos cuesta. |
 | [*Comunicación no violenta*](comunicacion-no-violenta.md) | [*Pedagogía del oprimido*](pedagogia-del-oprimido.md) | Los dos ponen el diálogo en el centro: Freire para educar, Rosenberg para resolver conflictos. |
 | [*Comunicación no violenta*](comunicacion-no-violenta.md) | [*Summerhill*](summerhill.md) | Resolver los conflictos sin castigos ni culpas: la asamblea de Neill y las cuatro preguntas de Rosenberg. |
+| [*Cosmos*](cosmos.md) | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | Los dos empiezan en el big bang y cuentan la historia humana como una búsqueda de sentido: Sagan desde la ciencia, Volpi desde la ficción. |
+| [*Cosmos*](cosmos.md) | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | Historia de las matemáticas que cambiaron el mundo: Sagan cuenta a Eratóstenes y a Kepler; Fibonacci trajo los números que usamos hoy. |
 | [*David Copperfield*](david-copperfield.md) | [*Robinson Crusoe*](robinson-crusoe.md) | Dos maneras de llevar cuentas: la regla de Micawber y la lista de males y bienes de Robinson. |
 | [*Design de vida*](designing-your-life.md) | [*La Odisea*](odisea.md) | Los autores llaman "planes Odisea" a imaginar tres caminos posibles para los próximos cinco años; Ulises tampoco volvió por la ruta que había planeado. |
 | [*Design de vida*](designing-your-life.md) | [*Mindset, la actitud del éxito*](mindset.md) | Los dos ven el fracaso como parte del proceso: Dweck lo explica con la mentalidad de crecimiento; Burnett y Evans proponen anotar los fracasos para aprender de ellos. |
@@ -102,10 +111,16 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | Cantillon se hizo rico con la burbuja de John Law que cuenta Mackay, y vendió antes de que estallara. |
 | [*Fábulas de Esopo*](fabulas-de-esopo.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | La gallina de los huevos de oro en versión real: gente que lo arriesga todo por ganar más, y más rápido. |
 | [*Hábitos atómicos*](atomic-habits.md) | [*La Odisea*](odisea.md) | Diseñar el entorno para no caer en la tentación es la versión moderna de atarse al mástil. |
+| [*Inteligencia emocional*](inteligencia-emocional.md) | [*Comunicación no violenta*](comunicacion-no-violenta.md) | Goleman dice que hay que reconocer las emociones propias y ajenas; Rosenberg da un método para nombrarlas en medio de un conflicto. |
+| [*Inteligencia emocional*](inteligencia-emocional.md) | [*La Odisea*](odisea.md) | Ulises se ata al mástil porque sabe que no resistirá a las sirenas: autocontrol con un plan, no con fuerza de voluntad. |
+| [*Inteligencia emocional*](inteligencia-emocional.md) | [*Mindset, la actitud del éxito*](mindset.md) | Dos ideas de psicología que se volvieron moda: tienen una base real, pero la versión popular promete más de lo que muestran los estudios. |
 | [*La Odisea*](odisea.md) | [*Robinson Crusoe*](robinson-crusoe.md) | Dos náufragos lejos de casa: Ulises sale adelante con astucia; Robinson, con trabajo y cuentas. |
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*Fábulas de Esopo*](fabulas-de-esopo.md) | Las fábulas son ficciones que enseñan a cooperar y a desconfiar: justo la función que Volpi le atribuye a la ficción. |
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*La Odisea*](odisea.md) | Una de las ficciones más antiguas que seguimos contando; Volpi pregunta por qué los seres humanos no podemos dejar de contar historias. |
 | [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Volpi usa el cerebro rápido de Kahneman para explicar por qué creemos en las historias antes de pensarlas. |
+| [*La señal y el ruido*](the-signal-and-the-noise.md) | [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md) | Los dos enseñan la regla de Bayes y el sobreajuste: actualizar lo que creemos con cada dato nuevo, sin confundir el ruido con la señal. |
+| [*La señal y el ruido*](the-signal-and-the-noise.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | Mackay cuenta las burbujas del siglo XVIII; Silver, la de 2008, y por qué casi nadie la vio venir. |
+| [*La señal y el ruido*](the-signal-and-the-noise.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Los expertos se equivocan con mucha confianza: Kahneman explica por qué; Silver muestra cómo pronosticar mejor. |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | [*El mercader de Venecia*](mercader-de-venecia.md) | Comerciantes italianos y préstamos: Fibonacci les enseñó a hacer las cuentas; Shakespeare mostró qué pasa cuando un préstamo sale mal. |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md) | Dos libros escritos para comerciantes, con cinco siglos de distancia. |
 | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | [*Sin límites*](limitless.md) | El palacio de la memoria: Kwik lo enseña como técnica; Foer cuenta cómo lo aprendió y hasta dónde llega. |
@@ -144,23 +159,26 @@ Dos libros que comparten tema son un cruce posible aunque nadie lo haya escrito 
 
 - **ahorro** (guardar hoy para mañana): [*Fábulas de Esopo*](fabulas-de-esopo.md), [*Hábitos atómicos*](atomic-habits.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Un pequeño empujón*](nudge.md)
 - **aprender-a-aprender** (cómo se aprende mejor y qué promesas no tienen evidencia): [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El arte de pensar*](el-arte-de-pensar.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Enfócate*](deep-work.md), [*Fuera de serie*](outliers.md), [*Hábitos atómicos*](atomic-habits.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md), [*Mindset, la actitud del éxito*](mindset.md), [*Número uno*](peak.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Sin límites*](limitless.md), [*Summerhill*](summerhill.md), [*Ultralearning*](ultralearning.md)
-- **autocontrol** (resistir una tentación con un plan): [*El arte de pensar*](el-arte-de-pensar.md), [*Hábitos atómicos*](atomic-habits.md), [*La Odisea*](odisea.md), [*Ultralearning*](ultralearning.md)
+- **autocontrol** (resistir una tentación con un plan): [*El arte de pensar*](el-arte-de-pensar.md), [*Hábitos atómicos*](atomic-habits.md), [*Inteligencia emocional*](inteligencia-emocional.md), [*La Odisea*](odisea.md), [*Ultralearning*](ultralearning.md)
+- **ciencia** (cómo sabemos lo que sabemos, y cómo se corrige): [*Cosmos*](cosmos.md)
 - **codicia** (querer más de lo que hace falta, y lo que eso cuesta): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*Fábulas de Esopo*](fabulas-de-esopo.md)
 - **comercio** (comprar, vender e intercambiar): [*El mercader de Venecia*](mercader-de-venecia.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*Liber Abaci (El libro del cálculo)*](liber-abaci.md)
 - **comunicacion** (hablar y escuchar para entenderse, también en un conflicto): [*Comunicación no violenta*](comunicacion-no-violenta.md)
 - **concentracion** (prestar atención a una sola cosa sin distraerse): [*Aprender a aprender*](learning-how-to-learn.md), [*Enfócate*](deep-work.md)
 - **curiosidad** (hacerse preguntas y querer saber): [*A More Beautiful Question*](a-more-beautiful-question.md)
+- **decisiones** (elegir bien cuando no se sabe todo): [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md), [*La señal y el ruido*](the-signal-and-the-noise.md)
 - **deuda** (deber dinero y lo que pasa si no se paga): [*David Copperfield*](david-copperfield.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md)
 - **dignidad** (sostenerse cuando falta todo): [*David Copperfield*](david-copperfield.md), [*El coronel no tiene quien le escriba*](el-coronel-no-tiene-quien-le-escriba.md), [*El hombre en busca de sentido*](el-hombre-en-busca-de-sentido.md)
-- **educacion** (qué es enseñar, quién enseña y para qué se aprende): [*A More Beautiful Question*](a-more-beautiful-question.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Summerhill*](summerhill.md)
+- **educacion** (qué es enseñar, quién enseña y para qué se aprende): [*A More Beautiful Question*](a-more-beautiful-question.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Inteligencia emocional*](inteligencia-emocional.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Summerhill*](summerhill.md)
+- **emociones** (reconocer lo que sentimos y qué hacer con ello): [*Inteligencia emocional*](inteligencia-emocional.md)
 - **emprendimiento** (arriesgar para crear algo propio): [*Design de vida*](designing-your-life.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md)
-- **especulacion** (comprar porque otros compran (burbujas y pirámides)): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*El arte de pensar*](el-arte-de-pensar.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md)
+- **especulacion** (comprar porque otros compran (burbujas y pirámides)): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*El arte de pensar*](el-arte-de-pensar.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md), [*La señal y el ruido*](the-signal-and-the-noise.md)
 - **ficcion** (las historias que nos contamos y para qué nos sirven): [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md)
 - **habitos** (lo que hacemos sin pensar y cómo se cambia): [*Hábitos atómicos*](atomic-habits.md), [*Un pequeño empujón*](nudge.md)
 - **identidad** (quién soy y de cuántas piezas estoy hecho): [*El lobo estepario*](el-lobo-estepario.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md), [*Mindset, la actitud del éxito*](mindset.md)
 - **justicia** (qué es justo cuando alguien no puede cumplir): [*Comunicación no violenta*](comunicacion-no-violenta.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md)
-- **matematicas** (cuentas que cambiaron la historia): [*Liber Abaci (El libro del cálculo)*](liber-abaci.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md)
-- **memoria** (cómo recordamos y cómo se entrena): [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md)
+- **matematicas** (cuentas que cambiaron la historia): [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md), [*Cosmos*](cosmos.md), [*La señal y el ruido*](the-signal-and-the-noise.md), [*Liber Abaci (El libro del cálculo)*](liber-abaci.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md)
+- **memoria** (cómo recordamos y cómo se entrena): [*Algoritmos para la vida cotidiana*](algorithms-to-live-by.md), [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md)
 - **necesidad-y-deseo** (lo que necesito frente a lo que quiero): [*Robinson Crusoe*](robinson-crusoe.md), [*Una buena vida*](the-good-life.md)
 - **presupuesto** (lo que entra frente a lo que sale): [*David Copperfield*](david-copperfield.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **relaciones** (amigos, familia y pareja, y cuánto pesan en una buena vida): [*Una buena vida*](the-good-life.md)
@@ -177,9 +195,11 @@ Dos libros que comparten tema son un cruce posible aunque nadie lo haya escrito 
 ```mermaid
 flowchart LR
   a_more_beautiful_question["A More Beautiful Question"]
+  algorithms_to_live_by["Algoritmos para la vida cotidiana"]
   learning_how_to_learn["Aprender a aprender"]
   make_it_stick["Apréndetelo"]
   comunicacion_no_violenta["Comunicación no violenta"]
+  cosmos["Cosmos"]
   david_copperfield["David Copperfield"]
   delirios_multitudinarios["Delirios multitudinarios"]
   designing_your_life["Design de vida"]
@@ -196,8 +216,10 @@ flowchart LR
   outliers["Fuera de serie"]
   fabulas_de_esopo["Fábulas de Esopo"]
   atomic_habits["Hábitos atómicos"]
+  inteligencia_emocional["Inteligencia emocional"]
   odisea["La Odisea"]
   la_invencion_de_todas_las_cosas["La invención de todas las cosas"]
+  the_signal_and_the_noise["La señal y el ruido"]
   liber_abaci["Liber Abaci (El libro del cálculo)"]
   moonwalking_with_einstein["Los desafíos de la memoria"]
   mindset["Mindset, la actitud del éxito"]
@@ -215,10 +237,15 @@ flowchart LR
   a_more_beautiful_question --- pedagogia_del_oprimido
   a_more_beautiful_question --- el_maestro_ignorante
   a_more_beautiful_question --- designing_your_life
+  algorithms_to_live_by --- pensar_rapido_pensar_despacio
+  algorithms_to_live_by --- deep_work
+  algorithms_to_live_by --- moonwalking_with_einstein
   atomic_habits --- odisea
   comunicacion_no_violenta --- pedagogia_del_oprimido
   comunicacion_no_violenta --- summerhill
   comunicacion_no_violenta --- el_arte_de_pensar
+  cosmos --- la_invencion_de_todas_las_cosas
+  cosmos --- liber_abaci
   david_copperfield --- robinson_crusoe
   deep_work --- ultralearning
   designing_your_life --- odisea
@@ -238,6 +265,9 @@ flowchart LR
   emilio --- pedagogia_del_oprimido
   ensayo_sobre_el_comercio --- delirios_multitudinarios
   fabulas_de_esopo --- delirios_multitudinarios
+  inteligencia_emocional --- comunicacion_no_violenta
+  inteligencia_emocional --- mindset
+  inteligencia_emocional --- odisea
   la_invencion_de_todas_las_cosas --- odisea
   la_invencion_de_todas_las_cosas --- fabulas_de_esopo
   la_invencion_de_todas_las_cosas --- pensar_rapido_pensar_despacio
@@ -274,6 +304,9 @@ flowchart LR
   the_good_life --- el_hombre_en_busca_de_sentido
   the_good_life --- comunicacion_no_violenta
   the_good_life --- pequeno_cerdo_capitalista
+  the_signal_and_the_noise --- algorithms_to_live_by
+  the_signal_and_the_noise --- delirios_multitudinarios
+  the_signal_and_the_noise --- pensar_rapido_pensar_despacio
   ultralearning --- limitless
   ultralearning --- el_arte_de_pensar
   ultralearning --- robinson_crusoe
