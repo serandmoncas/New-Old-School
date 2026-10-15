@@ -24,6 +24,23 @@ actualizado: 2026-10-14
 
 La psicóloga Carol Dweck distingue dos maneras de pensar sobre las propias capacidades. Con **mentalidad fija**, uno cree que la inteligencia o el talento vienen dados: o se tienen o no. Con **mentalidad de crecimiento**, cree que se desarrollan con esfuerzo, estrategia y ayuda. Lo publicó Random House en 2006. En español lo publicó Editorial Sirio en 2016 con el título *Mindset: la actitud del éxito*.
 
+## Resumen
+
+El libro presenta las dos mentalidades en los primeros capítulos y luego las sigue por distintos campos de la vida:
+
+1. **Las dos mentalidades.** Con mentalidad fija, el éxito sirve para demostrar que uno es inteligente; con mentalidad de crecimiento, sirve para aprender.
+2. **Por dentro.** Cada mentalidad cambia lo que significan el fracaso (¿prueba de que no sirvo, o información?) y el esfuerzo (¿señal de poca capacidad, o el camino?).
+3. **Capacidad y logro.** El rendimiento escolar, el talento artístico y, sobre todo, **el peligro de los elogios y las etiquetas**: decirle a un niño "eres inteligente" puede volverlo miedoso ante los retos.
+4. **Deporte.** Campeones que se hicieron, no que nacieron así.
+5. **Empresas y liderazgo.** Líderes que necesitan parecer genios frente a líderes que aprenden.
+6. **Relaciones.** Las mentalidades en la pareja y la amistad.
+7. **Padres, maestros y entrenadores.** Cómo se transmite cada mentalidad sin darse cuenta.
+8. **Cambiar de mentalidad.** Ejercicios para pasar de una a la otra.
+
+Una edición actualizada posterior agrega la advertencia sobre la "falsa mentalidad de crecimiento".
+
+La tesis: **lo que creemos sobre nuestras capacidades cambia cómo aprendemos,** y esa creencia se puede cambiar.
+
 ## Por qué está en la biblioteca
 
 Sus ideas cambiaron la forma en que muchos colegios hablan de los errores:
@@ -41,6 +58,23 @@ Sus ideas cambiaron la forma en que muchos colegios hablan de los errores:
 | Otro metaanálisis ([Macnamara y Burgoyne, 2023](https://doi.org/10.1037/bul0000352)) | El efecto promedio es casi cero. En los estudios de mejor calidad no hubo efecto claro. Los estudios hechos por autores con interés económico encontraron efectos mayores. |
 
 La conclusión honesta: **la idea es razonable y puede ayudar a algunos estudiantes, pero no es la palanca enorme que se vendió.**
+
+## Análisis
+
+**Lo que hace bien.**
+
+- **Cambió la conversación sobre los errores.** Que equivocarse sea parte de aprender es una idea sana para cualquier colegio, y el libro la volvió popular.
+- **Hace pensar sobre cómo se elogia.** Elogiar la estrategia y el proceso, en vez de la etiqueta "eres inteligente", es un buen consejo aunque su efecto sea pequeño.
+- **La autora corrigió su propia idea.** La "falsa mentalidad de crecimiento" es Dweck reconociendo que su mensaje se estaba usando mal.
+
+**Sus límites.**
+
+- **Promete más de lo que la evidencia sostiene.** Es el libro de esta sección con la distancia más grande entre su fama y sus resultados (ver la tabla de evidencia). El metaanálisis más reciente encontró un efecto casi nulo en las notas ([Macnamara y Burgoyne, 2023](https://doi.org/10.1037/bul0000352)).
+- **El experimento estrella no se repitió.** El famoso estudio sobre elogiar la inteligencia ([Mueller y Dweck, 1998](https://doi.org/10.1037/0022-3514.75.1.33)) se replicó con 624 niños chinos de 9 a 13 años: el efecto sobre la motivación no apareció, y la mentalidad de los niños no tuvo relación con cómo enfrentaban el fracaso ni con sus notas ([Li y Bates, 2019](https://doi.org/10.1037/xge0000669)).
+- **Se apoya en anécdotas.** Los capítulos de deporte, empresa y pareja cuentan historias de personas famosas, elegidas porque encajan con la idea. Es el sesgo de supervivencia que explica *El arte de pensar*.
+- **Pone el peso en la persona.** Si todo depende de la mentalidad, quien no avanza "no quiso". El experimento nacional de [Yeager y otros (2019)](https://doi.org/10.1038/s41586-019-1466-y) mostró lo contrario: el efecto dependió del colegio y de los compañeros.
+
+**Para el colegio.** No conviene enseñar la mentalidad de crecimiento como una técnica que sube las notas, porque no lo hace de forma confiable. Sí sirve como forma de hablar de los errores en clase, y como **el mejor caso de la biblioteca para estudiar cómo una idea se vuelve famosa antes de estar comprobada.**
 
 ## Para leer en clase
 
