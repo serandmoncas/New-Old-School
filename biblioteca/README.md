@@ -50,6 +50,7 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Fábulas de Esopo*](fabulas-de-esopo.md) 📖 | Esopo (atribuidas) | s. VI a. C. (según la tradición) | ahorro, codicia | `dinero.ahorro-y-metas`, `dinero.invertir-lo-basico` | propuesta |
 | [*Hábitos atómicos*](atomic-habits.md) | James Clear | 2018 | habitos, autocontrol, ahorro, aprender-a-aprender | `dinero.ahorro-y-metas`, `dinero.interes-compuesto` | propuesta |
 | [*La Odisea*](odisea.md) 📖 | Homero | s. VIII a. C. (según la tradición) | viaje, autocontrol | `dinero.ahorro-y-metas` | propuesta |
+| [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | Jorge Volpi | 2024 | ficcion, identidad, memoria | — | propuesta |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | Leonardo de Pisa (Fibonacci) | 1202 | matematicas, comercio | `dinero.costo-real-de-un-credito` | propuesta |
 | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | Joshua Foer | 2011 | memoria, talento-y-practica, aprender-a-aprender | — | propuesta |
 | [*Mindset, la actitud del éxito*](mindset.md) | Carol S. Dweck | 2006 | talento-y-practica, aprender-a-aprender, identidad | — | propuesta |
@@ -102,6 +103,9 @@ La biblioteca no reemplaza a los nodos: es la puerta para quien quiere ir más a
 | [*Fábulas de Esopo*](fabulas-de-esopo.md) | [*Delirios multitudinarios*](delirios-multitudinarios.md) | La gallina de los huevos de oro en versión real: gente que lo arriesga todo por ganar más, y más rápido. |
 | [*Hábitos atómicos*](atomic-habits.md) | [*La Odisea*](odisea.md) | Diseñar el entorno para no caer en la tentación es la versión moderna de atarse al mástil. |
 | [*La Odisea*](odisea.md) | [*Robinson Crusoe*](robinson-crusoe.md) | Dos náufragos lejos de casa: Ulises sale adelante con astucia; Robinson, con trabajo y cuentas. |
+| [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*Fábulas de Esopo*](fabulas-de-esopo.md) | Las fábulas son ficciones que enseñan a cooperar y a desconfiar: justo la función que Volpi le atribuye a la ficción. |
+| [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*La Odisea*](odisea.md) | Una de las ficciones más antiguas que seguimos contando; Volpi pregunta por qué los seres humanos no podemos dejar de contar historias. |
+| [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md) | [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md) | Volpi usa el cerebro rápido de Kahneman para explicar por qué creemos en las historias antes de pensarlas. |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | [*El mercader de Venecia*](mercader-de-venecia.md) | Comerciantes italianos y préstamos: Fibonacci les enseñó a hacer las cuentas; Shakespeare mostró qué pasa cuando un préstamo sale mal. |
 | [*Liber Abaci (El libro del cálculo)*](liber-abaci.md) | [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md) | Dos libros escritos para comerciantes, con cinco siglos de distancia. |
 | [*Los desafíos de la memoria*](moonwalking-with-einstein.md) | [*Sin límites*](limitless.md) | El palacio de la memoria: Kwik lo enseña como técnica; Foer cuenta cómo lo aprendió y hasta dónde llega. |
@@ -151,11 +155,12 @@ Dos libros que comparten tema son un cruce posible aunque nadie lo haya escrito 
 - **educacion** (qué es enseñar, quién enseña y para qué se aprende): [*A More Beautiful Question*](a-more-beautiful-question.md), [*El abordaje de la educación experiencial*](el-abordaje-de-la-educacion-experiencial.md), [*El maestro ignorante*](el-maestro-ignorante.md), [*Emilio, o De la educación*](emilio.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md), [*Summerhill*](summerhill.md)
 - **emprendimiento** (arriesgar para crear algo propio): [*Design de vida*](designing-your-life.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md)
 - **especulacion** (comprar porque otros compran (burbujas y pirámides)): [*Delirios multitudinarios*](delirios-multitudinarios.md), [*El arte de pensar*](el-arte-de-pensar.md), [*Ensayo sobre la naturaleza del comercio en general*](ensayo-sobre-el-comercio.md)
+- **ficcion** (las historias que nos contamos y para qué nos sirven): [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md)
 - **habitos** (lo que hacemos sin pensar y cómo se cambia): [*Hábitos atómicos*](atomic-habits.md), [*Un pequeño empujón*](nudge.md)
-- **identidad** (quién soy y de cuántas piezas estoy hecho): [*El lobo estepario*](el-lobo-estepario.md), [*Mindset, la actitud del éxito*](mindset.md)
+- **identidad** (quién soy y de cuántas piezas estoy hecho): [*El lobo estepario*](el-lobo-estepario.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md), [*Mindset, la actitud del éxito*](mindset.md)
 - **justicia** (qué es justo cuando alguien no puede cumplir): [*Comunicación no violenta*](comunicacion-no-violenta.md), [*El mercader de Venecia*](mercader-de-venecia.md), [*Pedagogía del oprimido*](pedagogia-del-oprimido.md)
 - **matematicas** (cuentas que cambiaron la historia): [*Liber Abaci (El libro del cálculo)*](liber-abaci.md), [*Pensar rápido, pensar despacio*](pensar-rapido-pensar-despacio.md)
-- **memoria** (cómo recordamos y cómo se entrena): [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md)
+- **memoria** (cómo recordamos y cómo se entrena): [*Aprender a aprender*](learning-how-to-learn.md), [*Apréndetelo*](make-it-stick.md), [*La invención de todas las cosas*](la-invencion-de-todas-las-cosas.md), [*Los desafíos de la memoria*](moonwalking-with-einstein.md)
 - **necesidad-y-deseo** (lo que necesito frente a lo que quiero): [*Robinson Crusoe*](robinson-crusoe.md), [*Una buena vida*](the-good-life.md)
 - **presupuesto** (lo que entra frente a lo que sale): [*David Copperfield*](david-copperfield.md), [*Pequeño cerdo capitalista*](pequeno-cerdo-capitalista.md), [*Portarse mal*](misbehaving.md), [*Robinson Crusoe*](robinson-crusoe.md)
 - **relaciones** (amigos, familia y pareja, y cuánto pesan en una buena vida): [*Una buena vida*](the-good-life.md)
@@ -192,6 +197,7 @@ flowchart LR
   fabulas_de_esopo["Fábulas de Esopo"]
   atomic_habits["Hábitos atómicos"]
   odisea["La Odisea"]
+  la_invencion_de_todas_las_cosas["La invención de todas las cosas"]
   liber_abaci["Liber Abaci (El libro del cálculo)"]
   moonwalking_with_einstein["Los desafíos de la memoria"]
   mindset["Mindset, la actitud del éxito"]
@@ -232,6 +238,9 @@ flowchart LR
   emilio --- pedagogia_del_oprimido
   ensayo_sobre_el_comercio --- delirios_multitudinarios
   fabulas_de_esopo --- delirios_multitudinarios
+  la_invencion_de_todas_las_cosas --- odisea
+  la_invencion_de_todas_las_cosas --- fabulas_de_esopo
+  la_invencion_de_todas_las_cosas --- pensar_rapido_pensar_despacio
   learning_how_to_learn --- deep_work
   liber_abaci --- mercader_de_venecia
   liber_abaci --- ensayo_sobre_el_comercio
