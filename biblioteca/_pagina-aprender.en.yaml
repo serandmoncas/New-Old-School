@@ -29,6 +29,7 @@ rutas:
     texto: Habits, focus, and what to expect from talent and effort.
 
 titulos:
+  padre-rico-padre-pobre: Rich Dad Poor Dad
   make-it-stick: Make It Stick
   learning-how-to-learn: Learning How to Learn
   moonwalking-with-einstein: Moonwalking with Einstein
@@ -159,6 +160,7 @@ preguntas:
     explica: In 72 primary classrooms, broad participation and dialogue were associated with better mastery of the content, even controlling for prior level.
 
 cruces:
+  el-arte-de-pensar|padre-rico-padre-pobre: An inspiring story and a "rich dad" nobody has been able to identify. Dobelli teaches you to distrust exactly that kind of tale.
   ultralearning|21-lecciones-para-el-siglo-xxi: If what we learn today may become obsolete, learning on your own is the key skill. Harari raises the problem; Young proposes how.
   pedagogia-del-oprimido|a-more-beautiful-question: Freire criticized the school that only gives answers; Berger shows what happens when you teach people to ask.
   el-maestro-ignorante|a-more-beautiful-question: Jacotot did not explain. He asked, and let students search. Berger defends the same thing at any age.
